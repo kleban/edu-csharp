@@ -19,5 +19,15 @@ namespace OOPDemoApp
         public SalesPerson(string name, int age, double salary) : base(name, age, salary)
         {
         }
+
+        public override double GetSalary()
+        {
+            return Math.Round(salary + sales_amount*0.1);
+        }
+
+        public override string GetInfo()
+        {
+            return $"Sales Person: {name}, ${GetSalary()}, sales amount: ${sales_amount}";
+        }
     }
 }

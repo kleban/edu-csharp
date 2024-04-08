@@ -16,8 +16,25 @@ namespace OOPDemoApp
             company_share = share;
         }
 
-        public TopManager(string name, int age, double salary, int workers) : base(name, age, salary, workers)
+        public TopManager(string name, int age, double salary, int workers)
+            : base(name, age, salary, workers)
         {
+        }
+
+        public override double GetSalary()
+        {
+            return base.GetSalary() + company_share*100*100;
+        }
+
+        public double GetMyShare()
+        {
+            return company_share;
+        }
+
+        public override string GetInfo()
+        {
+            return $"Top Manager: {name}, ${GetSalary()}, " +
+                $"workers: {count_workers}, share: {company_share*100}%";
         }
     }
 }

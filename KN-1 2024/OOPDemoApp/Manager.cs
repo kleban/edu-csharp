@@ -16,8 +16,17 @@ namespace OOPDemoApp
             count_workers = workers;
         }
 
-        public Manager(string name, int age, double salary) : base(name, age, salary)
+        public Manager(string name, int age, double salary) 
+            : base(name, age, salary)  {}
+
+        public override double GetSalary()
         {
+            return Math.Round(salary + count_workers*20);
+        }
+
+        public override string GetInfo()
+        {
+            return $"Manager: {name}, ${GetSalary()}, workers: {count_workers}";
         }
     }
 }
