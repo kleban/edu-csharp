@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPDemoApp
 {
-    public class Worker
+    public abstract class Worker
     {
         // Fields
         protected string name;
@@ -14,11 +14,13 @@ namespace OOPDemoApp
         protected double salary;
 
 
-        public Worker(string name, int age) 
+        public Worker(string name, int age)
         {
             this.name = name;
             this.age = age;
         }
+
+        public abstract string GetInfo();
 
         public Worker(string name, int age, double salalry) : this(name, age)
         {
@@ -37,7 +39,7 @@ namespace OOPDemoApp
         }
 
         //Methods
-        public double GetSalary() //getter
+        public virtual double GetSalary() //getter
         {
             return salary;
         }
@@ -57,10 +59,10 @@ namespace OOPDemoApp
             salary *= (1 + perc);
         }
 
-        public string GetInfo()
+      /*public string GetInfo()
         {
             return $"{name}, {age} years, ${salary}";
-        }
+        }*/
 
     }
 }
