@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+
             Worker w1 = new SalesPerson("John", 55, 2144.7, 50);
             Worker w2 = new TopManager("John", 55, 2144.7, 10, 0.02);
             Worker w3 = new Manager("John", 55, 2144.7, 10);
@@ -30,7 +31,6 @@
                 Console.WriteLine(worker.GetInfo());
             }
 
-            Console.WriteLine($"Total Share: {share_total}");
         }
     }
 }

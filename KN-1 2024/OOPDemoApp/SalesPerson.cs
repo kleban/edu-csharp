@@ -22,12 +22,12 @@ namespace OOPDemoApp
 
         public override double GetSalary()
         {
-            return Math.Round(salary + sales_amount*0.1);
+            return sales_amount * 0.1 + base.GetSalary();
         }
 
         public override string GetInfo()
         {
-            return $"Sales Person: {name}, ${GetSalary()}, sales amount: ${sales_amount}";
+            return $"Sales Person: {name}, ${GetSalary()}, sales: ${sales_amount}";
         }
     }
 }

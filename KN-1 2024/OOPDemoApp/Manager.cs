@@ -28,5 +28,15 @@ namespace OOPDemoApp
         {
             return $"Manager: {name}, ${GetSalary()}, workers: {count_workers}";
         }
+
+        public override double GetSalary()
+        {
+            return base.GetSalary() + count_workers * 120;
+        }
+
+        public override string GetInfo()
+        {
+            return $"Manager: {name}, ${GetSalary()}, workers: ${count_workers}";
+        }
     }
 }

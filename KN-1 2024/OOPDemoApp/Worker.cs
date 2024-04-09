@@ -13,11 +13,13 @@ namespace OOPDemoApp
         protected int age;
         protected double salary;
 
-        public Worker(string name, int age) 
+        public Worker(string name, int age)
         {
             this.name = name;
             this.age = age;
         }
+
+        public abstract string GetInfo();
 
 
         public Worker(string name, int age, double salalry) : this(name, age)
@@ -37,7 +39,8 @@ namespace OOPDemoApp
         }
 
         //Methods
-        public virtual double GetSalary() 
+
+        public virtual double GetSalary() //getter
         {
             return salary;
         }
@@ -56,8 +59,5 @@ namespace OOPDemoApp
         {
             salary *= (1 + perc);
         }
-
-        public abstract string GetInfo();
-
     }
 }
