@@ -1,0 +1,63 @@
+﻿@model Coordinates
+
+<h1>Set Marker</h1>
+<hr />
+<div class="map-container" id="map">
+</div>
+
+<form action="/home/setmarker" method="post">
+    <div class="row">
+        <div class="col-4">
+            <label>Lat:</label>
+            <input type="text" name="lat" id="lat" class="form-control" />
+        </div>
+        <div class="col-4">
+            <label>Lon:</label>
+            <input type="text" name="lon" id="lon" class="form-control" />
+        </div>
+        <div class="col-4">
+           <button type="submit" class="btn btn-primary btn-block">Зберегти</button>
+        </div>
+    </div>
+</form>
+
+<style>
+    .map-container {
+        border: 2px solid green;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
+        height: 300px;
+    }
+</style>
+
+@section Scripts {
+    <script src="~/leaflet/leaflet.min.js"></script>
+    <link href="~/leaflet/leaflet.min.css" rel="stylesheet" />
+
+    <script>
+
+        let map, marker;
+
+        $(function () {
+
+            map = L.map('map').setView([@Model.Lon, @Model.Lat], 13);
+            map.on('click', addMarker);
+
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+        });
+
+        function addMarker(e) {
+            if(marker == null)
+                marker = new L.marker(e.latlng).addTo(map);
+            else
+                marker.setLatLng(e.latlng);
+
+            $("#lat").val(e.latlng.lat);
+            $("#lon").val(e.latlng.lng);
+        }
+
+    </script>
+}

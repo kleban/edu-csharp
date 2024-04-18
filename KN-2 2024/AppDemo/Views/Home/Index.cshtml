@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div class="my-rating"></div>
+
+    <form action="/product/edit">
+        <input type="hidden" name="Rate" id="myRate" />
+    </form>
+    <h3 id="myRate"></h3>
+    <div class="my-rating-7"></div>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@section Scripts {
+<script src="~/js/jquery.star-rating-svg.js"></script>
+
+<script>
+    $(function () {
+
+        $(".my-rating").starRating({
+            initialRating: 4.0,
+            starSize: 25,
+            callback: function (currentRating, $el) {
+                $("#myRate").val(currentRating);
+            }
+        });
+
+        $(".my-rating-7").starRating({
+            initialRating: 4,
+            readOnly: true,
+            starShape: 'rounded'
+        });
+
+    });
+</script>
+}

@@ -1,0 +1,38 @@
+﻿
+@model Coordinates
+
+<h1>My Map</h1>
+<hr />
+<div class="map-container" id="map">
+
+</div>
+
+<style>
+    .map-container {
+        border: 2px solid green;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px;
+        height: 500px;
+    }
+</style>
+
+@section Scripts {
+
+    <script src="~/leaflet/leaflet.min.js"></script>
+    <link href="~/leaflet/leaflet.min.css" rel="stylesheet" />
+
+    <script>
+        $(function () {
+
+            var map = L.map('map').setView([@Model.Lat, @Model.Lon], 13);
+
+            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
+
+            L.marker([@Model.Lat, @Model.Lon]).addTo(map)
+                .bindPopup('A pretty CSS popup.<br> Easily customizable.')
+                .openPopup();
+        });
+    </script>
+}
