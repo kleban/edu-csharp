@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34707.107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamGeneartorApp", "ExamGeneartorApp\ExamGeneartorApp.csproj", "{D6E50548-115F-426C-806D-1BDD83DAB56C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6E50548-115F-426C-806D-1BDD83DAB56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E50548-115F-426C-806D-1BDD83DAB56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E50548-115F-426C-806D-1BDD83DAB56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E50548-115F-426C-806D-1BDD83DAB56C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C1F85E4-B81F-4C51-9817-AAB38C7687C3}
+	EndGlobalSection
+EndGlobal
