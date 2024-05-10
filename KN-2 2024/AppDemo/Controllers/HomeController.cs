@@ -24,6 +24,13 @@ namespace AppDemo.Controllers
             return View();
         }
 
+        public async Task<IActionResult> GetJson() 
+        { 
+            HttpClient client = new HttpClient();
+            MyJsonObject data = await client.GetFromJsonAsync<MyJsonObject>("https://callook.info/W1AW/json");
+            return View(data);
+        }
+
         public class Demo
         {
             public int Id { get; set; }
