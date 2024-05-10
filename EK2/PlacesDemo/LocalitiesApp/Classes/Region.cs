@@ -9,6 +9,11 @@ namespace LocalitiesApp.Classes
     public class Region
     {
         public string Name { get; set; }
-        public Locality[] Localities { get; set; }
+        public Locality[] Localities { get; set; } = new Locality[0];
+
+        public override string ToString()
+        {
+            return $"{Name}, Localities: {Localities.Length}";
+        }
     }
 }

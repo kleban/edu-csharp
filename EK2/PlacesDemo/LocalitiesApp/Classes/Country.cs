@@ -11,6 +11,11 @@ namespace LocalitiesApp.Classes
         public string Name { get; set; }
         public int Population { get; set; }
         public string CountryCode { get; set; }
-        public Region[] Regions { get; set; }
+        public Region[] Regions { get; set; } = new Region[0];
+
+        public override string ToString()
+        {
+            return $"{Name}({CountryCode}) ({Population} people), Regions: {Regions.Count()}";
+        }
     }
 }
