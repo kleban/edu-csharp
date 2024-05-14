@@ -63,6 +63,16 @@ namespace FormsDemoApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap new_document {
+            get {
+                object obj = ResourceManager.GetObject("new-document", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap vasily_koloda_8CqDvPuo_kI_unsplash {
             get {
                 object obj = ResourceManager.GetObject("vasily_koloda_8CqDvPuo_kI_unsplash", resourceCulture);

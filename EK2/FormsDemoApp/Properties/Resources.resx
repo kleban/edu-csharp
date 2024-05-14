@@ -121,4 +121,7 @@
   <data name="vasily_koloda_8CqDvPuo_kI_unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\vasily-koloda-8CqDvPuo_kI-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="new-document" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new-document.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
