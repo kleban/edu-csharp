@@ -30,7 +30,15 @@ namespace FormsDemoApp
 
         private void ListsForm_Load(object sender, EventArgs e)
         {
+            updateDataOnForm();
+        }
+
+        void updateDataOnForm()
+        {
+            listBoxLocalities.Items.Clear();
             listBoxLocalities.Items.AddRange(_localities.ToArray());
+
+            comboBoxLocalities.Items.Clear();
             comboBoxLocalities.Items.AddRange(_localities.ToArray());
             comboBoxLocalities.SelectedIndex = 0;
         }
@@ -42,10 +50,9 @@ namespace FormsDemoApp
             if (sender is ListBox)
             {
                 var senderList = sender as ListBox;
+                buttonDeleteItem.Enabled = listBoxLocalities.SelectedIndex != -1;
                 if (listBoxLocalities.SelectedIndex != -1)
                 {
-                    /* var index = listBoxLocalities.SelectedIndex;
-                     var locality = listBoxLocalities.Items[index] as Locality;*/
 
                     locality = senderList.SelectedItem as Locality;
                 }
@@ -57,10 +64,52 @@ namespace FormsDemoApp
             labelLocality.Text = locality.Info;
         }
 
-        private void buttonShowHidePanel_Click(object sender, EventArgs e)
+        private void buttonShowBlock_Click(object sender, EventArgs e)
         {
-            panel.Visible = !panel.Visible;
-            buttonShowHidePanel.Text = panel.Visible ? "Hide Panel" : "Show Panel";
+            groupBoxNewLocality.Visible = !groupBoxNewLocality.Visible;
+
+            buttonShowBlock.Text = groupBoxNewLocality.Visible ?
+                "Сховати блок" :
+                "Хочу додати населений пункт";
+        }
+
+        private void buttonSaveLocality_Click(object sender, EventArgs e)
+        {
+            //check - string empty
+            if (string.IsNullOrEmpty(textBoxLocalityName.Text))
+            {
+                MessageBox.Show("Введіть назву населеного пункту",
+                    "Помилка",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+                return;
+            }
+
+            var name = textBoxLocalityName.Text.Trim();
+
+            //check - locality exists
+            if (_localities.Any(x => x.Name.ToLower() == name.ToLower()))
+            {
+                MessageBox.Show("Населений пункт уже присутній у БД",
+                   "Помилка",
+                   MessageBoxButtons.OK,
+                   MessageBoxIcon.Error);
+                return;
+            }
+
+            _localities.Add(new Locality
+            {
+                Id = _localities.Max(x => x.Id) + 1,
+                Name = name,
+            });
+            updateDataOnForm();
+        }
+
+        private void buttonDeleteItem_Click(object sender, EventArgs e)
+        {
+            var locality = listBoxLocalities.SelectedItem as Locality;
+            _localities.Remove(locality);
+            updateDataOnForm();
         }
     }
 }

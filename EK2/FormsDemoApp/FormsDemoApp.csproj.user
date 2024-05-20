@@ -7,5 +7,8 @@
     <Compile Update="ListsForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Notepad.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

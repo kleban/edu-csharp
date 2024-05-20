@@ -31,32 +31,35 @@
             listBoxLocalities = new ListBox();
             labelLocality = new Label();
             comboBoxLocalities = new ComboBox();
-            panel = new Panel();
-            button2 = new Button();
-            button1 = new Button();
-            buttonShowHidePanel = new Button();
-            groupBox1 = new GroupBox();
-            button3 = new Button();
-            button4 = new Button();
-            panel.SuspendLayout();
-            groupBox1.SuspendLayout();
+            panel1 = new Panel();
+            buttonDeleteItem = new Button();
+            buttonShowBlock = new Button();
+            groupBoxNewLocality = new GroupBox();
+            buttonSaveLocality = new Button();
+            textBoxLocalityName = new TextBox();
+            label1 = new Label();
+            panel1.SuspendLayout();
+            groupBoxNewLocality.SuspendLayout();
             SuspendLayout();
             // 
             // listBoxLocalities
             // 
+            listBoxLocalities.Dock = DockStyle.Fill;
             listBoxLocalities.FormattingEnabled = true;
-            listBoxLocalities.Location = new Point(12, 12);
+            listBoxLocalities.ItemHeight = 15;
+            listBoxLocalities.Location = new Point(0, 0);
+            listBoxLocalities.Margin = new Padding(3, 2, 3, 2);
             listBoxLocalities.Name = "listBoxLocalities";
-            listBoxLocalities.Size = new Size(280, 424);
+            listBoxLocalities.Size = new Size(242, 508);
             listBoxLocalities.TabIndex = 0;
             listBoxLocalities.SelectedIndexChanged += listBoxLocalities_SelectedIndexChanged;
             // 
             // labelLocality
             // 
             labelLocality.AutoSize = true;
-            labelLocality.Location = new Point(315, 66);
+            labelLocality.Location = new Point(276, 50);
             labelLocality.Name = "labelLocality";
-            labelLocality.Size = new Size(50, 20);
+            labelLocality.Size = new Size(38, 15);
             labelLocality.TabIndex = 1;
             labelLocality.Text = "label1";
             // 
@@ -64,95 +67,102 @@
             // 
             comboBoxLocalities.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxLocalities.FormattingEnabled = true;
-            comboBoxLocalities.Location = new Point(315, 12);
+            comboBoxLocalities.Location = new Point(276, 9);
+            comboBoxLocalities.Margin = new Padding(3, 2, 3, 2);
             comboBoxLocalities.Name = "comboBoxLocalities";
-            comboBoxLocalities.Size = new Size(178, 28);
+            comboBoxLocalities.Size = new Size(156, 23);
             comboBoxLocalities.TabIndex = 2;
             comboBoxLocalities.SelectedIndexChanged += listBoxLocalities_SelectedIndexChanged;
             // 
-            // panel
+            // panel1
             // 
-            panel.BackColor = SystemColors.ActiveCaption;
-            panel.Controls.Add(button2);
-            panel.Controls.Add(button1);
-            panel.Location = new Point(315, 156);
-            panel.Name = "panel";
-            panel.Size = new Size(250, 125);
-            panel.TabIndex = 3;
+            panel1.BackColor = SystemColors.ActiveCaption;
+            panel1.Controls.Add(buttonDeleteItem);
+            panel1.Controls.Add(listBoxLocalities);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(242, 508);
+            panel1.TabIndex = 3;
             // 
-            // button2
+            // buttonDeleteItem
             // 
-            button2.Location = new Point(98, 72);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            buttonDeleteItem.Dock = DockStyle.Bottom;
+            buttonDeleteItem.Enabled = false;
+            buttonDeleteItem.Location = new Point(0, 485);
+            buttonDeleteItem.Name = "buttonDeleteItem";
+            buttonDeleteItem.Size = new Size(242, 23);
+            buttonDeleteItem.TabIndex = 0;
+            buttonDeleteItem.Text = "Видалити";
+            buttonDeleteItem.UseVisualStyleBackColor = true;
+            buttonDeleteItem.Click += buttonDeleteItem_Click;
             // 
-            // button1
+            // buttonShowBlock
             // 
-            button1.Location = new Point(43, 25);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            buttonShowBlock.Location = new Point(276, 78);
+            buttonShowBlock.Name = "buttonShowBlock";
+            buttonShowBlock.Size = new Size(200, 23);
+            buttonShowBlock.TabIndex = 4;
+            buttonShowBlock.Text = "Я хочу додати населений пункт";
+            buttonShowBlock.UseVisualStyleBackColor = true;
+            buttonShowBlock.Click += buttonShowBlock_Click;
             // 
-            // buttonShowHidePanel
+            // groupBoxNewLocality
             // 
-            buttonShowHidePanel.Location = new Point(315, 112);
-            buttonShowHidePanel.Name = "buttonShowHidePanel";
-            buttonShowHidePanel.Size = new Size(94, 29);
-            buttonShowHidePanel.TabIndex = 4;
-            buttonShowHidePanel.Text = "Hide Panel";
-            buttonShowHidePanel.UseVisualStyleBackColor = true;
-            buttonShowHidePanel.Click += buttonShowHidePanel_Click;
+            groupBoxNewLocality.Controls.Add(buttonSaveLocality);
+            groupBoxNewLocality.Controls.Add(textBoxLocalityName);
+            groupBoxNewLocality.Controls.Add(label1);
+            groupBoxNewLocality.Location = new Point(276, 114);
+            groupBoxNewLocality.Name = "groupBoxNewLocality";
+            groupBoxNewLocality.Size = new Size(200, 121);
+            groupBoxNewLocality.TabIndex = 5;
+            groupBoxNewLocality.TabStop = false;
+            groupBoxNewLocality.Text = "Новий населений пункт";
+            groupBoxNewLocality.Visible = false;
             // 
-            // groupBox1
+            // buttonSaveLocality
             // 
-            groupBox1.Controls.Add(button4);
-            groupBox1.Controls.Add(button3);
-            groupBox1.Location = new Point(538, 25);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(250, 125);
-            groupBox1.TabIndex = 5;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
+            buttonSaveLocality.Location = new Point(13, 80);
+            buttonSaveLocality.Name = "buttonSaveLocality";
+            buttonSaveLocality.Size = new Size(75, 23);
+            buttonSaveLocality.TabIndex = 2;
+            buttonSaveLocality.Text = "Зберегти";
+            buttonSaveLocality.UseVisualStyleBackColor = true;
+            buttonSaveLocality.Click += buttonSaveLocality_Click;
             // 
-            // button3
+            // textBoxLocalityName
             // 
-            button3.Location = new Point(78, 48);
-            button3.Name = "button3";
-            button3.Size = new Size(94, 29);
-            button3.TabIndex = 1;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            textBoxLocalityName.Location = new Point(13, 47);
+            textBoxLocalityName.Name = "textBoxLocalityName";
+            textBoxLocalityName.Size = new Size(155, 23);
+            textBoxLocalityName.TabIndex = 1;
             // 
-            // button4
+            // label1
             // 
-            button4.Location = new Point(47, 83);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 29);
-            button4.TabIndex = 2;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            label1.AutoSize = true;
+            label1.Location = new Point(11, 28);
+            label1.Name = "label1";
+            label1.Size = new Size(39, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Назва";
             // 
             // ListsForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(groupBox1);
-            Controls.Add(buttonShowHidePanel);
-            Controls.Add(panel);
+            ClientSize = new Size(700, 508);
+            Controls.Add(groupBoxNewLocality);
+            Controls.Add(buttonShowBlock);
+            Controls.Add(panel1);
             Controls.Add(comboBoxLocalities);
             Controls.Add(labelLocality);
-            Controls.Add(listBoxLocalities);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "ListsForm";
             Text = "ListsForm";
             Load += ListsForm_Load;
-            panel.ResumeLayout(false);
-            groupBox1.ResumeLayout(false);
+            panel1.ResumeLayout(false);
+            groupBoxNewLocality.ResumeLayout(false);
+            groupBoxNewLocality.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -162,12 +172,12 @@
         private ListBox listBoxLocalities;
         private Label labelLocality;
         private ComboBox comboBoxLocalities;
-        private Panel panel;
-        private Button button2;
-        private Button button1;
-        private Button buttonShowHidePanel;
-        private GroupBox groupBox1;
-        private Button button4;
-        private Button button3;
+        private Panel panel1;
+        private Button buttonDeleteItem;
+        private Button buttonShowBlock;
+        private GroupBox groupBoxNewLocality;
+        private Button buttonSaveLocality;
+        private TextBox textBoxLocalityName;
+        private Label label1;
     }
 }
