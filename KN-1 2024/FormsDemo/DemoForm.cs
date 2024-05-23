@@ -36,5 +36,10 @@ namespace FormsDemo
         {
             GetLocation();
         }
+
+        private void DemoForm_MouseHover(object sender, EventArgs e)
+        {
+            MoveRandom();
+        }
     }
 }

@@ -1,0 +1,29 @@
+﻿@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<InputNumber @bind-Value="@currentCount" />
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<button class="btn btn-primary" @onclick="IncrementRandom">Random</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+
+    Random r = new Random();
+
+    void IncrementRandom()
+    {
+        currentCount += r.Next(1, 5);
+    }
+}

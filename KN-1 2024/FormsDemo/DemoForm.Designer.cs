@@ -48,6 +48,7 @@
             Controls.Add(label1);
             Name = "DemoForm";
             Text = "DemoForm";
+            MouseHover += DemoForm_MouseHover;
             Move += DemoForm_Move;
             ResumeLayout(false);
             PerformLayout();
