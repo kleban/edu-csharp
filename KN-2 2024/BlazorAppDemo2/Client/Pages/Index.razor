@@ -1,0 +1,18 @@
+﻿@page "/"
+
+<h1>Hello, world!</h1>
+
+<p>Counter: <strong>@counter</strong></p>
+<Microsoft.AspNetCore.Components.Forms.InputNumber style="width: 100px" @bind-Value="counter" />
+<p>
+    <button type="button" @onclick="increment">Increment</button>
+</p>
+
+@code {
+    private int counter = 0;
+
+    void increment()
+    {
+        counter++;
+    }
+}
