@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{2285E1FA-2643-482F-A4B6-63AE1DB1FB8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{2285E1FA-2643-482F-A4B6-63AE1DB1FB8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo2", "InterfacesDemo2\InterfacesDemo2.csproj", "{434E8364-A74A-4685-80A6-60889F052C20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesDemo2", "InterfacesDemo2\InterfacesDemo2.csproj", "{434E8364-A74A-4685-80A6-60889F052C20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsDemo1", "CollectionsDemo1\CollectionsDemo1.csproj", "{B7B8EF87-DF10-4958-82A0-B35012863009}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsDemo1", "CollectionsDemo1\CollectionsDemo1.csproj", "{B7B8EF87-DF10-4958-82A0-B35012863009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListDemo1", "ListDemo1\ListDemo1.csproj", "{43EDCF4E-4D10-4C1F-9D3A-BF558951E53A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareDemo", "CompareDemo\CompareDemo.csproj", "{42B071CD-4912-4082-AEBF-B920B8D15A92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListQueries", "ListQueries\ListQueries.csproj", "{7C2988FC-4AE8-4BBF-9BCE-896420CB584F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{B7B8EF87-DF10-4958-82A0-B35012863009}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B8EF87-DF10-4958-82A0-B35012863009}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B8EF87-DF10-4958-82A0-B35012863009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EDCF4E-4D10-4C1F-9D3A-BF558951E53A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EDCF4E-4D10-4C1F-9D3A-BF558951E53A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EDCF4E-4D10-4C1F-9D3A-BF558951E53A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EDCF4E-4D10-4C1F-9D3A-BF558951E53A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B071CD-4912-4082-AEBF-B920B8D15A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B071CD-4912-4082-AEBF-B920B8D15A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B071CD-4912-4082-AEBF-B920B8D15A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B071CD-4912-4082-AEBF-B920B8D15A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2988FC-4AE8-4BBF-9BCE-896420CB584F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2988FC-4AE8-4BBF-9BCE-896420CB584F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2988FC-4AE8-4BBF-9BCE-896420CB584F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2988FC-4AE8-4BBF-9BCE-896420CB584F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,7 +2,7 @@
 using InterfacesDemo.Implementation;
 using InterfacesDemo.Interfaces;
 
-IDrive[] drives;
+//IDrive[] drives;
 
 
 Car car = new Car { Model = "Tesla Model S" };
@@ -19,7 +19,7 @@ plane.Drive();
 plane.Fly();
 
 IFly planeFly = new Plane { Model = "Boeing 749" };
-(planeFly as Plane).Model;
+//(planeFly as Plane).Model;
 
 if(planeFly is Plane)
 {
