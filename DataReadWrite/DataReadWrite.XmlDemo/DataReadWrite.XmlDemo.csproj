@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0\library.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DataReadWrite.DataGenerator\DataReadWrite.DataGenerator.csproj" />
+    <ProjectReference Include="..\DataReadWrite.Managers\DataReadWrite.Managers.csproj" />
+  </ItemGroup>
+
+</Project>
