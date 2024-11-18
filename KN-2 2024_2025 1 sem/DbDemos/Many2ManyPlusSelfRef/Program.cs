@@ -2,6 +2,7 @@
 
 using Many2ManyPlusSelfRef.Context;
 using Microsoft.EntityFrameworkCore;
+using System.Globalization;
 
 var ctx = new StoreContext();
 
@@ -23,3 +24,6 @@ foreach(var c in ctx.Categories.Where(x=> x.Parent == null).Include(x=> x.SubCat
         }
     }
 }
+
+var date = DateTime.ParseExact("October 10 2024", "MMMM dd yyyy", new CultureInfo("en"));
+Console.WriteLine(date);
