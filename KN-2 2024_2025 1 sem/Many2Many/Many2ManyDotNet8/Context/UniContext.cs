@@ -1,4 +1,4 @@
-﻿using ForbesRank.Domain.Models;
+﻿using Many2ManyDotNet8.Domain;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -6,26 +6,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ForbesRank.Domain.Context
+namespace Many2ManyDotNet8.Context
 {
-    public class ForbesContext : DbContext
+    public class UniContext : DbContext
     {
-        public DbSet<Person> Persons => Set<Person>();
-        public DbSet<Category> Categories => Set<Category>();
-        public DbSet<Country> Countries => Set<Country>();
+        public DbSet<Teacher> Teachers => Set<Teacher>();
+        public DbSet<Course> Courses => Set<Course>();
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=.; Database=DbForbesRank; Integrated Security=True; Encrypt=True; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=.; Database=many2many; Integrated Security=True; Encrypt=True; TrustServerCertificate=True");
             base.OnConfiguring(optionsBuilder);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
             base.OnModelCreating(modelBuilder);
         }
-
     }
 }
-

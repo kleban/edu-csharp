@@ -19,7 +19,13 @@ namespace ForbesRank.Domain.Models
         public int? Age { get; set; }
         public double FinalWorth { get; set; }
         public Category Category { get; set; }
+
+        [ForeignKey(nameof(Category))]
+        public int CategoryId { get; set; }
         public Country? Country { get; set; }
+
+        [ForeignKey(nameof(Country))]
+        public int? CaountryId { get; set; }
 
         public override string ToString()
         {

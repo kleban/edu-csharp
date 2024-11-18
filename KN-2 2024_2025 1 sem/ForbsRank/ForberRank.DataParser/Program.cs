@@ -1,8 +1,8 @@
 ﻿using CsvHelper;
 using ForbesRank.Domain.Context;
-using ForbesRank.Domain.DTO;
 using System.Globalization;
 using ForbesRank.Domain.Models;
+using ForberRank.DataParser;
 
 IEnumerable<ForbsDataItem> data = new List<ForbsDataItem>();
 
@@ -15,23 +15,23 @@ using (var csv = new CsvReader(reader, new CultureInfo("en")))
 
     var ctx = new ForbesContext();
 
-    ctx.Persons.RemoveRange(ctx.Persons.ToList());
-    ctx.SaveChanges();
+    // ctx.Persons.RemoveRange(ctx.Persons.ToList());
+    //  ctx.SaveChanges();
 
-    ctx.Countries.RemoveRange(ctx.Countries.ToList());
-    ctx.SaveChanges();
+    // ctx.Countries.RemoveRange(ctx.Countries.ToList());
+    // ctx.SaveChanges();
 
-    Console.WriteLine("Countries removed!");
+    //ctx.Categories.RemoveRange(ctx.Categories.ToList());
+    //ctx.SaveChanges();
 
-    var countries = data.Select(x => x.country.Trim())
+    // Console.WriteLine("Countries removed!");
+
+    List<string> countries = data.Select(x => x.country.Trim())
         .Distinct()
         .Where(x=> x.Length > 1)
         .ToList();
 
     ctx.Countries.AddRange(countries.Select(x=> new Country { Title = x }));
-    ctx.SaveChanges();
-
-    ctx.Categories.RemoveRange(ctx.Categories.ToList());
     ctx.SaveChanges();
 
     var categories = data.Select(x => x.category.Trim())
@@ -42,7 +42,7 @@ using (var csv = new CsvReader(reader, new CultureInfo("en")))
     ctx.Categories.AddRange(categories.Select(x => new Category { Title = x }));
     ctx.SaveChanges();
 
-    var persons = new List<Person>();
+    List<Person> persons = new List<Person>();
 
     foreach(var item in data)
     {

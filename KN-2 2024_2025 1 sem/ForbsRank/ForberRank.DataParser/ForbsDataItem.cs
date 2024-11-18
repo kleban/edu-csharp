@@ -4,8 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ForbesRank.Domain.DTO
+namespace ForberRank.DataParser
 {
+
+    //rank,personName,age,finalWorth,category,country
+
     public record ForbsDataItem(int rank,
        string personName,
        int? age,
