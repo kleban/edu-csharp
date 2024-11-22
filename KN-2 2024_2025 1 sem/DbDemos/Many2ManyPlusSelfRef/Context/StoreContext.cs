@@ -29,7 +29,8 @@ namespace Many2ManyPlusSelfRef.Context
                 new Size { Id = 6, Title = "XXL" }
                 );
 
-            modelBuilder.Entity<Clothing>().HasMany(x => x.Sizes).WithMany(x=> x.Cloths);
+            modelBuilder.Entity<Clothing>().HasMany(x => x.Sizes).WithMany(x=> x.Cloths);            
+            
             modelBuilder.Entity<Category>().HasMany(x => x.SubCategories).WithOne(x=> x.Parent);
 
             base.OnModelCreating(modelBuilder);

@@ -6,15 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Many2ManyPlusSelfRef.Entities
+namespace FootballApp_Many_To_Many.Data
 {
-    public class Category
+    public class Team
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public string Title { get; set; }
-        public Category? Parent { get; set; }
-        public ICollection<Category> SubCategories { get; set; } = new List<Category>();
-        public ICollection<Clothing> Clos { get; set; }
+        public string Name { get; set; }
+        public ICollection<Game> AwayGames { get; set; } = new HashSet<Game>();
+        public ICollection<Game> HomeGames { get; set; } = new HashSet<Game>();
     }
 }

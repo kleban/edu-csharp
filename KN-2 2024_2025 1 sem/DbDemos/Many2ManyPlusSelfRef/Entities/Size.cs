@@ -13,9 +13,7 @@ namespace Many2ManyPlusSelfRef.Entities
 
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-
         public string Title { get; set; }
-
         public ICollection<Clothing> Cloths { get; set; }
     }
 }

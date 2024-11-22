@@ -14,7 +14,6 @@ namespace Many2ManyPlusSelfRef.Entities
         public int Id { get; set; }
 
         public string Title { get; set; }
-
         public ICollection<Size> Sizes { get; set; } = new List<Size>();
         public Category? Category { get; set; }
     }
