@@ -1,0 +1,36 @@
+﻿@using ToDoList.Models
+@model IEnumerable<TodoItem>
+
+<h2>To-Do List</h2>
+
+<form asp-action="Create" method="post">
+    <input type="text" name="Task" required class="form-control" />
+    <button class="btn-primary" type="submit">Додати</button>
+</form>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Завдання</th>
+            <th>Статус</th>
+            <th>Дії</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Task</td>
+                <td>
+                    <form asp-action="ToggleComplete" method="post">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button class="@(item.IsCompleted ? "btn-success" : "btn-warning")" type="submit">@(item.IsCompleted ? "✔" : "✖")</button>
+                    </form>
+                </td>
+                <td>
+                    <a asp-action="Delete" class="banr-danger" asp-route-id="@item.Id">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
