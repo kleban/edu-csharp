@@ -18,8 +18,9 @@ namespace ToDoList.Controllers
         }
 
         public IActionResult Index(int id)
-        {           
-            ViewBag.ProjectId = id;
+        {
+            ViewData["project_id"] = id;
+            ViewBag.ProjectId = id;            
             var todos = _context.TodoItems.Where(x=> x.ProjectId == id).ToList();
             return View(todos);
         }

@@ -7,15 +7,17 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>This project management tool! Save your time and energy! <a href="/project/create" class="btn btn-light">Create Project</a></p>
+    <p>This project management tool! Save your time and energy! <a href="/project/create" class="btn btn-light">Create Project</a> <a href="/project/index?view=a" class="btn btn-primary">Accordeon</a></p>
 </div>
+
+
 
 <div class="row">
     @if (Model.Any())
     {
         @foreach (var p in Model)
         {
-            <div class="col-md-3">
+            <div class="col-md-4 col-lg-3 col-xs-12">
                 <div class="card mb-4 shadow-sm">
                     <div class="img-top" style="background-image:url(https://random.imagecdn.app/400/200?@(new Random().Next(1, 1111))">&nbsp;</div>
                     <div class="card-body">

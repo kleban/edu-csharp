@@ -7,7 +7,10 @@ namespace ToDoList.Models
         public int Id { get; set; }
 
         [Required]
+        [MinLength(5)]
         public string Name { get; set; }
+
+        [MinLength(10)]
         [Required]
         public string Description { get; set; }
 

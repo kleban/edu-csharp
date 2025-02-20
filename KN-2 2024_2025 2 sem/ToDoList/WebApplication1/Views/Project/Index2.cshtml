@@ -1,0 +1,104 @@
+﻿@using ToDoList.Models
+@model IEnumerable<Project>
+@{
+
+    ViewData["Title"] = "Projects";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>This project management tool! Save your time and energy! <a href="/project/create" class="btn btn-light">Create Project</a> <a href="/project/index" class="btn btn-primary">Cards</a></p>
+</div>
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        @if (Model.Any())
+        {
+            <div class="accordion" id="accordionExample">
+
+
+                @foreach (var p in Model)
+                {
+                    string idx = $"collapse{p.Id}";
+                    string idx1 = $"#collapse{p.Id}";
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="@idx1" aria-expanded="@(p.Id == Model.Min(x=> x.Id) ? "true": "false")" aria-controls="collapseOne">
+                                @p.Name
+                            </button>
+                        </h2>
+                        <div id="@idx" class="accordion-collapse collapse @(p.Id == Model.Min(x => x.Id) ? "show" : "hide")" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p><strong>@p.Description</strong></p>
+                                @if (p.Tasks.Any())
+                                {
+                                    <ul>
+                                        @foreach(var t in p.Tasks)
+                                        {
+                                            <li>@t.Task</li>
+                                        }
+                                    </ul>
+                                } 
+                                else
+                                {
+                                    <a href="/todo/create?projectId=@p.Id">Create New</a>
+                                }
+                                <hr />
+                                <div class="btn-group" role="group">
+                                    <a href="/todo/index/@p.Id" class="btn btn-primary btn-block">View tasks (@p.Tasks.Count())</a>
+                                    <a href="/project/edit/@p.Id" class="btn btn-warning btn-block">Edit</a>
+
+                                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                                        Delete
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-primary" role="alert">
+                Проєкти поки відсутні!
+            </div>
+        }
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalLabel">Project Delete</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you really want to remove this project? All tasks will be removed also.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Delete it!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<style>
+    .img-top {
+        height: 200px;
+        background-position: center;
+        background-size: cover;
+    }
+
+</style>

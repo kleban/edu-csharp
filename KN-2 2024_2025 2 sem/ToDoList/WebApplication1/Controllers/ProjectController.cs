@@ -16,9 +16,13 @@ namespace WebApplication1.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string? view)
         {
-            return View(_context.Projects.Include(x=> x.Tasks).ToList());
+            var projects = _context.Projects.Include(x => x.Tasks).ToList();
+
+            if (!string.IsNullOrEmpty(view) && view == "a")
+                return View("Index2", projects);
+            return View(projects);
         }
 
         public IActionResult Create()
