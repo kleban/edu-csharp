@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.CodeAnalysis;
 using System;
 using ToDoList.Data;
 using ToDoList.Models;
@@ -14,10 +16,18 @@ namespace ToDoList.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int id)
         {
-            var todos = _context.TodoItems.ToList();
+            ViewBag.ProjectId = id;
+            var todos = _context.TodoItems.Where(x=> x.ProjectId == id).ToList();
             return View(todos);
+        }
+
+        public IActionResult Create(int? projectId)
+        {            
+            var selectedProject = _context.Projects.FirstOrDefault(x=> x.Id == projectId);
+            ViewBag.Projects = new SelectList(_context.Projects.ToList(), "Id", "Name", selectedProject);
+            return View(new TodoItem());
         }
 
         [HttpPost]
@@ -27,8 +37,10 @@ namespace ToDoList.Controllers
             {
                 _context.TodoItems.Add(todo);
                 _context.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Index", new { id = todo.ProjectId });
             }
+            //ViewBag.Projects = new SelectList(_context.Projects.ToList(), "Id", "Name", todo.ProjectId);
+
             return View(todo);
         }
 

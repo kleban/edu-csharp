@@ -1,36 +1,54 @@
-﻿@using ToDoList.Models
-@model IEnumerable<TodoItem>
+﻿@model IEnumerable<ToDoList.Models.TodoItem>
 
-<h2>To-Do List</h2>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
 
-<form asp-action="Create" method="post">
-    <input type="text" name="Task" required class="form-control" />
-    <button class="btn-primary" type="submit">Додати</button>
-</form>
+<h1>Index</h1>
 
-<table class="table table-bordered">
+<p>
+    <a href="/todo/create?projectId=@ViewBag.ProjectId">Create New</a>
+</p>
+<table class="table">
     <thead>
         <tr>
-            <th>Завдання</th>
-            <th>Статус</th>
-            <th>Дії</th>
+            <th>
+                @Html.DisplayNameFor(model => model.Task)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsCompleted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatusDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Project)
+            </th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.Task</td>
-                <td>
-                    <form asp-action="ToggleComplete" method="post">
-                        <input type="hidden" name="id" value="@item.Id" />
-                        <button class="@(item.IsCompleted ? "btn-success" : "btn-warning")" type="submit">@(item.IsCompleted ? "✔" : "✖")</button>
-                    </form>
-                </td>
-                <td>
-                    <a asp-action="Delete" class="banr-danger" asp-route-id="@item.Id">Видалити</a>
-                </td>
-            </tr>
-        }
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Task)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsCompleted)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Project.Description)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
     </tbody>
 </table>

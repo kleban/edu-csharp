@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ToDoList.Models
 {
@@ -10,5 +11,12 @@ namespace ToDoList.Models
         public string Task { get; set; }
 
         public bool IsCompleted { get; set; }
+
+        public DateTime StatusDate { get; set; } = DateTime.Now;
+
+        [ForeignKey(nameof(Project))]
+        public int ProjectId { get; set; }
+
+        public Project? Project { get; set; }
     }
 }

@@ -9,5 +9,6 @@ namespace ToDoList.Data
         public ToDoContext(DbContextOptions<ToDoContext> options) : base(options) { }
 
         public DbSet<TodoItem> TodoItems { get; set; }
+        public DbSet<Project> Projects { get; set; }
     }
 }
