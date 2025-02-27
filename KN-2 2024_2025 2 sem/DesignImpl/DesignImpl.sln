@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.35806.103
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignImpl", "DesignImpl.csproj", "{F3CC32E6-9D26-4812-8FE1-B735E94F9334}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3CC32E6-9D26-4812-8FE1-B735E94F9334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3CC32E6-9D26-4812-8FE1-B735E94F9334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3CC32E6-9D26-4812-8FE1-B735E94F9334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3CC32E6-9D26-4812-8FE1-B735E94F9334}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CFA6242-9D66-4D02-ABF6-1744660F18B5}
+	EndGlobalSection
+EndGlobal
