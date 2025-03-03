@@ -21,8 +21,8 @@ builder.Services.AddAuthentication()
     })
     .AddGoogle(options =>
 {
-    options.ClientId = "546481451418-skrbiheuc4hjk87ghea7tid8f6ebipiv.apps.googleusercontent.com";
-    options.ClientSecret = "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";
+    options.ClientId = builder.Configuration["Auth:Google:ClientId"];
+    options.ClientSecret = builder.Configuration["Auth:Google:ClientSecret"];
 });
 builder.Services.AddControllersWithViews();
 
