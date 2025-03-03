@@ -1,0 +1,36 @@
+﻿@using ASPNET_MVC_DEMO.Helpers
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Привіт, КН-2!</h1>
+    <p>На цій сторінці ми будемо розміщувати приклади інтеграції у проєкти на ASP.NET MVC 
+        з різними бібліотеками, сервісами та зовнішніми API.</p>
+        <p>Зверніть увагу, що API ключі до окремих сервісів відсутні у репозиторії на Github, тому Вам потрібно їх отримати самостійно і додати згідно інструкції.</p>
+</div>
+
+<hr />
+<div class="row">
+    <div class="col-md-3">
+        <h4>Загальне</h4>
+    </div>
+    <div class="col-md-6">
+        <h4>Інтеграція Js-компоненетів</h4>
+    </div>
+    <div class="col-md-3">
+        <h4>Аутентифікація</h4>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <a href="/general/usersecrets" class="@BtnStyler.GetRndStyle()">User Secrets</a>
+    </div>
+    <div class="col-md-6">
+        <a href="/js/codehighlight" class="@BtnStyler.GetRndStyle()">Code HighLight</a>
+    </div>
+    <div class="col-md-3">
+        <a href="/auth/google" class="@BtnStyler.GetRndStyle()">Google</a>
+    </div>
+</div>
