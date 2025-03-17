@@ -1,0 +1,97 @@
+﻿@model MapModel
+
+<h3>Open Street Maps Editor</h3>
+
+<p></p>
+
+<div class="row">
+    <div class="col-md-8">
+        <div id="map" style="height: 400px;"></div>
+    </div>
+    <div class=" col-md-4">
+        @using (Html.BeginForm("Leaflet", "Content", FormMethod.Post))
+        {
+
+        <div class="form-group">
+            <label for="lat">Latitude</label>
+            <input type="text" class="form-control" id="lat" value="@Model.Lat">
+        </div>
+        <div class="form-group">
+            <label for="lng">Longitude</label>
+            <input type="text" class="form-control" id="lng" value="@Model.Lng">
+        </div>
+        <div class="form-group">
+            <label for="zoom">Zoom</label>
+                <input type="range" min="10" max="18" step="1" value="@Model.Zoom" id="zoom">
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">Save</button>
+        }
+    </div>
+</div>
+<style>
+    #map {
+        width: 100%;
+        height: 400px;
+        border: 1px solid #000;
+    }
+</style>
+@section Scripts {
+
+    <script src="~/lib/leaflet/leaflet.min.js"></script>
+    <link href="~/lib/leaflet/leaflet.min.css" rel="stylesheet" />
+
+    <script src="~/lib/rangeslider.js/rangeslider.min.js"></script>
+    <link href="~/lib/rangeslider.js/rangeslider.css" rel="stylesheet" />
+    <script>
+         var map = null;
+         var marker = null;
+         var lat = @Model.Lat;
+         var lng = @Model.Lng;
+         var zoom = @Model.Zoom;
+
+            var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+            osmAttrib = '&copy; @DateTime.Now.Year',
+            osm = L.tileLayer(osmUrl, { maxZoom: 18, attribution: osmAttrib });
+
+         function initMap() {
+            map = L.map('map',
+            {
+                zoomControl: true
+            }).setView([lat, lng], zoom).addLayer(osm);
+            map.zoomControl.setPosition('topright');
+        };
+
+        $(function () {
+             
+            initMap();
+            marker = L.marker([lat, lng]).addTo(map);
+            map.on('click', function (e) {
+             lat = e.latlng.lat;
+             lng = e.latlng.lng;
+             $('#lat').val(lat);
+             $('#lng').val(lng);
+             marker.setLatLng([lat, lng]);
+         });
+
+         //add zoom change event leaflet
+         map.on('zoomend', function() {
+             zoom = map.getZoom();
+             $('#zoom').val(zoom);
+         });
+
+         $('#lat, #lng, #zoom').on('change', function () {
+            lat = $('#lat').val();
+            lng = $('#lng').val();
+            zoom = $('#zoom').val();
+            map.setView([lat, lng], zoom);
+            marker.setLatLng([lat, lng]);
+        });
+
+         $('input[type="range"]').rangeslider();
+
+        });
+        
+         
+    </script>
+}

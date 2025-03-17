@@ -1,0 +1,16 @@
+﻿@model List<string>
+
+<h3>Image View</h3>
+<div class="alert alert-info">Це приклад виведення зображення за URL-адресою.</div>
+
+@foreach (var item in Model)
+{   
+    <img src="@Url.Content(item)" alt="Image" style="width: 200px; height: 200px; margin: 10px;" />
+}
+
+<div class="alert alert-info">Це приклад виведення зображення за Id.</div>
+
+<td>
+    <img src="/Content/ImageViewById/1" alt="" height=100 width=200 />
+</td>
+

@@ -1,0 +1,35 @@
+﻿@model ContentViewModel
+
+<h3>CKEditor</h3>
+
+<p>Це приклад використання WYSIWYG-редактора CKEditor.</p>
+
+<div class="row">
+    <div class="col-md-6">
+        <h4>Editor Form</h4>
+        @using (Html.BeginForm("CKEditor", "Content", FormMethod.Post))
+        {
+            @Html.TextAreaFor(model => model.Contents, new { @class = "ckeditor", placeholder = "Content" })
+            <input type="submit" value="Save" class="btn btn-primary" />
+        }
+    </div>
+    <div class="col-md-6">
+        <h4>Preview</h4>
+        <div class="alert alert-info">@Html.Raw(Model.Contents)</div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+
+    <script>
+       
+        CKEDITOR.replace('Contents');
+        CKEDITOR.config.versionCheck = false;
+         CKEDITOR.instances.Contents.on('change', function() {
+                    var content = CKEDITOR.instances.Contents.getData();
+                    $('.alert-info').html(content);
+                });  
+    </script>
+}

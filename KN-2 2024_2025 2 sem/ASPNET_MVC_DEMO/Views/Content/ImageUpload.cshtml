@@ -1,0 +1,39 @@
+﻿@model ContentViewModel
+<h3>Image Upload</h3>
+
+<div class="alert alert-info">Це приклад завантаження зображення на сервер.</div>
+
+@using (Html.BeginForm("ImageUpload", "Content", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <input type="file" name="ImageData" id="ImageData" onchange="fileCheck(this);" />
+    <input type="submit" value="Upload" class="btn btn-primary" />
+}
+
+<hr />
+<a href="/content/imagesview" class="btn btn-light">Images Preview</a>
+
+@section Scripts {
+    <script>
+        function fileCheck(input) {
+
+            //add code for extension check from array of allowed extensions
+            var ext = input.value.match(/\.([^\.]+)$/)[1];
+            switch (ext) {
+                case 'jpg':
+                case 'jpeg':
+                case 'png':
+                case 'gif':
+                    break;
+                default:
+                    alert('Дозволені розширення: jpg, jpeg, png, gif');
+                    input.value = '';
+            }
+
+            var file = input.files[0];
+            if (file.size > 1024 * 1024) {
+                alert("Розмір файлу не повинен перевищувати 1 МБ.");
+                input.value = '';
+            }
+        }
+    </script>
+}

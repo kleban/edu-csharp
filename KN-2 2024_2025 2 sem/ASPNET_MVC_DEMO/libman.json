@@ -5,6 +5,22 @@
     {
       "library": "highlight.js@11.11.1",
       "destination": "wwwroot/lib/highlight.js/"
+    },
+    {
+      "library": "ckeditor5@44.1.0",
+      "destination": "wwwroot/lib/ckeditor5/"
+    },
+    {
+      "library": "ckeditor@4.25.0",
+      "destination": "wwwroot/lib/ckeditor/"
+    },
+    {
+      "library": "leaflet@1.9.4",
+      "destination": "wwwroot/lib/leaflet/"
+    },
+    {
+      "library": "rangeslider.js@2.3.3",
+      "destination": "wwwroot/lib/rangeslider.js/"
     }
   ]
 }
