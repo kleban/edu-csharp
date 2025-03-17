@@ -6,7 +6,7 @@
     <title>@ViewData["Title"] - ASPNET_MVC_DEMO</title>
     <script type="importmap"></script>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css?@(new Random().NextDouble())" />
     <link rel="stylesheet" href="~/ASPNET_MVC_DEMO.styles.css" asp-append-version="true" />
 </head>
 <body>

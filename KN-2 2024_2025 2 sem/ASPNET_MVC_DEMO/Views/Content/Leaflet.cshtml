@@ -14,11 +14,11 @@
 
         <div class="form-group">
             <label for="lat">Latitude</label>
-            <input type="text" class="form-control" disabled id="lat" value="@Model.Lat">
+                <input type="hidden" class="form-control" disabled id="lat" value="@Model.Lat">
         </div>
         <div class="form-group">
             <label for="lng">Longitude</label>
-            <input type="hidden" class="form-control" id="lng" value="@Model.Lng">
+            <input type="hidden" class="form-control" id="lng" disabled value="@Model.Lng">
         </div>
         <div class="form-group">
             <label for="zoom">Zoom</label>
@@ -43,6 +43,7 @@
 
     <script src="~/lib/rangeslider.js/rangeslider.min.js"></script>
     <link href="~/lib/rangeslider.js/rangeslider.css" rel="stylesheet" />
+
     <script>
          var map = null;
          var marker = null;
@@ -50,9 +51,9 @@
          var lng = @Model.Lng;
          var zoom = @Model.Zoom;
 
-            var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-            osmAttrib = '&copy; @DateTime.Now.Year',
-            osm = L.tileLayer(osmUrl, { maxZoom: 18, attribution: osmAttrib });
+          var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+          osmAttrib = '&copy; Ostroh Academy @DateTime.Now.Year',
+          osm = L.tileLayer(osmUrl, { maxZoom: 18, attribution: osmAttrib });
 
          function initMap() {
             map = L.map('map',
@@ -66,6 +67,8 @@
              
             initMap();
             marker = L.marker([lat, lng]).addTo(map);
+            L.marker([lat+0.01, lng+0.02]).addTo(map);
+            L.marker([lat-0.01, lng-0.02]).addTo(map);
 
             map.on('click', function (e) {
              lat = e.latlng.lat;

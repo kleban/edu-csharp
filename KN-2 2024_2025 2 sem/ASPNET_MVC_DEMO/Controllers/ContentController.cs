@@ -21,7 +21,7 @@ namespace ASPNET_MVC_DEMO.Controllers
 
         [Route("ImageUpload")]
         [HttpPost]
-        public ActionResult AddImageUpload(ContentViewModel model)
+        public ActionResult ImageUpload(ContentViewModel model)
         {
             IFormFile file = Request.Form.Files["ImageData"];
 
