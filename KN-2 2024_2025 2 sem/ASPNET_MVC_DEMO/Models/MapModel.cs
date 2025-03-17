@@ -2,9 +2,9 @@
 {
     public class MapModel
     {
-        public int Zoom { get; set; } = 13;
-        public string Lat { get; set; } = 50.327925.ToString();
-        public string Lng { get; set; } = 26.5119475.ToString();
+        public int Zoom { get; set; }
+        public string Lat { get; set; } 
+        public string Lng { get; set; }
 
         public static MapModel Default => new MapModel
         {

@@ -5,7 +5,7 @@
 
 @using (Html.BeginForm("ImageUpload", "Content", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
-    <input type="file" name="ImageData" id="ImageData" onchange="fileCheck(this);" />
+    <input type="file" class="form-control" name="ImageData" id="ImageData" onchange="fileCheck(this);" />
     <input type="submit" value="Upload" class="btn btn-primary" />
 }
 

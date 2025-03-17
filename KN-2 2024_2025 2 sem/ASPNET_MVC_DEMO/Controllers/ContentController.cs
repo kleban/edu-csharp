@@ -11,6 +11,8 @@ namespace ASPNET_MVC_DEMO.Controllers
         {
             _env = env;
         }
+
+        [HttpGet]
         public ActionResult ImageUpload()
         {
             return View();
@@ -19,12 +21,19 @@ namespace ASPNET_MVC_DEMO.Controllers
 
         [Route("ImageUpload")]
         [HttpPost]
-        public ActionResult ImageUpload(ContentViewModel model)
+        public ActionResult AddImageUpload(ContentViewModel model)
         {
             IFormFile file = Request.Form.Files["ImageData"];
 
+            //check if file is selected
+            if (file == null || file.Length == 0)
+            {
+                return Content("file not selected");
+            }
+
             //write code to save image to local folder on server
             string path = _env.WebRootPath + "\\assets\\img\\" + file.FileName;
+
             using (FileStream fs = new FileStream(path, FileMode.Create))
             {
                 file.CopyTo(fs);

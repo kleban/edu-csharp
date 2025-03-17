@@ -14,11 +14,11 @@
 
         <div class="form-group">
             <label for="lat">Latitude</label>
-            <input type="text" class="form-control" id="lat" value="@Model.Lat">
+            <input type="text" class="form-control" disabled id="lat" value="@Model.Lat">
         </div>
         <div class="form-group">
             <label for="lng">Longitude</label>
-            <input type="text" class="form-control" id="lng" value="@Model.Lng">
+            <input type="hidden" class="form-control" id="lng" value="@Model.Lng">
         </div>
         <div class="form-group">
             <label for="zoom">Zoom</label>
@@ -66,6 +66,7 @@
              
             initMap();
             marker = L.marker([lat, lng]).addTo(map);
+
             map.on('click', function (e) {
              lat = e.latlng.lat;
              lng = e.latlng.lng;

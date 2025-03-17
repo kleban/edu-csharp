@@ -12,7 +12,7 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
-
+/*
 builder.Services.AddAuthentication()
     .AddCookie(options =>
     {
@@ -23,7 +23,7 @@ builder.Services.AddAuthentication()
 {
     options.ClientId = builder.Configuration["Auth:Google:ClientId"];
     options.ClientSecret = builder.Configuration["Auth:Google:ClientSecret"];
-});
+});*/
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
