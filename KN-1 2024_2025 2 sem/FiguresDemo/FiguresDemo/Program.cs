@@ -3,13 +3,12 @@
 //рівносторонній трикутник. Оптимізувати обчислення площі (S) та
 //периметра (P) для кожної фігури. 
 
-
-// Figura <- Triangle
-// Figura <- Quadrilateral
+// Figure <- Triangle
+// Figure <- Quadrilateral
 // Triangle <- IsoscelesTriangle
 // Triangle <- RightTriangle
 // Triangle <- EquilateralTriangle
-// Figura <- Quadrilateral <- Rectangle <- Square
+// Figure <- Quadrilateral <- Rectangle <- Square
 // Quadrilateral <- Trapezoid
 
 using FiguresDemo.Models;
