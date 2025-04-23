@@ -28,7 +28,7 @@ namespace LibraryApp
         }
         public bool RemoveBook(string isbn)
         {
-            var bookToRemove = books.FirstOrDefault(b => b.ISBN == isbn);
+            Book bookToRemove = books.FirstOrDefault(b => b.ISBN == isbn);
             if (bookToRemove != null)
             {
                 books.Remove(bookToRemove);
