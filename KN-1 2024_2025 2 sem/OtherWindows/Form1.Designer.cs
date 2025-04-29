@@ -32,6 +32,9 @@
             label1 = new Label();
             listBoxNumbers = new ListBox();
             buttonNumbersWindow = new Button();
+            button1 = new Button();
+            _dg = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)_dg).BeginInit();
             SuspendLayout();
             // 
             // buttonOpen
@@ -71,11 +74,32 @@
             buttonNumbersWindow.UseVisualStyleBackColor = true;
             buttonNumbersWindow.Click += buttonNumbersWindow_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(678, 167);
+            button1.Name = "button1";
+            button1.Size = new Size(110, 77);
+            button1.TabIndex = 4;
+            button1.Text = "Open Numbers Window";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // _dg
+            // 
+            _dg.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            _dg.Location = new Point(402, 250);
+            _dg.Name = "_dg";
+            _dg.RowHeadersWidth = 51;
+            _dg.Size = new Size(386, 188);
+            _dg.TabIndex = 5;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(_dg);
+            Controls.Add(button1);
             Controls.Add(buttonNumbersWindow);
             Controls.Add(listBoxNumbers);
             Controls.Add(label1);
@@ -83,6 +107,7 @@
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)_dg).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -93,5 +118,7 @@
         private Label label1;
         private ListBox listBoxNumbers;
         private Button buttonNumbersWindow;
+        private Button button1;
+        private DataGridView _dg;
     }
 }

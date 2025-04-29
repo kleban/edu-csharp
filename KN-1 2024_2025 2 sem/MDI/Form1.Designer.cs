@@ -32,14 +32,16 @@
             вікноToolStripMenuItem = new ToolStripMenuItem();
             новеToolStripMenuItem = new ToolStripMenuItem();
             новеЗКалендаремToolStripMenuItem = new ToolStripMenuItem();
+            новеВікноЗЗображеннямToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSeparator1 = new ToolStripSeparator();
             оновитиВікнаЗКалендаремToolStripMenuItem = new ToolStripMenuItem();
             закритиВікнаЗКалендаремToolStripMenuItem = new ToolStripMenuItem();
             вікнаToolStripMenuItem = new ToolStripMenuItem();
             каскадToolStripMenuItem = new ToolStripMenuItem();
             горизонтальноToolStripMenuItem = new ToolStripMenuItem();
             вертикальноToolStripMenuItem = new ToolStripMenuItem();
-            новеВікноЗЗображеннямToolStripMenuItem = new ToolStripMenuItem();
-            toolStripSeparator1 = new ToolStripSeparator();
+            вікноToolStripMenuItem1 = new ToolStripMenuItem();
+            новеВікноЗПрогреToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -55,7 +57,7 @@
             // 
             // вікноToolStripMenuItem
             // 
-            вікноToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { новеToolStripMenuItem, новеЗКалендаремToolStripMenuItem, новеВікноЗЗображеннямToolStripMenuItem, toolStripSeparator1, оновитиВікнаЗКалендаремToolStripMenuItem, закритиВікнаЗКалендаремToolStripMenuItem });
+            вікноToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { новеToolStripMenuItem, новеЗКалендаремToolStripMenuItem, новеВікноЗЗображеннямToolStripMenuItem, новеВікноЗПрогреToolStripMenuItem, toolStripSeparator1, оновитиВікнаЗКалендаремToolStripMenuItem, закритиВікнаЗКалендаремToolStripMenuItem, вікноToolStripMenuItem1 });
             вікноToolStripMenuItem.Name = "вікноToolStripMenuItem";
             вікноToolStripMenuItem.Size = new Size(61, 24);
             вікноToolStripMenuItem.Text = "Вікно";
@@ -73,6 +75,18 @@
             новеЗКалендаремToolStripMenuItem.Size = new Size(292, 26);
             новеЗКалендаремToolStripMenuItem.Text = "Нове з календарем";
             новеЗКалендаремToolStripMenuItem.Click += новеЗКалендаремToolStripMenuItem_Click;
+            // 
+            // новеВікноЗЗображеннямToolStripMenuItem
+            // 
+            новеВікноЗЗображеннямToolStripMenuItem.Name = "новеВікноЗЗображеннямToolStripMenuItem";
+            новеВікноЗЗображеннямToolStripMenuItem.Size = new Size(292, 26);
+            новеВікноЗЗображеннямToolStripMenuItem.Text = "Нове вікно з зображенням";
+            новеВікноЗЗображеннямToolStripMenuItem.Click += новеВікноЗЗображеннямToolStripMenuItem_Click;
+            // 
+            // toolStripSeparator1
+            // 
+            toolStripSeparator1.Name = "toolStripSeparator1";
+            toolStripSeparator1.Size = new Size(289, 6);
             // 
             // оновитиВікнаЗКалендаремToolStripMenuItem
             // 
@@ -116,17 +130,18 @@
             вертикальноToolStripMenuItem.Text = "Вертикально";
             вертикальноToolStripMenuItem.Click += вертикальноToolStripMenuItem_Click;
             // 
-            // новеВікноЗЗображеннямToolStripMenuItem
+            // вікноToolStripMenuItem1
             // 
-            новеВікноЗЗображеннямToolStripMenuItem.Name = "новеВікноЗЗображеннямToolStripMenuItem";
-            новеВікноЗЗображеннямToolStripMenuItem.Size = new Size(292, 26);
-            новеВікноЗЗображеннямToolStripMenuItem.Text = "Нове вікно з зображенням";
-            новеВікноЗЗображеннямToolStripMenuItem.Click += новеВікноЗЗображеннямToolStripMenuItem_Click;
+            вікноToolStripMenuItem1.Name = "вікноToolStripMenuItem1";
+            вікноToolStripMenuItem1.Size = new Size(292, 26);
+            вікноToolStripMenuItem1.Text = "Вікно";
             // 
-            // toolStripSeparator1
+            // новеВікноЗПрогреToolStripMenuItem
             // 
-            toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(289, 6);
+            новеВікноЗПрогреToolStripMenuItem.Name = "новеВікноЗПрогреToolStripMenuItem";
+            новеВікноЗПрогреToolStripMenuItem.Size = new Size(292, 26);
+            новеВікноЗПрогреToolStripMenuItem.Text = "Нове вікно з прогресом";
+            новеВікноЗПрогреToolStripMenuItem.Click += новеВікноЗПрогреToolStripMenuItem_Click;
             // 
             // Form1
             // 
@@ -159,5 +174,7 @@
         private ToolStripMenuItem закритиВікнаЗКалендаремToolStripMenuItem;
         private ToolStripMenuItem новеВікноЗЗображеннямToolStripMenuItem;
         private ToolStripSeparator toolStripSeparator1;
+        private ToolStripMenuItem вікноToolStripMenuItem1;
+        private ToolStripMenuItem новеВікноЗПрогреToolStripMenuItem;
     }
 }

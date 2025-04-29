@@ -80,5 +80,12 @@ namespace MDI
             f.MdiParent = this;
             f.Show();
         }
+
+        private void íîâåÂ³êíîÇÏğîãğåToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MdiDemo4 mdiDemo4 = new MdiDemo4();
+            mdiDemo4.MdiParent = this;
+            mdiDemo4.Show();
+        }
     }
 }

@@ -10,5 +10,8 @@
     <Compile Update="NumbersWindow.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PersonListWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

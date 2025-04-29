@@ -45,5 +45,21 @@ namespace OtherWindows
                 }
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PersonListWindow form = new PersonListWindow(4);
+            var res = form.ShowDialog();
+
+            if(res == DialogResult.OK)
+            {
+                var data = form.GetPeople();
+                _dg.DataSource = data;
+            } 
+            else
+            {
+                MessageBox.Show("Діалог закрито без збереження.");
+            }
+        }
     }
 }
