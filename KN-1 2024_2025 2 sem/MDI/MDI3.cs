@@ -19,13 +19,12 @@ namespace MDI
             this.path = path;
         }
 
-        //read picture from url to picturebox
-        private void MDI3_Load(object sender, EventArgs e)
+         private void MDI3_Load_1(object sender, EventArgs e)
         {
             pictureBox1.Load(path);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             this.Text = path;
-            this.Refresh();
+            
         }
     }
 }

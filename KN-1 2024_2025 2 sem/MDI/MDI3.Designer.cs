@@ -51,6 +51,7 @@
             Controls.Add(pictureBox1);
             Name = "MDI3";
             Text = "MDI3";
+            Load += MDI3_Load_1;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
