@@ -2,6 +2,19 @@ namespace MDI
 {
     public partial class Form1 : Form
     {
+        private List<string> images = new List<string>()
+        {
+            "https://images.unsplash.com/photo-1728044849236-5e8a061e1895",
+            "https://unsplash.com/photos/modern-dining-room-with-table-chairs-and-kitchen-urH155LONWs",
+            "3.jpg",
+            "4.jpg",
+            "5.jpg",
+            "6.jpg",
+            "7.jpg",
+            "8.jpg",
+            "9.jpg",
+            "10.jpg"
+        };
         public Form1()
         {
             InitializeComponent();
@@ -58,6 +71,18 @@ namespace MDI
 
                 }
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void íîâåÂ³êíîÇÇîáðàæåííÿìToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MDI3 f = new MDI3(images[0]);
+            f.MdiParent = this;
+            f.Show();
         }
     }
 }

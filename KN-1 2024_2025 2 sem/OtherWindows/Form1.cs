@@ -12,7 +12,7 @@ namespace OtherWindows
             ChildForm childForm = new ChildForm("Назва чогось там");
             var result = childForm.ShowDialog();
 
-            if(result == DialogResult.OK)
+            if (result == DialogResult.OK)
             {
                 string title = childForm.Title;
                 MessageBox.Show($"Відкрито: {title}");
@@ -22,6 +22,27 @@ namespace OtherWindows
             else
             {
                 MessageBox.Show("Діалог закрито без збереження.");
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonNumbersWindow_Click(object sender, EventArgs e)
+        {
+            NumbersWindow numbersWindow = new NumbersWindow();
+            var res = numbersWindow.ShowDialog();
+
+            if (res == DialogResult.OK)
+            {
+                var numbers = numbersWindow.GetNumbers();
+                listBoxNumbers.Items.Clear();
+                foreach (var number in numbers)
+                {
+                    listBoxNumbers.Items.Add(number);
+                }
             }
         }
     }

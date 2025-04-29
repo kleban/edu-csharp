@@ -30,6 +30,8 @@
         {
             buttonOpen = new Button();
             label1 = new Label();
+            listBoxNumbers = new ListBox();
+            buttonNumbersWindow = new Button();
             SuspendLayout();
             // 
             // buttonOpen
@@ -51,15 +53,36 @@
             label1.TabIndex = 1;
             label1.Text = "label1";
             // 
+            // listBoxNumbers
+            // 
+            listBoxNumbers.FormattingEnabled = true;
+            listBoxNumbers.Location = new Point(90, 232);
+            listBoxNumbers.Name = "listBoxNumbers";
+            listBoxNumbers.Size = new Size(150, 144);
+            listBoxNumbers.TabIndex = 2;
+            // 
+            // buttonNumbersWindow
+            // 
+            buttonNumbersWindow.Location = new Point(257, 232);
+            buttonNumbersWindow.Name = "buttonNumbersWindow";
+            buttonNumbersWindow.Size = new Size(110, 77);
+            buttonNumbersWindow.TabIndex = 3;
+            buttonNumbersWindow.Text = "Open Numbers Window";
+            buttonNumbersWindow.UseVisualStyleBackColor = true;
+            buttonNumbersWindow.Click += buttonNumbersWindow_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(buttonNumbersWindow);
+            Controls.Add(listBoxNumbers);
             Controls.Add(label1);
             Controls.Add(buttonOpen);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -68,5 +91,7 @@
 
         private Button buttonOpen;
         private Label label1;
+        private ListBox listBoxNumbers;
+        private Button buttonNumbersWindow;
     }
 }

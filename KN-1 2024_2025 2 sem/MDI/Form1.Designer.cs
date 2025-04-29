@@ -33,11 +33,13 @@
             новеToolStripMenuItem = new ToolStripMenuItem();
             новеЗКалендаремToolStripMenuItem = new ToolStripMenuItem();
             оновитиВікнаЗКалендаремToolStripMenuItem = new ToolStripMenuItem();
+            закритиВікнаЗКалендаремToolStripMenuItem = new ToolStripMenuItem();
             вікнаToolStripMenuItem = new ToolStripMenuItem();
             каскадToolStripMenuItem = new ToolStripMenuItem();
             горизонтальноToolStripMenuItem = new ToolStripMenuItem();
             вертикальноToolStripMenuItem = new ToolStripMenuItem();
-            закритиВікнаЗКалендаремToolStripMenuItem = new ToolStripMenuItem();
+            новеВікноЗЗображеннямToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSeparator1 = new ToolStripSeparator();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -53,7 +55,7 @@
             // 
             // вікноToolStripMenuItem
             // 
-            вікноToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { новеToolStripMenuItem, новеЗКалендаремToolStripMenuItem, оновитиВікнаЗКалендаремToolStripMenuItem, закритиВікнаЗКалендаремToolStripMenuItem });
+            вікноToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { новеToolStripMenuItem, новеЗКалендаремToolStripMenuItem, новеВікноЗЗображеннямToolStripMenuItem, toolStripSeparator1, оновитиВікнаЗКалендаремToolStripMenuItem, закритиВікнаЗКалендаремToolStripMenuItem });
             вікноToolStripMenuItem.Name = "вікноToolStripMenuItem";
             вікноToolStripMenuItem.Size = new Size(61, 24);
             вікноToolStripMenuItem.Text = "Вікно";
@@ -78,6 +80,13 @@
             оновитиВікнаЗКалендаремToolStripMenuItem.Size = new Size(292, 26);
             оновитиВікнаЗКалендаремToolStripMenuItem.Text = "Оновити вікна з календарем";
             оновитиВікнаЗКалендаремToolStripMenuItem.Click += оновитиВікнаЗКалендаремToolStripMenuItem_Click;
+            // 
+            // закритиВікнаЗКалендаремToolStripMenuItem
+            // 
+            закритиВікнаЗКалендаремToolStripMenuItem.Name = "закритиВікнаЗКалендаремToolStripMenuItem";
+            закритиВікнаЗКалендаремToolStripMenuItem.Size = new Size(292, 26);
+            закритиВікнаЗКалендаремToolStripMenuItem.Text = "Закрити вікна з календарем";
+            закритиВікнаЗКалендаремToolStripMenuItem.Click += закритиВікнаЗКалендаремToolStripMenuItem_Click;
             // 
             // вікнаToolStripMenuItem
             // 
@@ -107,12 +116,17 @@
             вертикальноToolStripMenuItem.Text = "Вертикально";
             вертикальноToolStripMenuItem.Click += вертикальноToolStripMenuItem_Click;
             // 
-            // закритиВікнаЗКалендаремToolStripMenuItem
+            // новеВікноЗЗображеннямToolStripMenuItem
             // 
-            закритиВікнаЗКалендаремToolStripMenuItem.Name = "закритиВікнаЗКалендаремToolStripMenuItem";
-            закритиВікнаЗКалендаремToolStripMenuItem.Size = new Size(292, 26);
-            закритиВікнаЗКалендаремToolStripMenuItem.Text = "Закрити вікна з календарем";
-            закритиВікнаЗКалендаремToolStripMenuItem.Click += закритиВікнаЗКалендаремToolStripMenuItem_Click;
+            новеВікноЗЗображеннямToolStripMenuItem.Name = "новеВікноЗЗображеннямToolStripMenuItem";
+            новеВікноЗЗображеннямToolStripMenuItem.Size = new Size(292, 26);
+            новеВікноЗЗображеннямToolStripMenuItem.Text = "Нове вікно з зображенням";
+            новеВікноЗЗображеннямToolStripMenuItem.Click += новеВікноЗЗображеннямToolStripMenuItem_Click;
+            // 
+            // toolStripSeparator1
+            // 
+            toolStripSeparator1.Name = "toolStripSeparator1";
+            toolStripSeparator1.Size = new Size(289, 6);
             // 
             // Form1
             // 
@@ -124,6 +138,7 @@
             MainMenuStrip = menuStrip1;
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -142,5 +157,7 @@
         private ToolStripMenuItem новеЗКалендаремToolStripMenuItem;
         private ToolStripMenuItem оновитиВікнаЗКалендаремToolStripMenuItem;
         private ToolStripMenuItem закритиВікнаЗКалендаремToolStripMenuItem;
+        private ToolStripMenuItem новеВікноЗЗображеннямToolStripMenuItem;
+        private ToolStripSeparator toolStripSeparator1;
     }
 }
