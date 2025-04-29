@@ -1,0 +1,28 @@
+namespace OtherWindows
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void buttonOpen_Click(object sender, EventArgs e)
+        {
+            ChildForm childForm = new ChildForm("Назва чогось там");
+            var result = childForm.ShowDialog();
+
+            if(result == DialogResult.OK)
+            {
+                string title = childForm.Title;
+                MessageBox.Show($"Відкрито: {title}");
+
+                label1.Text = $"{childForm.Product.Title} - ${Math.Round(childForm.Product.Price)}";
+            }
+            else
+            {
+                MessageBox.Show("Діалог закрито без збереження.");
+            }
+        }
+    }
+}
