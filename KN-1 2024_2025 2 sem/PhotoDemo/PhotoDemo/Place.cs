@@ -8,10 +8,8 @@ namespace PhotoDemo
 {
     public class Place
     {
-        public string Title { get; set; }
-        public string ImagePath { get; set; }
-
-
+        public string? Title { get; set; }
+        public string? ImagePath { get; set; }
         public override string ToString()
         {
             return Title;

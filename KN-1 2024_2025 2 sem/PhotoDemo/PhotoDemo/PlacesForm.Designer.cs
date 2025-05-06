@@ -28,13 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlacesForm));
             listBox1 = new ListBox();
             pictureBox1 = new PictureBox();
             textBoxTitle = new TextBox();
             buttonOpen = new Button();
             buttonSave = new Button();
             labelPath = new Label();
+            pictureBox2 = new PictureBox();
+            button1 = new Button();
+            imageList1 = new ImageList(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // listBox1
@@ -91,11 +97,40 @@
             labelPath.TabIndex = 5;
             labelPath.Text = "label1";
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Location = new Point(620, 12);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(185, 175);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 6;
+            pictureBox2.TabStop = false;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(678, 208);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 7;
+            button1.Text = "Next >";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // imageList1
+            // 
+            imageList1.ColorDepth = ColorDepth.Depth32Bit;
+            imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
+            imageList1.TransparentColor = Color.Transparent;
+            imageList1.Images.SetKeyName(0, "giphy.gif");
+            imageList1.Images.SetKeyName(1, "toa-heftiba-6bKpHAun4d8-unsplash.jpg");
+            // 
             // PlacesForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(571, 386);
+            ClientSize = new Size(863, 370);
+            Controls.Add(button1);
+            Controls.Add(pictureBox2);
             Controls.Add(labelPath);
             Controls.Add(buttonSave);
             Controls.Add(buttonOpen);
@@ -106,6 +141,7 @@
             Text = "Form1";
             Load += PlacesForm_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -118,5 +154,8 @@
         private Button buttonOpen;
         private Button buttonSave;
         private Label labelPath;
+        private PictureBox pictureBox2;
+        private Button button1;
+        private ImageList imageList1;
     }
 }

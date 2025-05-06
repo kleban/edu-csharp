@@ -13,7 +13,6 @@ namespace PhotoDemo
         public PlaceManager()
         {
             places = new List<Place>();
-            // Initialize with some sample data
             places.Add(new Place { Title = "Eiffel Tower", ImagePath = "img/1.jpg" });
             places.Add(new Place { Title = "Statue of Liberty", ImagePath = "img/2.jpg" });
         }

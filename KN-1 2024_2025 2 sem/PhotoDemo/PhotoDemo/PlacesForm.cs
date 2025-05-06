@@ -1,8 +1,14 @@
+using System.Drawing.Imaging;
+using System.Windows.Forms;
+
 namespace PhotoDemo
 {
     public partial class PlacesForm : Form
     {
         private PlaceManager placeManager;
+        private Image gifImage;
+        private int currentFrame = 0;
+        private int frameCount;
         public PlacesForm()
         {
             InitializeComponent();
@@ -10,8 +16,19 @@ namespace PhotoDemo
         }
 
         private void PlacesForm_Load(object sender, EventArgs e)
+        {          
+            gifImage = Image.FromFile("img/giphy.gif");
+            frameCount = gifImage.GetFrameCount(FrameDimension.Time);
+            getNextFrame();
+            updatePlaces();            
+        }
+        private void getNextFrame()
         {
-            updatePlaces();
+            currentFrame = (currentFrame + 1) % frameCount;
+            gifImage.SelectActiveFrame(FrameDimension.Time, currentFrame);
+            
+            pictureBox2.Image = gifImage;
+            currentFrame = (currentFrame + 1) % frameCount;
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -41,11 +58,12 @@ namespace PhotoDemo
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
-            // Optionally, you can add the new image to the list
             string imgPath = Path.Combine("img", Path.GetFileName(labelPath.Text));
-            var newPlace = new Place { 
-                Title = textBoxTitle.Text, 
-                ImagePath = imgPath 
+
+            var newPlace = new Place
+            {
+                Title = textBoxTitle.Text,
+                ImagePath = imgPath
             };
 
             File.Copy(labelPath.Text, imgPath, true);
@@ -58,6 +76,11 @@ namespace PhotoDemo
         {
             listBox1.Items.Clear();
             listBox1.Items.AddRange(placeManager.GetPlaces().ToArray());
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
