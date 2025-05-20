@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfrencePlanner", "ConfrencePlanner\ConfrencePlanner.csproj", "{BE846125-D462-4237-A263-A1559BFEC564}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE846125-D462-4237-A263-A1559BFEC564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE846125-D462-4237-A263-A1559BFEC564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE846125-D462-4237-A263-A1559BFEC564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE846125-D462-4237-A263-A1559BFEC564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02329B2A-38CA-4C9E-9658-F632926C9218}
+	EndGlobalSection
+EndGlobal
