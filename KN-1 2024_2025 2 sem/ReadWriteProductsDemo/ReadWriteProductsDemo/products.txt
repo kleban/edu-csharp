@@ -1,0 +1,6 @@
+﻿Name;Price;Quantity;Unit
+Product 1;34.5;56;gm
+Product 2;12.99;100;kg
+Product 3;5.5;200;pcs
+Product 4;15.0;50;box
+Product 5;20.0;30;set
