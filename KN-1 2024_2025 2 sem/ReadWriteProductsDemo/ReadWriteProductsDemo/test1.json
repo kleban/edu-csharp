@@ -1,0 +1,92 @@
+﻿[
+  {
+    "Name": "Product 1",
+    "Price": 34.5,
+    "Quantity": 56,
+    "Unit": "gm"
+  },
+  {
+    "Name": "Product 2",
+    "Price": 12.99,
+    "Quantity": 100,
+    "Unit": "kg"
+  },
+  {
+    "Name": "Product 3",
+    "Price": 5.5,
+    "Quantity": 200,
+    "Unit": "pcs"
+  },
+  {
+    "Name": "Product 4",
+    "Price": 15,
+    "Quantity": 50,
+    "Unit": "box"
+  },
+  {
+    "Name": "Product 5",
+    "Price": 20,
+    "Quantity": 30,
+    "Unit": "set"
+  },
+  {
+    "Name": "Product 319",
+    "Price": 88.9271,
+    "Quantity": 64,
+    "Unit": "pcs"
+  },
+  {
+    "Name": "Product 778",
+    "Price": 42.9783,
+    "Quantity": 1,
+    "Unit": "pcs"
+  },
+  {
+    "Name": "Product 396",
+    "Price": 73.1897,
+    "Quantity": 52,
+    "Unit": "pcs"
+  },
+  {
+    "Name": "Product 344",
+    "Price": 24.6104,
+    "Quantity": 38,
+    "Unit": "pcs"
+  },
+  {
+    "Name": "Product 83",
+    "Price": 85.2721,
+    "Quantity": 9,
+    "Unit": "pcs"
+  },
+  {
+    "Name": "Product 464",
+    "Price": 79.3388,
+    "Quantity": 50,
+    "Unit": "pcs"
+  },
+  {
+    "Name": "Product 734",
+    "Price": 65.535,
+    "Quantity": 43,
+    "Unit": "pcs"
+  },
+  {
+    "Name": "Product 397",
+    "Price": 0.12197802649914768,
+    "Quantity": 92,
+    "Unit": "pcs"
+  },
+  {
+    "Name": "Product 616",
+    "Price": 45.849850906076604,
+    "Quantity": 28,
+    "Unit": "pcs"
+  },
+  {
+    "Name": "Product 113",
+    "Price": 30.074937725083227,
+    "Quantity": 56,
+    "Unit": "pcs"
+  }
+]

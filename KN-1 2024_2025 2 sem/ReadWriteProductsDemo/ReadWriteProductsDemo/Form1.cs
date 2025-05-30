@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace ReadWriteProductsDemo
 {
     public partial class Form1 : Form
@@ -21,7 +23,7 @@ namespace ReadWriteProductsDemo
         {
             OpenFileDialog openFileDialog = new OpenFileDialog
             {
-                Filter = "Product Files|*.txt;|CSV Files (*.csv)|*.csv|All Files|*.*",
+                Filter = "MS Excel Files (*.xlsx)|*.xlsx|JSON Files (*.json)|*.json|Product Files|*.txt;|CSV Files (*.csv)|*.csv|All Files|*.*",
                 Title = "Open Product File"
             };
 
@@ -38,9 +40,16 @@ namespace ReadWriteProductsDemo
                         case "csv":
                             _readerWriter = new CsvProductReaderWriter();
                             break;
+                        case "xlsx":
+                            _readerWriter = new ExcelReaderWriter();
+                            break;
                         case "txt":
-                        default:
                             _readerWriter = new ProductReaderWriter();
+                            break;
+                        case "json":
+                            _readerWriter = new JsonReaderWriter();
+                            break;
+                        default:                            
                             break;
                     }
                     _products = _readerWriter.Read(openFileDialog.FileName);
@@ -71,7 +80,7 @@ namespace ReadWriteProductsDemo
         {
             SaveFileDialog saveFileDialog = new SaveFileDialog
             {
-                Filter = "Product Files|*.txt;*.csv|All Files|*.*",
+                Filter = "MS Excel Files (*.xlsx)|*.xlsx|JSON Files (*.json)|*.json|Product Files|*.txt;|CSV Files (*.csv)|*.csv|All Files|*.*",
                 Title = "Save Product File"
             };
 
@@ -79,6 +88,26 @@ namespace ReadWriteProductsDemo
 
             if (result == DialogResult.OK)
             {
+                FileInfo fileInfo = new FileInfo(saveFileDialog.FileName);
+                var ext = fileInfo.Extension.ToLower().TrimStart('.');
+                switch (ext)
+                {
+                    case "csv":
+                        _readerWriter = new CsvProductReaderWriter();
+                        break;
+                    case "xlsx":
+                        _readerWriter = new ExcelReaderWriter();
+                        break;
+                    case "txt":
+                        _readerWriter = new ProductReaderWriter();
+                        break;
+                    case "json":
+                        _readerWriter = new JsonReaderWriter();
+                        break;
+                    default:
+                        break;
+                }
+
                 _readerWriter.Write(_products, saveFileDialog.FileName);
             }
         }
