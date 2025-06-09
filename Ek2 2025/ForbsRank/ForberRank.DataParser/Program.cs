@@ -6,7 +6,7 @@ using ForberRank.DataParser;
 
 IEnumerable<ForbsDataItem> data = new List<ForbsDataItem>();
 
-using (var reader = new StreamReader("forbes_2022_billionaires.csv"))
+using (var reader = new StreamReader("forbes.csv"))
 using (var csv = new CsvReader(reader, new CultureInfo("en")))
 {
     data = csv.GetRecords<ForbsDataItem>().ToList();
