@@ -1,18 +1,22 @@
-﻿using Ionic.Zip;
+﻿using System.IO.Compression;
 using System.Text;
 
-Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-string folderPath = "E:\\edu-csharp\\KN-2 2025_2026 1 sem\\AssembliesDemo\\MathLibrary\\bin\\Debug\\net9.0";
-using (ZipFile zip = new ZipFile())
-{
-    foreach (var file in new DirectoryInfo(folderPath).GetFiles())
-    {
-        zip.AddFile(file.FullName, "");
-        Console.WriteLine($"File added: {file.Name}");
-    }
+string zipPath = @"d:\zip_demo\MyArchive.zip";
+/*string folderPath = @"d:\website";
 
-    var zipPath = Path.Combine(folderPath, "zip.zip");
-    zip.Save(zipPath);
-    Console.WriteLine(zip);
+using (ZipArchive archive = ZipFile.Open(zipPath, ZipArchiveMode.Update))
+{
+    foreach(var file in Directory.GetFiles(folderPath))
+    {        
+        archive.CreateEntryFromFile(file, Path.GetFileName(file));
+        Console.WriteLine($"file added to archive: {file}");
+    }
 }
 
+Console.WriteLine("Complete!");*/
+
+string extractPath = @"d:\zip_demo\extracted";
+
+ZipFile.ExtractToDirectory(zipPath, extractPath);
+
+Console.WriteLine($"Archive '{zipPath}' has been extracted to '{extractPath}'.");
