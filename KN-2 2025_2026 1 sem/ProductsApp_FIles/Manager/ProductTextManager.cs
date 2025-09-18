@@ -1,4 +1,5 @@
 ﻿using Data;
+using Manager.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,7 @@ namespace Manager
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    var parts = line.Split(',');
+                    var parts = line.Split('$');
                     if (parts.Length == 5)
                     {
                         var product = new Product
@@ -31,13 +32,15 @@ namespace Manager
                             Category = parts[3],
                             Quantity = double.Parse(parts[4])
                         };
+                                                
                         products.Add(product);
+
                     }
                 }
             }
             catch (FormatException fe)
             {
-                throw new FormatException("File format is incorrect", fe);
+                throw new WrongProductFileFormatException("File format is incorrect", fe);
             }
             catch (Exception ex)
             {
@@ -63,7 +66,7 @@ namespace Manager
 
                 foreach (var product in products)
                 {
-                    writer.WriteLine($"{product.Id},{product.Name},{product.Price},{product.Category},{product.Quantity}");
+                    writer.WriteLine($"{product.Id}${product.Name}${product.Price}${product.Category}${product.Quantity}");
                 }
             }
             catch (Exception ex)

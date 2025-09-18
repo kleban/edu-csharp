@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product id="1">
+		<name>Apple iPhone 15</name>
+		<price>999.99</price>
+		<category>Electronics</category>
+		<quantity>15</quantity>
+	</product>
+	<product id="2">
+		<name>Samsung Galaxy S23</name>
+		<price>899.99</price>
+		<category>Electronics</category>
+		<quantity>20</quantity>
+	</product>
+	<product id="3">
+		<name>Dell XPS 13</name>
+		<price>1299.00</price>
+		<category>Computers</category>
+		<quantity>10</quantity>
+	</product>
+	<product id="4">
+		<name>HP Envy 15</name>
+		<price>1149.00</price>
+		<category>Computers</category>
+		<quantity>8</quantity>
+	</product>
+	<product id="5">
+		<name>Nike Air Max</name>
+		<price>149.99</price>
+		<category>Fashion</category>
+		<quantity>50</quantity>
+	</product>
+	<product id="6">
+		<name>Adidas Ultraboost</name>
+		<price>179.99</price>
+		<category>Fashion</category>
+		<quantity>40</quantity>
+	</product>
+	<product id="7">
+		<name>Sony WH-1000XM5</name>
+		<price>349.99</price>
+		<category>Electronics</category>
+		<quantity>25</quantity>
+	</product>
+	<product id="8">
+		<name>Logitech MX Master 3S</name>
+		<price>99.99</price>
+		<category>Accessories</category>
+		<quantity>30</quantity>
+	</product>
+	<product id="9">
+		<name>Levi's 501 Jeans</name>
+		<price>59.99</price>
+		<category>Fashion</category>
+		<quantity>60</quantity>
+	</product>
+	<product id="10">
+		<name>Ikea Markus Chair</name>
+		<price>199.99</price>
+		<category>Furniture</category>
+		<quantity>12</quantity>
+	</product>
+	<product id="11">
+		<name>Logitech MX Master 3S</name>
+		<price>90.99</price>
+		<category>Accessories</category>
+		<quantity>27</quantity>
+	</product>
+	<product id="12">
+		<name>Levi's 501 Jeans</name>
+		<price>60.99</price>
+		<category>Fashion</category>
+		<quantity>64</quantity>
+	</product>
+	<product id="13">
+		<name>Sony WH-1000XM5</name>
+		<price>345.99</price>
+		<category>Electronics</category>
+		<quantity>21</quantity>
+	</product>
+	<product id="14">
+		<name>Logitech MX Master 3S</name>
+		<price>98.99</price>
+		<category>Accessories</category>
+		<quantity>29</quantity>
+	</product>
+	<product id="15">
+		<name>Samsung Galaxy S23</name>
+		<price>906.99</price>
+		<category>Electronics</category>
+		<quantity>24</quantity>
+	</product>
+	<product id="16">
+		<name>HP Envy 15</name>
+		<price>1139.00</price>
+		<category>Computers</category>
+		<quantity>5</quantity>
+	</product>
+</products>
