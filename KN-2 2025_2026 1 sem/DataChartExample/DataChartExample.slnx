@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DataChartExample.DataForm/DataChartExample.DataForm.csproj" />
+  <Project Path="DataChartExample.Domain/DataChartExample.Domain.csproj" />
+  <Project Path="DataChartExample.Infrastructure/DataChartExample.Infrastructure.csproj" />
+</Solution>
