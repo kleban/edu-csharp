@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ForbesRank.ConsoleApp/ForbesRank.ConsoleApp.csproj" />
+  <Project Path="ForbesRank.Domain/ForbesRank.Domain.csproj" />
+</Solution>
