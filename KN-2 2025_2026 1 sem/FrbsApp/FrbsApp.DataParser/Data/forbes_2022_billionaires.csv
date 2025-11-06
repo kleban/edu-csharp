@@ -1,0 +1,2669 @@
+rank,personName,age,finalWorth,category,country,city,birthDate
+1,Elon Musk,50,219000,Automotive,United States,Austin,6/28/1971
+2,Jeff Bezos,58,171000,Technology,United States,Seattle,1/12/1964
+3,Bernard Arnault & family,73,158000,Fashion & Retail,France,Paris,3/5/1949
+4,Bill Gates,66,129000,Technology,United States,Medina,10/28/1955
+5,Warren Buffett,91,118000,Finance & Investments,United States,Omaha,8/30/1930
+6,Larry Page,49,111000,Technology,United States,Palo Alto,3/26/1973
+7,Sergey Brin,48,107000,Technology,United States,Los Altos,8/21/1973
+8,Larry Ellison,77,106000,Technology,United States,Lanai,8/17/1944
+9,Steve Ballmer,66,91400,Technology,United States,Hunts Point,3/24/1956
+10,Mukesh Ambani,64,90700,Diversified,India,Mumbai,4/19/1957
+11,Gautam Adani & family,59,90000,Diversified,India,Ahmedabad,6/24/1962
+12,Michael Bloomberg,80,82000,Media & Entertainment,United States,New York,2/14/1942
+13,Carlos Slim Helu & family,82,81200,Telecom,Mexico,Mexico City,1/28/1940
+14,Francoise Bettencourt Meyers & family,68,74800,Fashion & Retail,France,Paris,7/10/1953
+15,Mark Zuckerberg,37,67300,Technology,United States,Palo Alto,5/14/1984
+16,Jim Walton,73,66200,Fashion & Retail,United States,Bentonville,6/7/1948
+17,Zhong Shanshan,67,65700,Food & Beverage,China,Hangzhou,12/1/1954
+18,Alice Walton,72,65300,Fashion & Retail,United States,Fort Worth,10/7/1949
+19,Rob Walton,77,65000,Fashion & Retail,United States,Bentonville,10/27/1944
+19,Changpeng Zhao,44,65000,Finance & Investments,Singapore,Singapore,9/10/1977
+21,Charles Koch,86,60000,Diversified,United States,Wichita,11/1/1935
+21,Julia Koch & family,59,60000,Diversified,United States,New York,4/12/1962
+23,Amancio Ortega,86,59600,Fashion & Retail,Spain,La Coruna,3/28/1936
+24,Michael Dell,57,55100,Technology,United States,Austin,2/23/1965
+25,Zhang Yiming,38,50000,Media & Entertainment,China,Beijing,1/1/1984
+26,David Thomson & family,64,49200,Media & Entertainment,Canada,Toronto,6/12/1957
+27,Phil Knight & family,84,47300,Fashion & Retail,United States,Hillsboro,2/24/1938
+28,Dieter Schwarz,82,47100,Fashion & Retail,Germany,Neckarsulm,9/24/1939
+29,Robin Zeng,53,44800,Automotive,China,Ningde,1/1/1969
+30,MacKenzie Scott,51,43600,Technology,United States,Seattle,4/7/1970
+31,Rodolphe Saadé & family,52,41400,Logistics,France,Marseille,3/3/1970
+32,François Pinault & family,85,40400,Fashion & Retail,France,Paris,8/21/1936
+33,Klaus-Michael Kuehne,84,37300,Logistics,Switzerland,Schindellegi,6/2/1937
+34,Ma Huateng,50,37200,Technology,China,Shenzhen,10/29/1971
+35,Beate Heister & Karl Albrecht Jr. & family,,36800,Fashion & Retail,Germany,,
+36,Giovanni Ferrero,57,36200,Food & Beverage,Belgium,Brussels,9/21/1964
+37,Li Ka-shing,93,34800,Diversified,Hong Kong,,6/13/1928
+37,Stephen Schwarzman,75,34800,Finance & Investments,United States,New York,2/14/1947
+39,Lee Shau Kee,94,32600,Real Estate,Hong Kong,Hong Kong,1/29/1928
+40,Len Blavatnik,64,32500,Diversified,United Kingdom,London,6/1/1957
+41,Jacqueline Mars,82,31700,Food & Beverage,United States,The Plains,10/10/1939
+41,John Mars,86,31700,Food & Beverage,United States,Jackson,10/15/1935
+43,Alain Wertheimer,73,31200,Fashion & Retail,United States,New York,8/28/1948
+43,Gerard Wertheimer,71,31200,Fashion & Retail,United States,New York,1/9/1951
+45,German Larrea Mota Velasco & family,68,30800,Metals & Mining,Mexico,Mexico City,10/26/1953
+46,Gina Rinehart,68,30200,Metals & Mining,Australia,Perth,2/9/1954
+47,Shiv Nadar,76,28700,Technology,India,Delhi,7/18/1945
+48,Jim Simons,83,28600,Finance & Investments,United States,East Setauket,4/25/1938
+49,He Xiangjian,79,28300,Manufacturing,China,Foshan,8/11/1942
+50,Miriam Adelson,76,27500,Gambling & Casinos,United States,Las Vegas,10/10/1945
+51,Dietrich Mateschitz,77,27400,Food & Beverage,Austria,Fuschl am See,5/20/1944
+52,Leonardo Del Vecchio & family,86,27300,Fashion & Retail,Italy,Milan,5/22/1935
+53,Ken Griffin,53,27200,Finance & Investments,United States,Chicago,10/15/1968
+54,Tadashi Yanai & family,73,26100,Fashion & Retail,Japan,Tokyo,2/7/1949
+55,William Lei Ding,50,25200,Technology,China,Hangzhou,10/1/1971
+56,Susanne Klatten,59,24300,Automotive,Germany,Bad Homburg,4/28/1962
+56,Cyrus Poonawalla,80,24300,Healthcare,India,Pune,5/11/1941
+56,Wang Wei,51,24300,Service,China,Shenzhen,10/1/1970
+59,Qin Yinglin,56,24100,Food & Beverage,China,Nanyang,4/17/1965
+60,Sam Bankman-Fried,30,24000,Finance & Investments,Bahamas,Nassau,3/5/1992
+61,Takemitsu Takizaki,76,23900,Manufacturing,Japan,Osaka,6/10/1945
+62,Li Shufu,58,23700,Automotive,China,Hangzhou,6/1/1963
+63,Emmanuel Besnier,51,23500,Food & Beverage,France,Laval,9/18/1970
+64,R. Budi Hartono,81,23200,Finance & Investments,Indonesia,Kudus,1/1/1941
+65,Leonard Lauder,89,23100,Fashion & Retail,United States,New York,3/19/1933
+66,Guillaume Pousaz,40,23000,Finance & Investments,,,8/15/1981
+67,Iris Fontbona & family,79,22800,Metals & Mining,Chile,Santiago,1/1/1943
+67,Jack Ma,57,22800,Technology,China,Hangzhou,9/10/1964
+69,Michael Hartono,82,22300,Manufacturing,Indonesia,Kudus,10/2/1939
+70,Eric Schmidt,66,22100,Technology,United States,Atherton,4/27/1955
+71,Ray Dalio,72,22000,Finance & Investments,United States,Greenwich,8/8/1949
+71,Daniel Gilbert,60,22000,Finance & Investments,United States,Franklin,1/17/1962
+73,"Thomas Frist, Jr. & family",83,21800,Healthcare,United States,Nashville,8/12/1938
+74,Masayoshi Son,64,21300,Telecom,Japan,Tokyo,8/11/1957
+75,Abigail Johnson,60,21200,Finance & Investments,United States,Milton,12/19/1961
+76,Rupert Murdoch & family,91,20800,Media & Entertainment,United States,New York,3/11/1931
+77,Stefan Quandt,55,20700,Automotive,Germany,Frankfurt,5/9/1966
+78,Jensen Huang,59,20600,Technology,United States,Los Altos,2/17/1963
+79,Huang Shilin,55,20300,Automotive,China,Ningde,1/1/1967
+80,Thomas Peterffy,77,20100,Finance & Investments,United States,Palm Beach,9/30/1944
+81,Radhakishan Damani,67,20000,Fashion & Retail,India,Mumbai,1/1/1955
+82,Pang Kang,66,19600,Food & Beverage,China,Foshan,1/19/1956
+83,Wang Chuanfu,56,19500,Automotive,China,Shenzhen,2/15/1966
+84,Reinhold Wuerth & family,86,19000,Manufacturing,Germany,Kuenzelsau,4/20/1935
+85,"Theo Albrecht, Jr. & family",71,18700,Fashion & Retail,Germany,Mulheim an der Ruhr,1/1/1951
+85,Yang Huiyan & family,40,18700,Real Estate,China,Foshan,9/27/1981
+87,Vladimir Lisin,65,18400,Metals & Mining,Russia,Moscow,5/7/1956
+88,Fan Hongwei & family,55,18200,Energy,China,Wujiang,1/1/1967
+89,Lakshmi Mittal,71,17900,Metals & Mining,United Kingdom,London,6/15/1950
+90,Andrew Forrest,60,17800,Metals & Mining,Australia,Perth,11/18/1961
+91,Jiang Rensheng & family,68,17700,Healthcare,China,Chongqing,10/8/1953
+91,Savitri Jindal & family,72,17700,Metals & Mining,India,Hisar,3/20/1950
+91,Wang Wenyin,54,17700,Metals & Mining,China,Shenzhen,1/1/1968
+94,Li Xiting,71,17600,Healthcare,China,Shenzhen,1/1/1951
+94,Stefan Persson,74,17600,Fashion & Retail,Sweden,Stockholm,10/4/1947
+96,Steve Cohen,65,17400,Finance & Investments,United States,Greenwich,6/11/1956
+97,Vladimir Potanin,61,17300,Metals & Mining,Russia,Moscow,1/3/1961
+98,Harold Hamm & family,76,17200,Energy,United States,Oklahoma City,12/11/1945
+99,Sun Piaoyang,63,17100,Healthcare,China,Lianyungang,9/1/1958
+100,Luo Liguo & family,66,17000,Manufacturing,China,Ningbo,3/1/1956
+100,Peter Woo,75,17000,Real Estate,Hong Kong,Hong Kong,9/5/1946
+102,Gianluigi & Rafaela Aponte,81,16800,Logistics,Switzerland,Geneva,6/27/1940
+103,David Tepper,64,16700,Finance & Investments,United States,Palm Beach,9/11/1957
+104,Renata Kellnerova & family,54,16600,Finance & Investments,Czechia,Prague,7/4/1967
+104,"John Menard, Jr.",82,16600,Fashion & Retail,United States,Eau Claire,1/22/1940
+106,Kumar Birla,54,16500,Diversified,India,Mumbai,6/14/1967
+106,Carl Icahn,86,16500,Finance & Investments,United States,Indian Creek,2/16/1936
+106,Hank & Doug Meijer,,16500,Fashion & Retail,United States,Grand Rapids,
+106,Lukas Walton,35,16500,Fashion & Retail,United States,Jackson,9/19/1986
+110,Laurene Powell Jobs & family,58,16400,Technology,United States,Palo Alto,11/6/1963
+111,James Ratcliffe,69,16300,Manufacturing,United Kingdom,London,1/1/1953
+112,Donald Bren,89,16200,Real Estate,United States,Newport Beach,5/11/1932
+113,Xu Hang,55,16100,Healthcare,China,Shenzhen,5/22/1966
+114,Lu Xiangyang,59,15700,Automotive,China,Guangzhou,12/28/1962
+115,Dilip Shanghvi,66,15600,Healthcare,India,Mumbai,10/1/1955
+116,Wei Jianjun & family,58,15500,Automotive,China,Baoding,3/1/1964
+117,Jorge Paulo Lemann & family,82,15400,Food & Beverage,Switzerland,Zurich,8/26/1939
+117,Eyal Ofer,71,15400,Diversified,Monaco,Monte Carlo,6/2/1950
+119,Mike Cannon-Brookes,42,15300,Technology,Australia,Sydney,11/17/1979
+119,Wu Yajun,58,15300,Real Estate,China,Beijing,1/1/1964
+121,Charlene de Carvalho-Heineken & family,67,15200,Food & Beverage,United Kingdom,London,6/30/1954
+121,Michael Platt,54,15200,Finance & Investments,Switzerland,Geneva,3/18/1968
+123,Pavel Durov,37,15100,Technology,United Arab Emirates,Dubai,10/10/1984
+123,Scott Farquhar,42,15100,Technology,Australia,Sydney,12/17/1979
+125,Pallonji Mistry,92,15000,Construction & Engineering,India,Mumbai,6/1/1929
+126,Dang Yanbao,49,14800,Metals & Mining,China,Yinchuan,2/1/1973
+127,Robert Pera,44,14600,Technology,United States,San Jose,3/10/1978
+128,Donald Newhouse,92,14400,Media & Entertainment,United States,New York,8/5/1929
+129,Uday Kotak,63,14300,Finance & Investments,India,Mumbai,3/15/1959
+130,Aliko Dangote,64,14000,Manufacturing,Nigeria,Lagos,4/10/1957
+130,Leonid Mikhelson,66,14000,Energy,Russia,Moscow,8/11/1955
+132,Sunil Mittal & family,64,13900,Telecom,India,Delhi,10/23/1957
+133,Robert & Philip Ng,,13700,Real Estate,Singapore,Singapore,
+134,Liu Hanyuan,58,13650,Food & Beverage,China,Chengdu,1/1/1964
+135,Joseph Lau,70,13600,Real Estate,Hong Kong,Hong Kong,7/21/1951
+135,Anders Holch Povlsen,49,13600,Fashion & Retail,Denmark,Aarhus,11/4/1972
+137,Dhanin Chearavanont,82,13500,Diversified,Thailand,Bangkok,4/19/1939
+138,Gong Hongjia & family,57,13200,Finance & Investments,Hong Kong,Hong Kong,1/1/1965
+138,Liu Yongxing,73,13200,Service,China,Shanghai,6/1/1948
+138,Alexey Mordashov,56,13200,Metals & Mining,Russia,Moscow,9/26/1965
+138,Wang Jianlin,67,13200,Real Estate,China,Beijing,10/1/1954
+142,David Duffield,81,12900,Technology,United States,Incline Village,9/21/1940
+142,Li Zhenguo & family,54,12900,Manufacturing,China,Xi'an,1/1/1968
+144,Harry Triguboff,89,12800,Real Estate,Australia,Sydney,3/3/1933
+144,Zhang Zhidong,50,12800,Technology,China,Shenzhen,1/1/1972
+146,Chen Bang,56,12700,Healthcare,China,Changsha,9/1/1965
+146,John Doerr,70,12700,Technology,United States,Woodside,6/29/1951
+146,Hinduja brothers,,12700,Diversified,United Kingdom,London,
+149,Kwong Siu-hing,92,12600,Real Estate,Hong Kong,Hong Kong,12/2/1929
+150,Pei Zhenhua,63,12500,Energy,China,Ningde,1/1/1959
+151,Ricardo Salinas Pliego & family,66,12400,Fashion & Retail,Mexico,Mexico City,10/19/1955
+152,Jim Pattison,93,12200,Diversified,Canada,Vancouver,10/1/1928
+152,Charles Schwab,84,12200,Finance & Investments,United States,Woodside,7/29/1937
+154,Goh Cheng Liang,94,12100,Manufacturing,Singapore,Singapore,6/27/1927
+154,Lin Jianhua & family,59,12100,Manufacturing,China,Hangzhou,8/1/1962
+156,Charoen Sirivadhanabhakdi,77,12000,Food & Beverage,Thailand,Bangkok,5/2/1944
+156,Jeff Yass,63,12000,Finance & Investments,United States,Haverford,7/17/1958
+158,John Fredriksen,77,11900,Logistics,United Kingdom,London,2/1/1945
+158,Andreas Struengmann & family,72,11900,Healthcare,Germany,Tegernsee,2/16/1950
+158,Thomas Struengmann & family,72,11900,Healthcare,Germany,Tegernsee,2/16/1950
+161,Mikhail Fridman,57,11800,Energy,United Kingdom,London,4/21/1964
+161,Sarath Ratanavadi,56,11800,Energy,Thailand,Bangkok,7/12/1965
+163,Robert Kuok,98,11700,Diversified,Hong Kong,Hong Kong,10/6/1923
+163,Lei Jun,52,11700,Technology,China,Beijing,12/16/1969
+163,Zhang Congyuan,74,11700,Fashion & Retail,,,1/1/1948
+166,Lui Che Woo,93,11600,Gambling & Casinos,Hong Kong,Hong Kong,4/1/1929
+167,Brian Chesky,40,11500,Technology,United States,San Francisco,8/29/1981
+167,Israel Englander,73,11500,Finance & Investments,United States,New York,9/30/1948
+167,Dustin Moskovitz,37,11500,Technology,United States,San Francisco,5/22/1984
+167,Alisher Usmanov,68,11500,Metals & Mining,Russia,Moscow,9/9/1953
+171,Jay Chaudhry,62,11400,Technology,United States,Reno,8/26/1959
+171,Anthony Pratt,61,11400,Manufacturing,Australia,Melbourne,4/11/1960
+173,Colin Zheng Huang,42,11300,Technology,China,Shanghai,2/2/1980
+173,Jin Baofang,69,11300,Energy,China,Xingtai,9/1/1952
+173,Pierre Omidyar,54,11300,Technology,United States,Honolulu,6/21/1967
+173,Gennady Timchenko,69,11300,Energy,Russia,Moscow,11/9/1952
+177,Carl Cook,59,11100,Healthcare,United States,Bloomington,8/19/1962
+177,Andrey Melnichenko,50,11100,Metals & Mining,Russia,Moscow,3/8/1972
+179,Xing Wang,43,11000,Technology,China,Beijing,2/18/1979
+180,Philip Anschutz,82,10900,Finance & Investments,United States,Denver,12/28/1939
+180,David Cheriton,71,10900,Technology,United States,Palo Alto,3/29/1951
+180,Alexander Otto,54,10900,Real Estate,Germany,Hamburg,7/7/1967
+183,Diane Hendricks,75,10700,Construction & Engineering,United States,Afton,3/2/1947
+183,Stanley Kroenke,74,10700,Sports,United States,Electra,7/29/1947
+185,Jerry Jones,79,10600,Sports,United States,Dallas,10/13/1942
+185,Quek Leng Chan,80,10600,Diversified,Malaysia,Kuala Lumpur,8/12/1941
+185,Eduardo Saverin,40,10600,Technology,Singapore,Singapore,3/19/1982
+188,Vagit Alekperov,71,10500,Energy,Russia,Moscow,9/1/1950
+188,Richard Qiangdong Liu,48,10500,Technology,China,Beijing,3/10/1974
+188,Idan Ofer,66,10500,Diversified,United Kingdom,London,10/2/1955
+191,Melker Schorling & family,74,10400,Finance & Investments,Sweden,Stockholm,5/15/1947
+192,"Chase Coleman, III.",46,10300,Finance & Investments,United States,New York,6/21/1975
+192,Shuirong Li,65,10300,Manufacturing,China,Hangzhou,7/1/1956
+192,Stefano Pessina,80,10300,Fashion & Retail,Monaco,Monte Carlo,6/4/1941
+192,Mikhail Prokhorov,56,10300,Finance & Investments,Russia,Moscow,5/3/1965
+192,Marcel Herrmann Telles,72,10300,Food & Beverage,Brazil,Sao Paulo,1/1/1950
+197,Leon Black,70,10000,Finance & Investments,United States,New York,7/31/1951
+197,Joe Gebbia,40,10000,Technology,United States,San Francisco,8/21/1981
+197,David Geffen,79,10000,Media & Entertainment,United States,Beverly Hills,2/21/1943
+197,Yu Renrong,56,10000,Manufacturing,China,Ningbo,4/1/1966
+201,Andrew Beal,69,9900,Finance & Investments,United States,Dallas,11/29/1952
+201,George Kaiser,79,9900,Energy,United States,Tulsa,7/29/1942
+201,Qi Shi & family,52,9900,Technology,China,Shanghai,1/3/1970
+201,Luis Carlos Sarmiento,89,9900,Finance & Investments,Colombia,Bogota,1/27/1933
+201,Andreas von Bechtolsheim & family,66,9900,Technology,United States,Palo Alto,9/30/1955
+206,Jan Koum,46,9800,Technology,United States,Atherton,2/24/1976
+206,Jorge Moll Filho & family,77,9800,Healthcare,Brazil,Rio de Janeiro,1/1/1945
+206,Azim Premji,76,9800,Technology,India,Bangalore,7/24/1945
+206,Finn Rausing,67,9800,Food & Beverage,United Kingdom,London,1/1/1955
+206,Jorn Rausing,62,9800,Food & Beverage,United Kingdom,Surrey,1/1/1960
+206,Kirsten Rausing,69,9800,Food & Beverage,United Kingdom,Newmarket,6/6/1952
+206,Wang Laisheng,57,9800,Technology,China,Shenzhen,12/14/1964
+213,Tom & Judy Love,,9700,Fashion & Retail,United States,Oklahoma City,
+214,John Collison,31,9500,Technology,United States,San Francisco,8/6/1990
+214,Patrick Collison,33,9500,Technology,United States,San Francisco,9/9/1988
+214,Gordon Moore,93,9500,Technology,United States,Woodside,1/3/1929
+214,Wang Laichun,54,9500,Technology,China,Shenzhen,6/3/1967
+218,Graeme Hart,66,9400,Finance & Investments,New Zealand,Auckland,6/6/1955
+218,Zheng Shuliang & family,76,9400,Metals & Mining,China,Binzhou,1/1/1946
+220,Cao Renxian,53,9300,Energy,China,Hefei,7/24/1968
+221,Nathan Blecharczyk,38,9200,Technology,United States,San Francisco,6/11/1983
+221,James Dyson,74,9200,Manufacturing,United Kingdom,Gloucestershire,5/2/1947
+223,Ivan Glasenberg,65,9100,Metals & Mining,Switzerland,Ruschlikon,1/7/1957
+223,Kim Beom-su,56,9100,Technology,South Korea,Seoul,3/27/1966
+223,Jay Y. Lee,53,9100,Diversified,South Korea,Seoul,6/23/1968
+223,Liu Yonghao & family,70,9100,Service,China,Chengdu,9/1/1951
+227,Ann Walton Kroenke,73,9000,Fashion & Retail,United States,Electra,12/18/1948
+227,Li Ping,54,9000,Automotive,China,Ningde,1/1/1968
+227,Eric Wittouck,75,9000,Finance & Investments,Monaco,,10/1/1946
+230,Ian & Richard Livingstone,,8900,Real Estate,United Kingdom,London,
+230,Friedhelm Loh,75,8900,Manufacturing,Germany,Haiger,8/15/1946
+230,Xavier Niel,54,8900,Telecom,France,Paris,8/25/1967
+230,Michael Otto,78,8900,Fashion & Retail,Germany,Hamburg,4/12/1943
+230,Johann Rupert & family,71,8900,Fashion & Retail,South Africa,Cape Town,6/1/1950
+235,Hui Ka Yan,63,8800,Real Estate,China,Shenzhen,10/1/1958
+235,Pauline MacMillan Keinath,88,8800,Food & Beverage,United States,St. Louis,1/1/1934
+235,"Herbert Kohler, Jr. & family",83,8800,Manufacturing,United States,Kohler,2/20/1939
+235,Li Ge,55,8800,Healthcare,China,Shanghai,1/1/1967
+235,Kushal Pal Singh,90,8800,Real Estate,India,Delhi,8/15/1931
+235,Zong Qinghou,76,8800,Food & Beverage,China,Hangzhou,10/1/1945
+241,Cai Kui,59,8700,Real Estate,China,Chengdu,1/1/1963
+241,Charles Ergen,69,8700,Media & Entertainment,United States,Denver,3/1/1953
+241,Gao Jifan & family,57,8700,Energy,China,Changzhou,1/1/1965
+241,Bernard Marcus,92,8700,Fashion & Retail,United States,Atlanta,5/12/1929
+241,Nicky Oppenheimer & family,76,8700,Metals & Mining,South Africa,Johannesburg,6/8/1945
+246,Bajaj brothers,,8600,Diversified,India,Mumbai,
+246,"Ernest Garcia, II.",64,8600,Automotive,United States,Tempe,5/21/1957
+246,Paul Xiaoming Lee & family,64,8600,Manufacturing,China,Yuxi,1/1/1958
+246,George Soros,91,8600,Finance & Investments,United States,Katonah,8/12/1930
+246,Wang Liping & family,56,8600,Manufacturing,China,Changzhou,2/24/1966
+251,Ernesto Bertarelli,56,8500,Healthcare,Switzerland,Gstaad,9/22/1965
+251,Tamara Gustavson,60,8500,Service,United States,Lexington,11/16/1961
+251,Carlos Alberto Sicupira & family,74,8500,Food & Beverage,Switzerland,St. Gallen,1/1/1948
+254,Laurent Dassault,68,8400,Diversified,France,Paris,7/7/1953
+254,Thierry Dassault,65,8400,Diversified,France,Paris,3/26/1957
+254,Marie-Hélène Habert-Dassault,57,8400,Diversified,France,Paris,4/4/1965
+254,Liu Jincheng & family,57,8400,Technology,China,Huizhou,9/22/1964
+254,Ma Jianrong & family,58,8400,Fashion & Retail,China,Ningbo,1/1/1964
+254,Steven Rales,71,8400,Manufacturing,United States,Santa Barbara,3/31/1951
+254,Joseph Tsai,58,8400,Technology,Hong Kong,Hong Kong,1/19/1964
+254,Francine von Finck & family,,8400,Finance & Investments,Switzerland,Thurgau,
+254,Anthony von Mandl,72,8400,Food & Beverage,Canada,Vancouver,3/10/1950
+263,Carl Bennet,70,8300,Finance & Investments,Sweden,Gothenberg,8/19/1951
+263,Robert Kraft,80,8300,Sports,United States,Brookline,6/5/1941
+263,Chairul Tanjung,59,8300,Diversified,Indonesia,Jakarta,6/18/1962
+263,Manuel Villar,72,8300,Real Estate,Philippines,Manila,12/13/1949
+267,Jean-Michel Besnier,54,8200,Food & Beverage,France,Laval,6/5/1967
+267,Marie Besnier Beauvalot,41,8200,Food & Beverage,France,Laval,7/30/1980
+267,Gustaf Douglas,84,8200,Diversified,Sweden,Stockholm,3/3/1938
+267,Kjeld Kirk Kristiansen,74,8200,Manufacturing,Denmark,Billund,12/27/1947
+267,Sofie Kirk Kristiansen,46,8200,Manufacturing,Denmark,Billund,1/1/1976
+267,Thomas Kirk Kristiansen,43,8200,Manufacturing,Denmark,Billund,1/1/1979
+267,Stephen Ross,81,8200,Real Estate,United States,New York,5/10/1940
+267,Agnete Kirk Thinggaard,38,8200,Manufacturing,Denmark,Billund,5/18/1983
+275,Marc Benioff,57,8100,Technology,United States,San Francisco,9/25/1964
+275,Dmitri Bukhman,36,8100,Media & Entertainment,United Kingdom,London,5/27/1985
+275,Igor Bukhman,40,8100,Media & Entertainment,United Kingdom,London,3/29/1982
+275,Francis Choi,74,8100,Real Estate,Hong Kong,Hong Kong,9/18/1947
+275,Murali Divi & family,71,8100,Healthcare,India,Hyderabad,3/17/1951
+275,Nancy Walton Laurie,70,8100,Fashion & Retail,United States,Henderson,5/15/1951
+275,Georg Schaeffler,57,8100,Automotive,Germany,Herzogenaurach,10/19/1964
+275,Yao Liangsong,57,8100,Manufacturing,China,Guangzhou,8/1/1964
+275,Zhong Huijuan,61,8100,Healthcare,China,Shanghai,1/1/1961
+284,Stewart & Lynda Resnick,,8000,Food & Beverage,United States,Beverly Hills,
+284,George Roberts,78,8000,Finance & Investments,United States,Atherton,9/14/1943
+284,Michael Rubin,49,8000,Fashion & Retail,United States,Bryn Mawr,7/21/1972
+284,Patrick Ryan,84,8000,Finance & Investments,United States,Winnetka,5/15/1937
+288,Christopher Hohn,55,7900,Finance & Investments,United Kingdom,London,10/27/1966
+288,Marijke Mars,57,7900,Food & Beverage,United States,Los Angeles,7/28/1964
+288,Pamela Mars,61,7900,Food & Beverage,United States,Alexandria,8/1/1960
+288,Valerie Mars,63,7900,Food & Beverage,United States,New York,1/26/1959
+288,Victoria Mars,65,7900,Food & Beverage,United States,Philadelphia,12/15/1956
+288,Hasso Plattner & family,78,7900,Technology,Germany,Heidelberg,1/21/1944
+288,Georg Stumpf,49,7900,Diversified,Austria,Vienna,9/14/1972
+288,Christy Walton,73,7900,Fashion & Retail,United States,Jackson,2/8/1949
+296,Giorgio Armani,87,7800,Fashion & Retail,Italy,Milan,7/11/1934
+296,Gopikishan Damani,64,7800,Fashion & Retail,India,Mumbai,1/1/1958
+296,Ding Shizhong & family,51,7800,Fashion & Retail,China,Quanzhou,12/1/1970
+296,Jim Kennedy,74,7800,Media & Entertainment,United States,Atlanta,11/29/1947
+296,German Khan,60,7800,Energy,United Kingdom,London,10/24/1961
+296,Liang Wengen,65,7800,Manufacturing,China,Changsha,12/14/1956
+296,Blair Parry-Okeden,71,7800,Media & Entertainment,Australia,New South Wales,5/21/1950
+296,Tsai Eng-meng,65,7800,Food & Beverage,China,Shanghai,1/15/1957
+304,Bajaj siblings,,7700,Automotive,India,Pune,
+304,Ashwin Dani & family,79,7700,Manufacturing,India,Mumbai,10/24/1942
+304,Ding Shijia,58,7700,Fashion & Retail,China,Quanzhou,1/1/1964
+304,Karel Komarek,53,7700,Gambling & Casinos,Switzerland,Verbier,3/15/1969
+304,Henry Kravis,78,7700,Finance & Investments,United States,New York,1/6/1944
+304,Frederik Paulsen,71,7700,Healthcare,Switzerland,Lausanne,10/30/1950
+304,Safra siblings,,7700,Finance & Investments,Brazil,Sao Paulo,
+304,Nassef Sawiris,61,7700,Construction & Engineering,Egypt,Cairo,1/19/1961
+304,Xu Shihui,64,7700,Food & Beverage,China,Quanzhou,1/1/1958
+313,Rahel Blocher,46,7600,Manufacturing,Switzerland,Wilen bei Wollerau,1/1/1976
+313,Shahid Khan,71,7600,Automotive,United States,Naples,7/18/1950
+313,Magdalena Martullo-Blocher,53,7600,Manufacturing,Switzerland,Feldmeilen,1/1/1969
+316,Vincent Bolloré & family,70,7500,Finance & Investments,France,Paris,4/1/1952
+316,Jeffery Hildebrand,63,7500,Energy,United States,Houston,3/5/1959
+316,Michael Kim,58,7500,Finance & Investments,South Korea,Seoul,10/1/1963
+316,Richard Kinder,77,7500,Energy,United States,Houston,10/19/1944
+316,David Shaw,71,7500,Finance & Investments,United States,New York,3/29/1951
+321,John Malone,81,7400,Media & Entertainment,United States,Elizabeth,3/7/1941
+321,Vicky Safra,69,7400,Finance & Investments,Switzerland,Crans-Montana,1/1/1953
+321,Tim Sweeney,51,7400,Media & Entertainment,United States,Cary,12/13/1970
+324,Mike Adenuga,68,7300,Diversified,Nigeria,Lagos,4/29/1953
+324,David Green & family,80,7300,Fashion & Retail,United States,Oklahoma City,11/13/1941
+324,"Paul Tudor Jones, II.",67,7300,Finance & Investments,United States,Palm Beach,9/28/1954
+324,Yuri Milner,60,7300,Finance & Investments,United States,Los Altos,11/11/1961
+324,Henry Samueli,67,7300,Technology,United States,Newport Beach,9/20/1954
+324,Patrick Soon-Shiong,69,7300,Healthcare,United States,Los Angeles,7/29/1952
+330,Antonia Ax:son Johnson & family,78,7200,Diversified,Sweden,Stockholm,9/6/1943
+330,Michael Kadoorie,80,7200,Energy,Hong Kong,Hong Kong,7/19/1941
+330,Lin Shu-hong,93,7200,Manufacturing,Taiwan,Taipei,8/1/1928
+330,Niels Peter Louis-Hansen,74,7200,Healthcare,Denmark,Humlebaek,10/25/1947
+330,Reinhold Schmieding,67,7200,Healthcare,United States,Naples,1/3/1955
+330,Wee Cho Yaw,93,7200,Finance & Investments,Singapore,Singapore,1/10/1929
+336,Silvio Berlusconi & family,85,7100,Diversified,Italy,Milan,9/29/1936
+336,Arthur Blank,79,7100,Sports,United States,Atlanta,9/27/1942
+336,Qian Dongqi & family,64,7100,Manufacturing,China,Suzhou,1/1/1958
+336,J. Christopher Reyes,68,7100,Food & Beverage,United States,Hobe Sound,12/29/1953
+336,Jude Reyes,66,7100,Food & Beverage,United States,Palm Beach,9/16/1955
+336,Nik Storonsky,37,7100,Finance & Investments,United Kingdom,London,7/21/1984
+336,Zhou Qunfei & family,52,7100,Technology,Hong Kong,Hong Kong,
+343,Deng Weiming & family,53,7000,Manufacturing,China,Changsha,9/1/1968
+343,Judy Faulkner,78,7000,Technology,United States,Madison,8/11/1943
+343,Robin Li,53,7000,Technology,China,Beijing,11/17/1968
+343,Carrie Perrodo & family,71,7000,Energy,United Kingdom,London,1/1/1951
+343,David Reuben,83,7000,Real Estate,United Kingdom,London,9/1/1938
+343,Simon Reuben,80,7000,Diversified,Monaco,Monaco,5/1/1941
+343,Seo Jung-jin,64,7000,Healthcare,South Korea,Seoul,10/23/1957
+350,Roman Abramovich,55,6900,Diversified,Russia,Moscow,10/24/1966
+350,Micky Arison,72,6900,Service,United States,Bal Harbour,6/29/1949
+350,Edythe Broad & family,86,6900,Diversified,United States,Los Angeles,1/1/1936
+350,Terry Gou,71,6900,Technology,Taiwan,Taipei,10/18/1950
+350,Jiang Bin,55,6900,Technology,China,Weifang,9/16/1966
+350,Vinod Khosla,67,6900,Technology,United States,Portola Valley,1/28/1955
+350,Ralph Lauren,82,6900,Fashion & Retail,United States,New York,10/14/1939
+350,Douglas Leone,64,6900,Finance & Investments,United States,Atherton,7/4/1957
+350,Lucia Maggi & family,89,6900,Diversified,Brazil,Rondonopolis,7/20/1932
+350,Horst Julius Pudwill,77,6900,Manufacturing,Hong Kong,Hong Kong,10/23/1944
+350,Abdulsamad Rabiu,61,6900,Diversified,Nigeria,Lagos,8/4/1960
+350,Harry Stine,80,6900,Food & Beverage,United States,Adel,11/30/1941
+350,Dennis Washington,87,6900,Logistics,United States,Missoula,7/27/1934
+363,Hasmukh Chudgar & family,88,6800,Healthcare,India,Ahmedabad,9/19/1933
+363,Stanley Druckenmiller,68,6800,Finance & Investments,United States,New York,6/14/1953
+363,Jonathan Gray,52,6800,Finance & Investments,United States,New York,2/4/1970
+363,Kwon Hyuk-bin,48,6800,Technology,South Korea,Seoul,1/1/1974
+363,Frank Lowy,91,6800,Real Estate,Israel,Tel Aviv,10/22/1930
+363,Ronda Stryker,67,6800,Healthcare,United States,Portage,5/1/1954
+369,Alejandro Bailleres Gual & siblings,61,6700,Diversified,Mexico,,1/1/1961
+369,Benu Gopal Bangur,90,6700,Manufacturing,India,Kolkata,6/1/1931
+369,James Goodnight,79,6700,Technology,United States,Cary,1/6/1943
+369,Alain Merieux & family,84,6700,Healthcare,France,Lyon,1/1/1938
+369,Enrique Razon Jr.,62,6700,Logistics,Philippines,Manila,3/3/1960
+369,Robert F. Smith,59,6700,Finance & Investments,United States,Austin,12/1/1962
+375,Brian Armstrong,39,6600,Finance & Investments,United States,San Francisco,1/25/1983
+375,Dannine Avara,58,6600,Energy,United States,Houston,3/9/1964
+375,Patrick Drahi,58,6600,Telecom,Switzerland,Zermatt,8/20/1963
+375,Scott Duncan,39,6600,Energy,United States,Houston,11/1/1982
+375,Milane Frantz,52,6600,Energy,United States,Houston,8/12/1969
+375,Andreas Halvorsen,60,6600,Finance & Investments,United States,Darien,4/23/1961
+375,Law Kar Po,73,6600,Real Estate,Hong Kong,Hong Kong,8/2/1948
+375,Nicolas Puech,79,6600,Fashion & Retail,Switzerland,Martigny,1/29/1943
+375,Viktor Rashnikov,73,6600,Manufacturing,Russia,Magnitogorsk,10/13/1948
+375,Dmitry Rybolovlev,55,6600,Manufacturing,Monaco,Monaco,11/22/1966
+375,Randa Duncan Williams,60,6600,Energy,United States,Houston,8/28/1961
+386,Chen Jianhua,51,6500,Manufacturing,China,Wujiang,1/1/1971
+386,John Grayken,65,6500,Finance & Investments,United Kingdom,London,6/1/1956
+386,Ray Lee Hunt,78,6500,Energy,United States,Dallas,4/6/1943
+386,Philippe Laffont,54,6500,Finance & Investments,United States,New York,9/16/1967
+386,"Henry Nicholas, III.",62,6500,Technology,United States,Newport Coast,10/8/1959
+386,Axel Oberwelland & siblings,55,6500,Food & Beverage,Germany,Berlin,1/1/1967
+386,Cliff Obrecht,36,6500,Technology,Australia,Sydney,12/28/1985
+386,John Overdeck,52,6500,Finance & Investments,United States,Millburn,12/21/1969
+386,Melanie Perkins,34,6500,Technology,Australia,Sydney,5/13/1987
+386,Ruan Hongliang & family,61,6500,Manufacturing,China,Jiaxing,1/1/1961
+386,David Siegel,60,6500,Finance & Investments,United States,Scarsdale,7/15/1961
+386,David Velez,40,6500,Finance & Investments,Brazil,Sao Paulo,10/2/1981
+398,Juergen Blickle,75,6400,Manufacturing,Germany,Bruchsal,1/1/1947
+398,Cheng Xue,52,6400,Food & Beverage,China,Foshan,2/26/1970
+398,Jack Dangermond,76,6400,Technology,United States,Redlands,7/23/1945
+398,Jiang Weiping & family,67,6400,Manufacturing,China,Chengdu,3/1/1955
+398,Takahisa Takahara,60,6400,Fashion & Retail,Japan,Tokyo,7/12/1961
+403,Orlando Bravo,51,6300,Finance & Investments,United States,Miami Beach,9/23/1970
+403,Hong Ra-hee,76,6300,Technology,South Korea,Seoul,7/15/1945
+403,"Edward Johnson, IV.",57,6300,Finance & Investments,United States,Boston,11/18/1964
+403,Li Xiaohua & family,60,6300,Manufacturing,China,Yuxi,1/1/1962
+403,Sri Prakash Lohia,69,6300,Manufacturing,United Kingdom,London,8/11/1952
+403,Miao Hangen,57,6300,Diversified,China,Suzhou,1/1/1965
+403,Bobby Murphy,33,6300,Technology,United States,Venice,7/19/1988
+403,Wu Jianshu,58,6300,Automotive,China,Ningbo,1/1/1964
+411,Maria Asuncion Aramburuzabala & family,58,6200,Food & Beverage,Mexico,Mexico City,5/2/1963
+411,Melinda French Gates,57,6200,Technology,United States,Medina,8/15/1964
+411,Bruce Kovner,77,6200,Finance & Investments,United States,New York,2/25/1945
+411,Pham Nhat Vuong,53,6200,Diversified,Vietnam,Hanoi,8/5/1968
+411,Michal Solowow,59,6200,Finance & Investments,Poland,Kielce,7/11/1962
+411,Leonard Stern,84,6200,Real Estate,United States,New York,3/28/1938
+411,Stef Wertheimer & family,95,6200,Manufacturing,Israel,Tel Aviv,7/16/1926
+418,Rocco Commisso,72,6100,Telecom,United States,Saddle River,11/25/1949
+418,Jack Dorsey,45,6100,Technology,United States,San Francisco,11/19/1976
+418,Lin Li,58,6100,Finance & Investments,China,Shenzhen,5/1/1963
+418,George Lucas,77,6100,Media & Entertainment,United States,San Anselmo,5/14/1944
+418,Evan Spiegel,31,6100,Technology,United States,Los Angeles,6/4/1990
+418,Zhao Yan,55,6100,Diversified,China,Beijing,1/1/1967
+424,Tom Gores,57,6000,Finance & Investments,United States,Beverly Hills,7/31/1964
+424,Leo Koguan,67,6000,Technology,Singapore,,2/15/1955
+424,Alexei Kuzmichev,59,6000,Energy,Russia,Moscow,10/15/1962
+424,Fredrik Lundberg,70,6000,Real Estate,Sweden,Stockholm,8/5/1951
+424,John Morris,74,6000,Fashion & Retail,United States,Springfield,3/19/1948
+424,Ivar Tollefsen,60,6000,Real Estate,Norway,Oslo,6/23/1961
+424,"John, Alan & Bruce Wilson",,6000,Fashion & Retail,Australia,Melbourne,
+431,Stephen Bisciotti,61,5900,Sports,United States,Millersville,4/10/1960
+431,Mahendra Choksi & family,80,5900,Manufacturing,India,Mumbai,4/19/1941
+431,Jian Jun,58,5900,Healthcare,China,Beijing,11/1/1963
+431,Barry Lam,72,5900,Technology,Taiwan,Taipei,4/24/1949
+431,Michael Moritz,67,5900,Technology,United States,San Francisco,9/12/1954
+431,Teh Hong Piow,92,5900,Finance & Investments,Malaysia,Kuala Lumpur,3/14/1930
+431,Gary Wang,28,5900,Finance & Investments,Bahamas,Nassau,6/13/1993
+438,Andre Esteves,53,5800,Finance & Investments,Brazil,Sao paulo,7/12/1968
+438,Joshua Harris,57,5800,Finance & Investments,United States,New York,12/29/1964
+438,Rakesh Jhunjhunwala,61,5800,Finance & Investments,India,Mumbai,7/5/1960
+438,Ken Langone,86,5800,Finance & Investments,United States,Sands Point,9/16/1935
+438,Ludwig Merckle,57,5800,Finance & Investments,Germany,Ulm,1/1/1965
+438,Sandra Ortega Mera,53,5800,Fashion & Retail,Spain,La Coruna,7/9/1968
+438,Terrence Pegula,71,5800,Energy,United States,Boca Raton,3/27/1951
+438,Karen Pritzker,64,5800,Finance & Investments,United States,Branford,1/7/1958
+438,Mitchell Rales,65,5800,Manufacturing,United States,Potomac,8/21/1956
+438,Wolfgang Reimann,69,5800,Fashion & Retail,Germany,Passau,10/4/1952
+438,Matthias Reimann-Andersen,57,5800,Fashion & Retail,Germany,Munich,3/30/1965
+438,Stefan Reimann-Andersen,58,5800,Fashion & Retail,Austria,Vienna,7/13/1963
+438,Renate Reimann-Haas,70,5800,Fashion & Retail,Austria,Vienna,10/8/1951
+438,Ruan Liping,58,5800,Manufacturing,China,Ningbo,1/1/1964
+438,Ruan Xueping,50,5800,Manufacturing,China,Ningbo,1/1/1972
+438,Charles Simonyi,73,5800,Technology,United States,Medina,9/10/1948
+438,John A. Sobrato & family,82,5800,Real Estate,United States,Atherton,5/23/1939
+438,David Steward,70,5800,Technology,United States,St. Louis,7/2/1951
+438,Radovan Vitek,50,5800,Real Estate,Switzerland,Crans Montana,4/22/1971
+438,Les Wexner & family,84,5800,Fashion & Retail,United States,New Albany,9/8/1937
+438,Aloys Wobben,70,5800,Energy,Germany,Aurich,1/22/1952
+438,Sam Zell,80,5800,Real Estate,United States,Chicago,9/28/1941
+460,Anthony Bamford & family,76,5700,Construction & Engineering,United Kingdom,Gloucestershire,10/23/1945
+460,Rainer Blickle,74,5700,Manufacturing,Germany,Bruchsal,7/16/1947
+460,Clive Calder,75,5700,Media & Entertainment,Cayman Islands,Grand Cayman,12/13/1946
+460,Frits Goldschmeding,88,5700,Service,Netherlands,Amsterdam,8/2/1933
+460,Ananda Krishnan,84,5700,Telecom,Malaysia,Kuala Lumpur,4/1/1938
+460,Joe Mansueto,65,5700,Finance & Investments,United States,Chicago,9/3/1956
+460,Odd Reitan & family,70,5700,Fashion & Retail,Norway,Trondheim,9/11/1951
+460,Antony Ressler,60,5700,Finance & Investments,United States,Los Angeles,1/1/1962
+460,Tang Xiao'ou,54,5700,Technology,China,Shanghai,1/1/1968
+460,Tse Ping,70,5700,Healthcare,Hong Kong,Hong Kong,1/3/1952
+460,Ken Xie,59,5700,Technology,United States,Los Altos Hills,1/26/1963
+471,Tilman Fertitta,64,5600,Food & Beverage,United States,Houston,6/25/1957
+471,Prajogo Pangestu,77,5600,Diversified,Indonesia,Jakarta,5/13/1944
+471,"Edward Roski, Jr.",83,5600,Real Estate,United States,Los Angeles,12/25/1938
+471,Teddy Sagi,50,5600,Gambling & Casinos,Israel,Tel Aviv,11/1/1971
+471,Thomas Straumann,58,5600,Healthcare,Switzerland,Basel,7/22/1963
+471,David Sun,70,5600,Technology,United States,Irvine,10/12/1951
+471,John Tu,80,5600,Technology,United States,Rolling Hills,8/12/1941
+471,Erich Wesjohann & family,76,5600,Food & Beverage,Germany,Visbek,6/2/1945
+471,Xu Jinfu,58,5600,Manufacturing,China,Guangzhou,1/1/1964
+480,Alexander Abramov,63,5500,Metals & Mining,Russia,Moscow,2/20/1959
+480,Neil Bluhm,84,5500,Real Estate,United States,Chicago,1/12/1938
+480,Don Hankey,78,5500,Finance & Investments,United States,Malibu,6/13/1943
+480,Kwee brothers,,5500,Real Estate,Singapore,Singapore,
+480,Jane Lauder,49,5500,Fashion & Retail,United States,New York,1/1/1973
+480,Gwendolyn Sontheim Meyer,60,5500,Food & Beverage,United States,Rancho Santa Fe,10/27/1961
+480,John Reece,65,5500,Manufacturing,United Kingdom,London,3/7/1957
+480,Eric Smidt,62,5500,Fashion & Retail,United States,Beverly Hills,1/1/1960
+480,Viktor Vekselberg,64,5500,Energy,Russia,Moscow,4/14/1957
+480,Ronald Wanek,80,5500,Manufacturing,United States,Saint Petersburg,5/19/1941
+490,Rene Benko,45,5400,Real Estate,Austria,,3/20/1977
+490,John Brown,87,5400,Healthcare,United States,Atlanta,9/15/1934
+490,Chen Zhiping,46,5400,Manufacturing,China,Shenzhen,1/1/1976
+490,Andrew Currie,66,5400,Manufacturing,United Kingdom,London,12/4/1955
+490,Jim Davis & family,78,5400,Manufacturing,United States,Newton,5/17/1943
+490,Charles Dolan & family,95,5400,Media & Entertainment,United States,Oyster Bay,10/16/1926
+490,Tom Golisano,80,5400,Service,United States,Naples,11/14/1941
+490,Hui Wing Mau,71,5400,Real Estate,Hong Kong,Hong Kong,7/1/1950
+490,Daniel Kretinsky,46,5400,Energy,Czechia,Prague,7/9/1975
+490,Massimiliana Landini Aleotti & family,79,5400,Healthcare,Italy,Fiesole (FI),1/1/1943
+490,Joe Lewis,85,5400,Finance & Investments,Bahamas,Albany,2/5/1937
+490,Li Chunan,53,5400,Manufacturing,China,Fushun,10/10/1968
+490,Lin Muqin & family,58,5400,Food & Beverage,China,Shenzhen,1/1/1964
+490,Shigenobu Nagamori,77,5400,Manufacturing,Japan,Kyoto,8/28/1944
+490,Kjell Inge Rokke,63,5400,Logistics,Norway,Vettre,10/25/1958
+490,Wang Wenjing,57,5400,Technology,China,Beijing,12/5/1964
+490,Chris Xu,38,5400,Fashion & Retail,China,Guangzhou,1/1/1984
+490,Samuel Yin,71,5400,Diversified,Taiwan,Taipei,8/16/1950
+490,M.A. Yusuff Ali,66,5400,Fashion & Retail,United Arab Emirates,Abu Dhabi,11/15/1955
+509,Denise Coates,54,5300,Gambling & Casinos,United Kingdom,Stoke-on-Trent,9/26/1967
+509,Ken Fisher,71,5300,Finance & Investments,United States,Dallas,11/29/1950
+509,Peter Grogg,80,5300,Healthcare,Switzerland,Liestal,1/10/1942
+509,Dietmar Hopp & family,81,5300,Technology,Germany,Walldorf,4/26/1940
+509,Sumet Jiaravanon,87,5300,Diversified,Thailand,Bangkok,11/2/1934
+509,Nathan Kirsh,90,5300,Fashion & Retail,Eswatini (Swaziland),Ezulwini,1/6/1932
+509,Forrest Li,44,5300,Media & Entertainment,Singapore,Singapore,1/1/1978
+509,Rudolf Maag,76,5300,Healthcare,Switzerland,Binningen,1/31/1946
+509,Gary Rollins,77,5300,Service,United States,Atlanta,8/30/1944
+509,Ugur Sahin,56,5300,Healthcare,Germany,Mainz,9/19/1965
+509,Mark Scheinberg,48,5300,Gambling & Casinos,United Kingdom,Isle of Man,12/27/1973
+509,Shen Guojun,59,5300,Fashion & Retail,China,Beijing,7/31/1962
+509,Chip Wilson,65,5300,Fashion & Retail,Canada,Vancouver,1/1/1957
+509,Zhang Yong,51,5300,Food & Beverage,Singapore,Singapore,7/1/1970
+523,James Chambers,64,5200,Media & Entertainment,United States,Palisades,4/12/1957
+523,Chen Fashu,61,5200,Finance & Investments,China,Fuzhou,10/26/1960
+523,Jaran Chiaravanont,92,5200,Diversified,Thailand,Bangkok,4/1/1930
+523,Ravi Jaipuria,67,5200,Food & Beverage,India,Delhi,11/28/1954
+523,Koon Poh Keong,60,5200,Manufacturing,Malaysia,Petaling Jaya,4/25/1961
+523,Li Liangbin,54,5200,Manufacturing,China,Xinyu,9/1/1967
+523,Liang Feng,53,5200,Manufacturing,China,Shanghai,11/22/1968
+523,Wolfgang Marguerre & family,80,5200,Healthcare,Germany,Heidelberg,6/4/1941
+523,Katharine Rayner,77,5200,Media & Entertainment,United States,East Hampton,1/12/1945
+523,Carlos Rodriguez-Pastor,62,5200,Finance & Investments,Peru,Lima,4/11/1959
+523,Margaretta Taylor,79,5200,Media & Entertainment,United States,Southampton,4/15/1942
+523,You Xiaoping,64,5200,Manufacturing,China,Wenzhou,1/21/1958
+523,Eric Yuan & family,52,5200,Technology,United States,Santa Clara,2/20/1970
+536,Robert Bass,74,5100,Energy,United States,Fort Worth,3/19/1948
+536,Alexandre Behring,55,5100,Finance & Investments,United States,Greenwich,2/20/1967
+536,Chan Laiwa & family,81,5100,Real Estate,China,Beijing,1/1/1941
+536,Jeff Greene,67,5100,Real Estate,United States,Palm Beach,12/10/1954
+536,Montri Jiaravanont,91,5100,Diversified,Thailand,Bangkok,4/1/1931
+536,Charles B. Johnson,89,5100,Finance & Investments,United States,Palm Beach,1/6/1933
+536,Elizabeth Johnson,58,5100,Finance & Investments,United States,Boston,5/7/1963
+536,Lin Bin,54,5100,Technology,China,Shenzhen,2/1/1968
+536,Hiroshi Mikitani,57,5100,Fashion & Retail,Japan,Tokyo,3/11/1965
+536,Isaac Perlmutter,79,5100,Media & Entertainment,United States,Palm Beach,12/1/1942
+536,Michael Pieper,76,5100,Manufacturing,Switzerland,Lucerne,2/5/1946
+536,Issad Rebrab & family,78,5100,Food & Beverage,Algeria,Algiers,1/1/1944
+536,Tsai Hong-tu,69,5100,Finance & Investments,Taiwan,Taipei,8/1/1952
+536,Richard Tsai,64,5100,Finance & Investments,Taiwan,Taipei,6/2/1957
+536,Wang Junshi & family,73,5100,Manufacturing,China,Ningbo,1/1/1949
+536,Wang Yanqing & family,55,5100,Manufacturing,China,Wuxi,4/7/1966
+552,Shari Arison,64,5000,Service,Israel,Tel Aviv,9/9/1957
+552,Alain Bouchard,73,5000,Fashion & Retail,Canada,Montreal,2/18/1949
+552,"Austen Cargill, II.",71,5000,Food & Beverage,United States,Livingston,3/9/1951
+552,"James Cargill, II.",72,5000,Food & Beverage,United States,Birchwood,4/7/1949
+552,Ben Chestnut,47,5000,Technology,United States,Atlanta,6/15/1974
+552,Wei Fang,48,5000,Manufacturing,China,Beijing,9/4/1973
+552,Leonid Fedun,66,5000,Energy,Russia,Moscow,4/5/1956
+552,Johann Graf,75,5000,Gambling & Casinos,Austria,Vienna,1/3/1947
+552,Huang Chulong,63,5000,Real Estate,China,Shenzhen,1/1/1959
+552,Huang Yi,60,5000,Automotive,China,Beijing,1/1/1962
+552,Vladimir Kim,61,5000,Metals & Mining,Kazakhstan,Almaty,10/29/1960
+552,Dan Kurzius,50,5000,Technology,United States,Atlanta,12/1/1971
+552,Ronald Lauder,78,5000,Fashion & Retail,United States,New York,2/26/1944
+552,Marianne Liebmann,68,5000,Food & Beverage,United States,Bozeman,7/11/1953
+552,Tobi Lutke,41,5000,Technology,Canada,Ottawa,7/16/1980
+552,Thomas Pritzker,71,5000,Finance & Investments,United States,Chicago,6/6/1950
+552,Scott Shleifer,44,5000,Finance & Investments,United States,New York,6/14/1977
+552,Autry Stephens,83,5000,Energy,United States,Midland,1/1/1939
+552,Peter Thiel,54,5000,Finance & Investments,United States,Los Angeles,10/11/1967
+552,Tsai Cheng-ta,72,5000,Finance & Investments,Taiwan,Taipei,4/1/1950
+552,Maximilian Viessmann,,5000,Manufacturing,Germany,Battenberg,
+552,Hansjoerg Wyss,87,5000,Healthcare,United States,Wilson,1/1/1935
+552,Xiao Yongming & family,57,5000,Diversified,China,Beijing,7/1/1964
+552,Zhang Tao,49,5000,Fashion & Retail,China,Beijing,11/1/1972
+552,Daniel Ziff,50,5000,Finance & Investments,United States,New York,11/2/1971
+552,Dirk Ziff,58,5000,Finance & Investments,United States,North Palm Beach,4/1/1964
+552,Robert Ziff,55,5000,Finance & Investments,United States,New York,8/12/1966
+579,Kapil & Rahul Bhatia,,4900,Service,India,Delhi,
+579,Mat Ishbia,42,4900,Finance & Investments,United States,Bloomfield Hills,1/6/1980
+579,"Robert Rich, Jr.",81,4900,Food & Beverage,United States,Islamorada,1/25/1941
+579,Thomas Schmidheiny,76,4900,Construction & Engineering,Switzerland,Jona,12/17/1945
+579,Alexandra Schoerghuber & family,63,4900,Real Estate,Germany,Munich,7/24/1958
+579,Erik Selin,54,4900,Real Estate,Sweden,Göteborg,5/8/1967
+579,Daniel Tsai,65,4900,Finance & Investments,Taiwan,Taipei,4/25/1956
+586,Dona Bertarelli,54,4800,Healthcare,Switzerland,Gstaad,1/1/1968
+586,Andrei Guriev & family,62,4800,Manufacturing,Russia,Moscow,3/24/1960
+586,Luciano Hang,59,4800,Fashion & Retail,Brazil,Brusque,10/11/1962
+586,Hu Baifan,59,4800,Healthcare,China,Shaoxing,10/1/1962
+586,Bidzina Ivanishvili,66,4800,Finance & Investments,Georgia,Tbilisi,2/18/1956
+586,Yeow Chor & Yeow Seng Lee,,4800,Food & Beverage,Malaysia,,
+586,Leng Youbin,53,4800,Food & Beverage,China,Beijing,1/1/1969
+586,Theo Mueller,82,4800,Food & Beverage,Switzerland,Zurich,1/30/1940
+586,"Julian Robertson, Jr.",89,4800,Finance & Investments,United States,Locust Valley,6/25/1932
+586,Marc Rowan,59,4800,Finance & Investments,United States,New York,8/19/1962
+586,Emanuele (Lino) Saputo & family,85,4800,Food & Beverage,Canada,Montreal,1/1/1937
+586,Jeff Skoll,57,4800,Technology,United States,Los Angeles,1/16/1965
+586,Frank Wang,41,4800,Technology,China,Shenzhen,10/30/1980
+586,Wang Junlin,59,4800,Food & Beverage,China,Chengdu,9/1/1962
+586,Yang Shaopeng,64,4800,Logistics,China,Qingdao,1/1/1958
+601,Maria Fernanda Amorim & family,87,4700,Diversified,Portugal,Grijo,1/16/1935
+601,Leonid Boguslavsky,70,4700,Finance & Investments,Italy,Florence,6/17/1951
+601,Richard Branson,71,4700,Diversified,British Virgin Islands,Necker Island,7/18/1950
+601,Robert Brockman,80,4700,Technology,United States,Houston,5/28/1941
+601,Pierre Chen,65,4700,Technology,Taiwan,Taipei,9/28/1956
+601,Chu Mang Yee & family,62,4700,Real Estate,China,Guangzhou,1/1/1960
+601,Scott Cook,69,4700,Technology,United States,Woodside,7/26/1952
+601,Mark Cuban,63,4700,Media & Entertainment,United States,Dallas,7/31/1958
+601,Guenther Fielmann & family,82,4700,Healthcare,Germany,Hamburg,9/17/1939
+601,Martin Haefner,68,4700,Technology,Switzerland,Zurich,1/1/1954
+601,Johnelle Hunt,90,4700,Logistics,United States,Fayetteville,1/4/1932
+601,"Andre Koo, Sr.",54,4700,Finance & Investments,Taiwan,Taipei,5/25/1967
+601,Lai Meisong,51,4700,Logistics,China,Shanghai,1/1/1971
+601,Richard Li,55,4700,Telecom,Hong Kong,Hong Kong,11/8/1966
+601,Mangal Prabhat Lodha,66,4700,Real Estate,India,Mumbai,12/1/1955
+601,Igor Olenicoff,79,4700,Real Estate,United States,Lighthouse Point,9/20/1942
+601,Mark Shoen,71,4700,Automotive,United States,Phoenix,11/20/1950
+601,Andrei Skoch & family,56,4700,Metals & Mining,Russia,Moscow,1/30/1966
+601,Fred Smith,77,4700,Logistics,United States,Memphis,8/11/1944
+601,Murat Ulker,63,4700,Food & Beverage,Turkey,Istanbul,3/23/1959
+601,Yu Yong,61,4700,Finance & Investments,China,Shanghai,2/1/1961
+622,Stéphane Bancel,49,4600,Healthcare,United States,Boston,7/20/1972
+622,Bubba Cathy,67,4600,Food & Beverage,United States,Atlanta,4/22/1954
+622,Dan Cathy,69,4600,Food & Beverage,United States,Atlanta,3/1/1953
+622,Trudy Cathy White,66,4600,Food & Beverage,United States,Hampton,12/17/1955
+622,Jason Chang,77,4600,Technology,Taiwan,Taipei,5/1/1944
+622,Dagmar Dolby & family,80,4600,Technology,United States,San Francisco,6/28/1941
+622,Bruce Flatt,56,4600,Finance & Investments,United Kingdom,London,6/1/1965
+622,Masatoshi Ito,97,4600,Fashion & Retail,Japan,Tokyo,4/30/1924
+622,Viatcheslav Kantor,68,4600,Manufacturing,United Kingdom,London,9/8/1953
+622,Min Kao & family,73,4600,Technology,United States,Leawood,1/10/1949
+622,Lin Xiucheng & family,66,4600,Technology,China,Xiamen,10/10/1955
+622,Sami Mnaymneh,60,4600,Finance & Investments,United States,Miami Beach,7/13/1961
+622,Tony Tamer,64,4600,Finance & Investments,United States,New York,10/12/1957
+622,Richard White,67,4600,Technology,Australia,Sydney,4/1/1955
+622,Baoguo Zhu & family,59,4600,Healthcare,China,Shenzhen,4/25/1962
+637,Michael Ashley,57,4500,Fashion & Retail,United Kingdom,Hertfordshire,9/12/1964
+637,Ron Baron,78,4500,Finance & Investments,United States,New York,5/23/1943
+637,Bert Beveridge,60,4500,Food & Beverage,United States,Austin,1/1/1962
+637,Todd Boehly,48,4500,Finance & Investments,United States,Darien,9/20/1973
+637,David Bonderman,79,4500,Finance & Investments,United States,Fort Worth,11/27/1942
+637,Guo Guangchang,55,4500,Diversified,China,Shanghai,2/16/1967
+637,Daryl Katz,60,4500,Diversified,Canada,Edmonton,9/1/1961
+637,Ted Lerner & family,96,4500,Real Estate,United States,Chevy Chase,10/15/1925
+637,Falguni Nayar,59,4500,Fashion & Retail,India,Mumbai,2/19/1963
+637,Trevor Rees-Jones,70,4500,Energy,United States,Dallas,8/12/1951
+637,J. Joe Ricketts & family,80,4500,Finance & Investments,United States,Little Jackson Hole,7/16/1941
+637,Robert Rowling,68,4500,Service,United States,Dallas,9/26/1953
+637,Mark Stevens,62,4500,Finance & Investments,United States,Steamboat Springs,2/17/1960
+637,Gustav Magnar Witzoe,28,4500,Food & Beverage,Norway,Kverva,4/22/1993
+637,Xie Liangzhi & family,56,4500,Healthcare,China,Beijing,1/1/1966
+637,Yeung Kin-man,58,4500,Manufacturing,Hong Kong,Hong Kong,4/1/1964
+637,Zhang Hejun,,4500,Manufacturing,China,Ningbo,
+654,Andrej Babis,67,4400,Food & Beverage,Czechia,Prague,9/2/1954
+654,Giuseppe De'Longhi & family,82,4400,Fashion & Retail,Italy,Treviso,4/24/1939
+654,Barry Diller,80,4400,Media & Entertainment,United States,New York,2/2/1942
+654,Christian Haub,57,4400,Fashion & Retail,Germany,Munich,7/22/1964
+654,Huang Li,58,4400,Technology,China,Wuhan,6/27/1963
+654,Marian Ilitch,89,4400,Food & Beverage,United States,Bingham Farms,1/7/1933
+654,Suleiman Kerimov & family,56,4400,Finance & Investments,Russia,Moscow,3/12/1966
+654,Edwin Leong,70,4400,Real Estate,Hong Kong,Hong Kong,12/4/1951
+654,Lu Yiwen,35,4400,Fashion & Retail,China,Shenzhen,1/1/1987
+654,N.R. Narayana Murthy,75,4400,Technology,India,Bangalore,8/20/1946
+654,Yang Jianliang & family,52,4400,Manufacturing,China,Wuxi,6/1/1969
+665,Pyotr Aven,67,4300,Finance & Investments,Russia,Moscow,3/16/1955
+665,Joesley Batista,50,4300,Food & Beverage,Brazil,Sao Paulo,2/5/1972
+665,Wesley Batista,49,4300,Food & Beverage,Brazil,Sao Paulo,12/8/1972
+665,Margot Birmingham Perot,88,4300,Technology,United States,Dallas,11/15/1933
+665,Rick Caruso,63,4300,Real Estate,United States,Los Angeles,1/7/1959
+665,Jim Davis,62,4300,Service,United States,Cockeysville,3/13/1960
+665,Walter P.J. Droege,69,4300,Finance & Investments,Germany,Dusseldorf,11/25/1952
+665,Dan Friedkin,57,4300,Automotive,United States,Houston,2/27/1965
+665,Gao Dekang & family,70,4300,Fashion & Retail,China,Changshu,2/1/1952
+665,Antti Herlin,65,4300,Manufacturing,Finland,Kirkkonummi,11/14/1956
+665,W. Herbert Hunt,93,4300,Energy,United States,Dallas,3/6/1929
+665,Jason Jiang,49,4300,Media & Entertainment,China,Shanghai,1/1/1973
+665,"Rupert Johnson, Jr.",81,4300,Finance & Investments,United States,Burlingame,8/10/1940
+665,Vikram Lal & family,80,4300,Automotive,India,Delhi,3/5/1942
+665,Lam Wai-ying,,4300,Manufacturing,Hong Kong,Hong Kong,
+665,Chris Larsen,61,4300,Finance & Investments,United States,San Francisco,6/15/1960
+665,Richard Schulze,81,4300,Fashion & Retail,United States,Bonita Springs,1/2/1941
+665,Paul Singer,77,4300,Finance & Investments,United States,New York,8/22/1944
+665,Barry Sternlicht,61,4300,Finance & Investments,United States,Miami,11/27/1960
+665,Su Hua,40,4300,Media & Entertainment,China,Beijing,1/1/1982
+665,Mark Walter,61,4300,Finance & Investments,United States,Chicago,5/22/1960
+665,Ty Warner,77,4300,Real Estate,United States,Oak Brook,9/3/1944
+687,Rinat Akhmetov,55,4200,Metals & Mining,Ukraine,Donetsk,9/21/1966
+687,Martin & Olivier Bouygues,,4200,Construction & Engineering,France,Paris,
+687,Bernard Broermann,78,4200,Healthcare,Germany,Koenigstein,11/22/1943
+687,Mong-Koo Chung,84,4200,Automotive,South Korea,Seoul,3/19/1938
+687,Daniel D'Aniello,75,4200,Finance & Investments,United States,Vienna,9/14/1946
+687,Traudl Engelhorn & family,95,4200,Healthcare,Switzerland,Lucerne,1/21/1927
+687,Piero Ferrari,76,4200,Automotive,Italy,Modena,5/22/1945
+687,Carlo Fidani,67,4200,Real Estate,Canada,Toronto,1/1/1955
+687,Yakir Gabay,55,4200,Real Estate,United Kingdom,London,4/13/1966
+687,Jaime Gilinski Bacal,64,4200,Finance & Investments,United Kingdom,London,12/14/1957
+687,Bertil Hult,81,4200,Service,Switzerland,Lucerne,2/10/1941
+687,Martha Ingram & family,86,4200,Media & Entertainment,United States,Nashville,8/20/1935
+687,Lee Yin Yee,70,4200,Manufacturing,Hong Kong,Hong Kong,1/1/1952
+687,Daniel Loeb,60,4200,Finance & Investments,United States,New York,12/18/1961
+687,Janice McNair,85,4200,Sports,United States,Houston,9/30/1936
+687,Ajay Piramal,66,4200,Healthcare,India,Mumbai,8/3/1955
+687,Lynsi Snyder,39,4200,Food & Beverage,United States,Glendora,5/5/1982
+687,Peter Spuhler,62,4200,Manufacturing,Switzerland,Weiningen,9/1/1959
+687,Kerry Stokes,81,4200,Diversified,Australia,Perth,9/13/1940
+687,Jon Stryker,63,4200,Healthcare,United States,New York,5/3/1958
+687,Vincent Viola,66,4200,Finance & Investments,United States,New York,2/12/1956
+687,Romesh T. Wadhwani,74,4200,Technology,United States,Palo Alto,8/25/1947
+709,Juan Domingo Beckmann Legorreta & family,54,4100,Food & Beverage,Mexico,,7/1/1967
+709,Rafael Del Pino,63,4100,Construction & Engineering,Spain,Madrid,7/18/1958
+709,Sergey Dmitriev,56,4100,Technology,Czechia,Prague,3/11/1966
+709,Senapathy Gopalakrishnan,67,4100,Technology,India,Bangalore,4/5/1955
+709,James Irving,94,4100,Diversified,Canada,Saint John,3/20/1928
+709,Lee Boo-jin,51,4100,Service,South Korea,Seoul,10/6/1970
+709,Samuel Tak Lee,82,4100,Real Estate,Hong Kong,Hong Kong,4/9/1939
+709,Thai Lee,63,4100,Technology,United States,Austin,11/27/1958
+709,Eric Lefkofsky,52,4100,Technology,United States,Glencoe,9/2/1969
+709,Weiguo Li,57,4100,Manufacturing,China,Beijing,1/1/1965
+709,Ermirio Pereira de Moraes & family,89,4100,Diversified,Brazil,Sao Paulo,5/13/1932
+709,Maria Helena Moraes Scripilliti & family,91,4100,Diversified,Brazil,Sao Paulo,9/20/1930
+709,Augusto & Giorgio Perfetti,,4100,Food & Beverage,Switzerland,Lugano,
+709,Thomas Secunda,67,4100,Media & Entertainment,United States,Croton-on-Hudson,6/23/1954
+709,Shaul Shani,67,4100,Telecom,Italy,Milan,1/1/1955
+709,E. Joe Shoen,72,4100,Automotive,United States,Phoenix,10/28/1949
+709,Steven Udvar-Hazy,76,4100,Service,United States,Beverly Hills,2/23/1946
+709,Russ Weiner,51,4100,Food & Beverage,United States,Delray Beach,5/5/1970
+709,Guanjiang Wu & family,53,4100,Healthcare,China,Chongqing,12/21/1968
+728,Anil Agarwal & family,68,4000,Metals & Mining,United Kingdom,London,9/7/1953
+728,Somphote Ahunai,54,4000,Energy,Thailand,Bangkok,6/1/1967
+728,Patrizio Bertelli,76,4000,Fashion & Retail,Italy,Milan,1/1/1946
+728,Rakesh Gangwal,68,4000,Service,United States,Miami,7/25/1953
+728,Paul Gauselmann & family,87,4000,Gambling & Casinos,Germany,Espelkamp,8/26/1934
+728,Hao Hong,66,4000,Healthcare,China,Tianjin,1/1/1956
+728,He Xiaopeng,44,4000,Automotive,China,Guangzhou,11/3/1977
+728,Michael Herz,78,4000,Fashion & Retail,Germany,Hamburg,9/28/1943
+728,Wolfgang Herz,71,4000,Fashion & Retail,Germany,Hamburg,1/1/1951
+728,Arthur Irving,92,4000,Energy,Canada,Saint John,1/1/1930
+728,Victor Jacobsson,40,4000,Finance & Investments,Sweden,Stockholm,8/28/1981
+728,Marc Ladreit de Lacharriere,81,4000,Finance & Investments,France,Paris,11/6/1940
+728,Patrick Lee,80,4000,Manufacturing,Hong Kong,Hong Kong,1/1/1942
+728,Max Lytvyn,42,4000,Technology,United States,San Francisco,1/1/1980
+728,Gilles Martin,58,4000,Healthcare,France,Nantes,10/20/1963
+728,Ramzi Musallam,53,4000,Finance & Investments,United States,New York,9/17/1968
+728,Georg Nemetschek & family,88,4000,Technology,Germany,Munich,1/1/1934
+728,Akio Nitori,78,4000,Fashion & Retail,Japan,Hokkaido,3/5/1944
+728,Daniel Och,61,4000,Finance & Investments,United States,Miami Beach,1/27/1961
+728,Pankaj Patel,69,4000,Healthcare,India,Ahmedabad,3/19/1953
+728,John Paulson,66,4000,Finance & Investments,United States,New York,12/14/1955
+728,Miuccia Prada,72,4000,Fashion & Retail,Italy,Milan,5/10/1949
+728,Jean (Gigi) Pritzker,59,4000,Service,United States,Los Angeles,7/1/1962
+728,Juan Roig,72,4000,Fashion & Retail,Spain,Valencia,10/8/1949
+728,David Rubenstein,72,4000,Finance & Investments,United States,Bethesda,8/11/1949
+728,Howard Schultz,68,4000,Food & Beverage,United States,Seattle,7/19/1953
+728,Alex Shevchenko,42,4000,Technology,Canada,,1/1/1980
+728,Dan Snyder,57,4000,Sports,United States,Potomac,11/23/1964
+728,Jerzy Starak,74,4000,Healthcare,Poland,Konstancin,12/12/1947
+728,Udo & Harald Tschira,,4000,Technology,Germany,,
+728,Kelcy Warren,66,4000,Energy,United States,Dallas,11/9/1955
+728,Herbert Wertheim,82,4000,Finance & Investments,United States,Coral Gables,5/23/1939
+728,Cameron Winklevoss,40,4000,Finance & Investments,United States,New York,8/21/1981
+728,Tyler Winklevoss,40,4000,Finance & Investments,United States,New York,8/21/1981
+728,Denise York & family,71,4000,Sports,United States,Youngstown,10/21/1950
+728,Zhao Lixin,56,4000,Technology,China,Shanghai,1/1/1966
+764,Hubert Burda,82,3900,Media & Entertainment,Germany,Munich,2/9/1940
+764,Francesco Gaetano Caltagirone,79,3900,Construction & Engineering,Italy,Rome,3/21/1943
+764,Marcos Galperin,,3900,Technology,Argentina,Buenos Aires,
+764,Li Xiang,40,3900,Automotive,China,Beijing,10/1/1981
+764,"Stephen Mandel, Jr.",66,3900,Finance & Investments,United States,Greenwich,3/12/1956
+764,Gabe Newell,59,3900,Gambling & Casinos,United States,Seattle,11/3/1962
+764,Maja Oeri,67,3900,Healthcare,Switzerland,Basel,1/1/1955
+764,Paolo & Gianfelice Mario Rocca,,3900,Metals & Mining,Argentina,Buenos Aires,
+764,Neil Shen,54,3900,Finance & Investments,China,Hong Kong,12/16/1967
+764,Helmut Sohmen,82,3900,Logistics,Hong Kong,Hong Kong,12/10/1939
+764,Donald Sterling,87,3900,Real Estate,United States,Beverly Hills,4/26/1934
+764,Don Vultaggio & family,70,3900,Food & Beverage,United States,Port Washington,2/26/1952
+764,Yiling Wu,72,3900,Healthcare,China,Shijiazhuang,10/24/1949
+764,Gongshan Zhu,64,3900,Manufacturing,China,Shanghai,1/1/1958
+778,Gayle Benson,75,3800,Sports,United States,New Orleans,1/26/1947
+778,"William Conway, Jr.",72,3800,Finance & Investments,United States,McLean,8/27/1949
+778,Gurbachan Singh Dhingra,71,3800,Manufacturing,India,Delhi,4/9/1950
+778,Kuldip Singh Dhingra,74,3800,Manufacturing,India,Delhi,9/2/1947
+778,Luca Garavoglia,53,3800,Food & Beverage,Italy,Milan,2/27/1969
+778,Vinod & Anil Rai Gupta,,3800,Manufacturing,India,Delhi,
+778,Jimmy Haslam,68,3800,Fashion & Retail,United States,Knoxville,3/9/1954
+778,Susan Carol Holland,65,3800,Manufacturing,Italy,Milan,5/27/1956
+778,Timur Kulibaev,55,3800,Finance & Investments,Kazakhstan,Almaty,9/10/1966
+778,Dinara Kulibaeva,54,3800,Finance & Investments,Kazakhstan,Almaty,8/19/1967
+778,Michel Leclercq & family,82,3800,Fashion & Retail,France,Lille,5/27/1939
+778,Pablo Legorreta,58,3800,Finance & Investments,United States,Sag Harbor,10/30/1963
+778,Margarita Louis-Dreyfus & family,59,3800,Food & Beverage,Switzerland,Davos,6/1/1962
+778,Michael Milken,75,3800,Finance & Investments,United States,Los Angeles,7/4/1946
+778,Denis O'Brien,63,3800,Telecom,Ireland,Dublin,4/17/1958
+778,Katharina Otto-Bernstein,58,3800,Real Estate,United States,New York,1/1/1964
+778,James Packer,54,3800,Gambling & Casinos,United States,Los Angeles,9/8/1967
+778,Sergio Stevanato & family,79,3800,Healthcare,Italy,Venice,3/20/1943
+778,Leena Tewari,64,3800,Healthcare,India,Mumbai,9/3/1957
+778,Yitzhak Tshuva,73,3800,Real Estate,Israel,Netanya,7/7/1948
+778,Paul-Heinz Wesjohann & family,78,3800,Food & Beverage,Germany,Rechterfeld,5/25/1943
+778,Zeng Fangqin,56,3800,Technology,China,Shenzhen,12/25/1965
+778,Zhou Bajin,86,3800,Manufacturing,China,Changzhou,5/1/1935
+801,William Berkley,75,3700,Finance & Investments,United States,Coconut Grove,9/1/1946
+801,John Catsimatidis,73,3700,Energy,United States,New York,9/7/1948
+801,Che Jianxing,55,3700,Fashion & Retail,China,Shanghai,7/18/1966
+801,Gustavo Denegri,85,3700,Healthcare,Italy,torino,3/17/1937
+801,Charles Edelstenne,84,3700,Manufacturing,France,Paris,1/3/1938
+801,Reed Hastings,61,3700,Media & Entertainment,United States,Santa Cruz,10/8/1960
+801,"Amos Hostetter, Jr.",85,3700,Media & Entertainment,United States,Boston,1/12/1937
+801,Brad Jacobs,65,3700,Logistics,United States,Greenwich,7/1/1956
+801,Friedrich Knapp,70,3700,Fashion & Retail,Germany,Brunswick,5/6/1951
+801,William Lauder,61,3700,Fashion & Retail,United States,New York,4/11/1960
+801,Richard LeFrak & family,76,3700,Real Estate,United States,New York,8/29/1945
+801,Li Guoqiang,58,3700,Automotive,China,Beijing,1/1/1964
+801,Low Tuck Kwong,73,3700,Energy,Indonesia,Jakarta,4/17/1948
+801,Akira Mori & family,85,3700,Real Estate,Japan,Tokyo,7/12/1936
+801,Anthony Pritzker,61,3700,Service,United States,Los Angeles,1/7/1961
+801,Ira Rennert,87,3700,Finance & Investments,United States,New York,5/31/1934
+801,"Bernard Saul, II.",89,3700,Finance & Investments,United States,Chevy Chase,4/15/1932
+801,Shi Yonghong & family,53,3700,Food & Beverage,China,Chengdu,1/1/1969
+801,Song Chi-hyung,43,3700,Finance & Investments,South Korea,,1/1/1979
+801,Steven Spielberg,75,3700,Media & Entertainment,United States,Pacific Palisades,12/18/1946
+801,Wong Luen Hei,60,3700,Manufacturing,Hong Kong,Hong Kong,1/1/1962
+822,Danielle Bellon & family,82,3600,Service,France,Paris,2/8/1940
+822,Byju Raveendran and Divya Gokulnath,40,3600,Technology,India,Bangalore,7/6/1981
+822,Cho Tak Wong,75,3600,Manufacturing,China,Fuqing,5/15/1946
+822,Charles Cohen,70,3600,Real Estate,United States,New York,2/8/1952
+822,Kenneth Dart,66,3600,Finance & Investments,Cayman Islands,George Town,4/21/1955
+822,Martin Ebner,76,3600,Finance & Investments,Switzerland,Wilen,8/1/1945
+822,David Filo,55,3600,Technology,United States,Palo Alto,4/15/1966
+822,Miguel Fluxa Rossello,83,3600,Service,Spain,Esporles,7/27/1938
+822,John Henry,72,3600,Sports,United States,Boca Raton,9/13/1949
+822,Hu Kaijun,60,3600,Healthcare,China,Beijing,1/1/1962
+822,Peter Kellogg,79,3600,Finance & Investments,United States,Short Hills,9/1/1942
+822,James Leprino,84,3600,Food & Beverage,United States,Indian Hills,11/22/1937
+822,Iskander Makhmudov,58,3600,Metals & Mining,Russia,Moscow,12/5/1963
+822,Daniel Mate,58,3600,Metals & Mining,Switzerland,Kanton Schwyz,6/2/1963
+822,Aristotelis Mistakidis,60,3600,Metals & Mining,Switzerland,Zug,11/21/1961
+822,Arturo Moreno,75,3600,Sports,United States,Phoenix,8/14/1946
+822,Nan Cunhui,58,3600,Manufacturing,China,Wenzhou,7/9/1963
+822,Julio Ponce Lerou,76,3600,Metals & Mining,Chile,Santiago,11/13/1945
+822,J.B. Pritzker,57,3600,Finance & Investments,United States,Springfield,1/19/1965
+822,Chandru Raheja,81,3600,Real Estate,India,Mumbai,10/1/1940
+822,Rodger Riney & family,76,3600,Finance & Investments,United States,St. Louis,1/1/1946
+822,Shi Yuzhu,59,3600,Diversified,China,Shanghai,9/1/1962
+822,Zuowen Song,75,3600,Diversified,China,Longkou,3/19/1947
+822,Jerry Speyer,81,3600,Real Estate,United States,New York,6/23/1940
+822,Julia Thiele-Schuerhoff,50,3600,Manufacturing,Germany,Munich,1/1/1972
+822,Tung Chee Chen,79,3600,Logistics,Hong Kong,Hong Kong,12/15/1942
+822,Roger Wang,73,3600,Fashion & Retail,China,Nanjing,1/1/1949
+822,Wu Shaoxun,66,3600,Food & Beverage,China,Daye,1/1/1956
+822,Wenzhong Zhang,60,3600,Fashion & Retail,China,Beijing,1/1/1962
+851,Chen Kaixuan,63,3500,Manufacturing,China,Guangzhou,5/1/1958
+851,Beatriz Davila de Santo Domingo,83,3500,Food & Beverage,Bermuda,,3/7/1939
+851,Antonio Del Valle Ruiz & family,83,3500,Manufacturing,Mexico,Mexico City,8/13/1938
+851,Carl Douglas,60,3500,Diversified,Sweden,Stockholm,5/5/1961
+851,Eric Douglas,53,3500,Diversified,Sweden,Stockholm,5/1/1968
+851,Jiangtao Du & family,52,3500,Manufacturing,China,Beijing,11/17/1969
+851,Juan Carlos Escotet,62,3500,Finance & Investments,Spain,A Coruña,7/23/1959
+851,Fiona Geminder,57,3500,Manufacturing,Australia,Melbourne,12/1/1964
+851,Yuhua Gu & family,72,3500,Manufacturing,China,Hangzhou,10/5/1949
+851,James Irsay,62,3500,Sports,United States,Carmel,6/13/1959
+851,Kuok Khoon Hong,72,3500,Manufacturing,Singapore,Singapore,1/1/1950
+851,Aerin Lauder,51,3500,Fashion & Retail,United States,New York,4/23/1970
+851,Lee Seo-hyun,48,3500,Diversified,South Korea,Seoul,9/20/1973
+851,Li Yongxin & family,46,3500,Service,China,Beijing,3/9/1976
+851,Jeffrey Lurie,70,3500,Sports,United States,Wynnewood,9/8/1951
+851,Mary Alice Dorrance Malone,72,3500,Food & Beverage,United States,Coatesville,2/3/1950
+851,Ronald McAulay,86,3500,Energy,Hong Kong,Hong Kong,10/5/1935
+851,Apoorva Mehta,35,3500,Technology,United States,San Francisco,7/19/1986
+851,Arnon Milchan,77,3500,Media & Entertainment,Israel,Tel Aviv,12/6/1944
+851,Masahiro Noda,83,3500,Technology,Japan,Tokyo,8/24/1938
+851,Maren Otto,,3500,Diversified,Germany,Berlin,
+851,Renzo Rosso & family,66,3500,Fashion & Retail,Italy,Bassano del Grappa,9/15/1955
+851,Lynn Schusterman,83,3500,Energy,United States,Tulsa,1/21/1939
+851,Gil Shwed,53,3500,Technology,Israel,Tel Aviv,6/12/1968
+851,Thomas Siebel,69,3500,Technology,United States,Woodside,11/22/1952
+851,Herb Simon,87,3500,Real Estate,United States,Indianapolis,10/23/1934
+851,Friede Springer,79,3500,Media & Entertainment,Germany,Berlin,8/15/1942
+851,Wang Zhenhua,60,3500,Real Estate,China,Shanghai,3/1/1962
+851,Hans Peter Wild,80,3500,Food & Beverage,Switzerland,Zug,6/16/1941
+851,"William Wrigley, Jr.",58,3500,Food & Beverage,United States,North Palm Beach,11/1/1963
+851,Xia Zuoquan,60,3500,Automotive,China,Shenzhen,1/1/1962
+851,Xue Hua,52,3500,Manufacturing,China,Guangzhou,
+883,Mohed Altrad,74,3400,Construction & Engineering,France,Montpellier,3/9/1948
+883,Sid Bass,79,3400,Energy,United States,Fort Worth,4/9/1942
+883,Nick Caporella,86,3400,Food & Beverage,United States,Plantation,1/15/1936
+883,Cheng Yixiao,38,3400,Media & Entertainment,China,Beijing,1/1/1984
+883,Wesley Edens,60,3400,Finance & Investments,United States,New York,10/31/1961
+883,Behdad Eghbali,45,3400,Finance & Investments,United States,Los Angeles,5/6/1976
+883,Archie Aldis Emmerson & family,92,3400,Manufacturing,United States,Redding,4/10/1929
+883,Jose E. Feliciano,48,3400,Finance & Investments,United States,Marina Del Rey,5/29/1973
+883,Fu Liquan & family,54,3400,Technology,China,Hangzhou,8/1/1967
+883,David Gottesman,95,3400,Finance & Investments,United States,Rye,4/26/1926
+883,Laurence Graff & family,83,3400,Fashion & Retail,Switzerland,Gstaad,6/13/1938
+883,Jeff T. Green,45,3400,Media & Entertainment,United States,Newbury Park,3/30/1977
+883,Jim Kavanaugh,59,3400,Technology,United States,St. Louis,10/17/1962
+883,Steven Klinsky,65,3400,Finance & Investments,United States,New York,5/30/1956
+883,John Middleton,67,3400,Food & Beverage,United States,Bryn Mawr,3/2/1955
+883,Jerry Ng,56,3400,Finance & Investments,Indonesia,Jakarta,7/2/1965
+883,Tengyun Nie & family,46,3400,Service,China,Shanghai,1/24/1976
+883,Nandan Nilekani,66,3400,Technology,India,Bangalore,6/2/1955
+883,Bob Parsons,71,3400,Technology,United States,Scottsdale,11/27/1950
+883,Prasert Prasarttong-Osoth,89,3400,Healthcare,Thailand,Bangkok,3/26/1933
+883,Qiu Guanghe & family,70,3400,Fashion & Retail,China,Wenzhou,11/10/1951
+883,Richard Sands,71,3400,Food & Beverage,United States,Delray Beach,3/3/1951
+883,Robert Sands,63,3400,Food & Beverage,United States,Delray Beach,6/10/1958
+883,T. Denny Sanford,86,3400,Finance & Investments,United States,Sioux Falls,12/23/1935
+883,Naguib Sawiris,67,3400,Telecom,Egypt,Cairo,6/15/1954
+883,Pavel Tykac,57,3400,Metals & Mining,Czechia,Prague,5/15/1964
+883,Todd Wanek,58,3400,Manufacturing,United States,St. Petersburg,3/16/1964
+883,Meg Whitman,65,3400,Technology,United States,Los Angeles,8/4/1956
+883,Michael Xie,53,3400,Technology,United States,Los Altos Hills,2/20/1969
+883,Chenghai Ye & family,78,3400,Healthcare,Hong Kong,Hong Kong,8/15/1943
+913,An Kang,73,3300,Healthcare,China,Xinxiang,1/1/1949
+913,John Arnold,48,3300,Finance & Investments,United States,Houston,3/9/1974
+913,Arun Bharat Ram,81,3300,Manufacturing,India,Delhi,11/15/1940
+913,Tomasz Biernacki,49,3300,Fashion & Retail,Poland,"Krotoszyn,",1/1/1973
+913,Travis Boersma,51,3300,Food & Beverage,United States,Grants Pass,1/1/1971
+913,Chan Tan Ching-fen,,3300,Real Estate,Hong Kong,Hong Kong,
+913,Dongsheng Chen,64,3300,Finance & Investments,China,Beijing,12/1/1957
+913,Jean Coutu & family,94,3300,Fashion & Retail,Canada,Montreal,5/29/1927
+913,Ralph Dommermuth,58,3300,Technology,Germany,Montabaur,11/19/1963
+913,Walter Faria,67,3300,Food & Beverage,Brazil,Rio de Janeiro,4/1/1955
+913,Bob Gaglardi,81,3300,Real Estate,Canada,Vancouver,2/19/1941
+913,John Gandel,87,3300,Real Estate,Australia,Melbourne,8/13/1934
+913,Xuande Hua & family,78,3300,Healthcare,China,Taizhou,10/30/1943
+913,Micky Jagtiani,70,3300,Fashion & Retail,United Arab Emirates,Dubai,9/28/1951
+913,H. Fisk Johnson,63,3300,Manufacturing,United States,Racine,5/19/1958
+913,S. Curtis Johnson,66,3300,Manufacturing,United States,Racine,5/5/1955
+913,Helen Johnson-Leipold,65,3300,Manufacturing,United States,Racine,12/30/1956
+913,Miguel Krigsner,72,3300,Fashion & Retail,Brazil,Sao Jose dos Pinhais,1/9/1950
+913,Li Jianquan & family,65,3300,Healthcare,China,Shenzhen,1/1/1957
+913,Lin Ming-hsiung,72,3300,Fashion & Retail,Taiwan,Taipei,1/1/1950
+913,Winifred J. Marquart,62,3300,Manufacturing,United States,Virginia Beach,4/6/1959
+913,Kiran Mazumdar-Shaw,69,3300,Healthcare,India,Bangalore,3/23/1953
+913,Patrice Motsepe,60,3300,Metals & Mining,South Africa,Johannesburg,1/28/1962
+913,Alfred Oetker,55,3300,Fashion & Retail,Germany,Bielefeld,1/1/1967
+913,Carl Ferdinand Oetker,49,3300,Fashion & Retail,Germany,Bielefeld,10/3/1972
+913,Julia Oetker,43,3300,Fashion & Retail,Germany,Bielefeld,1/26/1979
+913,Or Wai Sheun,70,3300,Real Estate,Hong Kong,Hong Kong,6/1/1951
+913,Jay Paul,74,3300,Real Estate,United States,San Francisco,7/8/1947
+913,Horst Paulmann & family,87,3300,Fashion & Retail,Chile,Santiago,1/1/1935
+913,Theodore Rachmat,78,3300,Diversified,Indonesia,Jakarta,12/15/1943
+913,John Sall,74,3300,Technology,United States,Cary,4/4/1948
+913,Stefan von Holtzbrinck,58,3300,Media & Entertainment,Germany,Stuttgart,5/15/1963
+913,Nusli Wadia,78,3300,Food & Beverage,India,Mumbai,2/15/1944
+913,Steve Wynn,80,3300,Gambling & Casinos,United States,Palm Beach,1/27/1942
+913,Yang Weidong & family,53,3300,Manufacturing,China,Jiaxing,9/9/1968
+913,Barry Zekelman,55,3300,Manufacturing,Canada,Windsor,1/3/1967
+913,Zhang Shilong & family,56,3300,Technology,China,Beijing,1/1/1966
+913,Zhong Ruonong & family,59,3300,Manufacturing,China,Zhuzhou,10/30/1962
+951,Cameron Adams,42,3200,Technology,Australia,Sydney,12/26/1979
+951,Dongchen Cai,69,3200,Healthcare,China,Luancheng,2/1/1953
+951,Vanich Chaiyawan,90,3200,Finance & Investments,Thailand,Bangkok,1/1/1932
+951,Andrew & Peggy Cherng,,3200,Food & Beverage,United States,Las Vegas,
+951,James Clark,78,3200,Technology,United States,Palm Beach,3/23/1944
+951,Jack Cowin,79,3200,Food & Beverage,Australia,Sydney,7/13/1942
+951,Giuseppe Crippa & family,86,3200,Manufacturing,Italy,Cernusco Lombardone,5/5/1935
+951,Sergei Galitsky,54,3200,Fashion & Retail,Russia,Krasnodar,8/14/1967
+951,"Ernest Garcia, III.",39,3200,Automotive,United States,Phoenix,5/1/1982
+951,Peter Gilgan,71,3200,Construction & Engineering,Canada,Oakville,1/1/1951
+951,Joseph Grendys,60,3200,Food & Beverage,United States,Chicago,12/1/1961
+951,Thomas Hagen,86,3200,Finance & Investments,United States,Erie,1/1/1936
+951,"Robert Hale, Jr.",55,3200,Telecom,United States,Boston,7/8/1966
+951,Michael Hintze,68,3200,Finance & Investments,United Kingdom,London,7/27/1953
+951,Pansy Ho,59,3200,Gambling & Casinos,Hong Kong,Hong Kong,8/26/1962
+951,Alan Howard,58,3200,Finance & Investments,Switzerland,Geneva,9/1/1963
+951,Kei Hoi Pang,56,3200,Real Estate,Hong Kong,Hong Kong,1/1/1966
+951,Rudy Ma,81,3200,Finance & Investments,Taiwan,,7/4/1940
+951,Najib Mikati,66,3200,Telecom,Lebanon,Beirut,11/24/1955
+951,Taha Mikati,77,3200,Telecom,Lebanon,Beirut,1/1/1945
+951,Gail Miller,78,3200,Automotive,United States,Salt Lake City,10/14/1943
+951,Vikas Oberoi,51,3200,Real Estate,India,Mumbai,9/8/1970
+951,"H. Ross Perot, Jr.",63,3200,Real Estate,United States,Dallas,11/7/1958
+951,Candido Pinheiro Koren de Lima,75,3200,Healthcare,Brazil,Fortaleza,1/1/1947
+951,Matthew Prince,47,3200,Technology,United States,Park City,1/1/1975
+951,Penny Pritzker,62,3200,Finance & Investments,United States,Chicago,5/2/1959
+951,Yasumitsu Shigeta,57,3200,Telecom,Japan,Tokyo,2/25/1965
+951,Sebastian Siemiatkowski,40,3200,Finance & Investments,Sweden,Stockholm,10/3/1981
+951,Barry Silbert,45,3200,Finance & Investments,United States,Rye,5/15/1976
+951,Daniel Sundheim,45,3200,Finance & Investments,United States,New York,3/29/1977
+951,Rita Tong Liu,73,3200,Real Estate,Hong Kong,Hong Kong,6/29/1948
+951,Tran Dinh Long,61,3200,Manufacturing,Vietnam,Hanoi,1/1/1961
+951,Zhang Daocai,72,3200,Diversified,China,Shaoxing,1/1/1950
+984,John Caudwell,69,3100,Telecom,United Kingdom,Stoke-on-Trent,10/1/1952
+984,Philippe Foriel-Destezet,86,3100,Service,United Kingdom,London,9/12/1935
+984,Walter Frey,78,3100,Automotive,Switzerland,Küsnacht,7/30/1943
+984,Alessandra Garavoglia,62,3100,Food & Beverage,Italy,Milan,2/6/1960
+984,Peter Gassner,57,3100,Technology,United States,Pleasanton,2/26/1965
+984,Mitchell Goldhar,60,3100,Real Estate,Canada,North York,7/15/1961
+984,Otto Happel,74,3100,Construction & Engineering,Switzerland,Luzerne,2/9/1948
+984,Peter Hargreaves,75,3100,Finance & Investments,United Kingdom,Bristol,10/5/1946
+984,Bom Kim,43,3100,Technology,South Korea,Seoul,10/1/1978
+984,Gaiteng Li,49,3100,Manufacturing,China,Shanghai,4/8/1972
+984,Liufa Li & family,64,3100,Diversified,China,Ruzhou,6/1/1957
+984,Lu Weiding,51,3100,Diversified,China,Hangzhou,3/1/1971
+984,Harsh Mariwala,70,3100,Food & Beverage,India,Mumbai,5/14/1951
+984,Samir Mehta,58,3100,Healthcare,India,Ahmedabad,9/18/1963
+984,Sudhir Mehta,67,3100,Healthcare,India,Ahmedabad,4/10/1954
+984,Pawan Munjal & family,68,3100,Automotive,India,Delhi,1/1/1954
+984,Nguyen Thi Phuong Thao,51,3100,Diversified,Vietnam,Ho Chi Minh City,6/7/1970
+984,Madhukar Parekh,75,3100,Manufacturing,India,Mumbai,1/1/1947
+984,Sergei Popov,50,3100,Finance & Investments,Switzerland,,8/12/1971
+984,Haim Saban,77,3100,Media & Entertainment,United States,Beverly Hills,10/15/1944
+984,Karthik Sarma,47,3100,Finance & Investments,United States,New York,12/1/1974
+984,Klaus-Peter Schulenberg,70,3100,Service,Germany,Bremen,7/1/1951
+984,Pat Stryker,65,3100,Healthcare,United States,Fort Collins,4/6/1956
+984,Jeff Sutton,62,3100,Real Estate,United States,New York,1/17/1960
+984,Jon Yarbrough,64,3100,Gambling & Casinos,United States,Franklin,5/10/1957
+984,Gang Ye,41,3100,Media & Entertainment,Singapore,Singapore,6/1/1980
+984,Yi Zheng,51,3100,Technology,China,Hangzhou,10/15/1970
+984,Zhang Fan,56,3100,Technology,China,Shenzhen,12/29/1965
+1012,William Ackman,55,3000,Finance & Investments,United States,New York,5/11/1966
+1012,Markus Blocher,51,3000,Manufacturing,Switzerland,Wilen bei Wollerau,1/1/1971
+1012,Neal Blue & family,87,3000,Manufacturing,United States,San Diego,4/4/1935
+1012,Eva Maria Bucher-Haefner,65,3000,Technology,Switzerland,Zurich,1/1/1957
+1012,Chang Kuo-Hua,67,3000,Logistics,Taiwan,Taipei,1/1/1955
+1012,Todd Christopher,59,3000,Fashion & Retail,United States,Clearwater,10/8/1962
+1012,Euisun Chung,51,3000,Logistics,South Korea,Seoul,10/18/1970
+1012,Bernard Ecclestone & family,91,3000,Sports,United Kingdom,London,10/28/1930
+1012,Michael Federmann & family,78,3000,Technology,Israel,Tel Aviv,9/9/1943
+1012,Gudrun Heine,67,3000,Healthcare,Germany,Ohningen,10/19/1954
+1012,Heidi Horten,81,3000,Fashion & Retail,Austria,Vienna,2/13/1941
+1012,Dawen Huang,61,3000,Manufacturing,Hong Kong,Hong Kong,11/1/1960
+1012,Sheldon Lavin,89,3000,Food & Beverage,United States,Highland Park,6/17/1932
+1012,Li Min,56,3000,Technology,China,Fuzhou,12/26/1965
+1012,Liang Yunchao,53,3000,Food & Beverage,China,Guangzhou,1/3/1969
+1012,Joseph Liemandt,53,3000,Technology,United States,Austin,8/5/1968
+1012,Strive Masiyiwa,61,3000,Telecom,United Kingdom,London,1/29/1961
+1012,Masahiro Miki,66,3000,Fashion & Retail,Japan,Tokyo,7/26/1955
+1012,Pan Laican,,3000,Food & Beverage,China,foshan,
+1012,Karsanbhai Patel,78,3000,Diversified,India,Ahmedabad,1/7/1944
+1012,Arvind Poddar,64,3000,Automotive,India,Mumbai,11/7/1957
+1012,Remo Ruffini,60,3000,Fashion & Retail,Italy,Como,8/27/1961
+1012,Eddy Kusnadi Sariaatmadja,68,3000,Media & Entertainment,Indonesia,Jakarta,8/23/1953
+1012,Sybill Storz,84,3000,Healthcare,Germany,Leipzig,4/6/1937
+1012,Lawrence Stroll,62,3000,Fashion & Retail,Switzerland,Geneva,7/11/1959
+1012,Wijono & Hermanto Tanoko,,3000,Manufacturing,Indonesia,Surabaya,
+1012,Michael Tojner,56,3000,Manufacturing,Austria,Vienna,3/31/1966
+1012,Donald Trump,75,3000,Real Estate,United States,Palm Beach,6/14/1946
+1012,Tsai Ming-kai,71,3000,Technology,Taiwan,Hsinchu,4/6/1950
+1012,John Tyson,68,3000,Food & Beverage,United States,Springdale,9/5/1953
+1012,Rufino Vigil Gonzalez,73,3000,Metals & Mining,Mexico,Mexico City,6/1/1948
+1012,Ning Wang & family,35,3000,Media & Entertainment,China,Beijing,1/1/1987
+1012,Wang Yusuo & family,58,3000,Energy,China,Langfang,3/11/1964
+1012,Zhigang Wu & family,87,3000,Food & Beverage,China,Shenyang,1/14/1935
+1012,Xie Juhua & family,71,3000,Healthcare,China,Nanjing,1/1/1951
+1012,Oren Zeev,57,3000,Finance & Investments,United States,Los Altos,9/23/1964
+1012,Charles Zegar,74,3000,Media & Entertainment,United States,New York,2/29/1948
+1012,Zhang Lei,49,3000,Finance & Investments,Hong Kong,Hong Kong,12/1/1972
+1012,Zhang Xin & Pan Shiyi,56,3000,Real Estate,China,Beijing,8/24/1965
+1012,Zhu Yan & family,,3000,Real Estate,China,Beijing,
+1012,Mortimer Zuckerman,84,3000,Real Estate,United States,New York,6/4/1937
+1053,Juan Abello,80,2900,Finance & Investments,Spain,Madrid,12/16/1941
+1053,John Armitage,62,2900,Finance & Investments,United Kingdom,London,12/1/1959
+1053,Bang Si-hyuk,49,2900,Media & Entertainment,South Korea,Seoul,8/9/1972
+1053,Miriam Baumann-Blocher,47,2900,Manufacturing,Switzerland,Rheinfelden,1/1/1975
+1053,Riley Bechtel & family,70,2900,Construction & Engineering,United States,San Francisco,3/25/1952
+1053,Wilhelm Beier & family,65,2900,Healthcare,Germany,,4/21/1956
+1053,Nicolas Berggruen,60,2900,Real Estate,United States,Beverly Hills,8/10/1961
+1053,Bui Thanh Nhon,64,2900,Real Estate,Vietnam,Ho Chi Minh,1/1/1958
+1053,Cao Longxiang & family,64,2900,Healthcare,China,Taixing,9/5/1957
+1053,Deng Wen,54,2900,Food & Beverage,China,Chengdu,3/1/1968
+1053,Daniel Dines,50,2900,Technology,United States,New York,1/1/1972
+1053,Joseph Edelman,66,2900,Finance & Investments,United States,New York,6/10/1955
+1053,N. Murray Edwards,62,2900,Energy,United Kingdom,London,12/10/1959
+1053,Jane Goldman,66,2900,Real Estate,United States,New York,7/29/1955
+1053,Guo Zhenyu & family,58,2900,Fashion & Retail,China,Kunming,11/1/1963
+1053,Stewart Horejsi & family,84,2900,Finance & Investments,United States,Phoenix,9/19/1937
+1053,Zhenda Huang & family,74,2900,Construction & Engineering,China,Shantou,9/1/1947
+1053,"Jeremy Jacobs, Sr. & family",82,2900,Service,United States,East Aurora,1/21/1940
+1053,Hamilton James,70,2900,Finance & Investments,United States,New York,8/3/1951
+1053,Valentin Kipyatkov,45,2900,Technology,Czechia,Prague,6/5/1976
+1053,Li Zhongchu,58,2900,Technology,China,Beijing,8/26/1963
+1053,Martin Lorentzon,53,2900,Technology,Sweden,Stockholm,4/1/1969
+1053,"Drayton McLane, Jr.",85,2900,Fashion & Retail,United States,Temple,7/22/1936
+1053,Benjamin Otto,,2900,Fashion & Retail,Germany,Hamburg,
+1053,Roger Penske,85,2900,Automotive,United States,Birmingham,2/20/1937
+1053,Olivier Pomel,45,2900,Technology,United States,New York,3/26/1977
+1053,Jean Salata,56,2900,Finance & Investments,Hong Kong,Hong Kong,12/1/1965
+1053,Arnout Schuijff,54,2900,Technology,Netherlands,Amsterdam,10/16/1967
+1053,Shen Hua & family,59,2900,Technology,China,Jiaxing,1/1/1963
+1053,Martua Sitorus,62,2900,Manufacturing,Singapore,Singapore,2/18/1960
+1053,Zygmunt Solorz-Zak,65,2900,Media & Entertainment,Poland,Warsaw,8/4/1956
+1053,Warren Stephens,65,2900,Finance & Investments,United States,Little Rock,2/18/1957
+1053,Tang Jinkui & family,66,2900,Manufacturing,China,Suzhou,9/19/1955
+1053,Alan Trefler,66,2900,Technology,United States,Brookline,3/10/1956
+1053,Masateru Uno & family,75,2900,Fashion & Retail,Japan,Fukuoka,2/6/1947
+1053,Frank VanderSloot,73,2900,Fashion & Retail,United States,Idaho Falls,8/14/1948
+1053,Guangming Wu,60,2900,Healthcare,China,Danyang,2/27/1962
+1053,Kai Wu,54,2900,Energy,China,Ningde,1/1/1968
+1053,Ye Fan & family,51,2900,Automotive,China,Dongguan,1/1/1971
+1053,Yoo Jung-hyun,52,2900,Media & Entertainment,South Korea,Jeju-do,4/16/1969
+1053,Fenggang Zhao,56,2900,Energy,China,Ningde,1/1/1966
+1053,Zheng Xiaodong,58,2900,Manufacturing,China,Shanghai,3/1/1964
+1053,Zhou Jianping,61,2900,Fashion & Retail,China,Jiangyin,5/28/1960
+1096,Jose Joao Abdalla Filho,76,2800,Finance & Investments,Brazil,Rio de Janeiro,5/30/1945
+1096,Brian Acton,50,2800,Technology,United States,Palo Alto,2/17/1972
+1096,Bill Alfond,73,2800,Fashion & Retail,United States,Boston,5/16/1948
+1096,Susan Alfond,76,2800,Fashion & Retail,United States,Scarborough,7/19/1945
+1096,Ted Alfond,77,2800,Fashion & Retail,United States,Weston,8/19/1944
+1096,Felix Baker,53,2800,Finance & Investments,United States,New York,3/29/1969
+1096,Julian Baker,55,2800,Finance & Investments,United States,New York,5/21/1966
+1096,Karen Virginia Beckmann Legoretta,52,2800,Food & Beverage,,,
+1096,Maurizio Billi,64,2800,Healthcare,Brazil,Sao Paulo,11/22/1957
+1096,Otto Philipp Braun,44,2800,Healthcare,Germany,Melsungen,1/1/1978
+1096,Garrett Camp,43,2800,Technology,United States,San Francisco,10/4/1978
+1096,Cao Ji,70,2800,Manufacturing,China,Hangzhou,1/1/1952
+1096,Hua Chen,56,2800,Real Estate,China,Shenzhen,1/1/1966
+1096,John Paul DeJoria,77,2800,Fashion & Retail,United States,Austin,4/13/1944
+1096,Beda Diethelm,81,2800,Healthcare,Switzerland,Zurich,1/1/1941
+1096,K. Dinesh,67,2800,Technology,India,Bangalore,6/6/1954
+1096,Dong Fan,52,2800,Healthcare,China,Zhuhai,
+1096,Bennett Dorrance,76,2800,Food & Beverage,United States,Paradise Valley,2/9/1946
+1096,Marcel Erni,57,2800,Finance & Investments,Switzerland,Zug,1/1/1965
+1096,Abhay Firodia,77,2800,Automotive,India,Pune,11/5/1944
+1096,Alfred Gantner,54,2800,Finance & Investments,Switzerland,Zug,4/1/1968
+1096,Allan Goldman,79,2800,Real Estate,United States,New York,3/6/1943
+1096,Amy Goldman Fowler,67,2800,Real Estate,United States,Rhinebeck,4/19/1954
+1096,J. Tomilson Hill,73,2800,Finance & Investments,United States,New York,5/24/1948
+1096,Hong Jie,54,2800,Manufacturing,China,Putian,10/1/1967
+1096,James Jannard,72,2800,Fashion & Retail,United States,San Juan Islands,6/8/1949
+1096,Travis Kalanick,45,2800,Technology,United States,Los Angeles,8/6/1976
+1096,Diane Kemper,76,2800,Real Estate,United States,New York,7/21/1945
+1096,George Kurtz,51,2800,Technology,United States,Paradise Valley,10/1/1970
+1096,Kwek Leng Beng,81,2800,Diversified,Singapore,Singapore,1/1/1941
+1096,Geoffrey Kwok,36,2800,Real Estate,Hong Kong,Hong Kong,5/1/1985
+1096,Lai Jianping,,2800,Food & Beverage,China,Foshan,
+1096,Maritsa Lazari & family,77,2800,Real Estate,United Kingdom,London,10/14/1944
+1096,Alexis Lê-Quôc,47,2800,Technology,United States,New York,11/14/1974
+1096,Angela Leong,61,2800,Real Estate,Hong Kong,Hong Kong,3/23/1961
+1096,Lin Chen-hai,75,2800,Real Estate,Taiwan,Taipei,3/1/1947
+1096,Sergio Mantegazza,94,2800,Service,Switzerland,Lugano,10/31/1927
+1096,Hans Melchers,83,2800,Finance & Investments,Netherlands,Vorden,4/28/1938
+1096,Tom Morris,67,2800,Fashion & Retail,United Kingdom,Merseyside,10/2/1954
+1096,Eugene Murtagh,79,2800,Manufacturing,Ireland,Kingscourt,6/23/1942
+1096,Philip Niarchos,68,2800,Diversified,France,Paris,1/1/1954
+1096,Pan Dong,57,2800,Fashion & Retail,Hong Kong,Hong Kong,1/1/1965
+1096,Sean Parker,42,2800,Technology,United States,Los Angeles,12/3/1979
+1096,Richard Peery,83,2800,Real Estate,United States,Palo Alto,10/1/1938
+1096,Gregorio Perez Companc & family,86,2800,Energy,Argentina,Buenos Aires,8/23/1935
+1096,Sebastian Piñera & family,72,2800,Finance & Investments,Chile,Santiago,12/1/1949
+1096,Nicholas Pritzker,78,2800,Finance & Investments,United States,Nicasio,1/1/1944
+1096,Jeff Rothschild,67,2800,Technology,United States,Palo Alto,1/2/1955
+1096,Steven Sarowitz,56,2800,Technology,United States,Highland Park,11/7/1965
+1096,Isabella Seràgnoli,76,2800,Manufacturing,Italy,Bologna,12/23/1945
+1096,Stephen Smith,70,2800,Finance & Investments,Canada,Toronto,6/2/1951
+1096,William Stone,66,2800,Technology,United States,Naples,4/9/1955
+1096,Sun Hongbin,59,2800,Real Estate,China,Tianjin,1/1/1963
+1096,Sun Shoukuan,72,2800,Manufacturing,China,Yingkou,10/1/1949
+1096,"Henry Sy, Jr.",69,2800,Diversified,Philippines,Manila,2/1/1953
+1096,Andrew Tan,70,2800,Diversified,Philippines,Manila,2/1/1952
+1096,Kenneth Tuchman,62,2800,Service,United States,Denver,10/23/1959
+1096,Tung Chee Hwa,84,2800,Logistics,Hong Kong,Hong Kong,7/7/1937
+1096,Bulat Utemuratov,64,2800,Metals & Mining,Kazakhstan,Astana,1/1/1958
+1096,Anna Katharina Viessmann,,2800,Manufacturing,Germany,Battenberg,
+1096,Xicheng Wang & family,73,2800,Manufacturing,China,Zhaoyuan,11/1/1948
+1096,Urs Wietlisbach,60,2800,Finance & Investments,Switzerland,Zug,8/25/1961
+1096,Wong Man Li,57,2800,Manufacturing,Hong Kong,Hong Kong,2/12/1965
+1096,Xie Weitong,65,2800,Metals & Mining,Singapore,,1/1/1957
+1096,Xu Chuanhua & family,87,2800,Manufacturing,China,Hangzhou,1/1/1935
+1096,Ye Xiaoping,59,2800,Healthcare,China,Hangzhou,2/1/1963
+1096,Weiguo Zhao,55,2800,Technology,China,Beijing,1/1/1967
+1163,Ben Ashkenazy,52,2700,Real Estate,United States,New York,9/23/1969
+1163,Bill Austin,80,2700,Manufacturing,United States,Brownsville,2/25/1942
+1163,Pavel Baudis,61,2700,Technology,Czechia,Prague,5/15/1960
+1163,Yvonne Bauer,45,2700,Media & Entertainment,Germany,Hamburg,3/29/1977
+1163,Giuliana Benetton,84,2700,Fashion & Retail,Italy,Treviso,7/8/1937
+1163,Luciano Benetton,86,2700,Fashion & Retail,Italy,Ponzano Veneto,5/13/1935
+1163,Aneel Bhusri,56,2700,Technology,United States,San Francisco,2/4/1966
+1163,George Bishop,84,2700,Energy,United States,The Woodlands,10/6/1937
+1163,Vivek Chand Burman,84,2700,Food & Beverage,India,Delhi,4/28/1937
+1163,Morris Chang,90,2700,Technology,Taiwan,Hsinchu,7/10/1931
+1163,Jinxia Chen,54,2700,Finance & Investments,China,Shanghai,3/28/1968
+1163,Cho Jung-ho,63,2700,Finance & Investments,South Korea,Seoul,10/5/1958
+1163,Jack Cockwell,81,2700,Finance & Investments,Canada,Toronto,1/12/1941
+1163,"Edward DeBartolo, Jr.",75,2700,Real Estate,United States,Tampa,11/6/1946
+1163,Abilio dos Santos Diniz,85,2700,Fashion & Retail,Brazil,Sao Paulo,12/28/1936
+1163,"John Dorrance, III.",78,2700,Food & Beverage,Ireland,Dublin,1/1/1944
+1163,Hailiang Feng,61,2700,Metals & Mining,China,Zhuji,10/1/1960
+1163,Xingjiang Gao,58,2700,Manufacturing,China,Huzhou,11/1/1963
+1163,Carlos Hank Rhon,74,2700,Diversified,Mexico,Mexico City,12/10/1947
+1163,Vivek Jain,66,2700,Manufacturing,India,Delhi,8/30/1955
+1163,Brad Kelley,65,2700,Real Estate,United States,Franklin,12/23/1956
+1163,Alicia Koplowitz,68,2700,Finance & Investments,Spain,Madrid,9/12/1953
+1163,Li Li,56,2700,Healthcare,China,Changsha,9/1/1965
+1163,C. Dean Metropoulos,75,2700,Food & Beverage,United States,Palm Beach,5/5/1946
+1163,Dan Olsson,75,2700,Diversified,Sweden,Gothenburg,1/1/1947
+1163,Tor Peterson,57,2700,Metals & Mining,Switzerland,Zug,8/7/1964
+1163,John Pritzker,68,2700,Finance & Investments,United States,San Francisco,8/10/1953
+1163,Hussain Sajwani,69,2700,Real Estate,United Arab Emirates,Dubai,3/1/1953
+1163,Tseng Cheng,60,2700,Manufacturing,Taiwan,,12/1/1961
+1163,Jerry Yang,53,2700,Technology,United States,Los Altos Hills,11/6/1968
+1163,Takao Yasuda,72,2700,Fashion & Retail,Singapore,Singapore,5/7/1949
+1163,Yu Qibing & family,56,2700,Manufacturing,China,Ningbo,11/1/1965
+1163,Zhang Xuezheng,46,2700,Technology,China,Jiaxing,6/1/1975
+1196,Abdulla bin Ahmad Al Ghurair & family,,2600,Diversified,United Arab Emirates,Dubai,
+1196,Isak Andic & family,68,2600,Fashion & Retail,Spain,Barcelona,10/20/1953
+1196,Harindarpal Banga,71,2600,Finance & Investments,Hong Kong,Hong Kong,8/10/1950
+1196,Anne Beaufour,58,2600,Healthcare,United Kingdom,,8/8/1963
+1196,Henri Beaufour,56,2600,Healthcare,United Kingdom,London,6/1/1965
+1196,Sanjeev Bikhchandani,58,2600,Technology,India,Delhi,6/29/1963
+1196,Norman Braman,89,2600,Automotive,United States,Miami,8/22/1932
+1196,J. Hyatt Brown,84,2600,Finance & Investments,United States,Ormond Beach,7/12/1937
+1196,Chen Lip Keong,74,2600,Gambling & Casinos,Cambodia,Phnom Penh,7/1/1947
+1196,Jim Coulter,62,2600,Finance & Investments,United States,San Francisco,12/1/1959
+1196,Federico De Nora,54,2600,Manufacturing,Italy,Milan,3/23/1968
+1196,Dong Wei,51,2600,Healthcare,China,Lianyungang,1/1/1971
+1196,Sandeep Engineer,60,2600,Manufacturing,India,Ahmedabad,5/11/1961
+1196,Alceu Elias Feldmann,72,2600,Energy,Brazil,Curitiba,7/1/1949
+1196,"Frank Fertitta, III.",60,2600,Sports,United States,Las Vegas,2/24/1962
+1196,Lorenzo Fertitta,53,2600,Sports,United States,Las Vegas,1/3/1969
+1196,Doris Fisher,90,2600,Fashion & Retail,United States,San Francisco,8/23/1931
+1196,Alec Gores,69,2600,Finance & Investments,United States,Beverly Hills,3/18/1953
+1196,Rajinder Gupta,63,2600,Manufacturing,India,Ludhiana,1/2/1959
+1196,Igor Kesaev,55,2600,Fashion & Retail,Russia,Moscow,10/30/1966
+1196,Raj Kumar & Kishin RK,67,2600,Real Estate,Singapore,Singapore,5/25/1954
+1196,Li Hongxin & family,69,2600,Manufacturing,China,Yanzhou,3/7/1953
+1196,Liu Fangyi,52,2600,Healthcare,China,Shanghai,
+1196,Lu Zhongfang,79,2600,Automotive,China,Tonghua,12/1/1942
+1196,Nirmal Minda,64,2600,Automotive,India,Gurgaon,11/7/1957
+1196,Farhad Moshiri,66,2600,Diversified,Monaco,Monaco,5/18/1955
+1196,Hans Georg Naeder,60,2600,Manufacturing,Germany,Duderstadt,9/4/1961
+1196,Eren Ozmen,63,2600,Manufacturing,United States,Reno,9/3/1958
+1196,Ronald Perelman,79,2600,Finance & Investments,United States,New York,1/1/1943
+1196,Ravi Pillai,68,2600,Construction & Engineering,United Arab Emirates,Dubai,9/2/1953
+1196,Daniel Pritzker,62,2600,Finance & Investments,United States,Marin County,9/15/1959
+1196,Matthias Reinhart,62,2600,Finance & Investments,Switzerland,Zurich,1/1/1960
+1196,Alejandro Santo Domingo,45,2600,Food & Beverage,United States,New York,2/13/1977
+1196,Vivek Chaand Sehgal,65,2600,Automotive,India,Delhi,9/28/1956
+1196,Kavitark Ram Shriram,65,2600,Technology,United States,Menlo Park,1/21/1957
+1196,Hans Sy,66,2600,Diversified,Philippines,Manila,9/29/1955
+1196,Herbert Sy,65,2600,Diversified,Philippines,Manila,10/1/1956
+1196,Tahir & family,70,2600,Diversified,Indonesia,Jakarta,3/26/1952
+1196,Wang Linpeng,53,2600,Construction & Engineering,China,Beijing,5/1/1968
+1196,David Wertheim,64,2600,Food & Beverage,Israel,,1/1/1958
+1196,Oprah Winfrey,68,2600,Media & Entertainment,United States,Montecito,1/29/1954
+1196,Xingming Zhu,55,2600,Manufacturing,China,Shenzhen,3/1/1967
+1238,Abdulla Al Futtaim & family,,2500,Automotive,United Arab Emirates,Dubai,
+1238,Suhail Bahwan,83,2500,Diversified,Oman,Muscat,1/1/1939
+1238,Ulrike Baro,,2500,Healthcare,Germany,Munich,
+1238,David Baszucki,59,2500,Media & Entertainment,United States,San Francisco,1/20/1963
+1238,Thor Bjorgolfsson,55,2500,Diversified,United Kingdom,London,3/19/1967
+1238,Charles Bronfman,90,2500,Food & Beverage,Canada,Montreal,6/27/1931
+1238,Chen Qiongxiang,,2500,Energy,China,Ningde,
+1238,Chen Tei-fu,73,2500,Fashion & Retail,United States,Los Angeles,4/19/1948
+1238,Chuchat Petaumpai & Daonapa Petampai,69,2500,Finance & Investments,Thailand,Bangkok,1/1/1953
+1238,Leon G. Cooperman,78,2500,Finance & Investments,United States,Boca Raton,4/25/1943
+1238,Smita Crishna-Godrej,71,2500,Diversified,India,Mumbai,12/30/1950
+1238,Jacques D'Amours,65,2500,Fashion & Retail,Canada,Montreal,12/8/1956
+1238,Maria Del Pino,66,2500,Construction & Engineering,Spain,Madrid,3/19/1956
+1238,Yoichi & Keiko Erikawa,,2500,Media & Entertainment,Japan,Yokohama,
+1238,Gerald Ford,77,2500,Finance & Investments,United States,Dallas,8/4/1944
+1238,Adi Godrej,80,2500,Diversified,India,Mumbai,4/3/1942
+1238,Jamshyd Godrej,73,2500,Diversified,India,Mumbai,1/24/1949
+1238,Nadir Godrej,71,2500,Diversified,India,Mumbai,1/1/1951
+1238,Sanjiv Goenka,61,2500,Diversified,India,Kolkata,1/29/1961
+1238,Stein Erik Hagen,65,2500,Fashion & Retail,Norway,Oslo,7/22/1956
+1238,Donald Horton & family,72,2500,Real Estate,United States,Fort Worth,3/5/1950
+1238,Hu Yangzhong,57,2500,Technology,China,Hangzhou,3/6/1965
+1238,Baba Kalyani,73,2500,Construction & Engineering,India,Pune,1/7/1949
+1238,Stephen Lansdown,69,2500,Finance & Investments,Guernsey,St. Peter Port,8/30/1952
+1238,Mark Leonard & family,65,2500,Technology,Canada,Toronto,5/6/1956
+1238,William Li,47,2500,Automotive,China,Beijing,1/1/1975
+1238,K.C. Liu,68,2500,Technology,Taiwan,Taipei,3/20/1954
+1238,Liu Xiaodong,54,2500,Manufacturing,China,Shanghai,7/3/1967
+1238,Aloke Lohia,63,2500,Manufacturing,Thailand,Bangkok,11/27/1958
+1238,Mohamed Mansour,74,2500,Diversified,Egypt,Cairo,1/23/1948
+1238,Kishore Mariwala,87,2500,Food & Beverage,India,Mumbai,2/14/1935
+1238,Jed McCaleb,47,2500,Finance & Investments,United States,Berkeley,1/1/1975
+1238,Enhua Mi,64,2500,Fashion & Retail,China,Urumqi,4/1/1958
+1238,Willy Michel,75,2500,Healthcare,Switzerland,Burgdorf,1/1/1947
+1238,Lachhman Das Mittal,91,2500,Automotive,India,Delhi,11/5/1930
+1238,Ravi Modi,45,2500,Fashion & Retail,India,Kolkata,3/13/1977
+1238,Charles Munger,98,2500,Finance & Investments,United States,Los Angeles,1/1/1924
+1238,Rishad Naoroji,70,2500,Diversified,India,Mumbai,8/30/1951
+1238,Yongpei Ni & family,70,2500,Food & Beverage,China,Liuan,1/23/1952
+1238,Fatih Ozmen,64,2500,Manufacturing,United States,Reno,2/2/1958
+1238,Qiu Minxiu,76,2500,Technology,China,Shangyu,9/17/1945
+1238,Stewart Rahr,76,2500,Healthcare,United States,New York,2/18/1946
+1238,Prathap Reddy,90,2500,Healthcare,India,Chennai,2/5/1932
+1238,Chad Richison,51,2500,Technology,United States,Edmond,10/10/1970
+1238,Karin Sartorius-Herbst,,2500,Healthcare,Germany,Northeim,
+1238,Christiane Schoeller,,2500,Media & Entertainment,,,
+1238,Suh Kyung-bae,59,2500,Fashion & Retail,South Korea,Seoul,1/14/1963
+1238,Glen Taylor,80,2500,Service,United States,Mankato,4/20/1941
+1238,Nadia Thiele,46,2500,Finance & Investments,Germany,Munich,1/7/1976
+1238,Wang Minwen,58,2500,Technology,China,Beijing,11/1/1963
+1238,Huijiao Yu,56,2500,Logistics,China,Shanghai,4/1/1966
+1238,Zhang Ning & family,48,2500,Manufacturing,China,Shanghai,4/1/1974
+1238,Zhao Tao,56,2500,Healthcare,China,Xi'an,1/1/1966
+1238,Hongyi Zhou,51,2500,Technology,China,Beijing,10/1/1970
+1292,Rajendra Agarwal,63,2400,Healthcare,India,Mumbai,2/25/1959
+1292,George Argyros & family,85,2400,Real Estate,United States,Newport Beach,2/4/1937
+1292,Edward Bass,76,2400,Energy,United States,Fort Worth,9/10/1945
+1292,Banwari Lal Bawri,69,2400,Healthcare,India,Mumbai,4/2/1953
+1292,Girdhari Lal Bawri,74,2400,Healthcare,India,Mumbai,8/3/1947
+1292,Chao Teng-hsiung,77,2400,Real Estate,Taiwan,Taipei,10/4/1944
+1292,Zhisong Chen,56,2400,Technology,China,Xiamen,1/7/1966
+1292,Chey Tae-won,61,2400,Telecom,South Korea,Seoul,12/3/1960
+1292,Choo Chong Ngen,68,2400,Real Estate,Singapore,Singapore,4/21/1953
+1292,John Coates,52,2400,Gambling & Casinos,United Kingdom,Stoke-On-Trent,1/7/1970
+1292,Alexandra Daitch,59,2400,Food & Beverage,United States,Old Lyme,1/1/1963
+1292,Chetan Dube,56,2400,Technology,United States,New York,1/5/1966
+1292,Daniel Ek,39,2400,Technology,Sweden,Stockholm,2/21/1983
+1292,John Fisher,60,2400,Fashion & Retail,United States,San Francisco,6/1/1961
+1292,Bernard Fraisse & family,65,2400,Healthcare,France,Paris,8/10/1956
+1292,William Franke,84,2400,Diversified,United States,Houston,4/15/1937
+1292,Caroline Hagen Kjos,38,2400,Diversified,Switzerland,Wollerau,1/1/1984
+1292,Lam Kong,57,2400,Healthcare,Hong Kong,Hong Kong,6/15/1964
+1292,Hans Langer,70,2400,Manufacturing,Germany,Gräfelfing,1/18/1952
+1292,Joe Lau,32,2400,Technology,United States,Stanford,7/1/1989
+1292,Kevin David Lehmann,19,2400,Fashion & Retail,,,9/1/2002
+1292,Liang Qin & family,50,2400,Technology,China,Yangzhou,10/26/1971
+1292,Peter Lim,68,2400,Finance & Investments,Singapore,Singapore,6/1/1953
+1292,Sarah MacMillan,68,2400,Food & Beverage,United States,Los Angeles,1/1/1954
+1292,Kalanithi Maran,56,2400,Media & Entertainment,India,Chennai,7/26/1965
+1292,Lirio Parisotto,68,2400,Finance & Investments,Brazil,Manaus,12/18/1953
+1292,Rajan Raheja & family,67,2400,Diversified,India,Mumbai,6/1/1954
+1292,Alberto Roemmers,95,2400,Healthcare,Argentina,Buenos Aires,1/1/1927
+1292,Rodney Sacks,72,2400,Food & Beverage,United States,Laguna Beach,12/24/1949
+1292,Ferit Faik Sahenk,58,2400,Diversified,Turkey,Istanbul,3/18/1964
+1292,Hilton Schlosberg,69,2400,Food & Beverage,United States,Irvine,1/1/1953
+1292,Alberto Siccardi & family,77,2400,Healthcare,Switzerland,Lugano,5/1/1944
+1292,Salil Singhal,74,2400,Manufacturing,India,Delhi,7/21/1947
+1292,Lucy Stitzer,62,2400,Food & Beverage,United States,Greenwich,1/1/1960
+1292,Otto Toto Sugiri,68,2400,Technology,Indonesia,Jakarta,9/23/1953
+1292,Harley Sy,62,2400,Diversified,Philippines,Manila,6/1/1959
+1292,Teresita Sy-Coson,71,2400,Diversified,Philippines,Manila,10/1/1950
+1292,Katsumi Tada,76,2400,Real Estate,Japan,Tokyo,7/12/1945
+1292,Tang Yiu,88,2400,Fashion & Retail,Hong Kong,Hong Kong,4/1/1934
+1292,Jeff Tangney,49,2400,Healthcare,United States,Palo Alto,8/9/1972
+1292,Lottie Tham & family,72,2400,Fashion & Retail,Sweden,Stockholm,4/18/1949
+1292,T.Y. Tsai,69,2400,Finance & Investments,Taiwan,Taipei,1/1/1953
+1292,Timur Turlov,34,2400,Finance & Investments,Kazakhstan,Almaty,11/13/1987
+1292,Hamdi Ulukaya,49,2400,Food & Beverage,United States,Norwich,10/26/1972
+1292,Peter Unger,77,2400,Automotive,Germany,Neustadt an der Waldnaab,8/20/1944
+1292,Nikil Viswanathan,34,2400,Technology,United States,San Francisco,10/16/1987
+1292,Anthony Wood,56,2400,Technology,United States,Palo Alto,12/4/1965
+1292,Zhang Hongwei,67,2400,Diversified,China,Beijing,12/26/1954
+1292,Zhang Li,69,2400,Real Estate,China,Guangzhou,1/1/1953
+1341,Houshan Bai,58,2300,Energy,China,Ningbo,1/1/1964
+1341,Alex Beard,54,2300,Metals & Mining,United Kingdom,London,8/3/1967
+1341,Koos Bekker,69,2300,Media & Entertainment,South Africa,Cape Town,12/14/1952
+1341,William Boyd & family,90,2300,Gambling & Casinos,United States,Las Vegas,11/4/1931
+1341,Timothy Boyle,72,2300,Fashion & Retail,United States,Portland,9/7/1949
+1341,Anand Burman,69,2300,Food & Beverage,India,Delhi,5/5/1952
+1341,Richard Chandler,63,2300,Finance & Investments,Singapore,Singapore,1/1/1959
+1341,R.G. Chandramogan,73,2300,Food & Beverage,India,Chennai,3/1/1949
+1341,Cho Young-sik,60,2300,Healthcare,South Korea,Seoul,6/30/1961
+1341,Chu Lam Yiu,52,2300,Manufacturing,Hong Kong,Hong Kong,12/1/1969
+1341,Kommer Damen,78,2300,Manufacturing,Netherlands,Gorinchem,3/30/1944
+1341,Henry Davis,71,2300,Food & Beverage,United States,Omaha,2/16/1951
+1341,Ray Davis,80,2300,Energy,United States,Dallas,12/18/1941
+1341,Stephen Feinberg,62,2300,Finance & Investments,United States,New York,3/29/1960
+1341,Kenneth Feld & family,73,2300,Media & Entertainment,United States,Sarasota,10/31/1948
+1341,Alexander Frolov,57,2300,Metals & Mining,Russia,Moscow,5/17/1964
+1341,Mario Germano Giuliani,50,2300,Healthcare,Monaco,Monaco,2/26/1972
+1341,Serge Godin,72,2300,Technology,Canada,Westmount,11/17/1949
+1341,Noam Gottesman,60,2300,Finance & Investments,United States,New York,5/24/1961
+1341,Philip & Cristina Green,70,2300,Fashion & Retail,United Kingdom,London,3/15/1952
+1341,Yusuf Hamied,85,2300,Healthcare,India,Mumbai,7/26/1936
+1341,Bill Haslam,63,2300,Fashion & Retail,United States,Knoxville,8/23/1958
+1341,Hans-Werner Hector,82,2300,Technology,Germany,Weinheim,1/17/1940
+1341,Ho Hung Anh,51,2300,Finance & Investments,Vietnam,Hanoi,6/8/1970
+1341,Douglas Hsu,79,2300,Diversified,Taiwan,Taipei,8/24/1942
+1341,Erman Ilicak,54,2300,Construction & Engineering,Turkey,Ankara,10/3/1967
+1341,Zhaobai Jiang,58,2300,Real Estate,China,Shanghai,8/17/1963
+1341,Osman Kibar,51,2300,Healthcare,United States,La Jolla,4/1/1971
+1341,Adam Kwok,39,2300,Real Estate,Hong Kong,Hong Kong,4/1/1983
+1341,Frank Laukien,62,2300,Manufacturing,United States,Boston,2/4/1960
+1341,Louis Le Duff,75,2300,Food & Beverage,France,Paris,8/1/1946
+1341,Solomon Lew,77,2300,Fashion & Retail,Australia,Melbourne,3/22/1945
+1341,Liang Rubo,39,2300,Technology,China,Beijing,1/1/1983
+1341,Liang Zhaoxian,57,2300,Manufacturing,China,Foshan,1/1/1965
+1341,Prayudh Mahagitsiri,76,2300,Food & Beverage,Thailand,Bangkok,1/1/1946
+1341,Clayton Mathile,81,2300,Food & Beverage,United States,Brookville,1/11/1941
+1341,Erwin Franz Mueller,89,2300,Fashion & Retail,Germany,Ulm,8/9/1932
+1341,David Murdock,98,2300,Food & Beverage,United States,Ventura,4/10/1923
+1341,Rubens Ometto Silveira Mello,72,2300,Energy,Brazil,Sao Paulo,1/1/1950
+1341,Erik Paulsson & family,80,2300,Real Estate,Sweden,Båstad,1/31/1942
+1341,Heloise Pratt,59,2300,Manufacturing,Australia,Melbourne,9/13/1962
+1341,Qiu Jianping & family,60,2300,Manufacturing,China,Hangzhou,1/28/1962
+1341,Dirk Rossmann & family,75,2300,Fashion & Retail,Germany,Lower-Saxony,9/7/1946
+1341,Karin Schick,,2300,Technology,Germany,Gaildorf,
+1341,Stephan Schmidheiny,74,2300,Finance & Investments,Switzerland,Hurden,10/29/1947
+1341,Wenrong Shen,76,2300,Metals & Mining,China,Zhangjiagang,2/13/1946
+1341,Guangxin Sun,59,2300,Diversified,China,Urumqi,12/1/1962
+1341,Mengquan Sun & family,72,2300,Food & Beverage,China,Yantai,3/1/1950
+1341,Thomas Tull,51,2300,Media & Entertainment,United States,Pittsburgh,6/11/1970
+1341,Ted Turner,83,2300,Media & Entertainment,United States,Atlanta,11/19/1938
+1341,David Walentas,83,2300,Real Estate,United States,New York,8/7/1938
+1341,Yingming Wu,55,2300,Energy,China,Ningde,1/1/1967
+1341,Yingzhuo Xu,54,2300,Food & Beverage,China,Guangzhou,1/1/1968
+1341,Christoph Zeller,64,2300,Healthcare,Liechtenstein,Vaduz,5/4/1957
+1341,Zhang Wanzhen,72,2300,Manufacturing,China,Chaozhou,12/1/1949
+1341,Xiaojuan Zhang,52,2300,Logistics,China,Shanghai,10/1/1969
+1397,Michael Ashcroft,76,2200,Finance & Investments,Turks and Caicos Islands,Turks and Caicos Islands,1/1/1946
+1397,Alex Atallah,30,2200,Technology,United States,New York,3/9/1992
+1397,Brett Blundy,62,2200,Fashion & Retail,Bahamas,Paradise Island,1/17/1960
+1397,Chris Britt,49,2200,Finance & Investments,United States,San Francisco,3/17/1973
+1397,Cen Junda,57,2200,Healthcare,China,Lianyungang,6/18/1964
+1397,Yadu Hari Dalmia & family,74,2200,Manufacturing,India,Delhi,6/2/1947
+1397,Zhenggang Dou,68,2200,Diversified,China,Hangzhou,5/21/1953
+1397,Weimin Du,58,2200,Healthcare,China,Shenzhen,12/1/1963
+1397,Devin Finzer,31,2200,Technology,United States,New York,10/18/1990
+1397,Robert Friedland,71,2200,Metals & Mining,Singapore,Singapore,8/18/1950
+1397,Phillip Frost,85,2200,Healthcare,United States,Miami Beach,11/11/1936
+1397,Jeffrey Gundlach,63,2200,Finance & Investments,United States,Los Angeles,1/1/1959
+1397,John Hancock,46,2200,Metals & Mining,United Kingdom,London,1/2/1976
+1397,Georg Haub,60,2200,Fashion & Retail,Germany,Berlin,1/1/1962
+1397,Hortensia Herrero,71,2200,Fashion & Retail,Spain,Valencia,5/20/1950
+1397,"B. Wayne Hughes, Jr.",61,2200,Real Estate,United States,Malibu,1/1/1961
+1397,Bruce Karsh,66,2200,Finance & Investments,United States,Los Angeles,10/10/1955
+1397,Shlomo Kramer,56,2200,Technology,Israel,Tel Aviv,3/14/1966
+1397,Jonathan Kwok,30,2200,Real Estate,Hong Kong,Hong Kong,3/1/1992
+1397,Christian Latouche,81,2200,Finance & Investments,France,Lyon,7/18/1940
+1397,Martin Lau,49,2200,Technology,Hong Kong,Hong Kong,4/1/1973
+1397,Li Wa,56,2200,Real Estate,China,Shenzhen,1/1/1966
+1397,Liang Xinjun,54,2200,Diversified,China,Shanghai,1/1/1968
+1397,Lin Chang Su-O,81,2200,Real Estate,Taiwan,Taipei,8/1/1940
+1397,Lin Fanlian,60,2200,Energy,China,Linyi,6/1/1961
+1397,Lin Lairong & family,53,2200,Metals & Mining,China,Bayannur,8/9/1968
+1397,Daniel Lubetzky,53,2200,Food & Beverage,United States,New York,9/28/1968
+1397,Howard Marks,75,2200,Finance & Investments,United States,New York,4/23/1946
+1397,Craig McCaw,72,2200,Telecom,United States,Hunts Point,8/11/1949
+1397,Vincent McMahon,76,2200,Sports,United States,Greenwich,8/24/1945
+1397,Mu Rongjun,42,2200,Technology,China,Beijing,1/1/1980
+1397,Jonathan Nelson,65,2200,Finance & Investments,United States,Providence,5/18/1956
+1397,Bianca Rinehart,45,2200,Metals & Mining,Australia,Brisbane,3/19/1977
+1397,Ginia Rinehart,35,2200,Metals & Mining,Australia,Sydney,9/6/1986
+1397,Filiz Sahenk,55,2200,Diversified,Turkey,Istanbul,2/14/1967
+1397,S.D. Shibulal,67,2200,Technology,India,Bangalore,3/1/1955
+1397,Alexander Svetakov,54,2200,Finance & Investments,Russia,Moscow,2/15/1968
+1397,Jeffrey Talpins,47,2200,Finance & Investments,United States,Larchmont,3/6/1975
+1397,Ming Tian,68,2200,Technology,China,Hefei,12/20/1953
+1397,Arvind Tiku,52,2200,Energy,Singapore,Singapore,2/22/1970
+1397,Torsten Toeller,55,2200,Fashion & Retail,Germany,Krefeld,4/6/1966
+1397,Riaz Valani,45,2200,Finance & Investments,United States,Malibu,9/1/1976
+1397,Pieter van der Does,52,2200,Technology,Netherlands,Amsterdam,5/1/1969
+1397,Lang Walker,76,2200,Real Estate,Australia,Sydney,7/5/1945
+1397,Hope Welker,36,2200,Metals & Mining,United States,New York,8/13/1985
+1397,Xie Bingkun & family,55,2200,Fashion & Retail,China,Fuzhou,8/25/1966
+1397,William Young,81,2200,Manufacturing,United States,Ypsilanti,1/1/1941
+1397,Zhou Jian,45,2200,Energy,China,Shenzhen,7/1/1976
+1445,Bill and Jean Adderley & family,,2100,Fashion & Retail,United Kingdom,Leicester,
+1445,Mohamed Al Fayed,93,2100,Fashion & Retail,United Kingdom,London,1/27/1929
+1445,Faisal Bin Qassim Al Thani,74,2100,Diversified,Qatar,Doha,1/1/1948
+1445,Masaaki Arai,56,2100,Real Estate,Japan,Tokyo,10/29/1965
+1445,Tatyana Bakalchuk,46,2100,Fashion & Retail,Russia,Moscow region,10/16/1975
+1445,Lee Bass,65,2100,Energy,United States,Fort Worth,5/24/1956
+1445,Alberto Bombassei,81,2100,Automotive,Italy,Bergamo,10/5/1940
+1445,Jim Breyer,60,2100,Technology,United States,Austin,7/26/1961
+1445,Ron Burkle,69,2100,Finance & Investments,United Kingdom,London,11/12/1952
+1445,Chen Huwen,51,2100,Manufacturing,China,Shanghai,7/1/1970
+1445,Chen Huxiong,51,2100,Manufacturing,China,Shanghai,7/1/1970
+1445,Chen Xuehua,61,2100,Metals & Mining,China,Tongxiang,1/1/1961
+1445,Bruce Cheng,86,2100,Technology,Taiwan,Taipei,1/1/1936
+1445,Ryan Cohen,36,2100,Finance & Investments,United States,Bal Harbour,8/4/1985
+1445,Dermot Desmond,71,2100,Finance & Investments,Ireland,Dublin,7/1/1950
+1445,Fred Ehrsam,33,2100,Finance & Investments,United States,Miami,5/10/1988
+1445,John Elkann,46,2100,Finance & Investments,Italy,Turin,1/4/1976
+1445,Bob Ell,77,2100,Real Estate,Australia,Surfers Paradise,12/22/1944
+1445,Fang Xiaoliang & family,63,2100,Healthcare,China,Huzhou,9/1/1958
+1445,Lindsay Fox,84,2100,Logistics,Australia,Melbourne,4/19/1937
+1445,Gary Friedman,64,2100,Fashion & Retail,United States,Belvedere,8/6/1957
+1445,Gordon Getty,88,2100,Energy,United States,San Francisco,12/20/1933
+1445,Dennis Gillings,77,2100,Healthcare,United States,Durham,4/25/1944
+1445,Harsh Goenka,64,2100,Diversified,India,Mumbai,12/10/1957
+1445,David Hains,91,2100,Finance & Investments,Australia,Melbourne,8/19/1930
+1445,Bahaa Hariri,55,2100,Real Estate,Switzerland,Geneva,4/26/1966
+1445,Shmuel Harlap,77,2100,Automotive,Israel,Tel Aviv,11/13/1944
+1445,Gerry Harvey,82,2100,Fashion & Retail,Australia,Sydney,9/18/1939
+1445,Reid Hoffman,54,2100,Technology,United States,Palo Alto,8/5/1967
+1445,Hou Juncheng,57,2100,Healthcare,China,Hangzhou,12/17/1964
+1445,Thomas James,79,2100,Finance & Investments,United States,Saint Petersburg,5/10/1942
+1445,Eiichi Kuriwada,75,2100,Logistics,Japan,Osaka,10/10/1946
+1445,Kwek Leng Kee,67,2100,Diversified,Singapore,Singapore,1/1/1955
+1445,Lai Shixian,47,2100,Fashion & Retail,China,Quanzhou,1/1/1975
+1445,Lau Cho Kun,86,2100,Diversified,Malaysia,"Tawau, Sabah",1/10/1936
+1445,Lee Hae-jin,54,2100,Technology,South Korea,Seoul,6/22/1967
+1445,Harald Link,67,2100,Diversified,Thailand,Bangkok,1/12/1955
+1445,Liu Xiucai & family,65,2100,Manufacturing,China,Shanghai,3/1/1957
+1445,Yangyong Luo & family,46,2100,Metals & Mining,China,Panzhihua,6/2/1975
+1445,Igor Makarov,60,2100,Energy,United States,Miami,4/5/1962
+1445,Alexander Mamut,62,2100,Finance & Investments,Israel,Tel Aviv,1/29/1960
+1445,David Mindus,50,2100,Real Estate,Sweden,Stockholm,1/26/1972
+1445,Yuji Otsuka,68,2100,Technology,Japan,Tokyo,2/13/1954
+1445,Clive Palmer,68,2100,Metals & Mining,Australia,Brisbane,3/26/1954
+1445,Ajay Parekh,64,2100,Manufacturing,India,Mumbai,6/23/1957
+1445,Narendrakumar Parekh,83,2100,Manufacturing,India,Mumbai,4/17/1938
+1445,Xiangdong Qi,51,2100,Technology,China,Beijing,10/1/1970
+1445,Jianhua Ren,65,2100,Manufacturing,China,Hangzhou,8/1/1956
+1445,Alice Schwartz,95,2100,Healthcare,United States,El Cerrito,7/2/1926
+1445,Peter Sondakh,72,2100,Finance & Investments,Indonesia,Surabaya,2/26/1950
+1445,Song Fei,55,2100,Manufacturing,China,Yantai,9/12/1966
+1445,Timothy Springer,74,2100,Healthcare,United States,Chestnut Hill,2/23/1948
+1445,Suyu Su & family,73,2100,Real Estate,China,Shantou,11/24/1948
+1445,Elizabeth Sy,69,2100,Diversified,Philippines,Manila,6/1/1952
+1445,Sukanto Tanoto,72,2100,Diversified,Singapore,Singapore,12/25/1949
+1445,Jayshree Ullal,61,2100,Technology,United States,Saratoga,3/27/1961
+1445,Sunny Varkey,64,2100,Service,United Arab Emirates,Dubai,4/9/1957
+1445,Jitendra Virwani,56,2100,Real Estate,India,Bangalore,2/18/1966
+1445,Wang Ren-sheng,90,2100,Fashion & Retail,China,Zhengzhou,12/1/1931
+1445,Wang Wenmo,65,2100,Fashion & Retail,China,Quanzhou,1/1/1957
+1445,Thomas Wu,72,2100,Finance & Investments,Taiwan,Taipei,4/1/1950
+1445,Wu Ying,57,2100,Manufacturing,China,Xianyang,4/16/1964
+1445,Amy Wyss,51,2100,Healthcare,United States,Wilson,1/1/1971
+1445,Xiang Guangming & family,58,2100,Manufacturing,China,Wenzhou,10/1/1963
+1445,Xu Shugen,56,2100,Manufacturing,China,Hangzhou,6/12/1965
+1445,Steven Meng Yang & family,39,2100,Technology,China,Changsha,5/1/1982
+1445,Clayton Zekelman,53,2100,Manufacturing,Canada,Windsor,1/1/1969
+1445,Hongfei Zhao,47,2100,Technology,China,Beijing,6/1/1974
+1513,S. Daniel Abraham,97,2000,Food & Beverage,United States,Palm Beach,8/15/1924
+1513,Aziz Akhannouch & family,61,2000,Diversified,Morocco,Casablanca,1/1/1961
+1513,Andrey Andreev,48,2000,Technology,United Kingdom,London,2/3/1974
+1513,Ramon Ang,68,2000,Food & Beverage,Philippines,Manila,1/14/1954
+1513,Guilherme Benchimol,45,2000,Finance & Investments,Brazil,Rio de Janeiro,7/7/1976
+1513,Julio Bozano,86,2000,Finance & Investments,Brazil,Rio de Janeiro,2/1/1936
+1513,Ryan Breslow,27,2000,Technology,United States,Miami,5/20/1994
+1513,Cao Jianwei,43,2000,Manufacturing,China,Shangyu,5/30/1978
+1513,Herb Chambers,80,2000,Automotive,United States,Boston,1/1/1942
+1513,Daniel Chiu,61,2000,Energy,Hong Kong,Hong Kong,11/30/1960
+1513,Tim Cook,61,2000,Technology,United States,Cupertino,11/1/1960
+1513,Brunello Cucinelli & family,68,2000,Fashion & Retail,Italy,Solomeo,9/3/1953
+1513,Georgi Domuschiev,49,2000,Diversified,United Kingdom,London,8/6/1972
+1513,Kiril Domuschiev,52,2000,Diversified,United Kingdom,London,4/18/1969
+1513,Glenn Dubin,64,2000,Finance & Investments,United States,New York,4/13/1957
+1513,James Duff,61,2000,Diversified,United States,Hattiesburg,3/7/1961
+1513,Thomas Duff,65,2000,Diversified,United States,Hattiesburg,12/31/1956
+1513,Robert Duggan,77,2000,Healthcare,United States,Clearwater,4/28/1944
+1513,Maria Franca Fissolo,87,2000,Food & Beverage,Monaco,Monaco,1/1/1935
+1513,Fu Mingkang & family,59,2000,Manufacturing,China,Ningbo,3/17/1963
+1513,Jay Hennick,65,2000,Finance & Investments,Canada,Toronto,1/20/1957
+1513,Orion Hindawi,42,2000,Technology,United States,Seattle,1/10/1980
+1513,Ji Qi,55,2000,Real Estate,China,Shanghai,10/1/1966
+1513,Kim Chang-soo,61,2000,Fashion & Retail,South Korea,Seoul,4/1/1961
+1513,Vyacheslav Kim,52,2000,Finance & Investments,Kazakhstan,Almaty,6/12/1969
+1513,Kuan Kam Hon & family,74,2000,Manufacturing,Malaysia,Kuala Lumpur,9/4/1947
+1513,Egor Kulkov,50,2000,Healthcare,Switzerland,Grimisuat,12/7/1971
+1513,Josh Kushner,36,2000,Finance & Investments,United States,New York City,6/12/1985
+1513,Henry Laufer,76,2000,Finance & Investments,United States,Lake Worth,8/13/1945
+1513,Thomas Lee,78,2000,Finance & Investments,United States,New York,3/27/1944
+1513,Michael Lee-Chin,71,2000,Finance & Investments,Canada,Burlington,1/3/1951
+1513,Li Xuhui,53,2000,Food & Beverage,China,Foshan,6/15/1968
+1513,Lim Kok Thay,70,2000,Gambling & Casinos,Malaysia,Kuala Lumpur,8/16/1951
+1513,Joao Roberto Marinho,68,2000,Media & Entertainment,Brazil,Rio de Janeiro,9/16/1953
+1513,Jose Roberto Marinho,66,2000,Media & Entertainment,Brazil,Rio de Janeiro,12/26/1955
+1513,Roberto Irineu Marinho,74,2000,Media & Entertainment,Brazil,Rio de Janeiro,10/13/1947
+1513,Jim McKelvey,56,2000,Technology,United States,St. Louis,10/19/1965
+1513,Robert Miller,88,2000,Fashion & Retail,Hong Kong,Hong Kong,5/23/1933
+1513,David Nahmad,74,2000,Fashion & Retail,United States,New York,4/14/1947
+1513,Florentino Perez,75,2000,Construction & Engineering,Spain,Madrid,3/8/1947
+1513,Jennifer Pritzker,71,2000,Finance & Investments,United States,Chicago,8/13/1950
+1513,Linda Pritzker,68,2000,Service,United States,Missoula,9/14/1953
+1513,P.V. Ramprasad Reddy,64,2000,Healthcare,India,Hyderabad,3/30/1958
+1513,"Joe Rogers, Jr.",75,2000,Food & Beverage,United States,Atlanta,12/2/1946
+1513,Ruan Shuilong & family,86,2000,Manufacturing,China,Shangyu,12/1/1935
+1513,Phil Ruffin,87,2000,Diversified,United States,Las Vegas,3/17/1935
+1513,Vinod Saraf,69,2000,Manufacturing,India,Mumbai,6/16/1952
+1513,Maria-Elisabeth Schaeffler-Thumann,80,2000,Automotive,Germany,Herzogenaurach,8/17/1941
+1513,Genhuo Shao,56,2000,Food & Beverage,China,Beijing,7/29/1965
+1513,Shen Xiqiang & family,74,2000,Energy,China,Yixing,3/2/1948
+1513,Shi Wen-long,94,2000,Manufacturing,Taiwan,Tainan,2/1/1928
+1513,Thaksin Shinawatra,72,2000,Finance & Investments,United Arab Emirates,Dubai,7/26/1949
+1513,Alexander Skorobogatko,54,2000,Logistics,Russia,Moscow,9/25/1967
+1513,Sylvia Stroeher,66,2000,Fashion & Retail,Germany,Darmstadt,5/30/1955
+1513,Wichai Thongtang,75,2000,Finance & Investments,Thailand,Bangkok,1/1/1947
+1513,Todd Wagner,61,2000,Media & Entertainment,United States,Dallas,8/2/1960
+1513,Wang Jianguo,62,2000,Fashion & Retail,China,Nanjing,1/1/1960
+1513,Shuifu Wang,67,2000,Manufacturing,China,Hangzhou,2/10/1955
+1513,Wenbiao Wang,65,2000,Manufacturing,China,Beijing,1/1/1957
+1513,Kanye West,44,2000,Fashion & Retail,United States,Los Angeles,6/8/1977
+1513,Evan Williams,50,2000,Technology,United States,San Francisco,3/31/1972
+1513,Zhongyi Wu,48,2000,Technology,China,Xiamen,10/28/1973
+1513,Zhihan Xu,49,2000,Technology,China,Wuxi,11/30/1972
+1513,Yan Zhi,49,2000,Real Estate,China,Wuhan,7/1/1972
+1513,Michael Ying,72,2000,Fashion & Retail,Hong Kong,Hong Kong,12/1/1949
+1513,Yuan Liping,51,2000,Healthcare,China,Shenzhen,1/1/1971
+1579,Anu Aga,79,1900,Construction & Engineering,India,Pune,8/1/1942
+1579,Joy Alukkas,65,1900,Fashion & Retail,India,Cochin,9/4/1956
+1579,Sezai Bacaksiz,72,1900,Diversified,Turkey,Ankara,7/27/1949
+1579,Baokun Bai,52,1900,Manufacturing,China,Dongguan,
+1579,Acharya Balkrishna,49,1900,Food & Beverage,India,Haridwar,7/25/1972
+1579,Kiki Barki,82,1900,Energy,Indonesia,Jakarta,11/25/1939
+1579,John Bloor,78,1900,Diversified,United Kingdom,Aberdyfi,6/16/1943
+1579,Nicola Bulgari,81,1900,Fashion & Retail,Italy,Rome,1/16/1941
+1579,Alejandro Bulgheroni,77,1900,Energy,Uruguay,Manantiales,11/1/1944
+1579,Chen Kaichen,,1900,Manufacturing,China,Guangzhou,
+1579,Fernando Chico Pardo,70,1900,Service,Mexico,Mexico City,2/15/1952
+1579,Jose Luis Cutrale,75,1900,Food & Beverage,Brazil,Sao Paulo,9/17/1946
+1579,D. Leopoldo Del Pino,59,1900,Construction & Engineering,Spain,Madrid,7/30/1962
+1579,James Dinan,62,1900,Finance & Investments,United States,North Salem,5/22/1959
+1579,Francois Feuillet & family,73,1900,Automotive,France,Paris,1/1/1949
+1579,Guangming Fu & family,68,1900,Food & Beverage,China,Nanping,10/2/1953
+1579,Mario Gabelli,80,1900,Finance & Investments,United States,Greenwich,3/31/1942
+1579,Reinold Geiger,74,1900,Fashion & Retail,Switzerland,Geneva,7/10/1947
+1579,He Zhenggang,68,1900,Manufacturing,China,Leshan,3/25/1954
+1579,Roberto Hernandez Ramirez,80,1900,Finance & Investments,Mexico,Mexico City,3/24/1942
+1579,Hoi Kin Hong,69,1900,Real Estate,China,Shanghai,9/1/1952
+1579,Huang Qiaoling,63,1900,Media & Entertainment,China,Hangzhou,11/15/1958
+1579,Willis Johnson,74,1900,Automotive,United States,Franklin,5/26/1947
+1579,Keeree Kanjanapas,71,1900,Real Estate,Thailand,Bangkok,10/18/1950
+1579,Kim Dae-il,42,1900,Technology,South Korea,Anyang,1/26/1980
+1579,Kim Hyoung-nyon,46,1900,Finance & Investments,South Korea,,1/1/1976
+1579,Andrei Kozitsyn,61,1900,Metals & Mining,Russia,Verkhniaya Pyshma,6/9/1960
+1579,Thomas Kwok,70,1900,Real Estate,Hong Kong,Hong Kong,10/6/1951
+1579,Lei Jufang,69,1900,Healthcare,China,Lanzhou,1/3/1953
+1579,David Lichtenstein,60,1900,Real Estate,United States,Monsey,11/21/1961
+1579,Lin Dingqiang & family,55,1900,Real Estate,China,Beijing,10/1/1966
+1579,Mikhail Lomtadze,46,1900,Finance & Investments,Kazakhstan,Almaty,10/17/1975
+1579,Melissa Ma,,1900,Technology,China,Beijing,
+1579,Yusaku Maezawa,46,1900,Technology,Japan,Chiba,11/22/1975
+1579,Katarina Martinson,40,1900,Diversified,Sweden,Stockholm,5/4/1981
+1579,Shouliang Miao,67,1900,Real Estate,China,Shenzhen,1/1/1955
+1579,Romano Minozzi,87,1900,Diversified,Italy,Spilamberto,3/6/1935
+1579,Pedro Moreira Salles,62,1900,Diversified,Brazil,Sao Paulo,10/20/1959
+1579,Alexander Nesis,59,1900,Finance & Investments,Russia,Moscow,12/19/1962
+1579,Nguyen Dang Quang,58,1900,Food & Beverage,Vietnam,Ho Chi Minh City,8/23/1963
+1579,Oei Hong Leong,74,1900,Finance & Investments,Singapore,Singapore,3/21/1948
+1579,Nihat Ozdemir,72,1900,Diversified,Turkey,Ankara,4/5/1950
+1579,Gretel Packer,56,1900,Media & Entertainment,Australia,Sydney,4/1/1966
+1579,Benjamin Zhengmin Pan & family,52,1900,Technology,China,Shenzhen,12/1/1969
+1579,Victor Pinchuk,61,1900,Metals & Mining,Ukraine,Kiev,12/14/1960
+1579,Alexander Ponomarenko,57,1900,Logistics,Russia,Moscow,10/27/1964
+1579,Qi Jinxing,60,1900,Real Estate,China,Hangzhou,3/28/1962
+1579,Larry Robbins,52,1900,Finance & Investments,United States,Alpine,10/21/1969
+1579,Dwight Schar,80,1900,Construction & Engineering,United States,Palm Beach,2/8/1942
+1579,Shi Yifeng,48,1900,Healthcare,China,Beijing,1/1/1974
+1579,Sun Hongjun,48,1900,Technology,China,Shanghai,7/1/1973
+1579,Anand Surana,51,1900,Healthcare,India,Bangalore,3/24/1971
+1579,Dilip Surana,56,1900,Healthcare,India,Bangalore,1/18/1966
+1579,Djoko Susanto,72,1900,Fashion & Retail,Indonesia,Jakarta,2/9/1950
+1579,Sze Man Bok,72,1900,Manufacturing,China,Jinjiang,1/1/1950
+1579,Alain Taravella,74,1900,Real Estate,France,Paris,1/1/1948
+1579,Martin Viessmann,68,1900,Manufacturing,Germany,Allendorf,10/10/1953
+1579,Georg von Opel,55,1900,Finance & Investments,United Kingdom,London,5/4/1966
+1579,Changtian Wang,56,1900,Media & Entertainment,China,Beijing,4/26/1965
+1579,Wang Chaobin,66,1900,Real Estate,China,Zhengzhou,1/1/1956
+1579,Wang Chou-hsiong,81,1900,Manufacturing,Taiwan,Yunlin,1/1/1941
+1579,Wang Xiaoshen,53,1900,Manufacturing,China,Urumchi,10/1/1968
+1579,Wei Yin-Heng,63,1900,Food & Beverage,China,Shanghai,1/1/1959
+1579,Xue Xiangdong & family,63,1900,Technology,China,Beijing,2/10/1959
+1579,Yuan Fugen & family,71,1900,Manufacturing,China,Suzhou,11/15/1950
+1579,David Zalik,48,1900,Technology,United States,Atlanta,2/2/1974
+1645,Leslie Alexander,78,1800,Sports,United States,Houston,6/30/1943
+1645,Igor Altushkin,51,1800,Metals & Mining,Russia,Yekaterinburg,9/10/1970
+1645,Roberto Angelini Rossi,73,1800,Diversified,Chile,Santiago,7/30/1948
+1645,Nigel Austin,51,1800,Fashion & Retail,Australia,Melbourne,9/25/1970
+1645,Bang Jun-hyuk,53,1800,Media & Entertainment,South Korea,Seoul,6/1/1968
+1645,O. Francis Biondi,57,1800,Finance & Investments,United States,New York,7/4/1964
+1645,Chang Byung-gyu,48,1800,Technology,South Korea,Seoul,4/25/1973
+1645,Chang Kuo-Ming,,1800,Logistics,Taiwan,Taipei,
+1645,Chen Gang,54,1800,Energy,China,Guangzhou,1/1/1968
+1645,Liying Chen,46,1800,Logistics,China,Shanghai,10/30/1975
+1645,Chen Xueli,70,1800,Healthcare,China,Weihai,10/1/1951
+1645,Chi Yufeng,51,1800,Technology,China,Beijing,1/1/1971
+1645,Mark Coombs,61,1800,Finance & Investments,United Kingdom,London,1/1/1961
+1645,Tench Coxe,64,1800,Finance & Investments,United States,Palo Alto,1/14/1958
+1645,John de Mol,67,1800,Media & Entertainment,Netherlands,Blaricum,3/24/1955
+1645,Alfredo Egydio Arruda Villela Filho,52,1800,Finance & Investments,Brazil,Sao Paulo,11/18/1969
+1645,Ibrahim Erdemoglu,59,1800,Manufacturing,Turkey,Istanbul,9/26/1962
+1645,Philip Fayer,,1800,Finance & Investments,,,
+1645,Paul Foster,64,1800,Energy,United States,El Paso,10/8/1957
+1645,James France,77,1800,Sports,United States,Daytona Beach,10/24/1944
+1645,Yasuhiro Fukushima,74,1800,Media & Entertainment,Japan,Tokyo,8/18/1947
+1645,Zhongru Gan,73,1800,Healthcare,China,Beijing,7/1/1948
+1645,Rahul Gautam,69,1800,Fashion & Retail,India,Delhi,11/18/1952
+1645,Ali Ghodsi,43,1800,Technology,United States,San Francisco,12/8/1978
+1645,Giammaria Giuliani,44,1800,Healthcare,Switzerland,Montagnola,2/20/1978
+1645,Christopher Goldsbury,79,1800,Food & Beverage,United States,San Antonio,1/1/1943
+1645,Alexandre Grendene Bartelle,72,1800,Fashion & Retail,Brazil,Porto Alegre,1/23/1950
+1645,Surjit Kumar Gupta,80,1800,Manufacturing,India,Delhi,1/13/1942
+1645,Brian Higgins,57,1800,Finance & Investments,United States,New York,2/8/1965
+1645,David Hindawi,77,1800,Technology,United States,Seattle,12/8/1944
+1645,Chengzhong Hu,61,1800,Manufacturing,China,Wenzhou,3/1/1961
+1645,Huang Min,48,1800,Manufacturing,China,Suzhou,7/1/1973
+1645,Stanley Hubbard,88,1800,Media & Entertainment,United States,St. Paul,5/28/1933
+1645,Hui Lin Chit,68,1800,Manufacturing,China,Jinjiang,6/16/1953
+1645,Hal Jackman,89,1800,Finance & Investments,Canada,Toronto,6/10/1932
+1645,Stephen Jarislowsky,96,1800,Finance & Investments,Canada,Montreal,9/9/1925
+1645,Mark & Robyn Jones,,1800,Finance & Investments,United States,Fort Worth,
+1645,George Joseph,100,1800,Finance & Investments,United States,Los Angeles,9/11/1921
+1645,Kim Kardashian,41,1800,Fashion & Retail,United States,Hidden Hills,10/21/1980
+1645,Dominika Kulczyk,44,1800,Finance & Investments,Poland,Warsaw,7/30/1977
+1645,Edward Lampert,59,1800,Finance & Investments,United States,Miami Beach,7/19/1962
+1645,Marc Lasry,61,1800,Finance & Investments,United States,New York,9/23/1960
+1645,Michiel Le Roux,72,1800,Finance & Investments,South Africa,Stellenbosch,5/20/1949
+1645,Peter Leibinger,55,1800,Manufacturing,Germany,Schwieberdingen,1/1/1967
+1645,Regine Leibinger,59,1800,Manufacturing,Germany,Berlin,1/1/1963
+1645,Nicola Leibinger-Kammueller,62,1800,Manufacturing,Germany,Berlin,12/15/1959
+1645,Wolfgang Leitner,69,1800,Construction & Engineering,Austria,Graz,3/27/1953
+1645,Liu Zhongtian & family,58,1800,Manufacturing,China,Liaoyang,2/1/1964
+1645,Bill Malhotra,72,1800,Real Estate,Canada,Ottawa,9/8/1949
+1645,Charlwin Mao,,1800,Fashion & Retail,China,Shanghai,
+1645,George Marcus,80,1800,Real Estate,United States,Los Altos Hills,8/15/1941
+1645,Yves-Loic Martin,56,1800,Healthcare,France,Nantes,1/1/1966
+1645,Gary Michelson,73,1800,Healthcare,United States,Los Angeles,1/14/1949
+1645,Robert G. Miller,76,1800,Technology,Canada,Montreal,7/3/1945
+1645,Fernando Roberto Moreira Salles,75,1800,Diversified,Brazil,Sao Paulo,5/29/1946
+1645,Joao Moreira Salles,60,1800,Diversified,Brazil,Rio de Janeiro,1/1/1962
+1645,Walther Moreira Salles Junior,65,1800,Finance & Investments,Brazil,Rio de Janeiro,4/12/1956
+1645,Zugen Ni,65,1800,Manufacturing,China,Suzhou,1/18/1957
+1645,Liora Ofer,68,1800,Finance & Investments,Israel,Tel Aviv,12/22/1953
+1645,Mrudula Parekh,74,1800,Manufacturing,India,Mumbai,1/1/1948
+1645,David Paul,55,1800,Healthcare,United States,Audubon,12/25/1966
+1645,Pierre Karl Péladeau,60,1800,Media & Entertainment,Canada,Montreal,10/16/1961
+1645,Miranda Qu,37,1800,Fashion & Retail,China,Shanghai,1/1/1985
+1645,Phillip T. (Terry) Ragon,72,1800,Technology,United States,Boston,6/1/1949
+1645,G. Rajendran,79,1800,Fashion & Retail,India,Chennai,10/5/1942
+1645,Krit Ratanarak,75,1800,Media & Entertainment,Thailand,Bangkok,4/19/1946
+1645,Jerry Reinsdorf,86,1800,Sports,United States,Chicago,2/25/1936
+1645,Mochtar Riady & family,92,1800,Diversified,Indonesia,Jakarta,5/12/1929
+1645,Rajju Shroff,88,1800,Manufacturing,India,Mumbai,10/20/1933
+1645,Frank Slootman,63,1800,Technology,United States,Pleasanton,10/3/1958
+1645,Henry Swieca,64,1800,Finance & Investments,United States,New York,5/9/1957
+1645,Yuequn Tao,62,1800,Fashion & Retail,China,Hefei,1/1/1960
+1645,Robert Toennies,43,1800,Food & Beverage,Germany,Rheda-Wiedenbrück,5/29/1978
+1645,Torbjorn Tornqvist,68,1800,Energy,Switzerland,Geneva,11/8/1953
+1645,Zhenghua Wang,77,1800,Service,China,Shanghai,4/25/1944
+1645,Charlotte Colket Weber,79,1800,Food & Beverage,United States,Hobe Sound,11/19/1942
+1645,Wu Lanlan & family,48,1800,Manufacturing,China,Shenzhen,1/1/1974
+1645,Wu Yulan,52,1800,Healthcare,China,Lianyungang,8/26/1969
+1645,Elaine Wynn,79,1800,Gambling & Casinos,United States,Las Vegas,4/28/1942
+1645,Xu Shijun & family,59,1800,Manufacturing,China,Nantong,3/1/1963
+1645,Xu Xudong & family,52,1800,Automotive,China,Ningbo,3/1/1970
+1645,Yang Xuegang,57,1800,Manufacturing,China,Beijing,2/1/1965
+1645,Zhang Chuanwei & family,59,1800,Manufacturing,China,Zhongshan,6/15/1962
+1645,Xuexin Zhang & family,74,1800,Metals & Mining,China,Liaocheng,7/1/1947
+1729,Noubar Afeyan,59,1700,Healthcare,United States,Lexington,7/25/1962
+1729,Farkhad Akhmedov,66,1700,Energy,Russia,Moscow,9/15/1955
+1729,Marc Andreessen,50,1700,Finance & Investments,United States,Atherton,7/9/1971
+1729,John Bicket,42,1700,Technology,United States,San Francisco,3/20/1980
+1729,Zadik Bino & family,78,1700,Diversified,Israel,Tel Aviv,1/1/1944
+1729,Alex Birkenstock,53,1700,Fashion & Retail,,,11/18/1968
+1729,Christian Birkenstock,49,1700,Fashion & Retail,Austria,Kitzbuhel,9/21/1972
+1729,Sanjit Biswas,40,1700,Technology,United States,San Francisco,1/12/1982
+1729,David Booth,76,1700,Finance & Investments,United States,Austin,1/1/1946
+1729,Josef Boquoi & family,88,1700,Food & Beverage,Germany,Straelen,1/1/1934
+1729,Saket Burman,45,1700,Food & Beverage,United Arab Emirates,Dubai,3/10/1977
+1729,Mingtong Cai,70,1700,Technology,China,Quanzhou,2/15/1952
+1729,Chen Yung-tai,86,1700,Real Estate,Taiwan,Taipei,1/20/1936
+1729,Manas Chiaravanond,,1700,Diversified,Thailand,Bangkok,
+1729,Phongthep Chiaravanont,70,1700,Diversified,Thailand,Bangkok,1/1/1952
+1729,Ivan Chrenko,54,1700,Real Estate,Slovakia,Bratislava,6/27/1967
+1729,Sol Daurella,56,1700,Food & Beverage,Spain,Madrid,1/1/1966
+1729,Dulce Pugliese de Godoy Bueno,74,1700,Healthcare,Brazil,Sao Paulo,12/12/1947
+1729,Norbert Dentressangle,67,1700,Logistics,France,Lyon,7/9/1954
+1729,Oleg Deripaska,54,1700,Metals & Mining,Russia,Moscow,1/2/1968
+1729,Dong Jinggui,52,1700,Automotive,China,Wuxi,
+1729,Keith Dunleavy & family,52,1700,Healthcare,United States,Annapolis,6/25/1969
+1729,Donald Foss,77,1700,Automotive,United States,Farmington Hills,6/18/1944
+1729,Rolf Gerling,67,1700,Finance & Investments,Switzerland,Zurich,12/15/1954
+1729,G. Gnanalingam,77,1700,Logistics,Malaysia,Kuala Lumpur,9/10/1944
+1729,He Zhaoxi,48,1700,Technology,China,Shenzhen,1/1/1974
+1729,William Heinecke,72,1700,Real Estate,Thailand,Bangkok,6/4/1949
+1729,Huh Jae-myung,50,1700,Manufacturing,South Korea,Seoul,5/1/1971
+1729,Tianjiang Jia & family,59,1700,Metals & Mining,China,Yinchuan,7/1/1962
+1729,Michael Jordan,59,1700,Sports,United States,Jupiter,2/17/1963
+1729,Dmitry Kamenshchik,53,1700,Service,Russia,Moscow,4/26/1968
+1729,Kim Taek-jin,55,1700,Media & Entertainment,South Korea,Seoul,3/14/1967
+1729,Koo Kwang-mo,44,1700,Diversified,South Korea,Seoul,1/23/1978
+1729,Anthony Langley,67,1700,Diversified,United Kingdom,Nottinghamshire,12/2/1954
+1729,Lee Joong-keun,81,1700,Construction & Engineering,South Korea,Seoul,1/11/1941
+1729,James Leininger,77,1700,Healthcare,United States,San Antonio,3/30/1945
+1729,Li Haiyan,,1700,Food & Beverage,China,Chengdu,
+1729,Li Jianli,49,1700,Manufacturing,China,Shenzhen,9/27/1972
+1729,Weiwei Li,45,1700,Technology,China,Shanghai,1/1/1977
+1729,Li Zhigang,45,1700,Manufacturing,China,Wuhan,6/1/1976
+1729,Jimmy John Liautaud,58,1700,Food & Beverage,United States,Key Largo,1/12/1964
+1729,Louise Lindh,42,1700,Diversified,Sweden,Stockholm,10/20/1979
+1729,Lu Di,,1700,Technology,China,Shenzhen,
+1729,Anand Mahindra,66,1700,Diversified,India,Mumbai,5/1/1955
+1729,Bruce Mathieson,78,1700,Food & Beverage,Australia,Gold Coast,2/14/1944
+1729,Billy Joe (Red) McCombs,94,1700,Diversified,United States,San Antonio,10/19/1927
+1729,Deepak Mehta,65,1700,Manufacturing,India,Vadodara,12/12/1956
+1729,Mario Moretti Polegato & family,69,1700,Fashion & Retail,Italy,Crocetta del Montello,8/16/1952
+1729,Alberto Palatchi,72,1700,Fashion & Retail,Spain,Madrid,6/26/1949
+1729,Nelson Peltz,79,1700,Finance & Investments,United States,Bedford,6/1/1942
+1729,Jorge Perez,72,1700,Real Estate,United States,Miami,10/17/1949
+1729,Alberto Prada,68,1700,Fashion & Retail,Italy,Milan,2/21/1954
+1729,Marina Prada,76,1700,Fashion & Retail,Italy,Milan,7/14/1945
+1729,M.Satyanarayana Reddy,64,1700,Healthcare,India,Hyderabad,4/18/1957
+1729,Rihanna,34,1700,Fashion & Retail,United States,Los Angeles,2/20/1988
+1729,Arkady Rotenberg,70,1700,Construction & Engineering,Russia,Moscow,12/15/1951
+1729,Dieter Schnabel,76,1700,Manufacturing,Germany,Hamburg,1/1/1946
+1729,Shang Xiaobo & family,48,1700,Manufacturing,China,Hefei,3/30/1974
+1729,Shao Qinxiang,67,1700,Manufacturing,China,Hangzhou,9/1/1954
+1729,Renate Sick-Glaser,,1700,Technology,,,
+1729,Basudeo Singh,81,1700,Healthcare,India,Mumbai,11/20/1940
+1729,Edward Stack,67,1700,Fashion & Retail,United States,Sewickley,12/27/1954
+1729,Weijie Sun,58,1700,Manufacturing,China,Yantai,7/26/1963
+1729,Vonnarat Tangkaravakoon,50,1700,Manufacturing,Thailand,Bangkok,9/11/1971
+1729,Byron Trott,63,1700,Finance & Investments,United States,Winnetka,12/2/1958
+1729,Jan Van Geet,50,1700,Real Estate,Czechia,Prague,4/23/1971
+1729,Radha Vembu,49,1700,Technology,India,Chennai,12/24/1972
+1729,Patrizio Vinciarelli,75,1700,Technology,United States,Boston,10/26/1946
+1729,Mingwang Wang,54,1700,Manufacturing,China,Shenzhen,5/2/1967
+1729,Wang Yanqing & family,75,1700,Manufacturing,China,Weihai,7/2/1946
+1729,Lars Wingefors,45,1700,Media & Entertainment,Sweden,Karlstad,4/2/1977
+1729,Stephen Winn,75,1700,Real Estate,United States,Dallas,9/12/1946
+1729,Ian Wood & family,79,1700,Energy,United Kingdom,Aberdeen,7/21/1942
+1729,Gordon Wu,86,1700,Real Estate,Hong Kong,Hong Kong,12/3/1935
+1729,Wu Xiangdong,53,1700,Food & Beverage,China,Beijing,1/1/1969
+1729,Yao Kuizhang,57,1700,Food & Beverage,China,Hengshui,1/1/1965
+1729,Vladimir Yevtushenkov,73,1700,Telecom,Russia,Moscow,9/25/1948
+1729,Dasheng Yi,61,1700,Diversified,China,Changsha,2/1/1961
+1729,Yu Lili,54,1700,Manufacturing,China,Changsha,1/1/1968
+1729,Alan Zekelman,59,1700,Manufacturing,United States,Bloomfield Hills,10/1/1962
+1729,Kaitian Zeng,47,1700,Technology,China,Shanghai,1/1/1975
+1729,Zhang Jingzhang & family,86,1700,Manufacturing,China,Ningbo,1/1/1936
+1729,Zhang Yubai,57,1700,Food & Beverage,China,Suqian,10/1/1964
+1729,Zheng Hong & family,71,1700,Technology,China,Beijing,10/22/1950
+1729,Zhong Peifeng,59,1700,Telecom,China,Beijing,1/1/1963
+1729,Zhou Zongwen & family,65,1700,Fashion & Retail,China,Shenzhen,3/1/1957
+1729,Zhu Yiming,49,1700,Technology,China,Beijing,7/1/1972
+1729,Zhaojiang Zhu,48,1700,Manufacturing,China,Shenzhen,1/1/1974
+1729,Anita Zucker,70,1700,Manufacturing,United States,Charleston,1/19/1952
+1818,"Herbert Allen, Jr. & family",82,1600,Finance & Investments,United States,New York,3/5/1940
+1818,Vasily Anisimov,70,1600,Metals & Mining,Russia,Moscow,9/19/1951
+1818,Mori Arkin,69,1600,Healthcare,Israel,Herzliya Pituach,9/24/1952
+1818,Semahat Sevim Arsel,93,1600,Diversified,Turkey,Istanbul,9/8/1928
+1818,Clifford Asness,55,1600,Finance & Investments,United States,Greenwich,10/17/1966
+1818,Louis Bacon,65,1600,Finance & Investments,United States,Oyster Bay,7/25/1956
+1818,Hari Bhartia,65,1600,Diversified,India,Delhi,12/12/1956
+1818,Shyam Bhartia,69,1600,Healthcare,India,Delhi,11/9/1952
+1818,Amit Burman,52,1600,Food & Beverage,India,Delhi,7/1/1969
+1818,Chen Shibin,55,1600,Manufacturing,China,Lianyungang,11/1/1966
+1818,Chen Tianshi,37,1600,Technology,China,Beijing,1/1/1985
+1818,Robert Clark,63,1600,Construction & Engineering,United States,St. Louis,1/30/1959
+1818,Ana Lucia de Mattos Barretto Villela,48,1600,Finance & Investments,Brazil,Sao Paulo,10/25/1973
+1818,Diao Zhizhong,58,1600,Technology,China,Beijing,11/6/1963
+1818,Jamie Dimon,66,1600,Finance & Investments,United States,New York,3/13/1956
+1818,Gary Fegel,48,1600,Metals & Mining,Switzerland,Zurich,1/1/1974
+1818,Gao Yunfeng,55,1600,Manufacturing,China,Shenzhen,2/1/1967
+1818,Philippe Ginestet & family,68,1600,Fashion & Retail,France,Pujols,1/1/1954
+1818,Sebastian Glaser,,1600,Technology,Germany,Munich,
+1818,Sam Goi,75,1600,Food & Beverage,Singapore,Singapore,12/28/1946
+1818,Lance Gokongwei,54,1600,Diversified,Philippines,Manila,12/1/1967
+1818,Sergei Gordeev,49,1600,Real Estate,Russia,Moscow,11/22/1972
+1818,Bill Gross,77,1600,Finance & Investments,United States,Laguna Beach,4/13/1944
+1818,Sue Gross,72,1600,Finance & Investments,United States,Laguna Beach,2/17/1950
+1818,Patrick Hanrahan,66,1600,Technology,United States,Portola Valley,5/8/1955
+1818,Lutz Mario Helmig,75,1600,Healthcare,Germany,Grebenhain,8/29/1946
+1818,Ilkka Herlin,63,1600,Manufacturing,Finland,Helsinki,1/1/1959
+1818,Asok Kumar Hiranandani,67,1600,Real Estate,Singapore,Singapore,11/28/1954
+1818,Hu Kunhui,31,1600,Healthcare,China,Shenzhen,1/1/1991
+1818,Archie Hwang,69,1600,Technology,Taiwan,Taipei,8/20/1952
+1818,Jared Isaacman,39,1600,Technology,United States,Easton,2/11/1983
+1818,Anurang Jain,60,1600,Manufacturing,India,Aurangabad,3/21/1962
+1818,Jin Lei & family,67,1600,Healthcare,China,Beijing,9/23/1954
+1818,Sunjay Kapur,50,1600,Automotive,India,Delhi,10/15/1971
+1818,Richard Kayne,76,1600,Finance & Investments,United States,Santa Monica,1/1/1946
+1818,Randal J. Kirk,68,1600,Healthcare,United States,Manalapan,3/1/1954
+1818,Jim Koch,72,1600,Food & Beverage,United States,Newton,5/27/1949
+1818,William Koch,81,1600,Energy,United States,Palm Beach,5/3/1940
+1818,Kagemasa Kozuki,81,1600,Technology,Japan,Tokyo,11/12/1940
+1818,Arvind Lal,72,1600,Healthcare,India,Delhi,8/22/1949
+1818,Robert Langer,73,1600,Healthcare,United States,Boston,8/29/1948
+1818,Theodore Leonsis,66,1600,Sports,United States,Bethesda,1/8/1956
+1818,David Xueling Li,49,1600,Technology,China,Guangzhou,1/1/1973
+1818,Li Denghai,72,1600,Food & Beverage,China,Laizhou,9/1/1949
+1818,Li Guoqing,52,1600,Manufacturing,China,Hangzhou,2/22/1970
+1818,Li Jiaquan,58,1600,Manufacturing,China,Chengdu,9/6/1963
+1818,Li Rucheng,70,1600,Fashion & Retail,China,Ningbo,6/13/1951
+1818,Li Sze Lim,65,1600,Real Estate,China,Guangzhou,4/1/1957
+1818,Li Yongqing,57,1600,Manufacturing,China,Hangzhou,6/30/1964
+1818,Lim Wee Chai,64,1600,Manufacturing,Malaysia,Kuala Lumpur,1/7/1958
+1818,Liu Aisen & family,49,1600,Construction & Engineering,China,Beijing,10/1/1972
+1818,Liu Ming Chung,59,1600,Manufacturing,Hong Kong,Hong Kong,1/1/1963
+1818,Vincent Lo,73,1600,Real Estate,Hong Kong,Hong Kong,4/1/1949
+1818,Brandt Louie,78,1600,Food & Beverage,Canada,Vancouver,7/5/1943
+1818,Catherine Lozick,76,1600,Manufacturing,United States,Fort Lauderdale,5/1/1945
+1818,Lu Zongjun,58,1600,Logistics,China,Shanghai,6/1/1963
+1818,Lv Jianming,57,1600,Healthcare,China,Hangzhou,1/1/1965
+1818,"Cargill MacMillan, III.",62,1600,Food & Beverage,United States,Boulder,12/21/1959
+1818,Duncan MacMillan,84,1600,Finance & Investments,United States,Princeton,12/17/1937
+1818,John MacMillan,72,1600,Food & Beverage,United States,Plymouth,9/20/1949
+1818,Martha MacMillan,70,1600,Food & Beverage,United States,Orono,10/1/1951
+1818,William MacMillan,67,1600,Food & Beverage,United States,Englewood,5/25/1954
+1818,Terence (Terry) Matthews,79,1600,Telecom,Canada,Ottawa,4/1/1943
+1818,Kazuo Okada,79,1600,Gambling & Casinos,Japan,Tokyo,10/3/1942
+1818,Tomas Olivo Lopez,48,1600,Real Estate,Spain,Marbella,1/1/1974
+1818,Jorge Pinheiro Koren de Lima,49,1600,Healthcare,Brazil,Fortaleza,11/9/1972
+1818,Candido Pinheiro Koren de Lima Junior,51,1600,Healthcare,Brazil,Fortaleza,10/10/1970
+1818,Qian Ying,56,1600,Food & Beverage,China,Nanyang,1/1/1966
+1818,Ren Jinsheng & family,59,1600,Healthcare,China,Nanjing,1/1/1963
+1818,Brian Roberts,62,1600,Media & Entertainment,United States,Philadelphia,6/28/1959
+1818,Austin Russell,27,1600,Automotive,United States,Orlando,3/14/1995
+1818,George Sakellaris,75,1600,Energy,United States,Milton,6/3/1946
+1818,Sheryl Sandberg,52,1600,Technology,United States,Menlo Park,8/28/1969
+1818,Andres Santo Domingo,43,1600,Food & Beverage,United States,New York,6/1/1978
+1818,Paul Saville,66,1600,Real Estate,United States,Palm Beach,12/14/1955
+1818,Ivan Savvidis,63,1600,Diversified,Russia,Rostov-on-Don,3/27/1959
+1818,Michael Saylor,57,1600,Technology,United States,Vienna,2/4/1965
+1818,Gerald Schwartz,80,1600,Finance & Investments,Canada,Toronto,11/24/1941
+1818,Sathien Setthasit,67,1600,Food & Beverage,Thailand,Bangkok,4/20/1954
+1818,Niraj Shah,48,1600,Technology,United States,Boston,3/10/1974
+1818,Keiichi Shibahara,57,1600,Healthcare,Japan,Tokyo,10/9/1964
+1818,Evgeny (Eugene) Shvidler,58,1600,Energy,United Kingdom,London,3/23/1964
+1818,Ryan Smith,43,1600,Technology,United States,Provo,6/28/1978
+1818,Peter Sperling,62,1600,Service,United States,Phoenix,11/22/1959
+1818,Ion Stoica,57,1600,Technology,United States,Berkeley,2/12/1965
+1818,Bambang Sutantio,63,1600,Food & Beverage,Indonesia,,12/26/1958
+1818,Lili Tan,,1600,Food & Beverage,China,Guangzhou,
+1818,Tan Yu Yeh,51,1600,Fashion & Retail,Malaysia,Selangor,1/1/1971
+1818,David Teoh,66,1600,Telecom,Australia,Sydney,1/1/1956
+1818,Carl Thoma,73,1600,Finance & Investments,United States,Chicago,10/12/1948
+1818,Ion Tiriac,82,1600,Finance & Investments,Romania,Bucharest,5/9/1939
+1818,Clemens Toennies,65,1600,Food & Beverage,Germany,Rheda-Wiedenbrück,5/27/1956
+1818,Tran Ba Duong & family,62,1600,Automotive,Vietnam,Ho Chi Minh City,4/1/1960
+1818,Tseng Sing-ai,,1600,Manufacturing,Taiwan,,
+1818,Tung Ching Bor,59,1600,Manufacturing,China,Dongguan,1/1/1963
+1818,Tung Ching Sai,57,1600,Manufacturing,China,Dongguan,1/1/1965
+1818,Scott Watterson,66,1600,Technology,United States,Logan,5/18/1955
+1818,Wei Ing-Chou,68,1600,Food & Beverage,China,Tianjin,7/1/1953
+1818,Wei Yin-Chun,65,1600,Food & Beverage,Taiwan,Taipei,3/8/1957
+1818,Wei Ying-Chiao,67,1600,Food & Beverage,Taiwan,Taipei,2/4/1955
+1818,Tom Werner,71,1600,Sports,United States,Los Angeles,4/12/1950
+1818,Kie Chie Wong,74,1600,Metals & Mining,Australia,Sydney,4/4/1948
+1818,Xu Guozhong & family,58,1600,Manufacturing,China,Changzhou,9/1/1963
+1818,Xu Yuejuan,60,1600,Manufacturing,China,Hangzhou,1/24/1962
+1818,Yang Tingdong,61,1600,Food & Beverage,China,Suqian,5/20/1960
+1818,Yu Peidi,62,1600,Real Estate,China,Shanghai,1/1/1960
+1818,Matei Zaharia,36,1600,Technology,United States,Berkeley,4/21/1985
+1818,Zhang Jian,53,1600,Manufacturing,China,Tianjin,1/1/1969
+1818,Keqiang Zhang,61,1600,Real Estate,China,Guangzhou,4/29/1960
+1818,Zheng Jianjiang & family,61,1600,Manufacturing,China,Ningbo,1/1/1961
+1818,Zhong Sheng Jian,64,1600,Real Estate,Singapore,Singapore,3/3/1958
+1929,Antti Aarnio-Wihuri,82,1500,Diversified,Finland,Helsinki,2/24/1940
+1929,Hamdi Akin & family,67,1500,Diversified,Turkey,Istanbul,1/1/1955
+1929,Chirayu Amin,75,1500,Healthcare,India,Baroda,12/4/1946
+1929,Joachim Ante,39,1500,Technology,Denmark,Copenhagen,1/1/1983
+1929,Ziv Aviram,63,1500,Automotive,Israel,Mevaseret Zion,1/3/1959
+1929,Danna Azrieli,54,1500,Real Estate,Israel,Herzliya,6/3/1967
+1929,Naomi Azrieli,56,1500,Real Estate,Canada,Toronto,9/26/1965
+1929,Sharon Azrieli,61,1500,Real Estate,Canada,Montreal,8/4/1960
+1929,Lesley Bamberger,56,1500,Real Estate,Netherlands,Amsterdam,6/3/1965
+1929,Bernhard Braun-Luedicke,45,1500,Healthcare,Germany,Melsungen,1/1/1977
+1929,Eva Maria Braun-Luedicke,35,1500,Healthcare,Germany,Melsungen,1/1/1987
+1929,Ana Maria Brescia Cafferata,97,1500,Diversified,Peru,Lima,4/19/1924
+1929,Nikolai Buinov,54,1500,Energy,Russia,Irkutsk,7/9/1967
+1929,Paolo Bulgari,84,1500,Fashion & Retail,Italy,Rome,9/8/1937
+1929,Andres Bzurovski Bay,44,1500,Finance & Investments,Uruguay,Montevideo,9/4/1977
+1929,Ahmet Calik,64,1500,Diversified,Turkey,Istanbul,3/1/1958
+1929,Giuliana Caprotti,81,1500,Food & Beverage,Italy,Milan,11/21/1940
+1929,Marina Caprotti,44,1500,Food & Beverage,Italy,Milan,1/17/1978
+1929,Steve Case,63,1500,Technology,United States,McLean,8/21/1958
+1929,Safra Catz,60,1500,Technology,United States,Redwood City,12/13/1961
+1929,Binod Chaudhary,66,1500,Diversified,Nepal,Kathmandu,4/14/1955
+1929,Chen Baohua,60,1500,Healthcare,China,Linhai,1/1/1962
+1929,Xianbao Chen & family,62,1500,Food & Beverage,China,Hefei,5/19/1959
+1929,Chung Yong-jin,53,1500,Fashion & Retail,South Korea,Seoul,9/19/1968
+1929,Steve Conine,49,1500,Technology,United States,Boston,8/28/1972
+1929,Eduardo Costantini,75,1500,Real Estate,Argentina,Buenos Aires,9/17/1946
+1929,Wenjun Dai,53,1500,Food & Beverage,China,Changsha,8/12/1968
+1929,Bharat Desai,69,1500,Technology,United States,Fisher Island,11/20/1952
+1929,Mohammed Dewji,46,1500,Diversified,Tanzania,Dar es Salaam,5/8/1975
+1929,Mathias Doepfner,59,1500,Media & Entertainment,Germany,Potsdam,1/15/1963
+1929,Domenico Dolce,63,1500,Fashion & Retail,Italy,Milan,8/13/1958
+1929,Marek Dospiva,52,1500,Finance & Investments,Czechia,Prague,7/18/1969
+1929,Fritz Draexlmaier,,1500,Automotive,Germany,Landshut,
+1929,Henrique Dubugras,26,1500,Finance & Investments,United States,Los Angeles,11/10/1995
+1929,Egon Durban,48,1500,Finance & Investments,United States,Atherton,8/23/1973
+1929,Bulent Eczacibasi,72,1500,Diversified,Turkey,Istanbul,12/25/1949
+1929,Faruk Eczacibasi,67,1500,Diversified,Turkey,Istanbul,6/15/1954
+1929,Henry Engelhardt,64,1500,Finance & Investments,United Kingdom,Cardiff,1/17/1958
+1929,Ali Erdemoglu,62,1500,Manufacturing,Turkey,Istanbul,11/20/1959
+1929,Eduardo Eurnekian,89,1500,Diversified,Argentina,Buenos Aires,12/4/1932
+1929,John Farber,96,1500,Manufacturing,United States,New York,8/23/1925
+1929,Clement Fayat & family,90,1500,Construction & Engineering,France,Saint-Émilion,1/24/1932
+1929,Daniel Feffer,62,1500,Manufacturing,Brazil,São Paulo,10/28/1959
+1929,David Feffer,65,1500,Manufacturing,Brazil,São Paulo,11/13/1956
+1929,Ruben Feffer,52,1500,Manufacturing,Brazil,São Paulo,
+1929,Feng Yuxia,57,1500,Healthcare,China,Beijing,11/6/1964
+1929,Sergio Fogel,58,1500,Finance & Investments,Uruguay,Montevideo,12/22/1963
+1929,Pedro Franceschi,25,1500,Finance & Investments,United States,Los Angeles,7/19/1996
+1929,Stefano Gabbana,59,1500,Fashion & Retail,Italy,Milan,11/14/1962
+1929,Yi Gao & family,53,1500,Healthcare,China,Changsha,10/25/1968
+1929,Geng Jianming,59,1500,Real Estate,China,Langfang,9/1/1962
+1929,Alan Gerry,93,1500,Media & Entertainment,United States,Liberty,12/25/1928
+1929,Balkrishan Goenka,55,1500,Manufacturing,India,Mumbai,8/15/1966
+1929,Esther Grether,86,1500,Fashion & Retail,Switzerland,Basel,1/1/1936
+1929,Gu Wei,57,1500,Manufacturing,China,Shenzhen,1/27/1965
+1929,Torstein Hagen,79,1500,Service,Switzerland,Lucerne,2/18/1943
+1929,Kenneth Hao,53,1500,Finance & Investments,United States,Hillsborough,9/11/1968
+1929,He Zhiping,58,1500,Finance & Investments,China,Shenzhen,1/1/1964
+1929,Timothy Headington,71,1500,Energy,United States,Dallas,4/24/1950
+1929,Ilona Herlin,57,1500,Manufacturing,Finland,Helsinki,1/1/1965
+1929,Niranjan Hiranandani,72,1500,Real Estate,India,Mumbai,3/8/1950
+1929,Drew Houston,39,1500,Technology,United States,Austin,3/4/1983
+1929,Huang Rulun,70,1500,Real Estate,China,Beijing,9/18/1951
+1929,Matt Hulsizer,,1500,Finance & Investments,United States,Chicago,
+1929,Justin Ishbia,44,1500,Finance & Investments,United States,Chicago,9/18/1977
+1929,Peter Jackson,60,1500,Media & Entertainment,New Zealand,Wellington,10/31/1961
+1929,Jin Lei,56,1500,Healthcare,China,Changchun,8/1/1965
+1929,Jin Xin,55,1500,Manufacturing,China,Fuxin,1/8/1967
+1929,Conni Jonsson,61,1500,Finance & Investments,Sweden,Stockholm,7/15/1960
+1929,Jenny Just,54,1500,Finance & Investments,United States,Winnetka,3/5/1968
+1929,Ke Xiping & family,61,1500,Diversified,China,Xiamen,6/7/1960
+1929,Ke Zunhong & family,67,1500,Healthcare,China,Chengdu,7/1/1954
+1929,Sidney Kimmel,94,1500,Fashion & Retail,United States,New York,1/16/1928
+1929,Seth Klarman,64,1500,Finance & Investments,United States,Chestnut Hill,5/1/1957
+1929,Mustafa Rahmi Koc,91,1500,Diversified,Turkey,Istanbul,10/9/1930
+1929,Pyotr Kondrashev,72,1500,Manufacturing,Austria,Wien,7/16/1949
+1929,Kong Jian Min,54,1500,Real Estate,China,Guangzhou,1/1/1968
+1929,Hemendra Kothari,75,1500,Finance & Investments,India,Mumbai,8/26/1946
+1929,Eduard Kucera,69,1500,Technology,Czechia,Prague,1/11/1953
+1929,Christopher Kwok,36,1500,Real Estate,Hong Kong,Hong Kong,4/1/1986
+1929,Edward Kwok,41,1500,Real Estate,Hong Kong,Hong Kong,4/1/1981
+1929,Joe Lacob,66,1500,Sports,United States,Atherton,1/10/1956
+1929,Lai Jianfa,52,1500,Logistics,China,Shanghai,
+1929,Manuel Lao Hernández,77,1500,Gambling & Casinos,Spain,Matadepera,6/10/1944
+1929,Lee Joon-ho,57,1500,Technology,South Korea,Seoul,9/17/1964
+1929,Manfredi Lefebvre d'Ovidio & family,68,1500,Service,Monaco,Monte Carlo,4/30/1953
+1929,Li Jinyang,,1500,Metals & Mining,China,,
+1929,Li Ming,,1500,Finance & Investments,China,Longnan,
+1929,Zhen Li & family,58,1500,Manufacturing,China,Hefei,1/23/1964
+1929,Rongfu Lu,51,1500,Telecom,China,Xiamen,1/1/1971
+1929,Rafique Malik,71,1500,Fashion & Retail,India,Mumbai,10/31/1950
+1929,Youssef Mansour,76,1500,Diversified,Egypt,Cairo,5/21/1945
+1929,Mao Lixiang & family,81,1500,Technology,China,Ningbo,1/1/1941
+1929,David McMurtry,81,1500,Manufacturing,United Kingdom,Wotton-under-Edge,5/3/1940
+1929,Meng Qingshan & family,73,1500,Manufacturing,China,Langfang,11/17/1948
+1929,Alan Miller & family,84,1500,Healthcare,United States,Lower Merion,8/17/1937
+1929,Greg Mondre,47,1500,Finance & Investments,United States,New York,5/20/1974
+1929,Massimo Moratti,76,1500,Energy,Italy,Milan,5/16/1945
+1929,Robert Mouawad,77,1500,Service,Bahrain,Manama,1/1/1945
+1929,Ezra Nahmad,76,1500,Finance & Investments,Monaco,Monte Carlo,7/31/1945
+1929,Tadako Nakatani,,1500,Healthcare,Japan,Kobe,
+1929,Kentaro Ogawa,73,1500,Food & Beverage,Japan,Tokyo,7/1/1948
+1929,Jonathan Oringer,47,1500,Technology,United States,Miami Beach,5/2/1974
+1929,Niti Osathanugrah,48,1500,Finance & Investments,Thailand,Bangkok,1/1/1974
+1929,Dragos Paval,55,1500,Fashion & Retail,Romania,Bacau,6/22/1966
+1929,Zach Perret,34,1500,Finance & Investments,United States,San Francisco,9/17/1987
+1929,Karl-Johan Persson,47,1500,Fashion & Retail,Sweden,Stockholm,3/25/1975
+1929,Markus Persson,42,1500,Media & Entertainment,Sweden,Stockholm,6/1/1979
+1929,Tom Persson,37,1500,Fashion & Retail,Sweden,Stockholm,1/1/1985
+1929,Kevin Plank,49,1500,Fashion & Retail,United States,Lutherville-Timonium,8/13/1972
+1929,Andreas Pohl,57,1500,Finance & Investments,Germany,Marburg,7/28/1964
+1929,"Reinfried Pohl, Jr.",62,1500,Finance & Investments,Germany,Marburg,11/2/1959
+1929,Michael Polsky,73,1500,Energy,United States,Chicago,1/1/1949
+1929,Qin Long,56,1500,Manufacturing,China,Qingdao,7/1/1965
+1929,G. M. Rao,71,1500,Logistics,India,Bangalore,7/1/1950
+1929,Mike Repole,54,1500,Food & Beverage,United States,Windermere,1/21/1968
+1929,Fernando Roig,74,1500,Fashion & Retail,Spain,Valencia,6/25/1947
+1929,Christopher Rokos,51,1500,Finance & Investments,United Kingdom,London,9/21/1970
+1929,Fayez Sarofim,93,1500,Finance & Investments,United States,Houston,11/19/1928
+1929,Antonio Luiz Seabra,79,1500,Fashion & Retail,United Kingdom,London,1/1/1943
+1929,Amnon Shashua,61,1500,Automotive,Israel,Kfar Shmaryahu,5/26/1960
+1929,Yuri Shefler,54,1500,Food & Beverage,Switzerland,Geneva,9/10/1967
+1929,Mikhail Shelkov,53,1500,Metals & Mining,Russia,Moscow,5/30/1968
+1929,Charlotte Soderstrom,45,1500,Fashion & Retail,Sweden,Stockholm,1/1/1977
+1929,Edwin Soeryadjaya,72,1500,Energy,Indonesia,jakarta,7/17/1949
+1929,Thomas Steyer,64,1500,Finance & Investments,United States,San Francisco,6/27/1957
+1929,Kevin Systrom,38,1500,Technology,United States,San Francisco,12/30/1983
+1929,Tang Binsen,39,1500,Food & Beverage,China,Beijing,12/12/1982
+1929,Hary Tanoesoedibjo,56,1500,Media & Entertainment,Indonesia,Jakarta,9/26/1965
+1929,Jonathan Tisch,68,1500,Diversified,United States,New York,12/7/1953
+1929,Wilma Tisch,94,1500,Finance & Investments,United States,New York,6/25/1927
+1929,Kenny Troutt,74,1500,Telecom,United States,Dallas,1/8/1948
+1929,Thomas von Koch,56,1500,Finance & Investments,Hong Kong,Hong Kong,3/24/1966
+1929,Junjin Wang,53,1500,Service,China,Shanghai,12/1/1968
+1929,Wang Zelong,25,1500,Metals & Mining,China,Jiaozuo,7/1/1996
+1929,Myron Wentz,82,1500,Fashion & Retail,Cayman Islands,Grand Cayman,1/1/1940
+1929,Kaiting Wu,52,1500,Telecom,China,Xiamen,12/1/1969
+1929,Xiong Wu,46,1500,Technology,China,Shenzhen,1/1/1976
+1929,Xu Wanmao,77,1500,Service,China,Ningbo,1/1/1945
+1929,Xu Zhenhua,,1500,Media & Entertainment,China,Shanghai,
+1929,Xue Jiping,71,1500,Telecom,China,Nantong,1/1/1951
+1929,Yang Jian,50,1500,Real Estate,China,Wenzhou,1/1/1972
+1929,Justin Yuan,,1500,Media & Entertainment,China,Shanghai,
+1929,Xinghai Zhang & family,59,1500,Manufacturing,China,Chongqing,1/1/1963
+1929,Xuansong Zhang,50,1500,Fashion & Retail,China,Fuzhou,10/9/1971
+1929,Zhang Yin,65,1500,Manufacturing,China,Dongguan,2/1/1957
+1929,Chengjian Zhou,56,1500,Fashion & Retail,China,Shanghai,4/30/1965
+2076,Radhe Shyam Agarwal,77,1400,Fashion & Retail,India,Kolkata,2/1/1945
+2076,Syed Mokhtar AlBukhary,70,1400,Construction & Engineering,Malaysia,Kuala Lumpur,12/12/1951
+2076,Nerio Alessandri,60,1400,Manufacturing,Italy,Cesena,4/8/1961
+2076,Patricia Angelini Rossi,68,1400,Diversified,Chile,Santiago,4/5/1954
+2076,Tope Awotona,40,1400,Technology,United States,Atlanta,4/22/1981
+2076,Elena Baturina,59,1400,Construction & Engineering,United Kingdom,London,3/8/1963
+2076,Sabrina Benetton,48,1400,Fashion & Retail,Italy,Treviso,10/4/1973
+2076,Thomas Bruch,71,1400,Fashion & Retail,Germany,St. Wendel,4/25/1950
+2076,Marina Budiman,60,1400,Technology,Indonesia,Jakarta,9/5/1961
+2076,Stewart Butterfield,49,1400,Technology,United States,Aspen,3/21/1973
+2076,Richard Chang,75,1400,Real Estate,Taiwan,Taipei,1/1/1947
+2076,Chen Tianqiao,48,1400,Technology,United States,Atherton,5/16/1973
+2076,Chen Wenyuan & family,54,1400,Technology,China,Suzhou,1/1/1968
+2076,Cheng Antares,64,1400,Food & Beverage,Hong Kong,Hong Kong,11/1/1957
+2076,Chin Jong Hwa,63,1400,Automotive,Taiwan,Taoyuan,6/1/1958
+2076,Cho Jyh-jer,,1400,Technology,,,
+2076,Jim Crane,68,1400,Sports,United States,Houston,1/17/1954
+2076,Thierry Cruanes,54,1400,Technology,United States,San Mateo,6/23/1967
+2076,Benoit Dageville,55,1400,Technology,United States,San Carlos,6/29/1966
+2076,Weili Dai,60,1400,Technology,United States,Las Vegas,9/14/1961
+2076,Darwin Deason,81,1400,Service,United States,Dallas,5/14/1940
+2076,Diego Della Valle,68,1400,Fashion & Retail,Italy,Sant'' Elpidio A Mare,12/30/1953
+2076,Deng Yingzhong,71,1400,Manufacturing,China,Zhongshan,1/1/1951
+2076,Ding Shui Po,51,1400,Fashion & Retail,China,Quanzhou,11/1/1970
+2076,Mark Dixon,62,1400,Real Estate,Monaco,Monaco,11/2/1959
+2076,Du Shuanghua,57,1400,Manufacturing,China,Hengshui,1/1/1965
+2076,Mukand Lal Dua,73,1400,Fashion & Retail,India,Delhi,1/8/1949
+2076,Ramesh Kumar Dua,68,1400,Fashion & Retail,India,Delhi,3/24/1954
+2076,Fan Minhua,60,1400,Healthcare,China,Haikou,10/23/1961
+2076,Hongbo Fang,55,1400,Manufacturing,China,Shunde,1/1/1967
+2076,"William Foley, II.",77,1400,Finance & Investments,United States,Las Vegas,12/29/1944
+2076,Jayme Garfinkel & family,76,1400,Finance & Investments,Brazil,Sao Paulo,11/30/1945
+2076,Radhe Shyam Goenka,76,1400,Fashion & Retail,India,Kolkata,2/1/1946
+2076,Maggie Hardy Knox,56,1400,Service,United States,Belle Vernon,12/7/1965
+2076,Ayman Hariri,43,1400,Construction & Engineering,France,Paris,5/16/1978
+2076,Christoph Henkel,64,1400,Fashion & Retail,United Kingdom,London,2/11/1958
+2076,Daniel Hirschfeld,80,1400,Fashion & Retail,United States,Kearney,5/31/1941
+2076,William Hockey,32,1400,Finance & Investments,United States,San Francisco,9/21/1989
+2076,Huang Guanlin,57,1400,Fashion & Retail,China,Ningbo,1/1/1965
+2076,Huang Xiaofen & family,60,1400,Technology,China,Shenzhen,1/1/1962
+2076,Jay-Z,52,1400,Media & Entertainment,United States,New York,12/4/1969
+2076,Yintai Jiang & family,71,1400,Automotive,China,Shanghai,7/30/1950
+2076,Johan Johannson,55,1400,Fashion & Retail,Norway,Oslo,1/1/1967
+2076,Ramesh Juneja,66,1400,Healthcare,India,Delhi,7/28/1955
+2076,Scott Kapnick,63,1400,Finance & Investments,United States,Naples,2/9/1959
+2076,Viktor Kharitonin,49,1400,Healthcare,Russia,Moscow,11/20/1972
+2076,Kim Jun-ki,77,1400,Diversified,South Korea,Seoul,12/4/1944
+2076,Kim Sang-yeol,61,1400,Construction & Engineering,South Korea,Seoul,1/3/1961
+2076,Christine Knauf,,1400,Manufacturing,Germany,Berlin,
+2076,Karl Knauf,,1400,Manufacturing,Germany,Iphofen,
+2076,Yogesh Kothari,73,1400,Manufacturing,India,Mumbai,1/1/1949
+2076,Kurt Krieger,74,1400,Fashion & Retail,Germany,Berlin,4/2/1948
+2076,Mustafa Kucuk,58,1400,Fashion & Retail,Turkey,Istanbul,6/3/1963
+2076,Sebastian Kulczyk,41,1400,Finance & Investments,Switzerland,,11/16/1980
+2076,Gary Lauder,59,1400,Fashion & Retail,United States,Atherton,5/5/1962
+2076,Art Levinson,72,1400,Diversified,United States,Hillsborough,3/31/1950
+2076,Li Li,58,1400,Healthcare,China,Shenzhen,2/9/1964
+2076,Guangwei Liang,58,1400,Manufacturing,China,Shenzhen,9/1/1963
+2076,Scott Lin,89,1400,Technology,Taiwan,Taichung,1/1/1933
+2076,Jenny Lindén Urnes,51,1400,Manufacturing,Sweden,Helsingborg,3/29/1971
+2076,Anatoly Lomakin,69,1400,Metals & Mining,Russia,Moscow,6/30/1952
+2076,Jeffrey Lorberbaum,67,1400,Manufacturing,United States,Chattanooga,10/25/1954
+2076,Gary Magness,68,1400,Media & Entertainment,United States,Denver,2/26/1954
+2076,Zhongwu Mao,59,1400,Manufacturing,China,Changsha,8/13/1962
+2076,Ilson Mateus & family,59,1400,Fashion & Retail,Brazil,Sao Luis,2/6/1963
+2076,Vadim Moshkovich,54,1400,Food & Beverage,Russia,Moscow,4/6/1967
+2076,Jerry Moyes & family,78,1400,Logistics,United States,Tolleson,1/15/1944
+2076,George Alexander Muthoot,66,1400,Finance & Investments,India,Ernakulam,9/16/1955
+2076,George Jacob Muthoot,69,1400,Finance & Investments,India,Trivandrum,9/21/1952
+2076,George Thomas Muthoot,71,1400,Finance & Investments,India,Kottayam,12/25/1950
+2076,Sara George Muthoot,61,1400,Finance & Investments,India,Delhi,4/22/1960
+2076,Marius Nacht,56,1400,Technology,Israel,Tel Aviv,1/1/1966
+2076,Adam Neumann,43,1400,Real Estate,United States,New York,4/1/1979
+2076,Simon Nixon,54,1400,Technology,United Kingdom,"St. Brelade, Jersey",8/1/1967
+2076,Stefan Olsson,73,1400,Diversified,United Kingdom,London,1/1/1949
+2076,Ranjan Pai,49,1400,Service,India,Bangalore,11/11/1972
+2076,Antonio Percassi,68,1400,Diversified,Italy,Bergamo,6/9/1953
+2076,Mark Pincus,56,1400,Technology,United States,San Francisco,2/13/1966
+2076,Alexey Repik,42,1400,Healthcare,Russia,Moscow,8/27/1979
+2076,Matthew Roszak,49,1400,Finance & Investments,United States,Chicago,12/9/1972
+2076,Subhash Runwal,78,1400,Real Estate,India,Mumbai,5/22/1943
+2076,Carlos Sanchez,60,1400,Healthcare,Brazil,Santo Andre,1/21/1962
+2076,Martin Selig,84,1400,Real Estate,United States,Seattle,12/31/1937
+2076,Bhadresh Shah,70,1400,Manufacturing,India,Ahmedabad,10/7/1951
+2076,Shao Jianxiong,,1400,Energy,China,Hangzhou,
+2076,Shu Ping,52,1400,Food & Beverage,Singapore,Singapore,
+2076,Ben Silbermann,39,1400,Media & Entertainment,United States,San Francisco,7/14/1982
+2076,Jared Smith,47,1400,Technology,United States,Provo,10/2/1974
+2076,Sun Qinghuan,48,1400,Technology,China,Zhongshan,5/8/1973
+2076,Denis Sverdlov,43,1400,Automotive,United Kingdom,London,6/6/1978
+2076,Prachak Tangkaravakoon,78,1400,Manufacturing,Thailand,Bangkok,3/26/1944
+2076,Lina Tombolato,74,1400,Finance & Investments,Italy,Tombolo,7/28/1947
+2076,Tong Jinquan,67,1400,Real Estate,China,Shanghai,11/1/1954
+2076,Luiza Helena Trajano,70,1400,Fashion & Retail,Brazil,Sao Paulo,10/9/1951
+2076,John Van Lieshout,76,1400,Real Estate,Australia,Brisbane,1/12/1946
+2076,Vardis Vardinoyannis & family,89,1400,Energy,Greece,Athens,1/1/1933
+2076,Jens von Bahr,51,1400,Gambling & Casinos,Sweden,Stockholm,2/22/1971
+2076,Wang Fuji,,1400,Healthcare,China,Zhangzhou,
+2076,Wang Jian,68,1400,Technology,China,Shenzhen,1/1/1954
+2076,Werner O. Weber,83,1400,Manufacturing,Switzerland,Zurich,2/9/1939
+2076,Wei Lidong & family,46,1400,Technology,China,Shanghai,1/1/1976
+2076,Drorit Wertheim,66,1400,Food & Beverage,Israel,Bnei Atarot,1/1/1956
+2076,Bo Wu,67,1400,Manufacturing,China,Nanjing,5/1/1954
+2076,Eugene Wu,76,1400,Finance & Investments,Taiwan,Taipei,5/3/1945
+2076,Wu Xushun & family,73,1400,Diversified,China,Wuhu,4/28/1948
+2076,Wenbo Xiang,59,1400,Manufacturing,China,Changsha,6/21/1962
+2076,Swift Xie,42,1400,Technology,China,Shenzhen,1/1/1980
+2076,Xu Bingzhong,48,1400,Food & Beverage,China,Shenzhen,1/1/1974
+2076,Xu Shaochun,59,1400,Technology,China,Shenzhen,1/1/1963
+2076,Yan Junxu,52,1400,Manufacturing,China,Taicang,7/17/1969
+2076,George Yancopoulos,62,1400,Healthcare,United States,Yorktown Heights,9/10/1959
+2076,Gavril Yushvaev,64,1400,Finance & Investments,Russia,Moscow,7/23/1957
+2076,Zhuo Jun,56,1400,Manufacturing,Hong Kong,Hong Kong,1/1/1966
+2076,Fredrik Österberg,51,1400,Gambling & Casinos,Sweden,Stockholm,1/19/1971
+2190,Alberto Alcocer,79,1300,Finance & Investments,Spain,Madrid,12/7/1942
+2190,Alexandra Andresen,25,1300,Diversified,Norway,Oslo,7/23/1996
+2190,Katharina Andresen,26,1300,Diversified,Norway,Oslo,5/21/1995
+2190,Rutger Arnhult,54,1300,Real Estate,Sweden,Stockholm,5/8/1967
+2190,Anant Asavabhokin,71,1300,Real Estate,Thailand,Bangkok,8/11/1950
+2190,Mehmet Aydinlar,65,1300,Healthcare,Turkey,Istanbul,7/27/1956
+2190,Binny Bansal,39,1300,Technology,Singapore,Singapore,12/3/1982
+2190,Sachin Bansal,40,1300,Fashion & Retail,India,Bangalore,8/5/1981
+2190,Barbara Benetton,52,1300,Fashion & Retail,Italy,Campodoro,7/2/1969
+2190,Othman Benjelloun & family,89,1300,Finance & Investments,Morocco,Casablanca,11/1/1932
+2190,Angela Bennett,78,1300,Metals & Mining,Australia,Perth,4/1/1944
+2190,Oleg Boyko,57,1300,Diversified,Switzerland,Lipperswil,9/28/1964
+2190,Anna Maria Braun,43,1300,Healthcare,Germany,Melsungen,1/1/1979
+2190,Edouard Carmignac,74,1300,Finance & Investments,France,Paris,9/4/1947
+2190,Anthony Casalena,39,1300,Technology,United States,Monkton,4/24/1982
+2190,Chang Jing,39,1300,Technology,China,Beijing,8/1/1982
+2190,Jeffrey Cheah,77,1300,Real Estate,Malaysia,Kuala Lumpur,3/30/1945
+2190,Chen Shiliang,58,1300,Manufacturing,China,Tongxiang,12/1/1963
+2190,Yuantai Chen,54,1300,Energy,China,Ningde,3/1/1968
+2190,Cheng Xianfeng,53,1300,Healthcare,China,Hefei,12/1/1968
+2190,Chu Jian,59,1300,Manufacturing,China,Hangzhou,4/1/1963
+2190,Chua Thian Poh,73,1300,Real Estate,Singapore,Singapore,7/11/1948
+2190,Alberto Cortina,76,1300,Finance & Investments,Spain,Madrid,1/20/1946
+2190,Sandor Csanyi,69,1300,Diversified,Hungary,Budapest,3/20/1953
+2190,Sasson Dayan & family,82,1300,Finance & Investments,Brazil,Sao Paulo,4/1/1940
+2190,Anand Deshpande,59,1300,Technology,India,Pune,5/1/1962
+2190,Richard Desmond,70,1300,Media & Entertainment,United Kingdom,London,12/8/1951
+2190,Shlomo Eliahu,86,1300,Finance & Investments,Israel,Tel Aviv,1/18/1936
+2190,Jose Roberto Ermirio de Moraes,64,1300,Diversified,Brazil,Sao Paulo,11/30/1957
+2190,Jose Ermirio de Moraes Neto,69,1300,Diversified,Brazil,Sao Paulo,6/17/1952
+2190,David Fattal & family,64,1300,Service,Israel,Tel Aviv,6/22/1957
+2190,Marvy Finger,86,1300,Real Estate,United States,Houston,12/8/1935
+2190,Adam Foroughi,41,1300,Media & Entertainment,United States,Truckee,5/7/1980
+2190,Richard Fortin,73,1300,Fashion & Retail,Canada,Boucherville,9/1/1948
+2190,Luiz Frias,58,1300,Technology,Brazil,Sao Paulo,4/6/1963
+2190,Susumu Fujita,48,1300,Media & Entertainment,Japan,Tokyo,5/16/1973
+2190,Simona Giorgetta,44,1300,Construction & Engineering,Italy,Milan,4/24/1977
+2190,Premchand Godha,75,1300,Healthcare,India,Mumbai,1/1/1947
+2190,Mikhail Gutseriev & brother,64,1300,Energy,Russia,Moscow,3/9/1958
+2190,Hang Hong,54,1300,Manufacturing,China,Wuxi,1/1/1968
+2190,Alfredo Harp Helu & family,78,1300,Finance & Investments,Mexico,Mexico City,3/11/1944
+2190,Jaroslav Hascak & family,52,1300,Finance & Investments,Slovakia,Bratislava,8/30/1969
+2190,He Zuxun,56,1300,Food & Beverage,China,Kunming,10/28/1965
+2190,David Hoffman,69,1300,Diversified,United States,Naples,8/7/1952
+2190,Francis Holder,81,1300,Food & Beverage,France,Lille,1/1/1941
+2190,Hu Rongda & family,63,1300,Manufacturing,China,Jinhua,1/1/1959
+2190,Wei Huang,62,1300,Real Estate,China,Hangzhou,9/30/1959
+2190,Zarakh Iliev,55,1300,Real Estate,Russia,Moscow,9/9/1966
+2190,Mitchell Jacobson,71,1300,Service,United States,Locust Valley,3/6/1951
+2190,Jiang Guiting & family,63,1300,Manufacturing,China,Dezhou,7/1/1958
+2190,Rajeev Juneja,56,1300,Healthcare,India,Delhi,7/28/1965
+2190,Peter Kelly,64,1300,Technology,United Kingdom,Bristol,7/1/1957
+2190,Kim Nam-jung,49,1300,Food & Beverage,South Korea,Seoul,1/1/1973
+2190,Koon Poh Ming,65,1300,Metals & Mining,Malaysia,Bintulu,11/17/1956
+2190,Yuri Kovalchuk,70,1300,Finance & Investments,Russia,St. Petersburg,7/25/1951
+2190,Michael Krasny,68,1300,Technology,United States,Highland Park,8/8/1953
+2190,Raymond Kwok,68,1300,Real Estate,Hong Kong,Hong Kong,4/10/1953
+2190,Heikki Kyostila,76,1300,Healthcare,Finland,Helsinki,1/19/1946
+2190,Lee Ho-jin,59,1300,Diversified,South Korea,Seoul,12/8/1962
+2190,Bernard Lewis & family,96,1300,Fashion & Retail,United Kingdom,London,2/10/1926
+2190,Fengluan Li,60,1300,Diversified,China,Ruzhou,1/1/1962
+2190,Hua Li,44,1300,Finance & Investments,China,Shenzhen,1/1/1978
+2190,Li Ruiqiang,42,1300,Healthcare,China,Beijing,11/1/1979
+2190,Lin Zhijun,46,1300,Healthcare,China,Xiamen,9/1/1975
+2190,Lin Zhixiong & family,48,1300,Healthcare,China,Xiamen,7/1/1973
+2190,Liu Ming Hui,59,1300,Energy,Hong Kong,Hong Kong,1/1/1963
+2190,Xuejing Liu & family,71,1300,Diversified,China,Liaocheng,1/1/1951
+2190,Lu Yonghua & family,58,1300,Technology,China,Shanghai,7/26/1963
+2190,Zhaoxi Lu,53,1300,Technology,China,Hangzhou,1/1/1969
+2190,Frederic Luddy,67,1300,Technology,United States,San Diego,11/24/1954
+2190,Miao Yongjun,54,1300,Healthcare,China,Zhengzhou,12/1/1967
+2190,Martin Moller Nielsen,57,1300,Logistics,United Kingdom,London,8/1/1964
+2190,Neide Helena de Moraes,67,1300,Diversified,Brazil,Sao Paulo,2/15/1955
+2190,Yoshiko Mori,81,1300,Real Estate,Japan,Tokyo,9/24/1940
+2190,Mofatraj Munot,77,1300,Real Estate,India,Mumbai,10/4/1944
+2190,Randal Nardone,66,1300,Finance & Investments,United States,New York,6/22/1955
+2190,God Nisanov,49,1300,Real Estate,Russia,Moscow,4/24/1972
+2190,Vadim Novinsky,58,1300,Metals & Mining,Ukraine,Kiev,6/3/1963
+2190,Satyanarayan Nuwal,69,1300,Manufacturing,India,Nagpur,7/25/1952
+2190,John Ocampo,63,1300,Technology,United States,Los Altos,4/5/1959
+2190,Pan Gang,51,1300,Food & Beverage,China,Hohhot,7/1/1970
+2190,Forrest Preston,89,1300,Healthcare,United States,Cleveland,3/22/1933
+2190,Riju Raveendran,39,1300,Technology,India,Bangalore,11/11/1982
+2190,P.P. Reddy,64,1300,Construction & Engineering,India,Hyderabad,8/30/1957
+2190,P.V.Krishna Reddy,52,1300,Construction & Engineering,India,Hyderabad,6/30/1969
+2190,Satish Reddy,54,1300,Healthcare,India,Hyderabad,6/9/1967
+2190,Lily Safra,84,1300,Finance & Investments,Switzerland,Geneva,1/1/1938
+2190,Richard Saghian,40,1300,Fashion & Retail,United States,Los Angeles,8/6/1981
+2190,Deniz Sahenk,76,1300,Diversified,Turkey,Istanbul,8/6/1945
+2190,Thomas Sandell,61,1300,Finance & Investments,United Kingdom,London,2/1/1961
+2190,Hajime Satomi,80,1300,Gambling & Casinos,Japan,Tokyo,1/16/1942
+2190,James Scapa,65,1300,Technology,United States,Atherton,1/23/1957
+2190,Paul Sciarra,41,1300,Media & Entertainment,United States,San Francisco,2/15/1981
+2190,Albert Shigaboutdinov,69,1300,Diversified,Russia,Kazan,11/12/1952
+2190,Nobutoshi Shimamura,96,1300,Fashion & Retail,Japan,Saitama,3/8/1926
+2190,Ron Sim,63,1300,Fashion & Retail,Singapore,Singapore,12/1/1958
+2190,Alexander Sixt,42,1300,Automotive,Germany,Munich,10/24/1979
+2190,Konstantin Sixt,39,1300,Automotive,Germany,Munich,12/2/1982
+2190,Terry Snow,78,1300,Real Estate,Australia,Canberra,12/23/1943
+2190,Marco Squinzi,50,1300,Construction & Engineering,Italy,Milan,9/23/1971
+2190,Veronica Squinzi,50,1300,Construction & Engineering,Italy,Milan,1/1/1972
+2190,Manny Stul,72,1300,Manufacturing,Australia,Melbourne,5/9/1949
+2190,Rustem Sulteev,68,1300,Energy,Russia,Kazan,1/4/1954
+2190,Sehat Sutardja,60,1300,Technology,United States,Las Vegas,7/9/1961
+2190,Tony Tan Caktiong,69,1300,Food & Beverage,Philippines,Manila,1/5/1953
+2190,Jim Thompson,82,1300,Logistics,Hong Kong,Hong Kong,1/14/1940
+2190,Carmen Thyssen,78,1300,Manufacturing,Andorra,,4/23/1943
+2190,August Troendle,66,1300,Healthcare,United States,Cincinnati,1/1/1956
+2190,Joop van den Ende,80,1300,Media & Entertainment,Netherlands,Baarn,2/23/1942
+2190,Sekar Vembu,50,1300,Technology,India,Chennai,1/1/1972
+2190,Sandro Veronesi & family,62,1300,Fashion & Retail,Italy,Milan,10/18/1959
+2190,Wan Long,81,1300,Food & Beverage,China,Luohe,9/1/1940
+2190,Han Wang,34,1300,Diversified,China,Shanghai,8/1/1987
+2190,Wang Jianyi,59,1300,Technology,China,Hangzhou,1/12/1963
+2190,Wang Qinghua,56,1300,Manufacturing,China,Suzhou,7/1/1965
+2190,Pengcheng Wen & family,59,1300,Food & Beverage,China,Yunfu,10/8/1962
+2190,"Alfred West, Jr.",79,1300,Finance & Investments,United States,Paoli,12/7/1942
+2190,Dan Wilks,65,1300,Energy,United States,Cisco,5/30/1956
+2190,Farris Wilks,70,1300,Energy,United States,Cisco,2/9/1952
+2190,Gang Xu,58,1300,Manufacturing,China,Jiaozuo,4/17/1963
+2190,Xu Jin,57,1300,Food & Beverage,China,Huaibei city,1/24/1965
+2190,Tony Xu,37,1300,Technology,United States,San Francisco,9/20/1984
+2190,Ye Yanqiao,52,1300,Food & Beverage,China,Foshan,10/1/1969
+2190,Patrick Zalupski,41,1300,Real Estate,United States,Jacksonville,11/29/1980
+2190,Shengda Zan,59,1300,Diversified,China,Nantong,4/2/1963
+2190,Zeng Chaoyi,53,1300,Manufacturing,China,Changsha,4/1/1969
+2190,Zhang Guiping & family,70,1300,Real Estate,China,Nanjing,8/21/1951
+2190,Peng Zhao,51,1300,Service,China,Beijing,1/1/1971
+2190,Zheng Zhiguo,50,1300,Healthcare,China,Taizhou,10/1/1971
+2190,Kostyantin Zhevago,48,1300,Metals & Mining,Ukraine,Kiev,1/7/1974
+2190,Zhou Mingjie,64,1300,Technology,China,Shenzhen,8/1/1957
+2190,Zhu Xingliang,62,1300,Construction & Engineering,China,Suzhou,5/1/1959
+2190,Zhu Yiwen & family,,1300,Healthcare,China,Shanghai,
+2190,Zong Yanmin,,1300,Manufacturing,China,Jinan,
+2324,Sanjay Agarwal,51,1200,Finance & Investments,India,Jaipur,9/8/1970
+2324,Hamad bin Jassim bin Jaber Al Thani,62,1200,Finance & Investments,Qatar,Doha,10/1/1959
+2324,Betty Ang,67,1200,Food & Beverage,Philippines,Manila,11/13/1954
+2324,Christian Angermayer,43,1200,Finance & Investments,United Kingdom,London,4/26/1978
+2324,Mika Anttonen,55,1200,Energy,Finland,Helsinki,12/18/1966
+2324,Jose Maria Aristrain,59,1200,Metals & Mining,Switzerland,Gstaad,11/2/1962
+2324,Emilio Azcarraga Jean,54,1200,Media & Entertainment,Mexico,Mexico City,2/21/1968
+2324,Thomas Bailey,85,1200,Finance & Investments,United States,Aspen,1/1/1937
+2324,Andrei Bokarev,55,1200,Manufacturing,Russia,Moscow,10/23/1966
+2324,Stephane Bonvin,55,1200,Real Estate,Switzerland,Lens,1/1/1967
+2324,Ashok Boob,70,1200,Manufacturing,India,Pune,3/2/1952
+2324,Ludwig Theodor Braun,32,1200,Healthcare,Germany,Melsungen,1/1/1990
+2324,Friederike Braun-Luedicke,38,1200,Healthcare,Germany,Melsungen,1/1/1984
+2324,Pradip Burman,79,1200,Food & Beverage,India,Delhi,11/2/1942
+2324,Cai Hongbin,,1200,Healthcare,China,Lianyungang,
+2324,Chang Kuo-Cheng,,1200,Logistics,Taiwan,Taipei,
+2324,Jiancheng Chen,63,1200,Manufacturing,China,Shangyu,1/13/1959
+2324,Chen Xueling,54,1200,Manufacturing,China,Shantou,10/16/1967
+2324,Cheng Lili,57,1200,Food & Beverage,China,Changzhou,1/1/1965
+2324,Yvon Chouinard,83,1200,Fashion & Retail,United States,Ventura,11/9/1938
+2324,Luigi Cremonini & family,82,1200,Food & Beverage,Italy,Modena,4/28/1939
+2324,Tim Draper,63,1200,Finance & Investments,United States,Atherton,6/11/1958
+2324,Fan Zhaoxia & family,54,1200,Energy,China,Beijing,7/20/1967
+2324,Gleb Fetisov,55,1200,Telecom,Russia,Moscow,6/5/1966
+2324,Robert Fisher,68,1200,Fashion & Retail,United States,San Francisco,8/1/1953
+2324,William Fisher,65,1200,Fashion & Retail,United States,San Francisco,4/1/1957
+2324,J. Christopher Flowers,64,1200,Finance & Investments,United States,New York,10/27/1957
+2324,Bernd Freier,65,1200,Fashion & Retail,Germany,Rottendorf,1/1/1957
+2324,Geng Diangen,65,1200,Technology,China,Beijing,12/3/1956
+2324,Dan Gertler,48,1200,Metals & Mining,Israel,Bnei Brak,12/23/1973
+2324,David Girouard,56,1200,Finance & Investments,United States,Redwood City,3/13/1966
+2324,John Goff,67,1200,Real Estate,United States,Fort Worth,1/1/1955
+2324,Lawrence Golub,62,1200,Finance & Investments,United States,New York,10/3/1959
+2324,Sven Hagströmer,78,1200,Finance & Investments,Sweden,Stockholm,11/30/1943
+2324,Fahed Hariri,41,1200,Construction & Engineering,United Kingdom,London,12/29/1980
+2324,Richard Hayne,74,1200,Fashion & Retail,United States,Philadelphia,9/1/1947
+2324,He Yamin & family,65,1200,Manufacturing,China,Chengdu,2/23/1957
+2324,Michael Heine,72,1200,Finance & Investments,Australia,Melbourne,11/1/1949
+2324,Heikki Herlin,35,1200,Manufacturing,Finland,Helsinki,1/1/1987
+2324,Hong Feng,45,1200,Technology,China,Beijing,1/1/1977
+2324,Hu Kun,52,1200,Healthcare,China,Qinhuangdao,9/1/1969
+2324,Huang Hongyun & family,55,1200,Real Estate,China,Chongqing,6/26/1966
+2324,Shanbing Huang & family,65,1200,Technology,China,Qidong,10/16/1956
+2324,Huang Shih Tsai,70,1200,Real Estate,China,Shenzhen,6/1/1951
+2324,Huang Wenbiao,54,1200,Food & Beverage,China,Foshan,5/1/1967
+2324,Mohammed Ibrahim,75,1200,Telecom,United Kingdom,London,5/3/1946
+2324,Hedda im Brahm-Droege,67,1200,Finance & Investments,Germany,Dusseldorf,1/1/1955
+2324,Rameshchandra Jain,73,1200,Manufacturing,India,Mumbai,6/22/1948
+2324,Laurent Junique,56,1200,Technology,Singapore,Singapore,1/1/1966
+2324,Zbigniew Juroszek & family,59,1200,Diversified,Poland,Cieszyn,7/7/1962
+2324,Chatchai Kaewbootta,70,1200,Finance & Investments,Thailand,Bangkok,7/5/1951
+2324,Shirley Kao,65,1200,Food & Beverage,Taiwan,Tainan,9/2/1956
+2324,Ipek Kirac,37,1200,Diversified,Turkey,Istanbul,11/28/1984
+2324,Carsten Koerl,57,1200,Sports,Switzerland,,11/27/1964
+2324,Andrei Kosogov,61,1200,Energy,Russia,Moscow,3/15/1961
+2324,John Krystynak,53,1200,Media & Entertainment,United States,Incline Village,5/1/1968
+2324,John Kusuma,55,1200,Finance & Investments,Indonesia,Jakarta,11/18/1966
+2324,Hartono Kweefanus,72,1200,Food & Beverage,Indonesia,,1/25/1950
+2324,Kwek Leng Peck,66,1200,Diversified,Singapore,Singapore,1/1/1956
+2324,Kristo Käärmann,41,1200,Finance & Investments,United Kingdom,London,9/1/1980
+2324,Guy Laliberté,62,1200,Media & Entertainment,Canada,Montreal,1/1/1960
+2324,Lee Sang-ryul,60,1200,Manufacturing,South Korea,,10/21/1961
+2324,Lee Seung-gun,40,1200,Technology,South Korea,Seoul,1/30/1982
+2324,Hongjing Li,54,1200,Automotive,China,Haikou,2/1/1968
+2324,Li Wanqiang,44,1200,Technology,China,Beijing,8/1/1977
+2324,Lu Hongyan,44,1200,Media & Entertainment,China,Xiamen,5/31/1977
+2324,Dalong Lv,60,1200,Telecom,China,Beijing,3/12/1962
+2324,Carsten Maschmeyer,62,1200,Finance & Investments,Germany,Munich,5/8/1959
+2324,Todd McKinnon,50,1200,Technology,United States,San Francisco,10/25/1971
+2324,Rubens Menin Teixeira de Souza,66,1200,Diversified,Brazil,Belo Horizonte,3/12/1956
+2324,Lorinc Meszaros,56,1200,Diversified,Hungary,Felcsút,2/25/1966
+2324,Ulrich Mommert & family,81,1200,Automotive,,,1/11/1941
+2324,Park Kwan-ho,50,1200,Media & Entertainment,South Korea,Seoul,1/11/1972
+2324,George Pedersen,86,1200,Manufacturing,United States,McLean,8/18/1935
+2324,David Penaloza Alanis,48,1200,Construction & Engineering,Mexico,Mexico City,1/1/1974
+2324,Stefan Pierer,65,1200,Automotive,Austria,Wels,11/25/1956
+2324,Murdaya Poo,81,1200,Diversified,Indonesia,Jakarta,1/12/1941
+2324,Michael Price,69,1200,Finance & Investments,United States,Far Hills,7/3/1952
+2324,Leonid Radvinsky,40,1200,Technology,United States,Chicago,1/5/1982
+2324,Megdet Rahimkulov & family,76,1200,Finance & Investments,Russia,Moscow,10/16/1945
+2324,Andrei Rappoport,58,1200,Finance & Investments,Russia,Moscow,6/22/1963
+2324,Dasari Uday Kumar Reddy,54,1200,Technology,India,Hyderabad,5/1/1967
+2324,Helena Revoredo,75,1200,Service,Spain,Madrid,2/10/1947
+2324,Duke Reyes,65,1200,Food & Beverage,United States,Palm Beach,3/23/1957
+2324,Nobutada Saji,76,1200,Food & Beverage,Japan,Tokyo,11/25/1945
+2324,Leonard Schleifer,69,1200,Healthcare,United States,Tarrytown,7/7/1952
+2324,Airat Shaimiev,60,1200,Energy,Russia,Kazan,3/7/1962
+2324,Radik Shaimiev,57,1200,Energy,Russia,Kazan,11/14/1964
+2324,Vijay Shekhar Sharma,43,1200,Service,India,Delhi,6/7/1978
+2324,Devi Shetty,69,1200,Healthcare,India,Bangalore,1/1/1953
+2324,Shum Chiu Hung & family,52,1200,Real Estate,China,Guangzhou,
+2324,Michael Steinhardt,81,1200,Finance & Investments,United States,Mount Kisco,12/7/1940
+2324,Petter Stordalen & family,59,1200,Service,Norway,Oslo,11/29/1962
+2324,Winarko Sulistyo,76,1200,Manufacturing,Indonesia,Jakarta,12/10/1945
+2324,Sun Huaiqing & family,52,1200,Fashion & Retail,China,Guangzhou,10/2/1969
+2324,Luc Tack,60,1200,Manufacturing,Belgium,Deinze,9/1/1961
+2324,Lucio Tan,87,1200,Diversified,Philippines,Manila,7/17/1934
+2324,Yoshikazu Tanaka,45,1200,Technology,Japan,Tokyo,2/18/1977
+2324,Stanley Tang,29,1200,Technology,United States,San Francisco,10/27/1992
+2324,Sam Tarascio,77,1200,Real Estate,Australia,Melbourne,7/22/1944
+2324,Alexander Tedja,76,1200,Real Estate,Indonesia,Jakarta,9/22/1945
+2324,Laurie Tisch,71,1200,Diversified,United States,New York,2/19/1951
+2324,Steven Tisch,73,1200,Diversified,United States,Beverly Hills,2/14/1949
+2324,Stefania Triva,57,1200,Healthcare,Italy,Brescia,10/4/1964
+2324,Maria Grace Uy,53,1200,Telecom,Philippines,Angeles,4/25/1968
+2324,Wim van der Leegte,74,1200,Manufacturing,Netherlands,Eindhoven,8/23/1947
+2324,Thongma Vijitpongpun,64,1200,Real Estate,Thailand,Bangkok,7/8/1957
+2324,Jianfeng Wang & family,52,1200,Automotive,China,Ningbo,
+2324,Wang Jilei,57,1200,Logistics,China,Shanghai,1/1/1965
+2324,Wang Junmin,53,1200,Healthcare,China,Chengdu,12/12/1968
+2324,Wang Kunxiao,52,1200,Manufacturing,China,Yantai,6/23/1969
+2324,Wang Zhentao & family,56,1200,Healthcare,China,Wenzhou,5/14/1965
+2324,J. Wayne Weaver,86,1200,Diversified,United States,Jacksonville,9/1/1935
+2324,Weng Xianding,60,1200,Healthcare,China,Shenzhen,11/28/1961
+2324,Horst Wortmann,80,1200,Fashion & Retail,Germany,Detmold,5/8/1941
+2324,Wu Chung-yi,66,1200,Manufacturing,Taiwan,Chang Hwa County,7/1/1955
+2324,Wu Li-gann,81,1200,Manufacturing,Taiwan,Kaohsiung,1/1/1941
+2324,Wu Peifu & family,60,1200,Manufacturing,China,Suqian,10/10/1961
+2324,Xiu Laigui,67,1200,Healthcare,China,Tonghua,7/1/1954
+2324,Yeh Kuo-I,80,1200,Manufacturing,,,4/21/1941
+2324,Faxiang Yu,50,1200,Media & Entertainment,China,Shaoxing,10/7/1971
+2324,Zeng Chaolin,39,1200,Metals & Mining,China,Yongzhou,8/1/1982
+2324,Zhang Tianyu,54,1200,Telecom,China,Shenzhen,8/8/1967
+2324,Shusheng Zheng,56,1200,Telecom,China,Hangzhou,1/1/1966
+2448,A. Jayson Adair,52,1100,Automotive,United States,Dallas,10/16/1969
+2448,Joao Alves de Queiroz Filho,69,1100,Diversified,Brazil,São Paulo,1/1/1953
+2448,Ryuji Arai,75,1100,Fashion & Retail,Japan,Tokyo,5/28/1946
+2448,Sara Blakely,51,1100,Fashion & Retail,United States,Atlanta,2/27/1971
+2448,Lloyd Blankfein,67,1100,Finance & Investments,United States,New York,9/20/1954
+2448,Henadiy Boholyubov,60,1100,Diversified,Ukraine,Dnipro,1/1/1962
+2448,Casper Callerström,48,1100,Finance & Investments,Sweden,Stockholm,4/8/1973
+2448,Kejian Cao,59,1100,Manufacturing,China,Quzhou,4/10/1962
+2448,Turgay Ciner,66,1100,Diversified,Turkey,Istanbul,3/1/1956
+2448,Dai Lizhong,53,1100,Healthcare,China,Changsha,7/1/1968
+2448,Pedro de Godoy Bueno,31,1100,Healthcare,Brazil,Sao Paulo,4/14/1990
+2448,Aydin Dogan,85,1100,Media & Entertainment,Turkey,Istanbul,4/15/1936
+2448,Wolfgang Egger,56,1100,Real Estate,Germany,Augsburg,8/18/1965
+2448,Gabriel Escarrer,87,1100,Service,Spain,Palma de Majorca,3/2/1935
+2448,Richard Fairbank,71,1100,Finance & Investments,United States,McLean,9/1/1950
+2448,Andy Fang,29,1100,Technology,United States,Monte Vista,6/21/1992
+2448,Benedicte Find,,1100,Healthcare,Denmark,Copenhagen,
+2448,Paul Fireman,78,1100,Fashion & Retail,United States,Brookline,2/14/1944
+2448,Donald Friese,81,1100,Manufacturing,United States,Los Angeles,10/3/1940
+2448,Soichiro Fukutake,76,1100,Service,New Zealand,Auckland,12/14/1945
+2448,Antonio Gallardo Ballart,86,1100,Healthcare,Spain,Barcelona,3/12/1936
+2448,David Golub,59,1100,Finance & Investments,United States,New York,4/16/1962
+2448,Guan Yihong,52,1100,Food & Beverage,China,Guangzhou,
+2448,Stelios Haji-Ioannou,55,1100,Service,Monaco,Monte Carlo,2/14/1967
+2448,Mustafa Hamied,81,1100,Healthcare,India,Mumbai,10/23/1940
+2448,Han Arming Hanafia,,1100,Technology,Indonesia,Bogor,
+2448,Ronnen Harary,50,1100,Manufacturing,Canada,Toronto,1/1/1972
+2448,David Helgason,44,1100,Technology,Denmark,Copenhagen,1/1/1978
+2448,Christian Herz,,1100,Finance & Investments,Germany,Hamburg,
+2448,Michaela Herz,,1100,Finance & Investments,Germany,Hamburg,
+2448,Eduardo Hochschild,58,1100,Metals & Mining,Peru,Lima,12/4/1963
+2448,Hong Seok-joh,69,1100,Fashion & Retail,South Korea,Seoul,1/8/1953
+2448,Huang Jiangji,,1100,Technology,China,Beijing,
+2448,Huang Xu,54,1100,Technology,China,Fuzhou,9/1/1967
+2448,Subba Rao Jasti,95,1100,Healthcare,India,Hyderabad,1/1/1927
+2448,Long Jiang,48,1100,Technology,China,Weifang,2/1/1974
+2448,Jiang Xuefei & family,52,1100,Technology,China,Shenzhen,12/8/1969
+2448,Jonas Kamprad,56,1100,Finance & Investments,United Kingdom,London,3/4/1966
+2448,Mathias Kamprad,52,1100,Finance & Investments,United Kingdom,London,6/27/1969
+2448,Peter Kamprad,58,1100,Finance & Investments,Belgium,Tervuren,3/29/1964
+2448,Andrew Karam,40,1100,Media & Entertainment,United States,Menlo Park,2/12/1982
+2448,Samvel Karapetyan,56,1100,Construction & Engineering,Russia,Moscow,8/18/1965
+2448,Alexander Karp,54,1100,Technology,United States,Palo Alto,10/1/1967
+2448,Ke Guihua,56,1100,Manufacturing,China,Shanghai,10/13/1965
+2448,Kim Jung-woong,47,1100,Fashion & Retail,South Korea,Seoul,1/1/1975
+2448,Harry Klagsbrun,67,1100,Finance & Investments,Sweden,Stockholm,7/22/1954
+2448,Alexander Knauf,47,1100,Manufacturing,Germany,Würzburg,5/30/1974
+2448,Martin Knauf,,1100,Manufacturing,Germany,Berlin,
+2448,Robert Knauf,,1100,Manufacturing,Germany,Meerbusch,
+2448,Koh Wee Meng,58,1100,Real Estate,Singapore,Singapore,7/1/1963
+2448,Sergei Kolesnikov,50,1100,Manufacturing,Russia,Moscow,2/25/1972
+2448,Andrei Komarov,55,1100,Manufacturing,Russia,Moscow,10/11/1966
+2448,Koo Bon-neung,73,1100,Manufacturing,South Korea,Seoul,3/26/1949
+2448,Koo Bon-sik,63,1100,Technology,South Korea,Seoul,6/28/1958
+2448,Suresh Krishna,85,1100,Automotive,India,Chennai,12/24/1936
+2448,Nancy Lerner,61,1100,Finance & Investments,United States,Cleveland,5/11/1960
+2448,Norma Lerner,86,1100,Finance & Investments,United States,Cleveland,3/28/1936
+2448,Randolph Lerner,60,1100,Finance & Investments,United States,Cleveland,2/21/1962
+2448,Li Shui-po,65,1100,Manufacturing,China,Kunshan,8/1/1956
+2448,Li Tan,57,1100,Healthcare,China,Shenzhen,12/19/1964
+2448,Li Wenmei & family,59,1100,Healthcare,China,Guangzhou,10/27/1962
+2448,Lim Hariyanto Wijaya Sarwono,93,1100,Energy,Indonesia,Jakarta,11/1/1928
+2448,Lin Jie & family,53,1100,Healthcare,China,Taizhou,1/31/1969
+2448,Liu Chengyu & family,59,1100,Manufacturing,China,Shenzhen,7/26/1962
+2448,Lou Boliang,58,1100,Healthcare,China,Beijing,9/1/1963
+2448,Lun Ruixiang & family,54,1100,Real Estate,Hong Kong,Hong Kong,1/1/1968
+2448,Lv Yongxiang,72,1100,Manufacturing,China,Changchun,1/3/1950
+2448,Ma Xiuhui,51,1100,Manufacturing,China,Shanghai,1/7/1971
+2448,Yasseen Mansour,60,1100,Diversified,Egypt,Cairo,8/8/1961
+2448,Jorge Mas,59,1100,Construction & Engineering,United States,Miami,2/28/1963
+2448,Michael McCain,,1100,Food & Beverage,Canada,Toronto,
+2448,Gabriella Meister,,1100,Manufacturing,Germany,Landsberg am Lech,
+2448,Ulrike Meister,55,1100,Manufacturing,Germany,Landsberg,3/13/1967
+2448,Jeffrey Michael & family,65,1100,Technology,United States,Minnetonka,7/18/1956
+2448,Soichiro Minami,45,1100,Technology,Japan,Tokyo,6/15/1976
+2448,Bob Muglia,62,1100,Technology,United States,Mercer Island,10/2/1959
+2448,Erik Must,79,1100,Finance & Investments,Norway,Oslo,1/26/1943
+2448,Kerr Neilson,72,1100,Finance & Investments,Australia,Sydney,10/17/1949
+2448,John Oyler,54,1100,Healthcare,China,,4/3/1968
+2448,Park Hyeon-joo,63,1100,Finance & Investments,South Korea,Seoul,10/17/1958
+2448,Jose Isaac Peres & family,81,1100,Real Estate,Brazil,Rio de Janeiro,7/18/1940
+2448,Catherine Phillips,,1100,Finance & Investments,Canada,Toronto,
+2448,John Phillips,71,1100,Finance & Investments,Canada,Toronto,1/1/1951
+2448,Pu Zhongjie & family,59,1100,Healthcare,China,Beijing,1/1/1963
+2448,Qian Xiaojun,47,1100,Technology,China,Beijing,2/1/1975
+2448,Anton Rabie,50,1100,Manufacturing,Canada,Toronto,1/1/1972
+2448,Igor Rybakov,49,1100,Manufacturing,Russia,Moscow,5/16/1972
+2448,K. Rai Sahi,75,1100,Real Estate,Canada,Mississauga,4/30/1946
+2448,"Karl Scheufele, III. & family",83,1100,Fashion & Retail,Switzerland,Geneva,1/1/1939
+2448,Steven Schuurman,46,1100,Technology,Netherlands,Amsterdam,9/24/1975
+2448,Shao Zengming,,1100,Manufacturing,China,Zhengzhou,
+2448,Analjit Singh,68,1100,Diversified,India,Delhi,1/11/1954
+2448,Kavita Singhania,60,1100,Manufacturing,India,Chennai,1/1/1962
+2448,Michael S. Smith,66,1100,Energy,United States,Miami Beach,5/9/1955
+2448,Scott Smith,72,1100,Technology,United States,Provo,4/12/1949
+2448,Ashok Soota,79,1100,Technology,India,Bangalore,11/12/1942
+2448,Michael Spencer,66,1100,Finance & Investments,United Kingdom,"London, Suffolk",5/30/1955
+2448,Venu Srinivasan,69,1100,Automotive,India,Chennai,12/11/1952
+2448,Dirk Stroeer,53,1100,Media & Entertainment,Germany,Cologne,1/1/1969
+2448,Susanto Suwarto,66,1100,Media & Entertainment,Indonesia,Jakarta,2/9/1956
+2448,Xiuguo Tang,58,1100,Manufacturing,China,Changsha,8/25/1963
+2448,Mehmet Sinan Tara,63,1100,Construction & Engineering,Turkey,Istanbul,5/24/1958
+2448,Robert Toll,81,1100,Real Estate,United States,Miami Beach,12/30/1940
+2448,Surin Upatkoon,72,1100,Diversified,Malaysia,Kuala Lumpur,4/18/1949
+2448,Sunil Vachani,53,1100,Manufacturing,India,Delhi,11/27/1968
+2448,Murat Vargi,74,1100,Telecom,Turkey,Istanbul,11/14/1947
+2448,Pongsak Viddayakorn,88,1100,Healthcare,Thailand,Bangkok,3/23/1934
+2448,Wang Linxiang,,1100,Fashion & Retail,China,Erdos,
+2448,Wang Shumin,65,1100,Manufacturing,China,Beijing,1/11/1957
+2448,Richard Warke,,1100,Metals & Mining,Canada,Vancouver,
+2448,Anne Werninghaus,36,1100,Manufacturing,Brazil,Joinville,1/1/1986
+2448,Allan Wong,72,1100,Manufacturing,Hong Kong,Hong Kong,4/1/1950
+2448,Chaoqun Wu,52,1100,Manufacturing,China,Meishan,5/18/1969
+2448,Wu Yonghua,51,1100,Fashion & Retail,China,Xiamen,1/1/1971
+2448,Wu Zhenxing,52,1100,Food & Beverage,China,Foshan,10/1/1969
+2448,Franziska Wuerbser,34,1100,Manufacturing,,,3/21/1988
+2448,Xia Xinde,57,1100,Manufacturing,China,Guangzhou,10/15/1964
+2448,Xiong Jun & family,48,1100,Healthcare,China,Shanghai,2/6/1974
+2448,Jane Yan & family,52,1100,Technology,China,Beijing,7/19/1969
+2448,Yang Erzhu,71,1100,Real Estate,China,Foshan,1/1/1951
+2448,Vlad Yatsenko,38,1100,Finance & Investments,United Kingdom,London,8/30/1983
+2448,Yi Xianzhong & family,62,1100,Healthcare,China,Guangzhou,5/1/1959
+2448,Yoshiaki Yoshida,81,1100,Fashion & Retail,Japan,,1/31/1941
+2448,Yu Rong,50,1100,Healthcare,China,Shanghai,12/14/1971
+2448,Igor Yusufov,65,1100,Energy,Russia,Moscow,6/12/1956
+2448,Zeng Weixiong,,1100,Healthcare,China,Shanghai,
+2448,Zhang Cheng Fei,54,1100,Manufacturing,China,Dongguan,10/1/1967
+2448,Zhang Fangliang,57,1100,Healthcare,China,Nanjing,1/1/1965
+2448,Baoshen Zhong,54,1100,Energy,China,Xian,12/1/1967
+2448,Zhou Minghua,58,1100,Healthcare,China,Linhai,1/1/1964
+2578,Krishna Kumar Bangur,61,1000,Manufacturing,India,Kolkata,7/2/1960
+2578,"Wilbur  'Ed' Bosarge, Jr.",82,1000,Finance & Investments,United States,Houston,7/28/1939
+2578,Johanna Braun,42,1000,Healthcare,Germany,Melsungen,1/1/1980
+2578,Karl Friedrich Braun,39,1000,Healthcare,Germany,Melsungen,1/1/1983
+2578,Jean-Pierre Cayard,79,1000,Food & Beverage,France,Paris,1/1/1943
+2578,Tony Chen,72,1000,Technology,Taiwan,Taichung,7/1/1949
+2578,Vivien Chen,63,1000,Real Estate,Hong Kong,Hong Kong,1/14/1959
+2578,Chey Ki-won,57,1000,Technology,South Korea,Seoul,7/6/1964
+2578,Pollyanna Chu,64,1000,Finance & Investments,Hong Kong,Hong Kong,4/1/1958
+2578,Roy Chi Ping Chung,69,1000,Manufacturing,Hong Kong,Hong Kong,4/1/1953
+2578,Doug Clarke,41,1000,Technology,Australia,Melbourne,1/1/1981
+2578,Ronald Clarke,66,1000,Technology,United States,Duluth,8/15/1955
+2578,Jean-Paul Clozel,67,1000,Healthcare,Switzerland,Basel,4/3/1955
+2578,Carl DeSantis,82,1000,Food & Beverage,United States,Delray Beach,7/19/1939
+2578,Sefik Yilmaz Dizdar,84,1000,Fashion & Retail,Turkey,Istanbul,3/16/1938
+2578,Charles Dunstone,58,1000,Telecom,United Kingdom,London,1/1/1964
+2578,Larry Fink,69,1000,Finance & Investments,United States,New York,11/2/1952
+2578,Fu Gang,51,1000,Healthcare,China,Qingdao,5/1/1970
+2578,Jorge Gallardo Ballart,80,1000,Healthcare,Spain,Barcelona,9/26/1941
+2578,Nari Genomal,82,1000,Fashion & Retail,Philippines,Manila,1/1/1940
+2578,Ramesh Genomal,71,1000,Fashion & Retail,Philippines,Manila,1/1/1951
+2578,Sunder Genomal,68,1000,Fashion & Retail,India,Bangalore,1/1/1954
+2578,Horst-Otto Gerberding,69,1000,Food & Beverage,Germany,Holzminden,7/8/1952
+2578,Guo Jiangang,55,1000,Manufacturing,China,Foshan,8/15/1966
+2578,Polys Haji-Ioannou,62,1000,Service,Monaco,Monaco,1/11/1960
+2578,Huang Jian,55,1000,Manufacturing,China,Shunde,1/1/1967
+2578,Huang Jinxiang & family,57,1000,Manufacturing,China,Xuancheng,1/27/1965
+2578,Huang Weibin,54,1000,Manufacturing,China,Haining,9/1/1967
+2578,Hiroshi Ishibashi,75,1000,Automotive,Japan,Tokyo,8/1/1946
+2578,Bent Jensen,70,1000,Manufacturing,Denmark,Nordborg,12/15/1951
+2578,Boris Jordan,55,1000,Manufacturing,United States,New York,6/2/1966
+2578,Morris Kahn,92,1000,Technology,Israel,Beit Yanay,1/1/1930
+2578,Marcelo Kalim,52,1000,Finance & Investments,Brazil,Sao Paulo,10/15/1969
+2578,Eugene Kaspersky,56,1000,Technology,Russia,Moscow,10/4/1965
+2578,Kangbao Ke & family,59,1000,Healthcare,China,Guangzhou,1/1/1963
+2578,Yunfeng Ke & family,55,1000,Healthcare,China,Guangzhou,1/1/1967
+2578,Ken Kendrick,78,1000,Sports,United States,Paradise Valley,9/2/1943
+2578,Ihor Kolomoyskyy,59,1000,Diversified,Ukraine,Kiev,2/13/1963
+2578,Jeff Lawson,44,1000,Technology,United States,San Francisco,6/21/1977
+2578,Liang Jiankun & family,60,1000,Metals & Mining,China,Nanjing,7/1/1961
+2578,Liu Baolin,68,1000,Fashion & Retail,China,Wuhan,6/1/1953
+2578,Liu Quan,45,1000,Technology,China,Beijing,12/3/1976
+2578,Udo Mueller,60,1000,Media & Entertainment,Germany,Cologne,1/1/1962
+2578,Bruce Nordstrom,88,1000,Fashion & Retail,United States,Seattle,10/1/1933
+2578,Scott Nuttall,49,1000,Finance & Investments,United States,New York,11/25/1972
+2578,Roberto Ongpin,85,1000,Diversified,Philippines,Manila,1/6/1937
+2578,Adrian Paval,53,1000,Fashion & Retail,Romania,Bacau,9/23/1968
+2578,Tyler Perry,52,1000,Media & Entertainment,United States,Atlanta,9/14/1969
+2578,Grant Petty,53,1000,Technology,Australia,Melbourne,1/1/1969
+2578,G.V. Prasad,61,1000,Healthcare,India,Hyderabad,11/22/1960
+2578,Qiu Zixin,58,1000,Healthcare,China,Beijing,11/1/1963
+2578,Jupally Rameshwar Rao,66,1000,Real Estate,India,Hyderabad,9/16/1955
+2578,Vera Rechulski Santo Domingo,73,1000,Food & Beverage,Bermuda,,12/26/1948
+2578,Michael Rees,47,1000,Finance & Investments,United States,New Canaan,3/19/1975
+2578,Mark Rein,58,1000,Media & Entertainment,United States,Raleigh,5/2/1963
+2578,Ren Zhengfei,78,1000,Telecom,China,Shenzhen,1/1/1944
+2578,Francisco Jose Riberas Mera,57,1000,Manufacturing,Spain,Madrid,6/1/1964
+2578,Boris Rotenberg,65,1000,Construction & Engineering,Russia,Moscow,1/3/1957
+2578,Chanchai Ruayrungruang,68,1000,Real Estate,China,Beijing,1/1/1954
+2578,Alan Rydge,69,1000,Media & Entertainment,Australia,Sydney,6/24/1952
+2578,Oliver Samwer,48,1000,Technology,Germany,Munich,8/9/1973
+2578,Glenn Sanford,55,1000,Real Estate,United States,Blaine,10/15/1966
+2578,Dhruv Sawhney,77,1000,Construction & Engineering,India,Delhi,6/26/1944
+2578,Stephan Schnabel,,1000,Manufacturing,,,
+2578,Neerja Sethi,67,1000,Technology,United States,Fisher Island,1/16/1955
+2578,Ramesh Chandra Sharma,77,1000,Finance & Investments,India,Mumbai,1/3/1945
+2578,Dean Solon,57,1000,Energy,United States,Gallatin,1/1/1965
+2578,Mike Speiser,51,1000,Technology,United States,San Francisco,1/25/1971
+2578,Jeff Sprecher,67,1000,Finance & Investments,United States,Atlanta,2/23/1955
+2578,Axel Stawski,71,1000,Real Estate,United States,Sagaponack,11/14/1950
+2578,Joseph Steinberg,78,1000,Finance & Investments,United States,New York,2/5/1944
+2578,Bhawari Bai Surana,76,1000,Healthcare,India,Bangalore,9/28/1945
+2578,Ruiqing Tan,55,1000,Manufacturing,China,Zhengzhou,10/5/1966
+2578,Masaru Tange,47,1000,Technology,Japan,Tokyo,9/22/1974
+2578,Dennis Anthony Uy,55,1000,Telecom,Philippines,Angeles,6/1/1966
+2578,Peter-Alexander Wacker,70,1000,Manufacturing,Germany,Starnberg,10/2/1951
+2578,Shigefumi Wada & family,69,1000,Technology,Japan,"Nakano, Tokyo",8/30/1952
+2578,Wang Qiangxiang,50,1000,Service,China,Nanjing,9/19/1971
+2578,Xiong Shaoming,51,1000,Manufacturing,China,Shenzhen,1/1/1971
+2578,Shintaro Yamada,44,1000,Technology,Japan,Tokyo,9/21/1977
+2578,Mark Haoyong Yang,47,1000,Technology,China,Beijing,8/16/1974
+2578,Yao Hsiao Tung,82,1000,Manufacturing,Singapore,Singapore,1/1/1940
+2578,Yao Liangbo,53,1000,Fashion & Retail,China,Guangzhou,4/1/1969
+2578,Ye Qiongjiu,67,1000,Technology,China,Hangzhou,10/14/1954
+2578,"Richard Yuengling, Jr.",79,1000,Food & Beverage,United States,Pottsville,3/10/1943
+2578,Zhang Kapeng,57,1000,Construction & Engineering,China,Linhai,1/1/1965
+2578,Zhang Yuqiang,66,1000,Manufacturing,China,Tongxiang,9/1/1955
+2578,Zhou Ruxin,59,1000,Technology,China,Beijing,3/1/1963
+2578,Wen Zhou & family,57,1000,Manufacturing,China,Shanghai,3/6/1965
+2578,Zhou Yifeng & family,43,1000,Energy,China,Zhangjiagang,7/11/1978
+2578,Zhuang Kuilong & family,59,1000,Manufacturing,China,Jiaxing,6/15/1962

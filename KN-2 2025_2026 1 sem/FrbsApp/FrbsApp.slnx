@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/tmp/">
+    <Project Path="FrbsApp.DataParser/FrbsApp.DataParser.csproj" />
+    <Project Path="Singletone/Singletone.csproj" Id="980a4d7f-26e6-422c-a25a-61cf5d05ec4c" />
+  </Folder>
+  <Project Path="FrbsApp.Core/FrbsApp.Core.csproj" />
+  <Project Path="FrbsApp.Repositories/FrbsApp.Repositories.csproj" Id="7db8a7df-7c10-4f7f-83af-c9d839b66aae" />
+  <Project Path="FrbsApp.UI/FrbsApp.UI.csproj" />
+</Solution>

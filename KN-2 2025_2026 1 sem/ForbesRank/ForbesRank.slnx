@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="ForbesRank.ConsoleApp/ForbesRank.ConsoleApp.csproj" />
   <Project Path="ForbesRank.Domain/ForbesRank.Domain.csproj" />
+  <Project Path="ForbesRank.FormsApp/ForbesRank.FormsApp.csproj" Id="4765eaf5-fdb2-4707-87bc-b1567708e20e" />
 </Solution>

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ForbesRank.Domain
+namespace FrbsApp.Core.Models
 {
     public class Person
     {
@@ -24,7 +24,7 @@ namespace ForbesRank.Domain
 
         public override string ToString()
         {
-            return $"{Rank}. {Name} - {FinalWorth}B$, ({(Category is not null? Category.Name: "-")}), ({(City is not null ? (City.Country is null ? City.Name : $"{City.Name}, {City.Country.Name}"  ) : "no city")})";
+            return $"{Rank}. {Name} - {FinalWorth}B$, ({(Category is not null? Category.Name: "- no category-")}), ({(City is not null ? (City.Country is null ? City.Name : $"{City.Name}, {City.Country.Name}"  ) : "- no city -")})";
         }
     }
 }
