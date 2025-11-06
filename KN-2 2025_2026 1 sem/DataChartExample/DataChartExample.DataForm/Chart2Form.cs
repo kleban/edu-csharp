@@ -29,11 +29,14 @@ namespace DataChartExample.DataForm
 
         private void Chart1Form_Load(object sender, EventArgs e)
         {
+            var r = new Random();
             chart1.Series.Add("sales");
             foreach (var item in ChartDataService.GetByCoffe(items))
             {
                 chart1.Series["sales"].Points.AddXY(item.Key, item.Value);
+
             }
+            chart1.Series["sales"].ChartType = SeriesChartType.Pyramid;
         }
 
         private void comboBoxChartType_SelectedIndexChanged(object sender, EventArgs e)

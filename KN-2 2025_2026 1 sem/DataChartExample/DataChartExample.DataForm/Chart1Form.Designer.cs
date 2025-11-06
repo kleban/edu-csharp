@@ -32,6 +32,7 @@
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             comboBoxChartType = new ComboBox();
+            buttonSaveImage = new Button();
             ((System.ComponentModel.ISupportInitialize)chart1).BeginInit();
             SuspendLayout();
             // 
@@ -43,8 +44,9 @@
             legend1.Name = "Legend1";
             chart1.Legends.Add(legend1);
             chart1.Location = new Point(0, 0);
+            chart1.Margin = new Padding(3, 2, 3, 2);
             chart1.Name = "chart1";
-            chart1.Size = new Size(695, 397);
+            chart1.Size = new Size(608, 298);
             chart1.TabIndex = 0;
             chart1.Text = "chart1";
             // 
@@ -52,19 +54,32 @@
             // 
             comboBoxChartType.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxChartType.FormattingEnabled = true;
-            comboBoxChartType.Location = new Point(12, 12);
+            comboBoxChartType.Location = new Point(10, 9);
+            comboBoxChartType.Margin = new Padding(3, 2, 3, 2);
             comboBoxChartType.Name = "comboBoxChartType";
-            comboBoxChartType.Size = new Size(151, 28);
+            comboBoxChartType.Size = new Size(133, 23);
             comboBoxChartType.TabIndex = 1;
             comboBoxChartType.SelectedIndexChanged += comboBoxChartType_SelectedIndexChanged;
             // 
+            // buttonSaveImage
+            // 
+            buttonSaveImage.Location = new Point(521, 263);
+            buttonSaveImage.Name = "buttonSaveImage";
+            buttonSaveImage.Size = new Size(75, 23);
+            buttonSaveImage.TabIndex = 2;
+            buttonSaveImage.Text = "Save Img";
+            buttonSaveImage.UseVisualStyleBackColor = true;
+            buttonSaveImage.Click += buttonSaveImage_Click;
+            // 
             // Chart1Form
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(695, 397);
+            ClientSize = new Size(608, 298);
+            Controls.Add(buttonSaveImage);
             Controls.Add(comboBoxChartType);
             Controls.Add(chart1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Chart1Form";
             Text = "Chart1Form";
             Load += Chart1Form_Load;
@@ -76,5 +91,6 @@
 
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private ComboBox comboBoxChartType;
+        private Button buttonSaveImage;
     }
 }

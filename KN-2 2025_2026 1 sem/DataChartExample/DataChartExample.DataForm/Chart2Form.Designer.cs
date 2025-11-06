@@ -43,8 +43,10 @@
             legend1.Name = "Legend1";
             chart1.Legends.Add(legend1);
             chart1.Location = new Point(0, 0);
+            chart1.Margin = new Padding(3, 2, 3, 2);
             chart1.Name = "chart1";
-            chart1.Size = new Size(695, 397);
+            chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
+            chart1.Size = new Size(608, 298);
             chart1.TabIndex = 0;
             chart1.Text = "chart1";
             // 
@@ -52,20 +54,22 @@
             // 
             comboBoxChartType.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxChartType.FormattingEnabled = true;
-            comboBoxChartType.Location = new Point(12, 12);
+            comboBoxChartType.Location = new Point(10, 9);
+            comboBoxChartType.Margin = new Padding(3, 2, 3, 2);
             comboBoxChartType.Name = "comboBoxChartType";
-            comboBoxChartType.Size = new Size(151, 28);
+            comboBoxChartType.Size = new Size(133, 23);
             comboBoxChartType.TabIndex = 1;
             comboBoxChartType.SelectedIndexChanged += comboBoxChartType_SelectedIndexChanged;
             // 
-            // Chart1Form
+            // Chart2Form
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(695, 397);
+            ClientSize = new Size(608, 298);
             Controls.Add(comboBoxChartType);
             Controls.Add(chart1);
-            Name = "Chart1Form";
+            Margin = new Padding(3, 2, 3, 2);
+            Name = "Chart2Form";
             Text = "Chart1Form";
             Load += Chart1Form_Load;
             ((System.ComponentModel.ISupportInitialize)chart1).EndInit();
