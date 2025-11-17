@@ -12,6 +12,8 @@ namespace Many2Many_Seed.Core.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string Name { get; set; }
+        
+        public string? Email { get; set; }
 
         [ForeignKey("PositionId")]
         public Position Position { get; set; }
