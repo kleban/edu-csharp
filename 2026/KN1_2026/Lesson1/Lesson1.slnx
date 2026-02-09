@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="FirstApp/FirstApp.csproj" />
+  <Project Path="FirstAppNet6/FirstAppNet6.csproj" />
+  <Project Path="WebApplication1/WebApplication1.csproj" />
+  <Project Path="WinFormsApp1/WinFormsApp1.csproj" />
+  <Project Path="WpfApp1/WpfApp1.csproj" />
+</Solution>
