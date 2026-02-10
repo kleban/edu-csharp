@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="Lesson2.Franko/Lesson2.Franko.csproj" Id="85322c86-39fe-4ef6-b5b6-f4da619cdcec" />
+  <Project Path="Lesson2.Literals/Lesson2.Literals.csproj" />
+  <Project Path="Lesson2.Operators/Lesson2.Operators.csproj" />
+  <Project Path="Lesson2.TypeConvertion/Lesson2.TypeConvertion.csproj" />
+  <Project Path="Lesson2.VarsAndTypes/Lesson2.VarsAndTypes.csproj" />
+  <Project Path="Lesson2.VarScope/Lesson2.VarScope.csproj" />
+</Solution>

@@ -29,14 +29,16 @@
 //    Console.WriteLine(a[i]);
 //}
 
-bool isActive = true;
+//bool isActive = true;
 
-if (isActive == true)
-{
-    Console.WriteLine("Active");
-}
-else
-{
-    Console.WriteLine("Not active");
-}
+//if (isActive == true)
+//{
+//    Console.WriteLine("Active");
+//}
+//else
+//{
+//    Console.WriteLine("Not active");
+//}
+
+// Зчитати з консолі число. Якщо введено не число — попросити повторити.
 
