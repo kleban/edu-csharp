@@ -6,4 +6,5 @@
   <Project Path="Jagged/04_Jagged.csproj" />
   <Project Path="Matrix/03_Matrix.csproj" />
   <Project Path="Sorting/06_Sorting.csproj" />
+  <Project Path="Task_6_1/Task_6_1.csproj" />
 </Solution>

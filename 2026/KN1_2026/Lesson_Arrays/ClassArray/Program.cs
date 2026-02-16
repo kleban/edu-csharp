@@ -1,6 +1,4 @@
 ﻿
-using System.Threading.Channels;
-
 Console.WriteLine("How many items copy?");
 int count = int.Parse(Console.ReadLine());
 
