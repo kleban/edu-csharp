@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="ClassArray/ClassArray.csproj" />
+  <Project Path="Foreach/05_Foreach.csproj" />
+  <Project Path="Indexing/02_Indexing.csproj" />
+  <Project Path="Init/01_Init.csproj" />
+  <Project Path="Jagged/04_Jagged.csproj" />
+  <Project Path="Matrix/03_Matrix.csproj" />
+  <Project Path="Sorting/06_Sorting.csproj" />
+</Solution>

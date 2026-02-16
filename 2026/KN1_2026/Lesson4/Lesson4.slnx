@@ -3,6 +3,7 @@
   <Project Path="07_Random_Numbers/07_Random_Numbers.csproj" />
   <Project Path="08_MinValue/08_MinValue.csproj" />
   <Project Path="09_TryParseLoop/09_TryParseLoop.csproj" />
+  <Project Path="10_Navigation/10_Navigation.csproj" Id="768645c2-ac05-409f-9a0e-b484e2b381f3" />
   <Project Path="forloop/04_ForLoop.csproj" />
   <Project Path="ifelsedemo/01_IfElseDemo.csproj" />
   <Project Path="Switch/02_Switch.csproj" />
