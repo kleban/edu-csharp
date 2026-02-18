@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="ClassArray/ClassArray.csproj" />
+  <Project Path="ClassArray/07_ClassArray.csproj" />
   <Project Path="Foreach/05_Foreach.csproj" />
   <Project Path="Indexing/02_Indexing.csproj" />
   <Project Path="Init/01_Init.csproj" />
@@ -7,4 +7,6 @@
   <Project Path="Matrix/03_Matrix.csproj" />
   <Project Path="Sorting/06_Sorting.csproj" />
   <Project Path="Task_6_1/Task_6_1.csproj" />
+  <Project Path="Task_6_7/Task_6_7.csproj" Id="68a39c35-5290-4f5b-adaf-1ea024217387" />
+  <Project Path="Task_Minimum/Task_Minimum.csproj" />
 </Solution>
