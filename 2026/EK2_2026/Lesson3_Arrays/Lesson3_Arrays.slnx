@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="02_KeyboardInput/02_KeyboardInput.csproj" />
+  <Project Path="03_ConsoleOutput/03_ConsoleOutput.csproj" />
+  <Project Path="04_FindMax/04_FindMax.csproj" />
+  <Project Path="05_Matrices/05_Matrices.csproj" />
+  <Project Path="1DimArray/01_1DimArray.csproj" />
+</Solution>
