@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="01_TypeConvert/01_TypeConvert.csproj" />
+  <Project Path="02_ImplicitConvert/02_ImplicitConvert.csproj" />
+  <Project Path="03_if_else/03_if_else.csproj" />
+  <Project Path="04_switch/04_switch.csproj" />
+  <Project Path="05_Loops_While/05_Loops_While.csproj" />
+  <Project Path="06_Loops_For/06_Loops_For.csproj" />
+  <Project Path="07_Random/07_Random.csproj" />
+</Solution>

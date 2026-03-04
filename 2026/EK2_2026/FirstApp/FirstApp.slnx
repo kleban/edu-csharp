@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="FirstApp/FirstApp.csproj" />
+  <Project Path="IncrementDemo/IncrementDemo.csproj" />
+</Solution>
