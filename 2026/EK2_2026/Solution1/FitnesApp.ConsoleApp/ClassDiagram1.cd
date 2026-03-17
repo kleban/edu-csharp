@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FitnesApp.ConsoleApp.Models.Member">
+    <Position X="6.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Member.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnesApp.ConsoleApp.Models.Person" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAEAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnesApp.ConsoleApp.Models.Workout">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Workout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnesApp.ConsoleApp.Models.Trainer">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Trainer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnesApp.ConsoleApp.Models.PersonalTraining">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAKAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\PersonalTraining.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FitnesApp.ConsoleApp.Models.Membership">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAQQAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Membership.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
