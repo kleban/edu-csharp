@@ -13,10 +13,28 @@ namespace FractionsDemo
         {
             this.numerator = numerator;
             this.denominator = denominator;
-            short();
+            _short();
         }
 
-        private void _short() {}
+        private void _short() 
+        {
+            int gcd = _gcd_euclidean(Math.Abs(numerator), Math.Abs(denominator));
+            int sign = denominator < 0 ? -1 : 1; // -2/3; 3/-4 -> -3/4
+            numerator = sign * numerator / gcd;
+            denominator = sign * denominator / gcd;
+        }
+
+        private int _gcd_euclidean(int a, int b)
+        {
+            while (a != b)
+            {
+                if (a > b)
+                    a = a - b;
+                else
+                    b = b - a;
+            }
+            return a;
+        }
 
         public static Fraction operator+(Fraction f1, Fraction f2)
         {

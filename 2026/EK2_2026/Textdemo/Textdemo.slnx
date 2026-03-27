@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="CharDemo/CharDemo.csproj" />
+  <Project Path="StringDemo/StringDemo.csproj" />
+</Solution>
