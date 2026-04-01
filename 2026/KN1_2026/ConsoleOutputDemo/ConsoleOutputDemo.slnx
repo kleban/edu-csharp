@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="PadDemo/PadDemo.csproj" />
+  <Project Path="StringFormatDemo/StringFormatDemo.csproj" />
+  <Project Path="TableDemo/TableDemo.csproj" />
+</Solution>
