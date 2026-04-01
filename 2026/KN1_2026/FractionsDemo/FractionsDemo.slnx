@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="FractionsDemo/FractionsDemo.csproj" />
+  <Project Path="FractionsTestProject/FractionsTestProject.csproj" Id="26137a3d-714d-49d2-9cd4-cc51b0407e97" />
 </Solution>

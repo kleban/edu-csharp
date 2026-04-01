@@ -9,6 +9,9 @@ namespace FractionsDemo
         private int numerator;
         private int denominator;
 
+        public int Numerator { get { return numerator; } }
+        public int Denominator { get { return denominator; } }
+
         public Fraction(int numerator, int denominator)
         {
             this.numerator = numerator;
@@ -19,7 +22,7 @@ namespace FractionsDemo
         private void _short() 
         {
             int gcd = _gcd_euclidean(Math.Abs(numerator), Math.Abs(denominator));
-            int sign = denominator < 0 ? -1 : 1; // -2/3; 3/-4 -> -3/4
+            int sign = denominator < 0 ? -1 : 1; 
             numerator = sign * numerator / gcd;
             denominator = sign * denominator / gcd;
         }
@@ -35,6 +38,8 @@ namespace FractionsDemo
             }
             return a;
         }
+
+
 
         public static Fraction operator+(Fraction f1, Fraction f2)
         {
