@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="ComponentsDemo1/ComponentsDemo1.csproj" />
+  <Project Path="ComponentsDemo2/ComponentsDemo2.csproj" Id="8b233b48-d23e-4897-a658-06edd1ca81f7" />
+  <Project Path="ComponentsDemo3/ComponentsDemo3.csproj" Id="84c55c7d-1f80-4142-84ce-9cb00b88fea3" />
+  <Project Path="ComponentsDemo4/ComponentsDemo4.csproj" Id="e0eec6da-0666-4514-8afa-a0d54042fba4" />
+  <Project Path="DataGridViewDemo/DataGridViewDemo.csproj" Id="eaa2019f-fb69-464b-8d64-d4c25a631162" />
+  <Project Path="FormsCreationDemo/FormsCreationDemo.csproj" Id="d2c1bda9-3c67-42af-adba-1b1f6719ef75" />
+</Solution>
