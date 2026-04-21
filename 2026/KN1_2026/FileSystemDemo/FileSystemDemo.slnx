@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FileSystemDemo2/FileSystemDemo2.csproj" />
+  <Project Path="FileSystemObjectDemo/FileSystemObjectDemo.csproj" />
+  <Project Path="ReadFile/ReadFile.csproj" />
+  <Project Path="WinDemo/WinDemo.csproj" />
+</Solution>
