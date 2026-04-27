@@ -1,0 +1,35 @@
+@model CityExplorer.Models.City
+@{
+    ViewData["Title"] = $"Видалити: {Model.Name}";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <h2 class="mb-4 text-danger"><i class="fa-solid fa-trash me-2"></i>Видалити місто</h2>
+
+        <div class="card border-danger shadow-sm">
+            <div class="card-body">
+                <p>Ви впевнені, що хочете видалити це місто?</p>
+                <dl>
+                    <dt>Назва</dt>
+                    <dd>@Model.Name</dd>
+                    <dt>Країна</dt>
+                    <dd>@Model.Country</dd>
+                    <dt>Опис</dt>
+                    <dd>@Model.Description</dd>
+                </dl>
+
+                <form asp-action="Delete" method="post">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" asp-for="Id" />
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-danger">
+                            <i class="fa-solid fa-trash me-1"></i> Так, видалити
+                        </button>
+                        <a asp-action="Index" class="btn btn-outline-secondary">Скасувати</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

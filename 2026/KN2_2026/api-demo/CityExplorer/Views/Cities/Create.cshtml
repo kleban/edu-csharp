@@ -1,0 +1,61 @@
+@model CityExplorer.Models.City
+@{
+    ViewData["Title"] = "Додати місто";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-7">
+        <h2 class="mb-4"><i class="fa-solid fa-plus me-2"></i>Додати нове місто</h2>
+
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <form asp-action="Create" method="post">
+                    @Html.AntiForgeryToken()
+
+                    <div class="mb-3">
+                        <label asp-for="Name" class="form-label fw-semibold">Назва міста</label>
+                        <input asp-for="Name" class="form-control"
+                               placeholder="наприклад: Lviv" />
+                        <span asp-validation-for="Name" class="text-danger small"></span>
+                        <div class="form-text">
+                            Використовується для пошуку координат у Nominatim.
+                            Рекомендується англійська назва.
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="Country" class="form-label fw-semibold">Країна</label>
+                        <input asp-for="Country" class="form-control"
+                               placeholder="наприклад: Ukraine" />
+                        <span asp-validation-for="Country" class="text-danger small"></span>
+                        <div class="form-text">
+                            Використовується для пошуку в REST Countries API.
+                            Рекомендується англійська назва.
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label asp-for="Description" class="form-label fw-semibold">Опис</label>
+                        <textarea asp-for="Description" class="form-control" rows="4"
+                                  placeholder="Короткий опис міста..."></textarea>
+                        <span asp-validation-for="Description" class="text-danger small"></span>
+                        <div class="form-text">
+                            Зберігається у локальній БД. Зовнішні API не використовуються.
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <button type="submit" class="btn btn-success">
+                            <i class="fa-solid fa-floppy-disk me-1"></i> Зберегти
+                        </button>
+                        <a asp-action="Index" class="btn btn-outline-secondary">Скасувати</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

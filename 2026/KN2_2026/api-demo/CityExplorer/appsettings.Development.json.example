@@ -1,0 +1,14 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ApiKeys": {
+    "Pexels": "YOUR_PEXELS_KEY_HERE",
+    "OpenWeatherMap": "YOUR_OPENWEATHERMAP_KEY_HERE",
+    "NewsApi": "YOUR_NEWSAPI_KEY_HERE",
+    "GoogleMaps": "YOUR_GOOGLEMAPS_KEY_HERE"
+  }
+}

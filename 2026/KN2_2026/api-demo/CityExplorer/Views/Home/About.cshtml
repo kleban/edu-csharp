@@ -1,0 +1,265 @@
+@{
+    ViewData["Title"] = "Про проєкт";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-9">
+
+        <h2 class="mb-4"><i class="fa-solid fa-circle-info me-2"></i>Про проєкт CityExplorer</h2>
+
+        @* ── Використані API ─────────────────────────────────────────────────── *@
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-dark text-white">
+                <h5 class="mb-0"><i class="fa-solid fa-plug me-2"></i>Використані зовнішні API</h5>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>API</th>
+                                <th>Для чого</th>
+                                <th>Ключ?</th>
+                                <th>Endpoint</th>
+                                <th>Кеш</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <a href="https://nominatim.openstreetmap.org/" target="_blank">
+                                        <strong>Nominatim</strong>
+                                    </a>
+                                    <br /><small class="text-muted">OpenStreetMap</small>
+                                </td>
+                                <td>Координати міста (lat/lon)</td>
+                                <td><span class="badge bg-success"><i class="fa-solid fa-unlock me-1"></i>Без ключа</span></td>
+                                <td><code class="small">/search?q=...&format=json</code></td>
+                                <td><span class="badge bg-secondary">Ні</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="https://open-meteo.com/" target="_blank">
+                                        <strong>Open-Meteo</strong>
+                                    </a>
+                                </td>
+                                <td>Поточна погода за координатами</td>
+                                <td><span class="badge bg-success"><i class="fa-solid fa-unlock me-1"></i>Без ключа</span></td>
+                                <td><code class="small">/v1/forecast?latitude=...&longitude=...</code></td>
+                                <td><span class="badge bg-secondary">Ні</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="https://restcountries.com/" target="_blank">
+                                        <strong>REST Countries</strong>
+                                    </a>
+                                </td>
+                                <td>Валюта, мови, прапор країни</td>
+                                <td><span class="badge bg-success"><i class="fa-solid fa-unlock me-1"></i>Без ключа</span></td>
+                                <td><code class="small">/v3.1/name/{name}?fields=...</code></td>
+                                <td><span class="badge bg-warning text-dark"><i class="fa-solid fa-clock me-1"></i>24 год</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        @* ── API з ключами ───────────────────────────────────────────────────── *@
+        <div class="card border-warning shadow-sm mb-4">
+            <div class="card-header bg-warning bg-opacity-10 text-warning-emphasis">
+                <h5 class="mb-0">
+                    <i class="fa-solid fa-key me-2"></i>API, що потребують реєстрації та ключа (демонстрація)
+                </h5>
+            </div>
+            <div class="card-body">
+                <p>
+                    Цей проєкт навмисно використовує лише безкоштовні API без ключів.
+                    Якщо ваш проєкт потребує API з ключем — ось правильний підхід:
+                </p>
+
+                <div class="row g-3 mb-3">
+                    <div class="col-md-6">
+                        <div class="card border-secondary h-100">
+                            <div class="card-body">
+                                <h6><i class="fa-solid fa-images me-1"></i> Pexels API (зображення)</h6>
+                                <p class="small">Потрібна реєстрація на
+                                    <a href="https://www.pexels.com/api/" target="_blank">pexels.com/api</a>.
+                                    Безкоштовно, до 200 запитів/год.
+                                </p>
+                                <span class="badge bg-warning text-dark">
+                                    <i class="fa-solid fa-key me-1"></i>Потрібен ключ
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card border-secondary h-100">
+                            <div class="card-body">
+                                <h6><i class="fa-solid fa-newspaper me-1"></i> NewsAPI (новини)</h6>
+                                <p class="small">Реєстрація на
+                                    <a href="https://newsapi.org/" target="_blank">newsapi.org</a>.
+                                    Безкоштовний план — 100 запитів/добу.
+                                </p>
+                                <span class="badge bg-warning text-dark">
+                                    <i class="fa-solid fa-key me-1"></i>Потрібен ключ
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="alert alert-danger mb-3">
+                    <i class="fa-solid fa-ban me-2"></i>
+                    <strong>НІКОЛИ не зберігайте ключі в коді!</strong>
+                    Якщо ключ потрапить у публічний репозиторій — його слід негайно відкликати.
+                </div>
+
+                <h6><i class="fa-solid fa-circle-check text-success me-1"></i>Правильний спосіб зберігання ключів:</h6>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <p class="small mb-1">
+                            <strong>Варіант 1: <code>appsettings.Development.json</code></strong>
+                            <span class="badge bg-danger ms-1">у .gitignore!</span>
+                        </p>
+                        <pre><code class="language-json">// appsettings.Development.json
+{
+  "ApiKeys": {
+    "Pexels": "ваш_ключ_тут",
+    "NewsApi": "ваш_ключ_тут"
+  }
+}</code></pre>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="small mb-1"><strong>Варіант 2: <code>dotnet user-secrets</code></strong></p>
+                        <pre><code class="language-bash"># Термінал (тільки для Development)
+dotnet user-secrets set "ApiKeys:Pexels" "ваш_ключ"
+dotnet user-secrets set "ApiKeys:NewsApi" "ваш_ключ"</code></pre>
+                    </div>
+                </div>
+
+                <p class="small mt-3 mb-2">Читання ключа у сервісі через <code>IConfiguration</code>:</p>
+                <pre><code class="language-csharp">public class PexelsService(IConfiguration config, HttpClient client)
+{
+    // Якщо ключ не налаштовано — виняток при старті, а не при першому запиті
+    private readonly string _apiKey = config["ApiKeys:Pexels"]
+        ?? throw new InvalidOperationException("Pexels API key not configured");
+}</code></pre>
+
+                <div class="alert alert-info mb-0 mt-3">
+                    <i class="fa-solid fa-folder-open me-2"></i>
+                    <strong>У цьому репозиторії:</strong>
+                    <code>appsettings.Development.json</code> — у <code>.gitignore</code>.
+                    Шаблон: <code>appsettings.Development.json.example</code>.
+                </div>
+            </div>
+        </div>
+
+        @* ── IOptions<T> ─────────────────────────────────────────────────────── *@
+        <div class="card shadow-sm mb-4">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fa-solid fa-sliders me-2"></i>IOptions&lt;T&gt;: typed конфігурація</h5>
+            </div>
+            <div class="card-body">
+                <p>
+                    Адреси та Polly-параметри API-клієнтів читаються з <code>appsettings.json</code>
+                    через typed клас <code>ApiClientOptions</code> — без magic strings.
+                </p>
+                <pre><code class="language-csharp">// Configuration/ApiClientOptions.cs
+public class ApiClientOptions
+{
+    public string BaseUrl           { get; set; } = "";
+    public int    TimeoutSeconds    { get; set; } = 5;
+    public int    MaxRetryAttempts  { get; set; } = 3;
+    public int    BreakDurationSeconds { get; set; } = 10;
+}
+
+// Program.cs — читання секції у typed об'єкт
+var opts = builder.Configuration
+    .GetRequiredSection("ExternalApis:Nominatim")
+    .Get&lt;ApiClientOptions&gt;()!;
+
+// використання
+client.BaseAddress = new Uri(opts.BaseUrl);
+MaxRetryAttempts   = opts.MaxRetryAttempts;</code></pre>
+                <p class="small text-muted mt-2 mb-0">
+                    <i class="fa-solid fa-circle-info me-1"></i>
+                    Змінні середовища перевизначають appsettings без зміни коду:
+                    <code>ExternalApis__Nominatim__TimeoutSeconds=10</code>
+                </p>
+            </div>
+        </div>
+
+        @* ── Resilience / Polly ──────────────────────────────────────────────── *@
+        <div class="card shadow-sm mb-4">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fa-solid fa-shield-halved me-2"></i>Надійність: Polly Resilience</h5>
+            </div>
+            <div class="card-body">
+                <p>
+                    Всі три HttpClient налаштовані з явним конвеєром <code>.AddResilienceHandler()</code>.
+                    Порядок шарів: <strong>TotalTimeout → Retry → CircuitBreaker → AttemptTimeout</strong>.
+                </p>
+                <div class="row g-3 mb-3">
+                    <div class="col-md-3">
+                        <div class="card border-info text-center h-100">
+                            <div class="card-body">
+                                <i class="fa-solid fa-hourglass-half fa-2x text-info mb-2"></i>
+                                <h6>Total Timeout</h6>
+                                <p class="small text-muted mb-0">Загальний ліміт на всі спроби</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card border-success text-center h-100">
+                            <div class="card-body">
+                                <i class="fa-solid fa-rotate-right fa-2x text-success mb-2"></i>
+                                <h6>Retry</h6>
+                                <p class="small text-muted mb-0">Exponential backoff + jitter</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card border-danger text-center h-100">
+                            <div class="card-body">
+                                <i class="fa-solid fa-bolt fa-2x text-danger mb-2"></i>
+                                <h6>Circuit Breaker</h6>
+                                <p class="small text-muted mb-0">50% невдач → блок на 10 сек</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card border-warning text-center h-100">
+                            <div class="card-body">
+                                <i class="fa-solid fa-stopwatch fa-2x text-warning mb-2"></i>
+                                <h6>Attempt Timeout</h6>
+                                <p class="small text-muted mb-0">Ліміт на одну спробу</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <pre><code class="language-csharp">// Конвеєр з явними налаштуваннями (Program.cs)
+.AddResilienceHandler("nominatim", pipeline =>
+{
+    pipeline.AddTimeout(/* загальний */);
+
+    pipeline.AddRetry(new HttpRetryStrategyOptions
+    {
+        MaxRetryAttempts = opts.MaxRetryAttempts, // з appsettings
+        BackoffType      = DelayBackoffType.Exponential,
+        UseJitter        = true,
+    });
+
+    pipeline.AddCircuitBreaker(new HttpCircuitBreakerStrategyOptions
+    {
+        FailureRatio  = 0.5,
+        BreakDuration = TimeSpan.FromSeconds(opts.BreakDurationSeconds), // з appsettings
+    });
+
+    pipeline.AddTimeout(TimeSpan.FromSeconds(opts.TimeoutSeconds)); // з appsettings
+});</code></pre>
+            </div>
+        </div>
+
+    </div>
+</div>
