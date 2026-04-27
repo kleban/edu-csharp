@@ -1,0 +1,144 @@
+@{
+    ViewData["Title"] = "Головна";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-9">
+
+        @* ── Hero ──────────────────────────────────────────────────────────────── *@
+        <div class="text-center py-5 mb-4">
+            <i class="fa-solid fa-earth-europe fa-5x text-primary mb-3 d-block"></i>
+            <h1 class="display-5 fw-bold">CityExplorer</h1>
+            <p class="lead text-muted">Демонстраційний проєкт: ASP.NET MVC + зовнішні API</p>
+            <a asp-controller="Cities" asp-action="Index" class="btn btn-primary btn-lg px-5 mt-2">
+                <i class="fa-solid fa-city me-2"></i>Переглянути міста
+            </a>
+        </div>
+
+        @* ── Пояснення для студентів ──────────────────────────────────────────── *@
+        <div class="alert alert-info border-0 shadow-sm mb-4">
+            <h5 class="alert-heading">
+                <i class="fa-solid fa-book-open me-2"></i>Лабораторна робота №3 — Що тут демонструється?
+            </h5>
+            <p class="mb-2">
+                Цей застосунок показує, як ASP.NET MVC-проєкт може збагачувати локальні дані
+                даними із зовнішніх API. Для кожного туристичного міста з нашої SQLite-бази
+                застосунок автоматично підтягує:
+            </p>
+            <ul class="mb-2">
+                <li><i class="fa-solid fa-location-dot text-success me-1"></i><strong>Координати</strong> — через <a href="https://nominatim.openstreetmap.org/" target="_blank">Nominatim (OpenStreetMap)</a> — без ключа</li>
+                <li><i class="fa-solid fa-cloud-sun text-primary me-1"></i><strong>Погоду</strong> — через <a href="https://open-meteo.com/" target="_blank">Open-Meteo</a> — без ключа</li>
+                <li><i class="fa-solid fa-flag text-warning me-1"></i><strong>Країну</strong> — через <a href="https://restcountries.com/" target="_blank">REST Countries</a> (валюта, мови, прапор) — без ключа</li>
+            </ul>
+            <hr />
+            <p class="mb-0 small">
+                Відкрийте сторінку будь-якого міста та вивчіть вихідний код — кожен клас
+                прокоментований із поясненнями <em>чому</em> прийняте саме таке рішення.
+            </p>
+        </div>
+
+        @* ── Архітектура ─────────────────────────────────────────────────────── *@
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-dark text-white">
+                <h5 class="mb-0"><i class="fa-solid fa-diagram-project me-2"></i>Архітектура проєкту</h5>
+            </div>
+            <div class="card-body">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <div class="card h-100 border-primary">
+                            <div class="card-body">
+                                <h6 class="card-title text-primary">
+                                    <i class="fa-solid fa-layer-group me-1"></i> Models / DTOs / ViewModels
+                                </h6>
+                                <p class="card-text small">
+                                    <code>City</code> — сутність БД.<br />
+                                    <code>*Dto</code> — структури зовнішніх API.<br />
+                                    <code>CityDetailsViewModel</code> — агрегована модель для View.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-success">
+                            <div class="card-body">
+                                <h6 class="card-title text-success">
+                                    <i class="fa-solid fa-gears me-1"></i> Services
+                                </h6>
+                                <p class="card-text small">
+                                    <code>GeocodingService</code> → Nominatim<br />
+                                    <code>WeatherService</code> → Open-Meteo<br />
+                                    <code>CountryService</code> → REST Countries + IMemoryCache
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100 border-warning">
+                            <div class="card-body">
+                                <h6 class="card-title text-warning">
+                                    <i class="fa-solid fa-gamepad me-1"></i> Controllers
+                                </h6>
+                                <p class="card-text small">
+                                    <code>CitiesController</code> — MVC (Views)<br />
+                                    <code>CitiesApiController</code> — Web API (JSON)<br />
+                                    Swagger UI: <a href="/swagger" target="_blank">/swagger</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @* ── Ключові концепції ───────────────────────────────────────────────── *@
+        <div class="card shadow-sm mb-4">
+            <div class="card-header">
+                <h5 class="mb-0"><i class="fa-solid fa-key me-2"></i>Ключові концепції</h5>
+            </div>
+            <div class="card-body p-0">
+                <table class="table table-striped mb-0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Концепція</th>
+                            <th>Де застосовано</th>
+                            <th>Навіщо</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>IHttpClientFactory</code></td>
+                            <td>Program.cs + Services</td>
+                            <td>Уникнення socket exhaustion</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-shield-halved text-success me-1"></i>Polly Resilience</td>
+                            <td><code>.AddResilienceHandler()</code></td>
+                            <td>Retry + Timeout + Circuit Breaker</td>
+                        </tr>
+                        <tr>
+                            <td><code>IMemoryCache</code></td>
+                            <td><code>CountryService</code></td>
+                            <td>Кеш REST Countries на 24 год</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-triangle-exclamation text-warning me-1"></i>Graceful Degradation</td>
+                            <td><code>CityDetailsViewModel.Warnings</code></td>
+                            <td>API недоступний → попередження, не падіння</td>
+                        </tr>
+                        <tr>
+                            <td><code>IOptions&lt;T&gt;</code></td>
+                            <td><code>ApiClientOptions</code> + appsettings.json</td>
+                            <td>Typed конфігурація без magic strings</td>
+                        </tr>
+                        <tr>
+                            <td><code>[ProducesResponseType]</code></td>
+                            <td><code>CitiesApiController</code></td>
+                            <td>Автодокументація Swagger</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>

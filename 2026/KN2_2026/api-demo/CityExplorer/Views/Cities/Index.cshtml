@@ -1,0 +1,88 @@
+@model IEnumerable<CityExplorer.Models.City>
+@{
+    ViewData["Title"] = "Туристичні міста";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="mb-0"><i class="fa-solid fa-city me-2"></i>Туристичні міста</h2>
+    <a asp-action="Create" class="btn btn-success">
+        <i class="fa-solid fa-plus me-1"></i> Додати місто
+    </a>
+</div>
+
+<div class="alert alert-secondary border-start border-4 border-secondary mb-4">
+    <i class="fa-solid fa-database me-2"></i>
+    <strong>Про цю сторінку:</strong>
+    Список міст завантажується з <strong>локальної SQLite-бази даних</strong> через
+    Entity Framework Core. Жодних зовнішніх API тут не використовується — це звичайний
+    <code>db.Cities.ToListAsync()</code>. Зовнішні API підключаються на сторінці
+    <strong>«Деталі»</strong> кожного міста.
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        <i class="fa-solid fa-circle-info me-2"></i>
+        Міст поки немає. <a asp-action="Create">Додайте перше місто</a>.
+    </div>
+}
+else
+{
+    <div class="row g-4">
+        @foreach (var city in Model)
+        {
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">
+                            <i class="fa-solid fa-building-columns me-1 text-primary"></i> @city.Name
+                        </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                            <i class="fa-solid fa-earth-europe me-1"></i> @city.Country
+                        </h6>
+                        <p class="card-text text-muted flex-grow-1">
+                            @(city.Description.Length > 100
+                                ? city.Description[..100] + "…"
+                                : city.Description)
+                        </p>
+                        <div class="d-flex gap-2 mt-3">
+                            <a asp-action="Details" asp-route-id="@city.Id"
+                               class="btn btn-primary btn-sm flex-grow-1">
+                                <i class="fa-solid fa-magnifying-glass me-1"></i> Деталі + API
+                            </a>
+                            <a asp-action="Edit" asp-route-id="@city.Id"
+                               class="btn btn-outline-secondary btn-sm" title="Редагувати">
+                                <i class="fa-solid fa-pen"></i>
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@city.Id"
+                               class="btn btn-outline-danger btn-sm" title="Видалити">
+                                <i class="fa-solid fa-trash"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+
+<div class="card mt-5 border-info">
+    <div class="card-header bg-info bg-opacity-10 text-info-emphasis">
+        <i class="fa-solid fa-graduation-cap me-2"></i><strong>Для студентів: як це працює</strong>
+    </div>
+    <div class="card-body">
+        <p class="mb-2">
+            Метод <code>CitiesController.Index()</code> виконує один запит до локальної БД:
+        </p>
+        <pre><code class="language-csharp">public async Task&lt;IActionResult&gt; Index()
+{
+    var cities = await _db.Cities.OrderBy(c => c.Name).ToListAsync();
+    return View(cities); // передає List&lt;City&gt; у цей View
+}</code></pre>
+        <p class="mb-0 mt-3">
+            View отримує <code>IEnumerable&lt;City&gt;</code> і рендерить кожне місто
+            у картку Bootstrap. Кнопка «Деталі + API» відкриває сторінку,
+            де до локальних даних додаються результати трьох зовнішніх API.
+        </p>
+    </div>
+</div>

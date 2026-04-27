@@ -1,0 +1,294 @@
+@model CityExplorer.ViewModels.CityDetailsViewModel
+@{
+    ViewData["Title"] = $"{Model.City.Name} — деталі";
+}
+
+<div class="mb-3">
+    <a asp-action="Index" class="btn btn-outline-secondary btn-sm">
+        <i class="fa-solid fa-arrow-left me-1"></i> Назад до списку
+    </a>
+</div>
+
+@foreach (var warning in Model.Warnings)
+{
+    <div class="alert alert-warning d-flex align-items-center gap-2">
+        <i class="fa-solid fa-triangle-exclamation fa-lg"></i>
+        <div>
+            <strong>API недоступний:</strong> @warning
+            <small class="d-block text-muted">
+                Це Graceful Degradation — застосунок показує те, що доступно,
+                замість того щоб «впасти».
+            </small>
+        </div>
+    </div>
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header bg-primary text-white py-3">
+        <div class="d-flex align-items-center gap-3">
+            @if (!string.IsNullOrEmpty(Model.FlagEmoji))
+            {
+                <span class="display-6">@Model.FlagEmoji</span>
+            }
+            <div>
+                <h3 class="mb-0">@Model.City.Name</h3>
+                <span class="opacity-75">
+                    <i class="fa-solid fa-earth-europe me-1"></i>@Model.City.Country
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-body">
+        <div class="mb-4">
+            <h5 class="text-muted small text-uppercase">
+                <i class="fa-solid fa-database me-1"></i> Опис (з локальної БД)
+            </h5>
+            <p class="lead">@Model.City.Description</p>
+        </div>
+
+        <div class="row g-4">
+
+            @* ── Координати (Nominatim) ──────────────────────────────────────── *@
+            <div class="col-md-4">
+                <div class="card h-100 border-success">
+                    <div class="card-header bg-success bg-opacity-10">
+                        <i class="fa-solid fa-location-dot text-success me-1"></i>
+                        <strong class="text-success">Координати</strong>
+                        <span class="badge bg-success ms-2 small">Nominatim API</span>
+                    </div>
+                    <div class="card-body">
+                        @if (Model.Latitude.HasValue)
+                        {
+                            <dl class="mb-0">
+                                <dt>Широта</dt>
+                                <dd class="font-monospace">@Model.Latitude.Value.ToString("F4")°</dd>
+                                <dt>Довгота</dt>
+                                <dd class="font-monospace">@Model.Longitude!.Value.ToString("F4")°</dd>
+                            </dl>
+                            <a href="https://www.openstreetmap.org/?mlat=@Model.Latitude.Value.ToString("F4")&mlon=@Model.Longitude.Value.ToString("F4")&zoom=12"
+                               target="_blank" class="btn btn-outline-success btn-sm mt-2">
+                                <i class="fa-solid fa-map me-1"></i> Відкрити на карті
+                            </a>
+                        }
+                        else
+                        {
+                            <p class="text-muted mb-0">
+                                <i class="fa-solid fa-ban me-1"></i> Координати недоступні
+                            </p>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            @* ── Погода (Open-Meteo) ─────────────────────────────────────────── *@
+            <div class="col-md-4">
+                <div class="card h-100 border-primary">
+                    <div class="card-header bg-primary bg-opacity-10">
+                        <i class="fa-solid fa-cloud-sun text-primary me-1"></i>
+                        <strong class="text-primary">Погода зараз</strong>
+                        <span class="badge bg-primary ms-2 small">Open-Meteo API</span>
+                    </div>
+                    <div class="card-body">
+                        @if (Model.WeatherAvailable)
+                        {
+                            <div class="text-center mb-2">
+                                <span class="fs-4">@Model.WeatherDescription</span>
+                            </div>
+                            <dl class="mb-0">
+                                <dt><i class="fa-solid fa-temperature-half me-1"></i>Температура</dt>
+                                <dd class="fs-5">@Model.Temperature°C</dd>
+                                <dt><i class="fa-solid fa-wind me-1"></i>Вітер</dt>
+                                <dd>@Model.WindSpeed м/с</dd>
+                            </dl>
+                        }
+                        else
+                        {
+                            <p class="text-muted mb-0">
+                                <i class="fa-solid fa-ban me-1"></i> Погода недоступна
+                            </p>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            @* ── Країна (REST Countries) ─────────────────────────────────────── *@
+            <div class="col-md-4">
+                <div class="card h-100 border-warning">
+                    <div class="card-header bg-warning bg-opacity-10">
+                        <i class="fa-solid fa-flag text-warning me-1"></i>
+                        <strong class="text-warning-emphasis">Країна</strong>
+                        <span class="badge bg-warning text-dark ms-2 small">REST Countries API</span>
+                    </div>
+                    <div class="card-body">
+                        @if (Model.CountryInfoAvailable)
+                        {
+                            <dl class="mb-0">
+                                @if (!string.IsNullOrEmpty(Model.CurrencyName))
+                                {
+                                    <dt><i class="fa-solid fa-coins me-1"></i>Валюта</dt>
+                                    <dd>@Model.CurrencyName (@Model.CurrencySymbol)</dd>
+                                }
+                                @if (!string.IsNullOrEmpty(Model.Languages))
+                                {
+                                    <dt><i class="fa-solid fa-language me-1"></i>Мови</dt>
+                                    <dd>@Model.Languages</dd>
+                                }
+                            </dl>
+                        }
+                        else
+                        {
+                            <p class="text-muted mb-0">
+                                <i class="fa-solid fa-ban me-1"></i> Інформація про країну недоступна
+                            </p>
+                        }
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card-footer text-muted small d-flex justify-content-between">
+        <span>
+            <i class="fa-regular fa-clock me-1"></i>
+            Дані зібрано: @Model.LoadedAt.ToString("dd.MM.yyyy HH:mm:ss") UTC
+        </span>
+        <a asp-action="Edit" asp-route-id="@Model.City.Id" class="btn btn-outline-secondary btn-sm">
+            <i class="fa-solid fa-pen me-1"></i> Редагувати
+        </a>
+    </div>
+</div>
+
+@* ── Педагогічний блок: потік даних ─────────────────────────────────────────── *@
+<div class="card border-info mt-4">
+    <div class="card-header bg-info bg-opacity-10 text-info-emphasis">
+        <i class="fa-solid fa-graduation-cap me-2"></i>
+        <strong>Для студентів: потік даних на цій сторінці</strong>
+    </div>
+    <div class="card-body">
+        <p class="mb-3">
+            Метод <code>CitiesController.Details(id)</code> виконує <strong>4 кроки</strong>:
+        </p>
+        <div class="row g-3 mb-3">
+            <div class="col-md-6">
+                <div class="border rounded p-3 h-100">
+                    <p class="mb-1">
+                        <span class="badge bg-secondary">Крок 1</span>
+                        <strong>Локальна БД</strong>
+                    </p>
+                    <code>db.Cities.FindAsync(id)</code>
+                    <p class="mb-0 mt-1 small text-muted">Назва, країна, опис — з SQLite</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="border border-success rounded p-3 h-100">
+                    <p class="mb-1">
+                        <span class="badge bg-success">Крок 2</span>
+                        <strong>Nominatim API</strong>
+                    </p>
+                    <code>geocoding.GetCoordinatesAsync("@Model.City.Name, @Model.City.Country")</code>
+                    <p class="mb-0 mt-1 small text-muted">Назва міста → lat/lon</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="border border-primary rounded p-3 h-100">
+                    <p class="mb-1">
+                        <span class="badge bg-primary">Крок 3</span>
+                        <strong>Open-Meteo API</strong>
+                    </p>
+                    <code>weather.GetCurrentWeatherAsync(lat, lon)</code>
+                    <p class="mb-0 mt-1 small text-muted">Координати → погода (залежить від кроку 2)</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="border border-warning rounded p-3 h-100">
+                    <p class="mb-1">
+                        <span class="badge bg-warning text-dark">Крок 4</span>
+                        <strong>REST Countries API</strong>
+                    </p>
+                    <code>country.GetCountryInfoAsync("@Model.City.Country")</code>
+                    <p class="mb-0 mt-1 small text-muted">Незалежний від координат. Результат кешується 24 год.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-success mb-0">
+            <i class="fa-solid fa-lightbulb me-2"></i>
+            <strong>Ключова думка:</strong> кожен крок може завершитися невдачею незалежно.
+            Якщо Nominatim недоступний — кроки 2 і 3 пропускаються, але крок 4 (REST Countries)
+            все одно виконується. У <code>ViewModel.Warnings</code> додається повідомлення,
+            яке View показує як жовте попередження замість помилки 500.
+        </div>
+    </div>
+</div>
+
+@* ── Педагогічний блок: кешування ───────────────────────────────────────────── *@
+<div class="card border-secondary mt-3">
+    <div class="card-header">
+        <i class="fa-solid fa-floppy-disk me-2"></i>
+        <strong>Кешування: чому REST Countries кешується, а Open-Meteo — ні?</strong>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <h6 class="text-success">
+                    <i class="fa-solid fa-circle-check me-1"></i> REST Countries → кешується 24 год
+                </h6>
+                <p class="small">Валюта, мови та прапор країни <em>практично не змінюються</em>.
+                Кешування знижує навантаження на зовнішній сервіс і прискорює відповідь.
+                Другий запит для тієї ж країни обслуговується з пам'яті без HTTP-виклику.</p>
+                <pre><code class="language-csharp">_cache.Set(cacheKey, result, TimeSpan.FromHours(24));</code></pre>
+            </div>
+            <div class="col-md-6">
+                <h6 class="text-warning">
+                    <i class="fa-solid fa-bolt me-1"></i> Open-Meteo → НЕ кешується
+                </h6>
+                <p class="small">Погода змінюється кожні 15-30 хвилин.
+                Кешування на годину показувало б застарілі дані.
+                У продакшні варто кешувати на 10-15 хвилин.</p>
+                <pre><code class="language-csharp">// Без кешу — завжди свіжі дані
+return response?.Current;</code></pre>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* ── Педагогічний блок: конфігурація з appsettings ──────────────────────────── *@
+<div class="card border-secondary mt-3">
+    <div class="card-header">
+        <i class="fa-solid fa-sliders me-2"></i>
+        <strong>IOptions&lt;T&gt;: налаштування API читаються з <code>appsettings.json</code></strong>
+    </div>
+    <div class="card-body">
+        <p class="small mb-2">
+            <code>BaseUrl</code>, <code>TimeoutSeconds</code>, <code>MaxRetryAttempts</code> та
+            <code>BreakDurationSeconds</code> для кожного API-клієнта зберігаються у конфігурації,
+            а не у коді. Змінити поведінку можна без перекомпіляції — достатньо відредагувати
+            <code>appsettings.json</code> або встановити змінну середовища:
+        </p>
+        <div class="row g-3">
+            <div class="col-md-6">
+                <pre><code class="language-json">// appsettings.json
+"ExternalApis": {
+  "Nominatim": {
+    "BaseUrl": "https://nominatim.openstreetmap.org/",
+    "TimeoutSeconds": 5,
+    "MaxRetryAttempts": 3,
+    "BreakDurationSeconds": 10
+  }
+}</code></pre>
+            </div>
+            <div class="col-md-6">
+                <pre><code class="language-csharp">// Program.cs — читання у typed об'єкт
+var opts = builder.Configuration
+    .GetRequiredSection("ExternalApis:Nominatim")
+    .Get&lt;ApiClientOptions&gt;()!;
+
+// використання у конвеєрі Polly
+MaxRetryAttempts = opts.MaxRetryAttempts,
+BreakDuration = TimeSpan.FromSeconds(opts.BreakDurationSeconds)</code></pre>
+            </div>
+        </div>
+    </div>
+</div>

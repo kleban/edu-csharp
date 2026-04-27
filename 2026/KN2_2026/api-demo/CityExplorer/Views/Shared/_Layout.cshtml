@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] — CityExplorer</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    @* Font Awesome 6 Free (CDN) *@
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    @* Highlight.js — підсвітка синтаксису для блоків <pre><code> *@
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css" />
+</head>
+<body class="bg-light">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary shadow-sm mb-4">
+            <div class="container">
+                <a class="navbar-brand fw-bold" asp-controller="Home" asp-action="Index">
+                    <i class="fa-solid fa-earth-europe me-1"></i> CityExplorer
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Cities" asp-action="Index">
+                                <i class="fa-solid fa-city me-1"></i> Міста
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Cities" asp-action="Create">
+                                <i class="fa-solid fa-plus me-1"></i> Додати місто
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/swagger" target="_blank">
+                                <i class="fa-solid fa-file-code me-1"></i> Swagger API
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="About">
+                                <i class="fa-solid fa-circle-info me-1"></i> Про проєкт
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container pb-5">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top bg-white py-3 mt-5">
+        <div class="container text-center text-muted small">
+            <i class="fa-solid fa-globe me-1"></i>
+            CityExplorer — демо-проєкт Лабораторної роботи №3 (ASP.NET MVC + External APIs)
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    @* Highlight.js — ініціалізація підсвітки синтаксису *@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script>
+        // hljs.highlightAll() знаходить всі <pre><code> на сторінці
+        // і автоматично визначає мову програмування (csharp, json, bash тощо)
+        hljs.highlightAll();
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

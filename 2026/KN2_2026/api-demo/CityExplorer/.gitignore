@@ -1,0 +1,26 @@
+## Секретні файли з API-ключами — НІКОЛИ не комітити!
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json.example
+
+## SQLite файл бази даних
+*.db
+*.db-shm
+*.db-wal
+
+## Build output
+bin/
+obj/
+
+## User-specific files
+*.user
+.vs/
+
+## .NET
+project.lock.json
+project.fragment.lock.json
+
+## OS
+.DS_Store
+Thumbs.db
