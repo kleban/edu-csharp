@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="DataTypesDemo/DataTypesDemo.csproj" />
+  <Project Path="Loopsdemo/Loopsdemo.csproj" />
+  <Project Path="Task_1/Task_1.csproj" />
+  <Project Path="Task_2/Task_2.csproj" />
+  <Project Path="Task_3/Task_3.csproj" />
+</Solution>

@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "Oleh Smith",
+    "Age": 18,
+    "Grade": 86
+  },
+  {
+    "Name": "Olena Kovalenko",
+    "Age": 19,
+    "Grade": 74
+  },
+  {
+    "Name": "Claire Johnson",
+    "Age": 20,
+    "Grade": 91
+  },
+  {
+    "Name": "Dmytro Melnyk",
+    "Age": 18,
+    "Grade": 68
+  },
+  {
+    "Name": "Emma Brown",
+    "Age": 21,
+    "Grade": 95
+  },
+ {"Name":"Ivan Shevchenko","Age":19,"Grade":82},{"Name":"Julia Davis","Age":20,"Grade":77},{"Name":"Maksym Bondar","Age":22,"Grade":89},{"Name":"Olena Petrenko","Age":18,"Grade":93},{"Name":"Sophia Wilson","Age":21,"Grade":71}]
