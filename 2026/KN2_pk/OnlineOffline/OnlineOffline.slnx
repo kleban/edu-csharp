@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../OnlineOffline.Repos/OnlineOffline/OnlineOffline.csproj" />
+  <Project Path="OnlineOffline.Core/OnlineOffline.Core.csproj" />
+  <Project Path="OnlineOffline.DataParser/OnlineOffline.DataParser.csproj" />
+  <Project Path="OnlineOffline.UI/OnlineOffline.UI.csproj" />
+</Solution>

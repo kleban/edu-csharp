@@ -1,0 +1,112 @@
+[
+  {
+    "Name": "Oleh Smith",
+    "Age": 18,
+    "Grade": 86
+  },
+  {
+    "Name": "Olena Kovalenko",
+    "Age": 19,
+    "Grade": 74
+  },
+  {
+    "Name": "Claire Johnson",
+    "Age": 20,
+    "Grade": 91
+  },
+  {
+    "Name": "Dmytro Melnyk",
+    "Age": 18,
+    "Grade": 68
+  },
+  {
+    "Name": "Emma Brown",
+    "Age": 21,
+    "Grade": 95
+  },
+  {
+    "Name": "Ivan Shevchenko",
+    "Age": 19,
+    "Grade": 82
+  },
+  {
+    "Name": "Julia Davis",
+    "Age": 20,
+    "Grade": 77
+  },
+  {
+    "Name": "Maksym Bondar",
+    "Age": 22,
+    "Grade": 89
+  },
+  {
+    "Name": "Olena Petrenko",
+    "Age": 18,
+    "Grade": 93
+  },
+  {
+    "Name": "Sophia Wilson",
+    "Age": 21,
+    "Grade": 71
+  },
+  {
+    "Name": "Student 9263",
+    "Age": 20,
+    "Grade": 55
+  },
+  {
+    "Name": "Student 2225",
+    "Age": 18,
+    "Grade": 83
+  },
+  {
+    "Name": "Student 8993",
+    "Age": 19,
+    "Grade": 65
+  },
+  {
+    "Name": "Student 4421",
+    "Age": 18,
+    "Grade": 72
+  },
+  {
+    "Name": "Student 7668",
+    "Age": 26,
+    "Grade": 85
+  },
+  {
+    "Name": "Student 4027",
+    "Age": 26,
+    "Grade": 92
+  },
+  {
+    "Name": "Student 8477",
+    "Age": 20,
+    "Grade": 92
+  },
+  {
+    "Name": "Student 9051",
+    "Age": 21,
+    "Grade": 53
+  },
+  {
+    "Name": "Student 3845",
+    "Age": 18,
+    "Grade": 97
+  },
+  {
+    "Name": "Student 1511",
+    "Age": 24,
+    "Grade": 80
+  },
+  {
+    "Name": "Student 1294",
+    "Age": 26,
+    "Grade": 55
+  },
+  {
+    "Name": "Student 8701",
+    "Age": 26,
+    "Grade": 76
+  }
+]

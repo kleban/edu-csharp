@@ -37,6 +37,8 @@
             buttonSaveJson = new Button();
             buttonSaveXlsx = new Button();
             buttonOpenXlsx = new Button();
+            buttonAddStudent = new Button();
+            buttonRemove = new Button();
             SuspendLayout();
             // 
             // listBoxGroup
@@ -127,11 +129,33 @@
             buttonOpenXlsx.UseVisualStyleBackColor = true;
             buttonOpenXlsx.Click += buttonOpenXlsx_Click;
             // 
+            // buttonAddStudent
+            // 
+            buttonAddStudent.Location = new Point(318, 230);
+            buttonAddStudent.Name = "buttonAddStudent";
+            buttonAddStudent.Size = new Size(94, 29);
+            buttonAddStudent.TabIndex = 9;
+            buttonAddStudent.Text = "Add";
+            buttonAddStudent.UseVisualStyleBackColor = true;
+            buttonAddStudent.Click += buttonAddStudent_Click;
+            // 
+            // buttonRemove
+            // 
+            buttonRemove.Location = new Point(435, 230);
+            buttonRemove.Name = "buttonRemove";
+            buttonRemove.Size = new Size(94, 29);
+            buttonRemove.TabIndex = 10;
+            buttonRemove.Text = "Remove";
+            buttonRemove.UseVisualStyleBackColor = true;
+            buttonRemove.Click += buttonRemove_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(buttonRemove);
+            Controls.Add(buttonAddStudent);
             Controls.Add(buttonSaveXlsx);
             Controls.Add(buttonOpenXlsx);
             Controls.Add(buttonSaveJson);
@@ -143,6 +167,7 @@
             Controls.Add(listBoxGroup);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             ResumeLayout(false);
         }
 
@@ -157,5 +182,7 @@
         private Button buttonSaveJson;
         private Button buttonSaveXlsx;
         private Button buttonOpenXlsx;
+        private Button buttonAddStudent;
+        private Button buttonRemove;
     }
 }

@@ -1,6 +1,4 @@
-using OfficeOpenXml;
-
-namespace DataReadWright
+namespace OnlineOffline.UI
 {
     internal static class Program
     {
@@ -12,9 +10,6 @@ namespace DataReadWright
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-
-            ExcelPackage.License.SetNonCommercialPersonal("Yurii Kleban");
-
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
         }

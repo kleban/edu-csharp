@@ -1,5 +1,6 @@
 using CsvHelper;
 using CsvHelper.Configuration;
+using DataReadWright.Services;
 using OfficeOpenXml;
 using System.Globalization;
 using System.Text.Json;
@@ -8,51 +9,41 @@ namespace DataReadWright
 {
     public partial class Form1 : Form
     {
+        private IDataManager dataManager = null;
         public Form1()
         {
             InitializeComponent();
-
         }
+
+        private List<Student> group = new List<Student>();
 
         private void buttonOpen_Click(object sender, EventArgs e)
         {
             var dialog = new OpenFileDialog();
             dialog.Filter = "Group files (*.std)|*.std|All files (*.*)|*.*";
+            dataManager = new StreamDataManager();
 
             if (dialog.ShowDialog() == DialogResult.OK)
             {
-                StreamReader reader = null;
-
                 try
                 {
-                    reader = new StreamReader(dialog.FileName);
-
-                    string line = "";
-
-                    while ((line = reader.ReadLine()) != null)
-                    {
-                        string[] parts = line.Split(',');
-
-                        var std = new Student
-                        {
-                            Name = parts[0].Trim(),
-                            Age = int.Parse(parts[1].Trim()),
-                            Grade = double.Parse(parts[2].Trim())
-                        };
-                        listBoxGroup.Items.Add(std);
-                    }
-                }
-                catch
-                {
-                    MessageBox.Show("Error reading file!");
-
-                }
-                finally
-                {
-                    if (reader != null)
-                        reader.Close();
+                    group = dataManager.LoadData(dialog.FileName);
+                    updateListBox();
+                    MessageBox.Show($"Data loaded successfully. {group.Count} students found.",
+                        "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                } 
+                catch(Exception ex)
+                { 
+                    MessageBox.Show($"Error loading data: {ex.Message}",
+                        "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void updateListBox()
+        {
+            listBoxGroup.Items.Clear();
+            listBoxGroup.Items.AddRange(group.ToArray());
         }
 
         private void buttonSave_Click(object sender, EventArgs e)
@@ -60,29 +51,21 @@ namespace DataReadWright
             var dialog = new SaveFileDialog();
             dialog.Filter = "Group files (*.std)|*.std|All files (*.*)|*.*";
 
+            if(dataManager is not StreamDataManager)
+                dataManager = new StreamDataManager();
+
             if (dialog.ShowDialog() == DialogResult.OK)
             {
-                StreamWriter writer = null;
-
                 try
                 {
-                    writer = new StreamWriter(dialog.FileName);
-                    foreach (Student std in listBoxGroup.Items)
-                    {
-                        string line = $"{std.Name}, {std.Age}, {std.Grade}";
-                        writer.WriteLine(line);
-                    }
-
-                    MessageBox.Show("File Saved");
+                    dataManager.SaveData(group, dialog.FileName);
+                    MessageBox.Show($"Data saved successfully. {group.Count} students saved.",
+                           "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                catch
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Error writing file!");
-                }
-                finally
-                {
-                    if (writer != null)
-                        writer.Close();
+                    MessageBox.Show($"Error saving data: {ex.Message}",
+                        "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -91,22 +74,18 @@ namespace DataReadWright
         {
             var dialog = new OpenFileDialog();
             dialog.Filter = "CSV files (*.csv)|*.csv|All files (*.*)|*.*";
+            
+            if(dataManager is not CsvDataManager)
+                dataManager = new CsvDataManager();
 
             if (dialog.ShowDialog() == DialogResult.OK)
             {
-                var config = new CsvConfiguration(CultureInfo.InvariantCulture)
-                {
-                    TrimOptions = TrimOptions.Trim,
-                    IgnoreBlankLines = true
-                };
+                group = dataManager.LoadData(dialog.FileName);
 
-                using (var reader = new StreamReader(dialog.FileName))
-                using (var csv = new CsvReader(reader, config))
-                {
-                    var records = csv.GetRecords<Student>().ToList();
-                    listBoxGroup.Items.AddRange(records.ToArray());
-                }
+                updateListBox();
 
+                MessageBox.Show($"Data loaded successfully. {group.Count} students found.",
+                    "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -115,14 +94,14 @@ namespace DataReadWright
             var dialog = new SaveFileDialog();
             dialog.Filter = "CSV files (*.csv)|*.csv|All files (*.*)|*.*";
 
+            if (dataManager is not CsvDataManager)
+                dataManager = new CsvDataManager();
+
             if (dialog.ShowDialog() == DialogResult.OK)
             {
-
-                using (var writer = new StreamWriter(dialog.FileName))
-                using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
-                {
-                    csv.WriteRecords(listBoxGroup.Items.Cast<Student>().ToList());
-                }
+                dataManager.SaveData(group, dialog.FileName);
+                MessageBox.Show($"Data saved successfully. {group.Count} students saved.",
+                    "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
         }
@@ -134,7 +113,7 @@ namespace DataReadWright
 
             if (dialog.ShowDialog() == DialogResult.OK)
             {
-                string json = JsonSerializer.Serialize(listBoxGroup.Items);
+                string json = JsonSerializer.Serialize(group);
                 File.WriteAllText(dialog.FileName, json);
             }
         }
@@ -146,15 +125,13 @@ namespace DataReadWright
             if (dialog.ShowDialog() == DialogResult.OK)
             {
                 string json = File.OpenText(dialog.FileName).ReadToEnd();
-                var list = JsonSerializer.Deserialize<List<Student>>(json);
-                listBoxGroup.Items.AddRange(list.ToArray());
+                group = JsonSerializer.Deserialize<List<Student>>(json);
+                updateListBox();
             }
         }
 
-
         private void buttonSaveXlsx_Click(object sender, EventArgs e)
         {
-
             var dialog = new SaveFileDialog();
             dialog.Filter = "Excel files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
 
@@ -165,6 +142,7 @@ namespace DataReadWright
                 using (var package = new ExcelPackage(dialog.FileName))
                 {
                     var sheet = package.Workbook.Worksheets.Add("Students");
+
                     sheet.Cells[1, 1].Value = "Name";
                     sheet.Cells[1, 2].Value = "Age";
                     sheet.Cells[1, 3].Value = "Grade";
@@ -188,15 +166,19 @@ namespace DataReadWright
             var dialog = new OpenFileDialog();
             dialog.Filter = "EXCEL files (*.xlsx)|*.xlsx|All files (*.*)|*.*";
 
+          
+
             if (dialog.ShowDialog() == DialogResult.OK)
             {
+                group.Clear();
+
                 using (var package = new ExcelPackage(dialog.FileName))
                 {
                     var sheet = package.Workbook.Worksheets["Students"];
 
                     for (int i = 2; i < sheet.Rows.Count(); i++)
                     {
-                        listBoxGroup.Items.Add(new Student
+                        group.Add(new Student
                         {
                             Name = sheet.Cells[i, 1].Value.ToString(),
                             Age = int.Parse(sheet.Cells[i, 2].Value.ToString()),
@@ -204,8 +186,35 @@ namespace DataReadWright
                         });
                     }
 
+                    updateListBox();
                 }
             }
+        }
+
+        private void buttonAddStudent_Click(object sender, EventArgs e)
+        {
+            var r = new Random();
+            var student = new Student
+            {
+                Age = r.Next(18, 30),
+                Grade = r.Next(50, 100),
+                Name = $"Student {r.Next(1000, 10000)}"
+            };
+            group.Add(student);
+            updateListBox();
+        }
+
+        private void buttonRemove_Click(object sender, EventArgs e)
+        {
+            if (listBoxGroup.SelectedIndex != -1)
+            {
+                listBoxGroup.Items.RemoveAt(listBoxGroup.SelectedIndex);
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

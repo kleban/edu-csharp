@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../StdPerfomance.Core/StdPerfomance.Core.csproj" />
+  <Project Path="../StdPerfomance.Parser/StdPerfomance.Parser.csproj" />
+  <Project Path="../StdPerfomance.Repos/StdPerfomance.Repos.csproj" />
+  <Project Path="DatabaseDemo_Std.csproj" />
+</Solution>

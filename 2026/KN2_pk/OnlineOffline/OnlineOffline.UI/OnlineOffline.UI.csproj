@@ -9,8 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CsvHelper" Version="33.1.0" />
-    <PackageReference Include="EPPlus" Version="8.5.4" />
+    <ProjectReference Include="..\..\OnlineOffline.Repos\OnlineOffline\OnlineOffline.csproj" />
   </ItemGroup>
 
 </Project>
