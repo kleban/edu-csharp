@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ConsoleApp_Interface/ConsoleApp_Interface.csproj" />
+  <Project Path="ListDemo/ListDemo.csproj" Id="8e51f10b-f024-4bbb-8880-85ae7a1ea875" />
+</Solution>
