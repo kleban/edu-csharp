@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Demos/">
+    <Project Path="FileSystem.DrivesDemo/FileSystem.DrivesDemo.csproj" />
+  </Folder>
+  <Folder Name="/Store/">
+    <Project Path="FileSystem.Store/FileSystem.Store.csproj" />
+    <Project Path="Store.DataReaders/Store.DataReaders.csproj" />
+    <Project Path="Store.Domain/Store.Domain.csproj" />
+  </Folder>
+</Solution>
