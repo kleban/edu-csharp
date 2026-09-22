@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ChartDemo/ChartDemo.csproj" />
+  <Project Path="FileReadWrite/FileReadWrite.csproj" Id="8dfc2a4b-286d-483f-a8e0-231f2cd75b14" />
+</Solution>
