@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet new *)",
+      "Bash(dotnet add *)",
+      "Bash(dotnet build *)",
+      "Bash(dotnet run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5050/)",
+      "Bash(curl -s -o /dev/null -w \"Cities: %{http_code}\\\\n\" http://localhost:5050/Cities)",
+      "Bash(curl -s -o /dev/null -w \"Details/1: %{http_code}\\\\n\" http://localhost:5050/Cities/Details/1)",
+      "Bash(curl -s -o /dev/null -w \"API cities: %{http_code}\\\\n\" http://localhost:5050/api/cities)",
+      "Bash(curl -s -o /dev/null -w \"Swagger: %{http_code}\\\\n\" http://localhost:5050/swagger)",
+      "Bash(curl -s http://localhost:5050/api/cities)",
+      "Bash(taskkill /PID 27052 /F)",
+      "PowerShell(Set-Location \"E:\\\\edu-csharp\\\\2026\\\\KN2_2026\\\\api-demo\\\\CityExplorer\"; dotnet build 2>&1 | Where-Object { $_ -match \"error CS\" })",
+      "PowerShell(Set-Location \"E:\\\\edu-csharp\\\\2026\\\\KN2_2026\\\\api-demo\\\\CityExplorer\"; $proc = Start-Process dotnet -ArgumentList \"run --urls http://localhost:5051 --no-build\" -PassThru -WindowStyle Hidden; Start-Sleep 6; try { $resp = Invoke-WebRequest \"http://localhost:5051/api/cities\" -UseBasicParsing -TimeoutSec 5; \"API: $\\($resp.StatusCode\\) — $\\($resp.Content.Substring\\(0, [Math]::Min\\(150, $resp.Content.Length\\)\\)\\)\" } catch { \"Error: $_\" }; $proc.Kill\\(\\))",
+      "Bash(curl -s http://localhost:5051/api/cities)",
+      "Bash(kill %1)",
+      "Bash(curl -s -o /dev/null -w \"Swagger UI: %{http_code}\\\\n\" http://localhost:5051/swagger/index.html)",
+      "Bash(curl -s -o /dev/null -w \"Cities/Details/1: %{http_code}\\\\n\" http://localhost:5051/Cities/Details/1)",
+      "Bash(curl -s -o /dev/null -w \"Home/About: %{http_code}\\\\n\" http://localhost:5051/Home/About)",
+      "Bash(pkill -f \"CityExplorer\")",
+      "Bash(pkill -f \"dotnet.*5050\\\\|dotnet.*5051\")",
+      "PowerShell(Stop-Process -Id 10888 -Force -ErrorAction SilentlyContinue)",
+      "PowerShell(\"Process stopped\")",
+      "Bash(curl -s -o /dev/null -w \"Home: %{http_code}\\\\n\" http://localhost:5052/)",
+      "Bash(curl -s -o /dev/null -w \"Cities: %{http_code}\\\\n\" http://localhost:5052/Cities)",
+      "Bash(curl -s http://localhost:5052/api/cities)",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(f'API OK: {len\\(data\\)} cities'\\)\")",
+      "Bash(curl -s -o /dev/null -w \"Home:    %{http_code}\\\\n\" http://localhost:5053/)",
+      "Bash(curl -s -o /dev/null -w \"Cities:  %{http_code}\\\\n\" http://localhost:5053/Cities)",
+      "Bash(curl -s -o /dev/null -w \"About:   %{http_code}\\\\n\" http://localhost:5053/Home/About)",
+      "Bash(curl -s -o /dev/null -w \"Details: %{http_code}\\\\n\" http://localhost:5053/Cities/Details/1)",
+      "Bash(curl -s -o /dev/null -w \"Swagger: %{http_code}\\\\n\" http://localhost:5053/swagger/index.html)"
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AssemblyTest/AssemblyTest.csproj" />
+  <Project Path="MathApp/MathApp.csproj" />
+  <Project Path="MathLib/MathLib.csproj" />
+</Solution>
