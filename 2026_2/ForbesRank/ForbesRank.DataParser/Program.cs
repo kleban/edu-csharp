@@ -47,11 +47,11 @@ using (var ctx = new DataContext())
 }
 // Persons
 using (var ctx = new DataContext())
-{
+{ ctx.People.RemoveRange(ctx.People.ToList());
+        ctx.SaveChanges(); 
     if (!ctx.People.Any())
     {
-        ctx.People.RemoveRange(ctx.People.ToList());
-        ctx.SaveChanges();               
+                     
 
         foreach (var p in data)
         {
@@ -64,8 +64,8 @@ using (var ctx = new DataContext())
                     Rank = p.rank,
                     Worth = (double)p.finalWorth,
                     DateOfBirth = p.birthDate,
-                    Category = ctx.Categories.First(x=> x.Name == p.category.Trim())//,
-                   // Country = p.country is not null || p.country.Length <= 1 ? ctx.Countries.First(x=> x.Name == p.country.Trim()) : null
+                    Category = ctx.Categories.First(x=> x.Name == p.category.Trim()),
+                    Country = p.country is not null && p.country.Length > 1 ? ctx.Countries.First(x=> x.Name == p.country.Trim()) : null
                 }
                 );
         }
